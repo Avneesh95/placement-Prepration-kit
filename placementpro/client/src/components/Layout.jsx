@@ -17,7 +17,7 @@ export default function Layout() {
     <div className="min-h-screen">
       <header className="safe-top sticky top-0 z-30 border-b border-slate-200 bg-white/90 backdrop-blur dark:border-slate-800 dark:bg-slate-900/90">
         <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-2.5">
-          <NavLink to="/" className="flex items-center gap-2 text-lg font-extrabold tracking-tight"><span className="grid h-8 w-8 place-items-center rounded-lg bg-brand-600 text-white">P</span>Placement<span className="text-accent-500">Pro</span><span className="hidden text-xs font-semibold text-slate-400 sm:inline">2027</span></NavLink>
+          <NavLink to="/" className="flex items-center gap-2 text-lg font-extrabold tracking-tight"><span className="grid h-8 w-8 place-items-center rounded-lg bg-brand-600 text-white">P</span><span>Prepo <span className="text-xs font-semibold text-accent-500">by Avneesh</span></span></NavLink>
           <nav className="ml-4 hidden flex-1 items-center gap-1 lg:flex" aria-label="Main">{NAV.map(([to, name]) => <NavLink key={to} to={to} end={to === '/'} className={linkCls}>{name}</NavLink>)}</nav>
           <div className="ml-auto flex items-center gap-1">
             <button className="btn btn-ghost !px-3" onClick={() => setDark(!dark)} aria-label="Toggle dark mode">{dark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}</button>

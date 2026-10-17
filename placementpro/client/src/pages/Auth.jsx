@@ -18,6 +18,7 @@ function Shell({ title, sub, children }) {
     <div className="grid min-h-screen place-items-center px-4 py-8">
       <div className="w-full max-w-md">
         <div className="mb-6 text-center"><div className="mx-auto mb-3 grid h-12 w-12 place-items-center rounded-2xl bg-brand-600 text-xl font-extrabold text-white">P</div>
+          <div className="mb-1 text-sm font-bold text-slate-800 dark:text-slate-200">Prepo <span className="text-accent-500">by Avneesh</span></div>
           <h1 className="text-2xl font-bold">{title}</h1><p className="muted mt-1">{sub}</p></div>
         <div className="card">{children}</div>
       </div>

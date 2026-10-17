@@ -32,7 +32,7 @@ async function runSmokeTest() {
   // Test 2: Static frontend HTML served
   const htmlRes = await fetch(`${baseUrl}/`);
   const htmlText = await htmlRes.text();
-  if (htmlRes.status !== 200 || !htmlText.includes('PlacementPro')) {
+  if (htmlRes.status !== 200 || (!htmlText.includes('PlacementPro') && !htmlText.includes('Prepo'))) {
     throw new Error(`Frontend static serving failed: status ${htmlRes.status}`);
   }
   console.log('4. Frontend static index.html served PASSED.');
