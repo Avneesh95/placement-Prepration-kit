@@ -38,6 +38,7 @@ const s = new mongoose.Schema({
     // Row data is stored as JSON text so the schema works on any MongoDB-compatible server (nested arrays are not universally supported).
     expected: { columns: [String], rowsJson: String },
     tablesPreview: [{ name: String, columns: [String], rowsJson: String }],
+    leetcodeUrl: String,
   },
   active: { type: Boolean, default: true },
 }, { timestamps: true });

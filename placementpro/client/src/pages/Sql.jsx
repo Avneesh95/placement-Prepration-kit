@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import { ExternalLink } from 'lucide-react';
 import { useGet } from '../lib/useApi';
 import { api } from '../lib/api';
 import { Card, Badge, Btn, Spinner, ErrorBox, PageTitle, Empty, Disclaimer } from '../components/ui';
@@ -19,7 +20,20 @@ export function SqlList() {
         <select className="input" value={status} onChange={(e) => setStatus(e.target.value)} aria-label="Status"><option value="">Any status</option><option value="unsolved">Unsolved</option><option value="solved">Solved</option></select>
       </div>
       {list.loading ? <Spinner /> : list.error ? <ErrorBox error={list.error} onRetry={list.reload} /> : list.data.items.length === 0 ? <Empty>No exercises match.</Empty> : (
-        <div className="space-y-2">{list.data.items.map((q) => <Link key={q._id} to={`/sql/${q._id}`}><Card className="flex items-center justify-between gap-3 hover:border-brand-500"><div><h3 className="text-[15px] font-semibold">{q.text}</h3><p className="muted">{label(q.topic)}</p></div><div className="flex shrink-0 gap-2">{q.userState.solved ? <Badge tone="green">Solved</Badge> : q.userState.attempted ? <Badge tone="amber">Tried</Badge> : null}<Badge tone={q.difficulty === 'hard' ? 'red' : q.difficulty === 'medium' ? 'amber' : 'green'}>{q.difficulty}</Badge></div></Card></Link>)}</div>)}
+        <div className="space-y-2">{list.data.items.map((q) => (
+          <Link key={q._id} to={`/sql/${q._id}`}>
+            <Card className="flex items-center justify-between gap-3 hover:border-brand-500">
+              <div>
+                <div className="flex items-center gap-2">
+                  <h3 className="text-[15px] font-semibold">{q.text}</h3>
+                  {q.sql?.leetcodeUrl && <span className="rounded bg-amber-500/10 px-1.5 py-0.5 text-[10px] font-medium text-amber-600 dark:text-amber-400">LeetCode</span>}
+                </div>
+                <p className="muted">{label(q.topic)}</p>
+              </div>
+              <div className="flex shrink-0 gap-2">{q.userState.solved ? <Badge tone="green">Solved</Badge> : q.userState.attempted ? <Badge tone="amber">Tried</Badge> : null}<Badge tone={q.difficulty === 'hard' ? 'red' : q.difficulty === 'medium' ? 'amber' : 'green'}>{q.difficulty}</Badge></div>
+            </Card>
+          </Link>
+        ))}</div>)}
     </div>
   );
 }
@@ -40,7 +54,24 @@ export function SqlExercise() {
   };
   return (
     <div className="space-y-4">
-      <PageTitle title={label(q.topic)} sub={q.difficulty} />
+      <PageTitle
+        title={label(q.topic)}
+        sub={q.difficulty}
+        right={
+          q.sql?.leetcodeUrl && (
+            <a
+              href={q.sql.leetcodeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-lg border border-amber-500/30 bg-amber-500/10 px-3 py-1.5 text-xs font-semibold text-amber-700 transition hover:bg-amber-500/20 dark:text-amber-300"
+              title="Practice this exact SQL query on LeetCode"
+            >
+              <span>Solve on LeetCode</span>
+              <ExternalLink className="h-3.5 w-3.5" />
+            </a>
+          )
+        }
+      />
       <Card><p className="text-[15px]">{q.text}</p></Card>
       <Card><h3 className="mb-2 font-semibold">Tables (first rows)</h3><div className="space-y-3">{q.sql.tablesPreview.map((t) => <div key={t.name}><b className="text-sm">{t.name}</b><Table columns={t.columns} rows={t.rows} /></div>)}</div></Card>
       <Card><textarea className="input min-h-[150px] font-mono text-xs" spellCheck={false} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="SELECT …" aria-label="SQL query" />

@@ -13,6 +13,40 @@ const limiter = config.isTest ? (_q, _s, n) => n() : rateLimit({ windowMs: 60 * 
 const HIDE = Question.HIDDEN;
 const parsePreview = (tp = []) => tp.map((t) => ({ name: t.name, columns: t.columns, rows: JSON.parse(t.rowsJson || '[]') }));
 
+const SQL_LEETCODE_MAP = {
+  'sql-select-where-001': 'https://leetcode.com/problems/big-countries/',
+  'sql-order-distinct-002': 'https://leetcode.com/problems/article-views-i/',
+  'sql-aggregates-003': 'https://leetcode.com/problems/average-selling-price/',
+  'sql-group-by-004': 'https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/',
+  'sql-having-005': 'https://leetcode.com/problems/classes-more-than-5-students/',
+  'sql-inner-join-006': 'https://leetcode.com/problems/combine-two-tables/',
+  'sql-left-join-007': 'https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/',
+  'sql-self-join-008': 'https://leetcode.com/problems/employees-earning-more-than-their-managers/',
+  'sql-subqueries-009': 'https://leetcode.com/problems/employees-earning-more-than-their-managers/',
+  'sql-correlated-subqueries-010': 'https://leetcode.com/problems/department-highest-salary/',
+  'sql-case-expressions-011': 'https://leetcode.com/problems/triangle-judgement/',
+  'sql-null-handling-012': 'https://leetcode.com/problems/find-customer-referee/',
+  'sql-string-date-functions-013': 'https://leetcode.com/problems/user-activity-for-the-past-30-days-i/',
+  'sql-duplicates-014': 'https://leetcode.com/problems/duplicate-emails/',
+  'sql-second-highest-salary-015': 'https://leetcode.com/problems/second-highest-salary/',
+  'sql-nth-highest-salary-016': 'https://leetcode.com/problems/nth-highest-salary/',
+  'sql-window-ranking-017': 'https://leetcode.com/problems/rank-scores/',
+  'sql-cte-018': 'https://leetcode.com/problems/department-top-three-salaries/',
+  'sql-anti-join-019': 'https://leetcode.com/problems/customers-who-never-order/',
+  'sql-top-n-020': 'https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/',
+  'sql-running-total-021': 'https://leetcode.com/problems/restaurant-growth/',
+  'sql-department-top-earner-022': 'https://leetcode.com/problems/department-highest-salary/',
+};
+
+const withSqlLeetCode = (q) => {
+  if (!q) return q;
+  const url = q.sql?.leetcodeUrl || SQL_LEETCODE_MAP[q.uid] || null;
+  return {
+    ...q,
+    sql: q.sql ? { ...q.sql, leetcodeUrl: url } : { leetcodeUrl: url },
+  };
+};
+
 router.get('/', asyncHandler(async (req, res) => {
   const f = { subject: 'sql', active: true };
   if (req.query.topic) f.topic = String(req.query.topic); if (req.query.difficulty) f.difficulty = String(req.query.difficulty);
@@ -21,14 +55,14 @@ router.get('/', asyncHandler(async (req, res) => {
   const solved = new Set(subs.filter((s) => s.status === 'correct').map((s) => String(s.question))); const tried = new Set(subs.map((s) => String(s.question)));
   const status = req.query.status;
   const out = items.map((q) => ({ ...q, userState: { solved: solved.has(String(q._id)), attempted: tried.has(String(q._id)) } })).filter((q) => !status || (status === 'solved' ? q.userState.solved : !q.userState.solved));
-  res.json({ items: out, total: out.length });
+  res.json({ items: out.map(withSqlLeetCode), total: out.length });
 }));
 router.get('/:id', asyncHandler(async (req, res) => {
   const q = await Question.findOne({ _id: req.params.id, subject: 'sql', active: true }).select(HIDE).lean();
   if (!q) throw new ApiError(404, 'NOT_FOUND', 'Exercise not found.');
   const subs = await SQLSubmission.find({ user: req.user._id, question: q._id }).sort({ createdAt: -1 }).limit(10).lean();
   const ann = (await annotate(req.user._id, [q]))[0]; ann.sql = { ...ann.sql, tablesPreview: parsePreview(ann.sql.tablesPreview) };
-  res.json({ question: ann, recentSubmissions: subs, sandbox: 'Queries run in a throwaway in-memory SQLite database. It is read-only and separate from the application database.' });
+  res.json({ question: withSqlLeetCode(ann), recentSubmissions: subs, sandbox: 'Queries run in a throwaway in-memory SQLite database. It is read-only and separate from the application database.' });
 }));
 const bodyS = z.object({ query: z.string().max(5000) });
 // Run (not graded): lets students explore the schema.
