@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { Flag, ChevronLeft, ChevronRight, Grid3x3, X, Timer, AlertTriangle } from 'lucide-react';
 import { api } from '../lib/api';
 import { Btn, Spinner, ErrorBox, Badge } from '../components/ui';
+import ThemeToggle from '../components/ThemeToggle';
 import { mmss, label } from '../lib/format';
 import { remainingSeconds, paletteState, summarise } from '../lib/testState';
 
@@ -86,6 +87,7 @@ export default function TestRunner() {
         <div className="mx-auto flex max-w-5xl items-center gap-3">
           <div className="min-w-0 flex-1"><div className="truncate text-sm font-semibold">{data.test.title}</div><div className="truncate text-xs text-slate-500">{q?.sectionName}{secLeft !== null ? ` · section ${mmss(secLeft)}` : ''}</div></div>
           <div className={`flex items-center gap-1 rounded-xl px-3 py-1.5 font-mono text-lg font-bold tabular-nums ${lowTime ? 'bg-red-50 text-red-700 dark:bg-red-950 dark:text-red-200' : 'bg-slate-100 dark:bg-slate-800'}`} role="timer" aria-label="Time remaining" aria-live="off"><Timer className="h-4 w-4" />{mmss(left)}</div>
+          <ThemeToggle />
           <button className="btn btn-ghost !px-3 lg:hidden" onClick={() => setShowPalette(true)} aria-label="Open question palette"><Grid3x3 className="h-4 w-4" /></button>
           <Btn variant="accent" onClick={() => setConfirm(true)}>Submit</Btn>
         </div>

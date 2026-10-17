@@ -3,6 +3,7 @@ import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../lib/auth';
 import { api } from '../lib/api';
 import { Btn, Field, ErrorBox } from '../components/ui';
+import ThemeToggle from '../components/ThemeToggle';
 
 export const validateRegister = (f) => {
   const e = {};
@@ -15,7 +16,10 @@ export const validateRegister = (f) => {
 };
 function Shell({ title, sub, children }) {
   return (
-    <div className="grid min-h-screen place-items-center px-4 py-8">
+    <div className="relative grid min-h-screen place-items-center px-4 py-8 bg-slate-50 dark:bg-slate-950">
+      <div className="absolute right-4 top-4">
+        <ThemeToggle />
+      </div>
       <div className="w-full max-w-md">
         <div className="mb-6 text-center"><div className="mx-auto mb-3 grid h-12 w-12 place-items-center rounded-2xl bg-brand-600 text-xl font-extrabold text-white">P</div>
           <div className="mb-1 text-sm font-bold text-slate-800 dark:text-slate-200">Prepo <span className="text-accent-500">by Avneesh</span></div>

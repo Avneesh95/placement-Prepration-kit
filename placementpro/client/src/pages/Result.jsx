@@ -3,11 +3,13 @@ import { Link, useParams } from 'react-router-dom';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line, CartesianGrid } from 'recharts';
 import { CheckCircle2, XCircle, MinusCircle, Clock } from 'lucide-react';
 import { useGet } from '../lib/useApi';
+import { useTheme } from '../lib/theme';
 import { Card, Badge, Spinner, ErrorBox, PageTitle, Btn, Disclaimer } from '../components/ui';
 import { label, mmss, pct } from '../lib/format';
 
 const fmtResp = (q) => (q.type === 'numeric' ? String(q.response ?? '—') : q.type === 'sql' || q.type === 'coding' ? (q.response || '—') : (q.response || []).map((i) => q.options[i]).join(', ') || '—');
 export default function Result() {
+  const { isDark } = useTheme();
   const { id } = useParams(); const { data, loading, error, reload } = useGet(`/attempts/${id}/result`); const [filter, setFilter] = useState('all');
   if (loading) return <Spinner label="Calculating your result…" />; if (error) return <ErrorBox error={error} onRetry={reload} />;
   const r = data.result; const qs = r.questions.filter((q) => filter === 'all' || (filter === 'wrong' ? q.state === 'incorrect' : q.state === 'unanswered'));
@@ -20,8 +22,37 @@ export default function Result() {
         <div className="grid flex-1 grid-cols-2 gap-3 text-sm sm:grid-cols-4"><div className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-emerald-600" />{r.correct} correct</div><div className="flex items-center gap-2"><XCircle className="h-4 w-4 text-red-600" />{r.incorrect} wrong</div><div className="flex items-center gap-2"><MinusCircle className="h-4 w-4 text-slate-400" />{r.unanswered} skipped</div><div className="flex items-center gap-2"><Clock className="h-4 w-4 text-brand-600" />{mmss(r.timeTakenSec)}</div></div></div>
         {r.ungraded > 0 && <p className="muted mt-3">{r.ungraded} coding question(s) are not auto-scored. Compare your code with the reference solution below.</p>}</Card>
       <div className="grid gap-4 lg:grid-cols-2">
-        <Card><h2 className="mb-2 font-semibold">Section-wise score</h2><div className="h-48"><ResponsiveContainer width="100%" height="100%"><BarChart data={r.sections.filter((s) => s.max > 0).map((s) => ({ name: s.name.length > 14 ? `${s.name.slice(0, 13)}…` : s.name, pct: s.max ? Math.round((s.score / s.max) * 100) : 0 }))}><XAxis dataKey="name" fontSize={11} tickLine={false} /><YAxis domain={[0, 100]} fontSize={11} width={30} /><Tooltip formatter={(v) => `${v}%`} /><Bar dataKey="pct" fill="#2f6bff" radius={[4, 4, 0, 0]} /></BarChart></ResponsiveContainer></div></Card>
-        <Card><h2 className="mb-2 font-semibold">Compared with your previous attempts</h2>{data.comparison.length === 0 ? <p className="muted">This is your first attempt at this test. Retake it later to see your trend.</p> : <div className="h-48"><ResponsiveContainer width="100%" height="100%"><LineChart data={trend}><CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" /><XAxis dataKey="n" fontSize={11} /><YAxis domain={[0, 100]} fontSize={11} width={30} /><Tooltip formatter={(v) => `${v}%`} /><Line dataKey="pct" stroke="#f28c28" strokeWidth={2} dot /></LineChart></ResponsiveContainer></div>}</Card>
+        <Card>
+          <h2 className="mb-2 font-semibold">Section-wise score</h2>
+          <div className="h-48">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart data={r.sections.filter((s) => s.max > 0).map((s) => ({ name: s.name.length > 14 ? `${s.name.slice(0, 13)}…` : s.name, pct: s.max ? Math.round((s.score / s.max) * 100) : 0 }))}>
+                <XAxis dataKey="name" fontSize={11} tickLine={false} stroke={isDark ? '#94a3b8' : '#64748b'} />
+                <YAxis domain={[0, 100]} fontSize={11} width={30} stroke={isDark ? '#94a3b8' : '#64748b'} />
+                <Tooltip formatter={(v) => `${v}%`} contentStyle={{ backgroundColor: isDark ? '#0f172a' : '#ffffff', borderColor: isDark ? '#1e293b' : '#e2e8f0', color: isDark ? '#f8fafc' : '#0f172a', borderRadius: '0.75rem' }} />
+                <Bar dataKey="pct" fill="#2f6bff" radius={[4, 4, 0, 0]} />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </Card>
+        <Card>
+          <h2 className="mb-2 font-semibold">Compared with your previous attempts</h2>
+          {data.comparison.length === 0 ? (
+            <p className="muted">This is your first attempt at this test. Retake it later to see your trend.</p>
+          ) : (
+            <div className="h-48">
+              <ResponsiveContainer width="100%" height="100%">
+                <LineChart data={trend}>
+                  <CartesianGrid strokeDasharray="3 3" stroke={isDark ? '#334155' : '#e2e8f0'} />
+                  <XAxis dataKey="n" fontSize={11} stroke={isDark ? '#94a3b8' : '#64748b'} />
+                  <YAxis domain={[0, 100]} fontSize={11} width={30} stroke={isDark ? '#94a3b8' : '#64748b'} />
+                  <Tooltip formatter={(v) => `${v}%`} contentStyle={{ backgroundColor: isDark ? '#0f172a' : '#ffffff', borderColor: isDark ? '#1e293b' : '#e2e8f0', color: isDark ? '#f8fafc' : '#0f172a', borderRadius: '0.75rem' }} />
+                  <Line dataKey="pct" stroke="#f28c28" strokeWidth={2} dot />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
+          )}
+        </Card>
       </div>
       <Card><h2 className="mb-2 font-semibold">Topic-wise performance</h2><div className="overflow-x-auto"><table className="min-w-full text-left text-sm"><thead className="text-xs text-slate-500"><tr><th className="py-1 pr-3">Topic</th><th className="pr-3">Correct</th><th className="pr-3">Wrong</th><th className="pr-3">Skipped</th><th>Accuracy</th></tr></thead><tbody>{[...r.topics].sort((a, b) => (a.accuracy ?? 101) - (b.accuracy ?? 101)).map((t) => <tr key={t.topic} className="border-t border-slate-100 dark:border-slate-800"><td className="py-1.5 pr-3">{label(t.topic)}</td><td>{t.correct}</td><td>{t.incorrect}</td><td>{t.unanswered}</td><td>{pct(t.accuracy)}</td></tr>)}</tbody></table></div></Card>
       {r.slowQuestions.length > 0 && <Card><h2 className="mb-2 font-semibold">Most time-consuming questions</h2><ul className="text-sm">{r.slowQuestions.map((s) => <li key={s.questionId} className="flex justify-between py-1"><span>{label(s.topic)}</span><span className="muted">{mmss(s.timeSpentSec)} (est. {mmss(s.estimatedSeconds)})</span></li>)}</ul></Card>}

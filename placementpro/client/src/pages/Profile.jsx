@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom';
 import { useGet } from '../lib/useApi';
 import { api } from '../lib/api';
 import { useAuth } from '../lib/auth';
+import { useTheme } from '../lib/theme';
 import { Card, Badge, Btn, Progress, Spinner, ErrorBox, PageTitle, Field } from '../components/ui';
 import { label, pct, SUBJECTS } from '../lib/format';
 
 export default function Profile() {
+  const { theme, setTheme } = useTheme();
   const { setUser, logout } = useAuth(); const { data, loading, error, reload } = useGet('/profile'); const companies = useGet('/companies'); const bms = useGet('/bookmarks'); const rev = useGet('/progress/revision');
   const [f, setF] = useState(null); const [msg, setMsg] = useState(''); const [err, setErr] = useState(null); const [busy, setBusy] = useState(false);
   useEffect(() => { if (data) { const u = data.user; setF({ name: u.name, graduationYear: u.graduationYear, branch: u.branch, college: u.college || '', targetCompanies: u.targetCompanies || [], preferredLanguage: u.preferredLanguage, dailyStudyHours: u.dailyStudyHours, prepStartDate: (u.prepStartDate || '').slice(0, 10) }); } }, [data]);
@@ -28,6 +30,20 @@ export default function Profile() {
           <Field label="Branch"><input className="input" value={f.branch} onChange={set('branch')} /></Field><Field label="College"><input className="input" value={f.college} onChange={set('college')} /></Field>
           <div className="grid grid-cols-2 gap-3"><Field label="Preferred language"><select className="input" value={f.preferredLanguage} onChange={set('preferredLanguage')}><option value="java">Java</option><option value="python">Python</option><option value="cpp">C++</option><option value="c">C</option></select></Field><Field label="Preparation started"><input className="input" type="date" value={f.prepStartDate} onChange={set('prepStartDate')} /></Field></div>
           <Field label="Target companies"><div className="flex flex-wrap gap-2">{companies.data?.items.map((c) => <button type="button" key={c.slug} onClick={() => toggleCo(c.slug)} aria-pressed={f.targetCompanies.includes(c.slug)} className={`rounded-full border px-3 py-1.5 text-sm ${f.targetCompanies.includes(c.slug) ? 'border-brand-600 bg-brand-600 text-white' : 'border-slate-300 dark:border-slate-700'}`}>{c.name}</button>)}</div></Field>
+          <Field label="Theme appearance">
+            <div className="grid grid-cols-3 gap-2">
+              {[['system', 'System (Auto)'], ['light', 'Light'], ['dark', 'Dark']].map(([tVal, tLbl]) => (
+                <button
+                  type="button"
+                  key={tVal}
+                  onClick={() => setTheme(tVal)}
+                  className={`btn !min-h-[38px] text-xs font-semibold ${theme === tVal ? 'btn-primary' : 'btn-ghost'}`}
+                >
+                  {tLbl}
+                </button>
+              ))}
+            </div>
+          </Field>
           <Btn disabled={busy}>{busy ? 'Saving…' : 'Save changes'}</Btn>{msg && <p className="muted" role="status">{msg}</p>}</form></Card>
       </div>
       <div className="grid gap-4 lg:grid-cols-2">

@@ -1,30 +1,31 @@
-# PlacementPro 2027 — Project Handoff & Production Readiness Guide
+# Prepo by Avneesh (formerly PlacementPro) — Project Handoff & Production Readiness Guide
 
 ## 1. Executive Summary & Final Status
 - **Current Status:** **PRODUCTION READY**
+- **Brand Name:** **Prepo by Avneesh**
 - **Architecture:** MERN Stack (React 18 + Vite 5 + Tailwind CSS on frontend; Node.js + Express + Mongoose on backend; SQLite in-memory worker sandbox for SQL Lab).
 - **Target Audience:** B.Tech CSE / SDE 2027 freshers preparing for TCS NQT, Infosys, Wipro, Accenture, Capgemini, Cognizant, Tech Mahindra, HCLTech, LTIMindtree, and general product/SDE roles.
 - **Content Seeded:** 1,055 total verified questions, 24 realistic timed mock tests, 10 company preparation modules, 108 topics with solved examples, and 24 placement FAQs.
+- **LeetCode Practice Links:** All 25 Coding Arena challenges and all 22 SQL Lab exercises link directly to their exact official LeetCode problem counterparts.
 
 ---
 
 ## 2. Completed Work & Audits Performed
 
-1. **Hygiene & Directory Cleanup:**
-   - Removed the corrupted empty directory `{server/...` created by shell brace expansion errors.
-2. **Environment Configuration:**
-   - Created `server/.env.example` documenting all 7 backend environment variables.
-   - Created `client/.env.example` documenting frontend API URL configuration.
-3. **Resilience & Bug Fixes:**
-   - Fixed potential `TypeError` in `server/src/routes/sql.js` on `/api/sql/:id/reveal` when question `sql.expected` or `rowsJson` is null.
-   - Enhanced CORS handling in `server/src/app.js` to parse comma-separated `CLIENT_ORIGIN` strings for multi-domain hosting.
-   - Enhanced client API client (`client/src/lib/api.js`) to support dynamic `VITE_API_URL` while maintaining backward-compatible `/api` proxy fallback.
+1. **Light Mode + Dark Mode System:**
+   - **Centralized Theme Provider (`client/src/lib/theme.jsx`):** Supports `system` (auto-detects OS preference via `prefers-color-scheme`), `light`, and `dark` modes with instant switching without page reload.
+   - **Anti-FOUC Pre-Hydration:** Head script in `index.html` resolves the active theme and sets `<html>` classes and `color-scheme` before DOM rendering, preventing flashes of wrong theme.
+   - **Accessible Sun/Moon Theme Toggle (`client/src/components/ThemeToggle.jsx`):** Integrated across top navigation header, mobile drawer menu, full-screen TestRunner header, authentication cards, and user profile settings.
+   - **Dynamic Chart Theming:** Recharts tooltips, gridlines, and axes in `Dashboard.jsx` and `Result.jsx` adapt colors dynamically based on active theme.
+   - **Form Controls & Accessibility:** Styled select dropdown options, date pickers, range sliders, and added `prefers-reduced-motion` compliance.
+2. **Branding Update:**
+   - Rebranded the platform to **Prepo by Avneesh** across layout headers, index page titles, auth flows, and smoke tests.
+3. **Practice Links Integration:**
+   - Added direct LeetCode problem practice links to all 25 Coding Arena problems and all 22 SQL Lab problems.
 4. **Automated Testing Suite:**
-   - Added live HTTP integration and deployment smoke test script (`server/tests/smoke.js`) and added `npm run test:smoke` to `server/package.json`.
-   - Executed and validated all client tests (15/15 passed).
-   - Executed and validated all server unit and integration tests (40/40 passed).
-   - Executed offline seed validator and reference solution compiler (`seed:validate` — 151 Java/Python tests passed with 0 errors).
-   - Compiled production frontend build (`client/dist` — 2,333 modules transformed).
+   - Executed and validated all client tests (**18/18 passed**, including dedicated theme suite).
+   - Executed and validated all server unit and integration tests (**40/40 passed**).
+   - Compiled production frontend build (`client/dist` — 2,335 modules transformed).
 
 ---
 
@@ -32,17 +33,18 @@
 
 | Requirement / Feature | Status | Implementation Details |
 | :--- | :---: | :--- |
+| **Light & Dark Theme** | **Complete** | ThemeProvider, ThemeToggle, anti-FOUC script, localStorage persistence, chart adaptation, accessible contrast. |
 | **Authentication & Sessions** | **Complete** | Password hashing (`bcryptjs`), JWT in `httpOnly` cookie + Bearer header, rate limiting, password reset. |
-| **User Profile & Stats** | **Complete** | College, graduation year, target companies, study hours, active streaks, category accuracies, revision list. |
+| **User Profile & Stats** | **Complete** | College, graduation year, target companies, study hours, active streaks, category accuracies, revision list, theme preference selector. |
 | **Company Modules** | **Complete** | 10 companies: TCS NQT, Infosys, Wipro, Accenture, Capgemini, Cognizant, Tech Mahindra, HCLTech, LTIMindtree, General SDE. |
 | **Preparation Content** | **Complete** | Company patterns, eligibility, hiring stages, qualitative priorities, technical interview guides, HR questions, last-minute revision. |
 | **Curated Practice Banks** | **Complete** | Aptitude (560), Reasoning (307), CS Fundamentals (80), English (61), Coding (25), SQL (22). |
 | **Timed Mock Engine** | **Complete** | 24 mock tests (10 company full-length, 3 sectionals, 11 category mocks). Server-backed timer, section locking, zero answer leakage, sweeper auto-submission. |
-| **Coding Arena** | **Complete** | Non-judged practice interface: code editor, language selector, complexity, reference Java/Python solutions, self-grading. |
-| **SQL Lab** | **Complete** | In-memory SQLite sandbox (`sql.js` in worker thread), strict statement validation (read-only SELECT/WITH), timeout cutoff, automated output grading. |
+| **Coding Arena** | **Complete** | Non-judged practice interface: code editor, language selector, complexity, reference Java/Python solutions, self-grading, and direct LeetCode solve links. |
+| **SQL Lab** | **Complete** | In-memory SQLite sandbox (`sql.js` in worker thread), strict statement validation (read-only SELECT/WITH), timeout cutoff, automated output grading, and direct LeetCode solve links. |
 | **Study Planner** | **Complete** | 30/60/90-day plan generator, task tracking, overdue reschedule, adaptive re-weighting based on student weak areas. |
 | **Analytics & Revision** | **Complete** | Mistakes tracked in `UserProgress`, 14-day activity chart, weak topics identification, instant revision queues. |
-| **Responsive UI** | **Complete** | Tailwind CSS with mobile drawer navigation, responsive grids, and desktop full-screen mock test layout. |
+| **Responsive UI** | **Complete** | Tailwind CSS with mobile drawer navigation, responsive grids, desktop full-screen mock test layout, and instant theme toggling. |
 
 ---
 
@@ -50,8 +52,8 @@
 
 | Suite / Command | Execution Scope | Passed | Failed |
 | :--- | :--- | :---: | :---: |
-| `npm test --prefix client` | Vitest (Timer logic, palette states, auth, test runner, practice card) | 15 | 0 |
-| `npm run build --prefix client` | Vite production bundling (2,333 modules) | Success | 0 |
+| `npm test --prefix client` | Vitest (Timer logic, palette states, auth, test runner, practice card, theme suite) | 18 | 0 |
+| `npm run build --prefix client` | Vite production bundling (2,335 modules) | Success | 0 |
 | `npm test --prefix server` | Jest (Scoring, SQL sandbox, provenance, Auth, Mock Engine, Planner) | 40 | 0 |
 | `npm run seed:validate --prefix server` | Schema validation + Java/Python offline reference test runner | 151 runs | 0 |
 | `npm run seed --prefix server` | Idempotent database population | 1,055 questions | 0 |

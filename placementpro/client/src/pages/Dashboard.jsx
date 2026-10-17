@@ -4,11 +4,13 @@ import { Flame, Target, Trophy, CheckCircle2, Circle } from 'lucide-react';
 import { useGet } from '../lib/useApi';
 import { api } from '../lib/api';
 import { useAuth } from '../lib/auth';
+import { useTheme } from '../lib/theme';
 import { Card, Badge, Progress, Spinner, ErrorBox, PageTitle, Btn } from '../components/ui';
 import { label, pct, SUBJECTS } from '../lib/format';
 
 export default function Dashboard() {
   const { user } = useAuth();
+  const { isDark } = useTheme();
   const prof = useGet('/profile'); const plan = useGet('/plan');
   if (prof.loading) return <Spinner />;
   if (prof.error) return <ErrorBox error={prof.error} onRetry={prof.reload} />;
@@ -45,7 +47,24 @@ export default function Dashboard() {
       <div className="grid gap-5 lg:grid-cols-2">
         <Card>
           <h2 className="mb-2 font-semibold">Last 14 days</h2>
-          <div className="h-40"><ResponsiveContainer width="100%" height="100%"><BarChart data={s.activity.map((a) => ({ ...a, day: a.date.slice(8) }))}><XAxis dataKey="day" tickLine={false} axisLine={false} fontSize={11} /><Tooltip cursor={{ fill: 'rgba(47,107,255,.08)' }} /><Bar dataKey="questions" fill="#2f6bff" radius={[4, 4, 0, 0]} name="Questions" /></BarChart></ResponsiveContainer></div>
+          <div className="h-40">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart data={s.activity.map((a) => ({ ...a, day: a.date.slice(8) }))}>
+                <XAxis dataKey="day" tickLine={false} axisLine={false} fontSize={11} stroke={isDark ? '#94a3b8' : '#64748b'} />
+                <Tooltip
+                  cursor={{ fill: isDark ? 'rgba(47,107,255,.15)' : 'rgba(47,107,255,.08)' }}
+                  contentStyle={{
+                    backgroundColor: isDark ? '#0f172a' : '#ffffff',
+                    borderColor: isDark ? '#1e293b' : '#e2e8f0',
+                    color: isDark ? '#f8fafc' : '#0f172a',
+                    borderRadius: '0.75rem',
+                    boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)',
+                  }}
+                />
+                <Bar dataKey="questions" fill="#2f6bff" radius={[4, 4, 0, 0]} name="Questions" />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
         </Card>
         <Card>
           <h2 className="mb-2 font-semibold">Needs attention</h2>
