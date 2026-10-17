@@ -7,7 +7,7 @@ module.exports = {
   isProd,
   isTest: process.env.NODE_ENV === 'test',
   port: Number(process.env.PORT) || 5000,
-  mongoUri: process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/placementpro',
+  mongoUri: process.env.MONGODB_URI || process.env.MONGO_URI || process.env.DATABASE_URL || process.env.MONGODB_URL || process.env.MONGO_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/placementpro',
   jwtSecret: process.env.JWT_SECRET || 'dev-only-insecure-secret-change-me-please-0000',
   jwtExpiresIn: process.env.JWT_EXPIRES_IN || '12h',
   cookieName: 'pp_token',

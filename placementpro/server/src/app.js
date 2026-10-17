@@ -47,9 +47,16 @@ function createApp() {
   app.use(cookieParser());
 
   const { getDbError } = require('./db');
+  const uriSource = process.env.MONGODB_URI ? 'MONGODB_URI'
+    : process.env.MONGO_URI ? 'MONGO_URI'
+    : process.env.DATABASE_URL ? 'DATABASE_URL'
+    : process.env.MONGODB_URL ? 'MONGODB_URL'
+    : process.env.MONGO_CONNECTION_STRING ? 'MONGO_CONNECTION_STRING'
+    : 'default localhost (NO MONGODB_URI FOUND ON RENDER)';
   app.get('/api/health', (_req, res) => res.json({
     ok: true,
     db: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected',
+    uriSource,
     dbError: mongoose.connection.readyState === 1 ? null : (getDbError() || 'Database is connecting or disconnected'),
   }));
   app.use('/api/auth', require('./routes/auth'));
