@@ -12,10 +12,37 @@ function createApp() {
   const app = express();
   app.disable('x-powered-by');
   app.use(helmet({ contentSecurityPolicy: false }));
-  const origins = typeof config.clientOrigin === 'string' && config.clientOrigin.includes(',')
-    ? config.clientOrigin.split(',').map((s) => s.trim())
-    : config.clientOrigin;
-  app.use(cors({ origin: origins, credentials: true }));
+  const parseOrigins = () => {
+    const raw = typeof config.clientOrigin === 'string'
+      ? config.clientOrigin.split(',')
+      : Array.isArray(config.clientOrigin)
+        ? config.clientOrigin
+        : [String(config.clientOrigin)];
+    const list = raw.map((s) => s.trim().replace(/\/+$/, '')).filter(Boolean);
+    if (!list.includes('https://helloprep.netlify.app')) {
+      list.push('https://helloprep.netlify.app');
+    }
+    return list;
+  };
+  const allowedOrigins = parseOrigins();
+
+  const corsOptions = {
+    origin: (origin, callback) => {
+      if (!origin) return callback(null, true);
+      const normalized = origin.trim().replace(/\/+$/, '');
+      if (allowedOrigins.includes(normalized) || allowedOrigins.includes('*')) {
+        return callback(null, true);
+      }
+      callback(null, false);
+    },
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'Cookie', 'X-Requested-With'],
+    exposedHeaders: ['Set-Cookie'],
+  };
+
+  app.use(cors(corsOptions));
+  app.options('*', cors(corsOptions));
   app.use(express.json({ limit: '200kb' }));
   app.use(cookieParser());
 

@@ -12,6 +12,6 @@ module.exports = {
   jwtExpiresIn: process.env.JWT_EXPIRES_IN || '12h',
   cookieName: 'pp_token',
   cookieMaxAgeMs: 12 * 60 * 60 * 1000,
-  clientOrigin: process.env.CLIENT_ORIGIN || 'http://localhost:5173',
+  clientOrigin: process.env.CLIENT_ORIGIN || 'http://localhost:5173,https://helloprep.netlify.app',
   sqlTimeoutMs: Number(process.env.SQL_TIMEOUT_MS) || 3000,
 };

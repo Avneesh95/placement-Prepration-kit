@@ -164,11 +164,16 @@
   - **Fix Applied:** None.
   - **Remaining Risk:** None.
 
-- **Test D.7: CORS Multi-Origin Configuration**
-  - **Method:** Code audit of `server/src/app.js`.
+- **Test D.7: CORS Multi-Origin & Netlify Frontend Whitelisting**
+  - **Method:** Code audit of `server/src/app.js` and `server/src/config.js`.
   - **Result:** PASSED
-  - **Failure Details:** CORS origin was strictly 1-to-1 string comparison, which caused issues if multiple comma-separated origins were defined.
-  - **Fix Applied:** Updated `server/src/app.js` to parse comma-separated `CLIENT_ORIGIN` strings into array of allowed origins.
+  - **Failure Details:** Default origin did not include `https://helloprep.netlify.app/`, and trailing slashes in `CLIENT_ORIGIN` caused browser CORS rejections. Cross-site cookies between Netlify and a separate backend also required `SameSite=None; Secure`.
+  - **Fix Applied:**
+    1. Normalized origins by stripping trailing slashes and whitelisted `https://helloprep.netlify.app` by default.
+    2. Configured HTTP `OPTIONS` preflight middleware with explicit method and header permissions.
+    3. Updated cookie flags to `SameSite=None; Secure` in production for cross-site cookie delivery.
+    4. Implemented dual-mode authentication: returned JWT `token` on login/register and configured client to send `Authorization: Bearer <token>` from `localStorage` in case third-party cookies are blocked by browser privacy protections.
+    5. Added Netlify SPA routing rules in `client/public/_redirects`, `client/netlify.toml`, and root `netlify.toml`.
   - **Remaining Risk:** None.
 
 ---

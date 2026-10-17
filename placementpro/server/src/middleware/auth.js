@@ -4,7 +4,16 @@ const { ApiError, asyncHandler } = require('../utils/errors');
 const { User } = require('../models');
 
 const signToken = (user) => jwt.sign({ sub: String(user._id) }, config.jwtSecret, { expiresIn: config.jwtExpiresIn });
-const cookieOptions = () => ({ httpOnly: true, sameSite: 'lax', secure: config.isProd, maxAge: config.cookieMaxAgeMs, path: '/' });
+const cookieOptions = () => {
+  const isCrossSite = config.isProd || process.env.COOKIE_SAMESITE === 'none';
+  return {
+    httpOnly: true,
+    sameSite: process.env.COOKIE_SAMESITE || (isCrossSite ? 'none' : 'lax'),
+    secure: isCrossSite,
+    maxAge: config.cookieMaxAgeMs,
+    path: '/',
+  };
+};
 
 const requireAuth = asyncHandler(async (req, _res, next) => {
   let token = req.cookies && req.cookies[config.cookieName];

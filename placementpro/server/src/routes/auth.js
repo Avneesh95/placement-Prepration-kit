@@ -21,8 +21,9 @@ router.post('/register', limiter, asyncHandler(async (req, res) => {
   const body = registerSchema.parse(req.body);
   if (await User.findOne({ email: body.email })) throw new ApiError(409, 'EMAIL_TAKEN', 'An account with this email already exists.');
   const user = await User.create({ name: body.name, email: body.email, graduationYear: body.graduationYear, passwordHash: await bcrypt.hash(body.password, 12) });
-  res.cookie(config.cookieName, signToken(user), cookieOptions());
-  res.status(201).json({ user: user.toPublic() });
+  const token = signToken(user);
+  res.cookie(config.cookieName, token, cookieOptions());
+  res.status(201).json({ user: user.toPublic(), token });
 }));
 
 router.post('/login', limiter, asyncHandler(async (req, res) => {
@@ -30,8 +31,9 @@ router.post('/login', limiter, asyncHandler(async (req, res) => {
   const user = await User.findOne({ email }).select('+passwordHash');
   const ok = user && (await bcrypt.compare(pw, user.passwordHash));
   if (!ok) throw new ApiError(401, 'BAD_CREDENTIALS', 'Email or password is incorrect.');
-  res.cookie(config.cookieName, signToken(user), cookieOptions());
-  res.json({ user: user.toPublic() });
+  const token = signToken(user);
+  res.cookie(config.cookieName, token, cookieOptions());
+  res.json({ user: user.toPublic(), token });
 }));
 
 router.post('/logout', (_req, res) => { res.clearCookie(config.cookieName, { ...cookieOptions(), maxAge: undefined }); res.json({ ok: true }); });
