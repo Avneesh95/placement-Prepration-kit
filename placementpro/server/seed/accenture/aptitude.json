@@ -1,0 +1,1507 @@
+[
+ {
+  "uid": "accenture-apt-percentages-001",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "percentages",
+  "subtopic": "successive change",
+  "difficulty": "medium",
+  "explanation": "Net change = x − y − xy/100 = 15 − 20 − (15×20)/100 = -8%. A positive value means a net increase, a negative one a net decrease.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number is first increased by 15% and then decreased by 20%. What is the net percentage change?",
+  "options": [
+   "4.5%",
+   "-13%",
+   "-8%",
+   "-0.5%"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-percentages-002",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "percentages",
+  "subtopic": "successive change",
+  "difficulty": "medium",
+  "explanation": "Net change = x − y − xy/100 = 20 − 15 − (20×15)/100 = 2%. A positive value means a net increase, a negative one a net decrease.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number is first increased by 20% and then decreased by 15%. What is the net percentage change?",
+  "options": [
+   "-5.5%",
+   "2%",
+   "-3%",
+   "7%"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-profit-loss-003",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "selling price from profit",
+  "difficulty": "easy",
+  "explanation": "SP = CP × (100 + profit%)/100 = 200 × 125/100 = 250.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "An article is bought for ₹200 and sold at a profit of 25%. Find its selling price (in ₹).",
+  "options": [
+   "325",
+   "175",
+   "350",
+   "250"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-profit-loss-004",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "cost price from loss",
+  "difficulty": "medium",
+  "explanation": "SP = 0.80 × CP → CP = 1840 × 100/80 = 2300.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "By selling an item for ₹1,840, a shopkeeper incurs a loss of 20%. What was the cost price (in ₹)?",
+  "options": [
+   "2990",
+   "2300",
+   "1840",
+   "1610"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-ratio-proportion-005",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 14. One part = 1400/14 = 100. Second share = 6 × 100 = 600.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹1,400 is divided among three people in the ratio 5:6:3. How much does the second person get (in ₹)?",
+  "options": [
+   "540",
+   "660",
+   "840",
+   "600"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-ratio-proportion-006",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 10. One part = 1900/10 = 190. Second share = 2 × 190 = 380.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹1,900 is divided among three people in the ratio 5:2:3. How much does the second person get (in ₹)?",
+  "options": [
+   "380",
+   "456",
+   "304",
+   "342"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-averages-007",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 155. Sum of 6 = 198. Sixth number = 198 − 155 = 43.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 31. A sixth number is added and the average becomes 33. What is the sixth number?",
+  "options": [
+   "39",
+   "51",
+   "59",
+   "43"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-averages-008",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 105. Sum of 6 = 138. Sixth number = 138 − 105 = 33.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 21. A sixth number is added and the average becomes 23. What is the sixth number?",
+  "options": [
+   "33",
+   "27",
+   "36",
+   "39"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-time-work-009",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/24 + 1/40 = 64/960 per day. Days = 960/64 = 15.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A can finish a job in 24 days and B can finish it in 40 days. Working together, in how many days will they finish it?\n(Type your answer as a number.)",
+  "numericAnswer": 15,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-time-work-010",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/40 + 1/60 = 100/2400 per day. Days = 2400/100 = 24.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A can finish a job in 40 days and B can finish it in 60 days. Working together, in how many days will they finish it?",
+  "options": [
+   "30",
+   "22",
+   "24",
+   "34"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-pipes-cisterns-011",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/6. Pipe rate = 1/2. Leak rate = 1/2 − 1/6 = 4/12 = 1/3. So the leak empties the tank in 3 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 2 hours. Because of a leak at the bottom, it takes the pipe 6 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "2",
+   "8",
+   "5",
+   "3"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-pipes-cisterns-012",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/24. Pipe rate = 1/6. Leak rate = 1/6 − 1/24 = 18/144 = 1/8. So the leak empties the tank in 8 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 6 hours. Because of a leak at the bottom, it takes the pipe 24 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "8",
+   "12",
+   "9",
+   "11"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-speed-distance-013",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "average speed",
+  "difficulty": "medium",
+  "explanation": "For equal distances, average speed = 2ab/(a+b) = 2×60×90/150 = 72 km/h.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A car covers a distance at 60 km/h and returns the same distance at 90 km/h. What is its average speed for the whole trip (in km/h)?",
+  "options": [
+   "72",
+   "65",
+   "58",
+   "107"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-speed-distance-014",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "train crossing a pole",
+  "difficulty": "medium",
+  "explanation": "Speed = 108 × 5/18 = 30 m/s. Time = 180/30 = 6 s.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train 180 m long runs at 108 km/h. How many seconds does it take to cross a telegraph pole?",
+  "options": [
+   "6",
+   "9",
+   "11",
+   "5"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-boats-streams-015",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 14 + 2 = 16 km/h. Time = 80/16 = 5 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat goes 14 km/h in still water and the stream flows at 2 km/h. How many hours will it take to go 80 km downstream?",
+  "options": [
+   "3",
+   "6",
+   "5",
+   "7"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-boats-streams-016",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 11 + 2 = 13 km/h. Time = 52/13 = 4 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat goes 11 km/h in still water and the stream flows at 2 km/h. How many hours will it take to go 52 km downstream?",
+  "options": [
+   "5",
+   "4",
+   "1",
+   "3"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-interest-017",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "interest",
+  "subtopic": "simple interest",
+  "difficulty": "easy",
+  "explanation": "SI = PRT/100 = 9000×9×5/100 = 4050.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the simple interest on ₹9,000 at 9% per annum for 5 years (in ₹).",
+  "options": [
+   "3645",
+   "2835",
+   "5670",
+   "4050"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-interest-018",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "interest",
+  "subtopic": "simple interest",
+  "difficulty": "easy",
+  "explanation": "SI = PRT/100 = 6000×12×4/100 = 2880.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Find the simple interest on ₹6,000 at 12% per annum for 4 years (in ₹).\n(Type your answer as a number.)",
+  "numericAnswer": 2880,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-number-series-019",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "number-series",
+  "subtopic": "squares plus constant",
+  "difficulty": "medium",
+  "explanation": "The terms are 2²+1, 3²+1, 4²+1, 5²+1, 6²+1. Next = 7²+1 = 50.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 5, 10, 17, 26, 37, ?",
+  "options": [
+   "70",
+   "50",
+   "35",
+   "40"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-number-series-020",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "number-series",
+  "subtopic": "geometric series",
+  "difficulty": "easy",
+  "explanation": "Each term is multiplied by 2. Next = 16 × 2 = 32.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 1, 2, 4, 8, 16, ?",
+  "options": [
+   "32",
+   "35",
+   "44",
+   "23"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-hcf-lcm-021",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "LCM of two numbers",
+  "difficulty": "easy",
+  "explanation": "HCF = 8. LCM = (40 × 24)/8 = 120.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the LCM of 40 and 24.",
+  "options": [
+   "96",
+   "156",
+   "144",
+   "120"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-hcf-lcm-022",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "HCF × LCM relation",
+  "difficulty": "medium",
+  "explanation": "Product of the numbers = HCF × LCM = 7 × 147 = 1029. Other number = 1029/21 = 49.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The HCF of two numbers is 7 and their LCM is 147. If one number is 21, what is the other?",
+  "options": [
+   "64",
+   "49",
+   "54",
+   "69"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-ages-023",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "ages",
+  "subtopic": "sum and difference",
+  "difficulty": "easy",
+  "explanation": "Asha = (sum + difference)/2 = (62 + 6)/2 = 34.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The sum of the ages of Asha and Bala is 62 years and Asha is 6 years older than Bala. How old is Asha?",
+  "options": [
+   "34",
+   "25",
+   "37",
+   "40"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-ages-024",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "ages",
+  "subtopic": "ages in the past",
+  "difficulty": "medium",
+  "explanation": "Sita 6 years ago = 11. Ravi then = 4 × 11 = 44. Ravi now = 44 + 6 = 50.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "6 years ago, Ravi was 4 times as old as Sita. Sita is now 17 years old. How old is Ravi now?",
+  "options": [
+   "50",
+   "75",
+   "70",
+   "40"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-permutations-combinations-025",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "arrangements with repeated letters",
+  "difficulty": "hard",
+  "explanation": "9! divided by the factorial of each repeated letter's count (M:2, T:2, E:2) = 45360.",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many distinct arrangements can be made using all the letters of the word COMMITTEE?",
+  "options": [
+   "45360",
+   "58968",
+   "54432",
+   "36288"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-permutations-combinations-026",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "arrangements with repeated letters",
+  "difficulty": "hard",
+  "explanation": "5! divided by the factorial of each repeated letter's count (L:2, E:2) = 30.",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "How many distinct arrangements can be made using all the letters of the word LEVEL?\n(Type your answer as a number.)",
+  "numericAnswer": 30,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-probability-027",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "probability",
+  "subtopic": "two dice",
+  "difficulty": "medium",
+  "explanation": "Ways to get a sum of 4 = 3 out of 36 outcomes, so P = 3/36 = 1/12.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 4?",
+  "options": [
+   "1/12",
+   "5/36",
+   "1/9",
+   "1/6"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-probability-028",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "probability",
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 3/6 = 1/2.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A bag has 3 red and 3 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "options": [
+   "3/7",
+   "1/2",
+   "2/3",
+   "1"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-mixtures-alligation-029",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "mean price",
+  "difficulty": "medium",
+  "explanation": "Mean price = (1×60 + 1×80)/2 = 70.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Rice at ₹60/kg and rice at ₹80/kg are mixed in the ratio 1:1. What is the price per kg of the mixture (in ₹)?",
+  "options": [
+   "105",
+   "70",
+   "84",
+   "49"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-mixtures-alligation-030",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 6 L, water = 4 L. For 1:1 water must equal milk, so add 6 − 4 = 2 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A 10 litre mixture has milk and water in the ratio 3:2. How many litres of water must be added to make the ratio 1:1?",
+  "options": [
+   "6",
+   "2",
+   "0",
+   "4"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-partnership-031",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 5000×10 : 5000×8 = 50000 : 40000 = 5 : 4. Anil's share = 5/9 × 3600 = 2000.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹5,000 for 10 months and Binu invests ₹5,000 for 8 months. They earn a profit of ₹3,600. What is Anil's share (in ₹)?",
+  "options": [
+   "2600",
+   "2000",
+   "3000",
+   "1600"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-partnership-032",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 2000×11 : 6000×9 = 22000 : 54000 = 11 : 27. Anil's share = 11/38 × 26600 = 7700.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Anil invests ₹2,000 for 11 months and Binu invests ₹6,000 for 9 months. They earn a profit of ₹26,600. What is Anil's share (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 7700,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-algebra-033",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "algebra",
+  "subtopic": "linear equation",
+  "difficulty": "easy",
+  "explanation": "x + 2 = 28/2 = 14, so x = 12.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If 2(x + 2) = 28, find x.",
+  "options": [
+   "12",
+   "14",
+   "11",
+   "15"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-algebra-034",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "algebra",
+  "subtopic": "linear equation",
+  "difficulty": "easy",
+  "explanation": "x + 3 = 56/4 = 14, so x = 11.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If 4(x + 3) = 56, find x.",
+  "options": [
+   "11",
+   "16",
+   "8",
+   "15"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-progressions-035",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "progressions",
+  "subtopic": "GP term",
+  "difficulty": "medium",
+  "explanation": "Tₙ = a·r^(n−1) = 5 × 3^3 = 135.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The first term of a GP is 5 and the common ratio is 3. What is its 4th term?",
+  "options": [
+   "93",
+   "191",
+   "135",
+   "163"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-progressions-036",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "progressions",
+  "subtopic": "GP term",
+  "difficulty": "medium",
+  "explanation": "Tₙ = a·r^(n−1) = 8 × 2^3 = 64.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The first term of a GP is 8 and the common ratio is 2. What is its 4th term?",
+  "options": [
+   "58",
+   "76",
+   "64",
+   "52"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-geometry-mensuration-037",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "right triangle",
+  "difficulty": "easy",
+  "explanation": "Hypotenuse = √(28² + 96²) = √10000 = 100 cm.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The two shorter sides of a right-angled triangle are 28 cm and 96 cm. Find the hypotenuse (in cm).",
+  "options": [
+   "70",
+   "140",
+   "80",
+   "100"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-geometry-mensuration-038",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "right triangle",
+  "difficulty": "easy",
+  "explanation": "Hypotenuse = √(6² + 8²) = √100 = 10 cm.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The two shorter sides of a right-angled triangle are 6 cm and 8 cm. Find the hypotenuse (in cm).",
+  "options": [
+   "13",
+   "9",
+   "7",
+   "10"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-data-interpretation-039",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "column totals",
+  "difficulty": "easy",
+  "explanation": "2024: 360 + 290 + 180 + 290 = 1120.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 330 | 130 | 360\nBooks | 100 | 120 | 290\nBags | 150 | 210 | 180\nBottles | 250 | 230 | 290\n\nHow many items of all products together were sold in 2024 (in hundreds)?",
+  "options": [
+   "1680",
+   "784",
+   "1120",
+   "1344"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-data-interpretation-040",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
+  "difficulty": "medium",
+  "explanation": "Change = (400 − 210)/210 × 100 = 90.48%.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 320 | 90 | 330\nBooks | 210 | 330 | 400\nBags | 150 | 270 | 370\nBottles | 230 | 280 | 330\n\nBy what percentage did sales of Books change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "options": [
+   "115.48%",
+   "85.48%",
+   "105.48%",
+   "90.48%"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-approximation-simplification-041",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 42 × 3 = 126; ÷ 6 = 21; then + 14 − 3 = 32.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 42 × 3 ÷ 6 + 14 − 3",
+  "options": [
+   "44",
+   "41",
+   "35",
+   "32"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-approximation-simplification-042",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "squares and roots",
+  "difficulty": "easy",
+  "explanation": "√196 = 14; 12² = 144. So 14 + 144 − 14 = 144.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Evaluate: √196 + 12² − 14\n(Type your answer as a number.)",
+  "numericAnswer": 144,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-remainders-divisibility-043",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 6^k mod 11. Reducing the exponent 26 by the cycle length gives a remainder of 5.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "What is the remainder when 6^26 is divided by 11?\n(Type your answer as a number.)",
+  "numericAnswer": 5,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-remainders-divisibility-044",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "division remainder",
+  "difficulty": "easy",
+  "explanation": "Dividend = divisor × quotient + remainder = 7×76 + 1 = 533.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number gives remainder 1 when divided by 7. If the quotient is 76, what is the number?",
+  "options": [
+   "586",
+   "533",
+   "745",
+   "427"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-number-systems-045",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "number-systems",
+  "subtopic": "unit digit",
+  "difficulty": "medium",
+  "explanation": "Unit digits of 4^k repeat every 4 steps: 4, 6, 4, 6. Position (50 − 1) mod 4 = 1 gives 6.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the unit digit of 4^50?",
+  "options": [
+   "8",
+   "3",
+   "6",
+   "9"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-number-systems-046",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "number-systems",
+  "subtopic": "primes in a range",
+  "difficulty": "medium",
+  "explanation": "The primes in the range are 37, 41, 43, 47, 53, 59, 61 — 7 in total.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many prime numbers are there between 37 and 66 (both inclusive)?",
+  "options": [
+   "12",
+   "7",
+   "6",
+   "9"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-permutations-combinations-047",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "combinations",
+  "difficulty": "easy",
+  "explanation": "8C3 = 8!/(3!×5!) = 56.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can a committee of 3 be chosen from 8 people?",
+  "options": [
+   "80",
+   "56",
+   "38",
+   "68"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-geometry-mensuration-048",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "cylinder",
+  "difficulty": "medium",
+  "explanation": "V = πr²h = 22/7 × 21² × 6 = 8316 cm³.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the volume of a cylinder with radius 21 cm and height 6 cm (π = 22/7), in cm³.",
+  "options": [
+   "5820",
+   "12476",
+   "8316",
+   "7484"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-algebra-049",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "algebra",
+  "subtopic": "linear equation",
+  "difficulty": "easy",
+  "explanation": "x + 6 = 80/4 = 20, so x = 14.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "If 4(x + 6) = 80, find x.\n(Type your answer as a number.)",
+  "numericAnswer": 14,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-pipes-cisterns-050",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/12. Pipe rate = 1/3. Leak rate = 1/3 − 1/12 = 9/36 = 1/4. So the leak empties the tank in 4 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 3 hours. Because of a leak at the bottom, it takes the pipe 12 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "6",
+   "9",
+   "4",
+   "7"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-profit-loss-051",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "cost price from loss",
+  "difficulty": "medium",
+  "explanation": "SP = 0.75 × CP → CP = 1500 × 100/75 = 2000.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "By selling an item for ₹1,500, a shopkeeper incurs a loss of 25%. What was the cost price (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 2000,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-speed-distance-052",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "average speed",
+  "difficulty": "medium",
+  "explanation": "For equal distances, average speed = 2ab/(a+b) = 2×40×60/100 = 48 km/h.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A car covers a distance at 40 km/h and returns the same distance at 60 km/h. What is its average speed for the whole trip (in km/h)?",
+  "options": [
+   "68",
+   "53",
+   "48",
+   "63"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-geometry-mensuration-053",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "cylinder",
+  "difficulty": "medium",
+  "explanation": "V = πr²h = 22/7 × 14² × 9 = 5544 cm³.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Find the volume of a cylinder with radius 14 cm and height 9 cm (π = 22/7), in cm³.\n(Type your answer as a number.)",
+  "numericAnswer": 5544,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-permutations-combinations-054",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "permutations",
+  "difficulty": "medium",
+  "explanation": "7P3 = 7×6×5 = 210.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can 3 different prizes be given to 7 students if no student gets more than one prize?",
+  "options": [
+   "273",
+   "315",
+   "210",
+   "189"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-number-series-055",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "number-series",
+  "subtopic": "arithmetic series",
+  "difficulty": "easy",
+  "explanation": "Each term increases by 7. Next = 47 + 7 = 54.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 19, 26, 33, 40, 47, ?",
+  "options": [
+   "54",
+   "69",
+   "49",
+   "39"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "accenture-apt-permutations-combinations-056",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "permutations",
+  "difficulty": "medium",
+  "explanation": "7P2 = 7×6 = 42.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can 2 different prizes be given to 7 students if no student gets more than one prize?",
+  "options": [
+   "46",
+   "42",
+   "54",
+   "62"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ }
+]

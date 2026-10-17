@@ -1,0 +1,1500 @@
+[
+ {
+  "uid": "cognizant-apt-percentages-001",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "percentages",
+  "subtopic": "successive change",
+  "difficulty": "medium",
+  "explanation": "Net change = x − y − xy/100 = 15 − 10 − (15×10)/100 = 3.5%. A positive value means a net increase, a negative one a net decrease.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number is first increased by 15% and then decreased by 10%. What is the net percentage change?",
+  "options": [
+   "3.5%",
+   "1%",
+   "8.5%",
+   "16%"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-percentages-002",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "percentages",
+  "subtopic": "percentage of a quantity",
+  "difficulty": "easy",
+  "explanation": "12% of 800 = 12/100 × 800 = 96.",
+  "estimatedSeconds": 40,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "What is 12% of 800?\n(Type your answer as a number.)",
+  "numericAnswer": 96,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-profit-loss-003",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "selling price from profit",
+  "difficulty": "easy",
+  "explanation": "SP = CP × (100 + profit%)/100 = 880 × 115/100 = 1012.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "An article is bought for ₹880 and sold at a profit of 15%. Find its selling price (in ₹).\n(Type your answer as a number.)",
+  "numericAnswer": 1012,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-profit-loss-004",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "cost price from loss",
+  "difficulty": "medium",
+  "explanation": "SP = 0.90 × CP → CP = 4770 × 100/90 = 5300.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "By selling an item for ₹4,770, a shopkeeper incurs a loss of 10%. What was the cost price (in ₹)?",
+  "options": [
+   "5830",
+   "6360",
+   "5300",
+   "6890"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-ratio-proportion-005",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 18. One part = 4140/18 = 230. Second share = 6 × 230 = 1380.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "₹4,140 is divided among three people in the ratio 5:6:7. How much does the second person get (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 1380,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-ratio-proportion-006",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 16. One part = 960/16 = 60. Second share = 6 × 60 = 360.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹960 is divided among three people in the ratio 3:6:7. How much does the second person get (in ₹)?",
+  "options": [
+   "468",
+   "540",
+   "360",
+   "252"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-averages-007",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 180. Sum of 6 = 228. Sixth number = 228 − 180 = 48.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "The average of 5 numbers is 36. A sixth number is added and the average becomes 38. What is the sixth number?\n(Type your answer as a number.)",
+  "numericAnswer": 48,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-averages-008",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 200. Sum of 6 = 276. Sixth number = 276 − 200 = 76.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "The average of 5 numbers is 40. A sixth number is added and the average becomes 46. What is the sixth number?\n(Type your answer as a number.)",
+  "numericAnswer": 76,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-time-work-009",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/4 + 1/12 = 16/48 per day. Days = 48/16 = 3.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A can finish a job in 4 days and B can finish it in 12 days. Working together, in how many days will they finish it?",
+  "options": [
+   "1",
+   "8",
+   "3",
+   "4"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-time-work-010",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/40 + 1/60 = 100/2400 per day. Days = 2400/100 = 24.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A can finish a job in 40 days and B can finish it in 60 days. Working together, in how many days will they finish it?",
+  "options": [
+   "34",
+   "22",
+   "32",
+   "24"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-pipes-cisterns-011",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/36. Pipe rate = 1/9. Leak rate = 1/9 − 1/36 = 27/324 = 1/12. So the leak empties the tank in 12 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 9 hours. Because of a leak at the bottom, it takes the pipe 36 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "14",
+   "11",
+   "12",
+   "10"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-pipes-cisterns-012",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/20. Pipe rate = 1/4. Leak rate = 1/4 − 1/20 = 16/80 = 1/5. So the leak empties the tank in 5 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 4 hours. Because of a leak at the bottom, it takes the pipe 20 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "3",
+   "8",
+   "9",
+   "5"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-speed-distance-013",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "trains in opposite directions",
+  "difficulty": "hard",
+  "explanation": "Relative speed = 18 + 108 = 126 km/h = 35 m/s. Distance = 210 + 210 = 420 m. Time = 420/35 = 12 s.",
+  "estimatedSeconds": 100,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Two trains of lengths 210 m and 210 m run in opposite directions at 18 km/h and 108 km/h. In how many seconds do they completely cross each other?\n(Type your answer as a number.)",
+  "numericAnswer": 12,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-speed-distance-014",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "train crossing a pole",
+  "difficulty": "medium",
+  "explanation": "Speed = 108 × 5/18 = 30 m/s. Time = 270/30 = 9 s.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train 270 m long runs at 108 km/h. How many seconds does it take to cross a telegraph pole?",
+  "options": [
+   "9",
+   "14",
+   "12",
+   "11"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-boats-streams-015",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 19 + 2 = 21 km/h. Time = 63/21 = 3 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A boat goes 19 km/h in still water and the stream flows at 2 km/h. How many hours will it take to go 63 km downstream?\n(Type your answer as a number.)",
+  "numericAnswer": 3,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-boats-streams-016",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 14 + 3 = 17 km/h. Time = 51/17 = 3 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat goes 14 km/h in still water and the stream flows at 3 km/h. How many hours will it take to go 51 km downstream?",
+  "options": [
+   "2",
+   "4",
+   "3",
+   "8"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-interest-017",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "interest",
+  "subtopic": "simple interest",
+  "difficulty": "easy",
+  "explanation": "SI = PRT/100 = 15000×10×2/100 = 3000.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the simple interest on ₹15,000 at 10% per annum for 2 years (in ₹).",
+  "options": [
+   "3000",
+   "2700",
+   "2100",
+   "2400"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-interest-018",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "interest",
+  "subtopic": "compound interest (2 years)",
+  "difficulty": "medium",
+  "explanation": "Amount = 2000 × (1 + 10/100)² = 2420. CI = Amount − Principal = 420.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the compound interest on ₹2,000 for 2 years at 10% per annum, compounded annually (in ₹)?",
+  "options": [
+   "336",
+   "420",
+   "504",
+   "546"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-number-series-019",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "number-series",
+  "subtopic": "increasing differences",
+  "difficulty": "medium",
+  "explanation": "Differences are 3, 4, 5, 6 — they grow by 1 each step. Next difference 7, so 25 + 7 = 32.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 7, 10, 14, 19, 25, ?",
+  "options": [
+   "47",
+   "35",
+   "32",
+   "23"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-number-series-020",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "number-series",
+  "subtopic": "squares plus constant",
+  "difficulty": "medium",
+  "explanation": "The terms are 6²+1, 7²+1, 8²+1, 9²+1, 10²+1. Next = 11²+1 = 122.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 37, 50, 65, 82, 101, ?",
+  "options": [
+   "146",
+   "98",
+   "122",
+   "170"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-hcf-lcm-021",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "HCF × LCM relation",
+  "difficulty": "medium",
+  "explanation": "Product of the numbers = HCF × LCM = 3 × 105 = 315. Other number = 315/21 = 15.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The HCF of two numbers is 3 and their LCM is 105. If one number is 21, what is the other?",
+  "options": [
+   "9",
+   "13",
+   "15",
+   "21"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-hcf-lcm-022",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "LCM of two numbers",
+  "difficulty": "easy",
+  "explanation": "HCF = 6. LCM = (24 × 54)/6 = 216.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the LCM of 24 and 54.",
+  "options": [
+   "260",
+   "216",
+   "282",
+   "194"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-ages-023",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "ages",
+  "subtopic": "sum and difference",
+  "difficulty": "easy",
+  "explanation": "Asha = (sum + difference)/2 = (36 + 8)/2 = 22.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The sum of the ages of Asha and Bala is 36 years and Asha is 8 years older than Bala. How old is Asha?",
+  "options": [
+   "24",
+   "22",
+   "18",
+   "26"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-ages-024",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "ages",
+  "subtopic": "ages in the past",
+  "difficulty": "medium",
+  "explanation": "Sita 6 years ago = 14. Ravi then = 2 × 14 = 28. Ravi now = 28 + 6 = 34.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "6 years ago, Ravi was 2 times as old as Sita. Sita is now 20 years old. How old is Ravi now?",
+  "options": [
+   "46",
+   "25",
+   "34",
+   "28"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-permutations-combinations-025",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "permutations",
+  "difficulty": "medium",
+  "explanation": "4P2 = 4×3 = 12.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can 2 different prizes be given to 4 students if no student gets more than one prize?",
+  "options": [
+   "12",
+   "17",
+   "10",
+   "15"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-permutations-combinations-026",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "permutations",
+  "difficulty": "medium",
+  "explanation": "5P3 = 5×4×3 = 60.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can 3 different prizes be given to 5 students if no student gets more than one prize?",
+  "options": [
+   "54",
+   "60",
+   "84",
+   "48"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-probability-027",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "probability",
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 5/7 = 5/7.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A bag has 5 red and 2 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "options": [
+   "6/7",
+   "5/2",
+   "5/7",
+   "5/8"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-probability-028",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "probability",
+  "subtopic": "two dice",
+  "difficulty": "medium",
+  "explanation": "Ways to get a sum of 8 = 5 out of 36 outcomes, so P = 5/36 = 5/36.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 8?",
+  "options": [
+   "1/6",
+   "5/36",
+   "7/36",
+   "5/18"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-mixtures-alligation-029",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 30 L, water = 18 L. For 1:1 water must equal milk, so add 30 − 18 = 12 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A 48 litre mixture has milk and water in the ratio 5:3. How many litres of water must be added to make the ratio 1:1?\n(Type your answer as a number.)",
+  "numericAnswer": 12,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-mixtures-alligation-030",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 30 L, water = 24 L. For 1:1 water must equal milk, so add 30 − 24 = 6 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A 54 litre mixture has milk and water in the ratio 5:4. How many litres of water must be added to make the ratio 1:1?",
+  "options": [
+   "11",
+   "6",
+   "7",
+   "9"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-partnership-031",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 5000×7 : 5000×7 = 35000 : 35000 = 1 : 1. Anil's share = 1/2 × 800 = 400.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹5,000 for 7 months and Binu invests ₹5,000 for 7 months. They earn a profit of ₹800. What is Anil's share (in ₹)?",
+  "options": [
+   "360",
+   "440",
+   "400",
+   "520"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-partnership-032",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 6000×9 : 5000×6 = 54000 : 30000 = 9 : 5. Anil's share = 9/14 × 12600 = 8100.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹6,000 for 9 months and Binu invests ₹5,000 for 6 months. They earn a profit of ₹12,600. What is Anil's share (in ₹)?",
+  "options": [
+   "12150",
+   "11340",
+   "8100",
+   "9720"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-algebra-033",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "algebra",
+  "subtopic": "x + 1/x identity",
+  "difficulty": "medium",
+  "explanation": "Square both sides: x² + 2 + 1/x² = 9. So x² + 1/x² = 9 − 2 = 7.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If x + 1/x = 3, find the value of x² + 1/x².",
+  "options": [
+   "5",
+   "7",
+   "9",
+   "11"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-algebra-034",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "algebra",
+  "subtopic": "linear equation",
+  "difficulty": "easy",
+  "explanation": "x + 3 = 108/6 = 18, so x = 15.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If 6(x + 3) = 108, find x.",
+  "options": [
+   "19",
+   "11",
+   "15",
+   "23"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-progressions-035",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "progressions",
+  "subtopic": "nth term of AP",
+  "difficulty": "easy",
+  "explanation": "Tₙ = a + (n−1)d = 5 + 9×2 = 23.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The first term of an AP is 5 and the common difference is 2. Find its 10th term.",
+  "options": [
+   "29",
+   "19",
+   "27",
+   "23"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-progressions-036",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "progressions",
+  "subtopic": "sum of AP",
+  "difficulty": "medium",
+  "explanation": "Sₙ = n/2 × [2a + (n−1)d] = 15/2 × [12 + 84] = 720.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the sum of the first 15 terms of the AP 6, 12, 18, ...",
+  "options": [
+   "720",
+   "576",
+   "792",
+   "936"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-geometry-mensuration-037",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "cylinder",
+  "difficulty": "medium",
+  "explanation": "V = πr²h = 22/7 × 7² × 8 = 1232 cm³.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the volume of a cylinder with radius 7 cm and height 8 cm (π = 22/7), in cm³.",
+  "options": [
+   "1724",
+   "1232",
+   "1601",
+   "1355"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-geometry-mensuration-038",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "rectangle",
+  "difficulty": "easy",
+  "explanation": "l + b = 13, so b = 4 cm. Area = 9 × 4 = 36 cm².",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The perimeter of a rectangle is 26 cm and its length is 9 cm. What is its area (in cm²)?",
+  "options": [
+   "32",
+   "36",
+   "24",
+   "28"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-data-interpretation-039",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "table totals",
+  "difficulty": "easy",
+  "explanation": "Pens: 140 + 80 + 150 = 370.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 140 | 80 | 150\nBooks | 150 | 340 | 370\nBags | 360 | 210 | 170\nBottles | 90 | 250 | 170\n\nWhat is the total number of Pens sold over the three years (in hundreds)?",
+  "options": [
+   "370",
+   "481",
+   "518",
+   "333"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-data-interpretation-040",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "table totals",
+  "difficulty": "easy",
+  "explanation": "Pens: 110 + 100 + 220 = 430.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 110 | 100 | 220\nBooks | 330 | 80 | 210\nBags | 90 | 310 | 160\nBottles | 180 | 340 | 130\n\nWhat is the total number of Pens sold over the three years (in hundreds)?",
+  "options": [
+   "559",
+   "430",
+   "344",
+   "387"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-approximation-simplification-041",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 96 × 7 = 672; ÷ 8 = 84; then + 13 − 3 = 94.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 96 × 7 ÷ 8 + 13 − 3",
+  "options": [
+   "139",
+   "121",
+   "103",
+   "94"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-approximation-simplification-042",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 24 × 9 = 216; ÷ 3 = 72; then + 21 − 2 = 91.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Simplify: 24 × 9 ÷ 3 + 21 − 2\n(Type your answer as a number.)",
+  "numericAnswer": 91,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-remainders-divisibility-043",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 6^k mod 5. Reducing the exponent 32 by the cycle length gives a remainder of 1.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the remainder when 6^32 is divided by 5?",
+  "options": [
+   "4",
+   "1",
+   "2",
+   "3"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-remainders-divisibility-044",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 3^k mod 9. Reducing the exponent 40 by the cycle length gives a remainder of 0.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the remainder when 3^40 is divided by 9?",
+  "options": [
+   "0",
+   "2",
+   "3",
+   "5"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-number-systems-045",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "number-systems",
+  "subtopic": "unit digit",
+  "difficulty": "medium",
+  "explanation": "Unit digits of 7^k repeat every 4 steps: 7, 9, 3, 1. Position (53 − 1) mod 4 = 0 gives 7.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the unit digit of 7^53?",
+  "options": [
+   "6",
+   "11",
+   "7",
+   "9"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-number-systems-046",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "number-systems",
+  "subtopic": "unit digit",
+  "difficulty": "medium",
+  "explanation": "Unit digits of 4^k repeat every 4 steps: 4, 6, 4, 6. Position (53 − 1) mod 4 = 0 gives 4.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the unit digit of 4^53?",
+  "options": [
+   "4",
+   "2",
+   "7",
+   "3"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-hcf-lcm-047",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "HCF × LCM relation",
+  "difficulty": "medium",
+  "explanation": "Product of the numbers = HCF × LCM = 5 × 105 = 525. Other number = 525/15 = 35.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The HCF of two numbers is 5 and their LCM is 105. If one number is 15, what is the other?",
+  "options": [
+   "27",
+   "35",
+   "43",
+   "47"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-approximation-simplification-048",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 30 × 7 = 210; ÷ 5 = 42; then + 11 − 2 = 51.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 30 × 7 ÷ 5 + 11 − 2",
+  "options": [
+   "61",
+   "56",
+   "51",
+   "46"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-ages-049",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "ages",
+  "subtopic": "sum and difference",
+  "difficulty": "easy",
+  "explanation": "Asha = (sum + difference)/2 = (70 + 14)/2 = 42.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The sum of the ages of Asha and Bala is 70 years and Asha is 14 years older than Bala. How old is Asha?",
+  "options": [
+   "30",
+   "46",
+   "54",
+   "42"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-percentages-050",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "percentages",
+  "subtopic": "finding the whole",
+  "difficulty": "easy",
+  "explanation": "Number = 192 × 100 / 24 = 800.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "192 is 24% of a number. What is the number?",
+  "options": [
+   "800",
+   "1120",
+   "640",
+   "880"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-data-interpretation-051",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
+  "difficulty": "medium",
+  "explanation": "Change = (260 − 200)/200 × 100 = 30%.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 190 | 240 | 110\nBooks | 200 | 280 | 260\nBags | 180 | 190 | 320\nBottles | 300 | 250 | 310\n\nBy what percentage did sales of Books change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "options": [
+   "35%",
+   "30%",
+   "50%",
+   "15%"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-percentages-052",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "percentages",
+  "subtopic": "successive change",
+  "difficulty": "medium",
+  "explanation": "Net change = x − y − xy/100 = 10 − 5 − (10×5)/100 = 4.5%. A positive value means a net increase, a negative one a net decrease.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number is first increased by 10% and then decreased by 5%. What is the net percentage change?",
+  "options": [
+   "4.5%",
+   "7%",
+   "-3%",
+   "12%"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-approximation-simplification-053",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 36 × 6 = 216; ÷ 4 = 54; then + 22 − 4 = 72.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 36 × 6 ÷ 4 + 22 − 4",
+  "options": [
+   "79",
+   "72",
+   "51",
+   "93"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-partnership-054",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 4000×9 : 2000×5 = 36000 : 10000 = 18 : 5. Anil's share = 18/23 × 6900 = 5400.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Anil invests ₹4,000 for 9 months and Binu invests ₹2,000 for 5 months. They earn a profit of ₹6,900. What is Anil's share (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 5400,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-remainders-divisibility-055",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "division remainder",
+  "difficulty": "easy",
+  "explanation": "Dividend = divisor × quotient + remainder = 11×25 + 8 = 283.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number gives remainder 8 when divided by 11. If the quotient is 25, what is the number?",
+  "options": [
+   "283",
+   "367",
+   "339",
+   "311"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "cognizant-apt-geometry-mensuration-056",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "cylinder",
+  "difficulty": "medium",
+  "explanation": "V = πr²h = 22/7 × 7² × 7 = 1078 cm³.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the volume of a cylinder with radius 7 cm and height 7 cm (π = 22/7), in cm³.",
+  "options": [
+   "1078",
+   "1618",
+   "754",
+   "1186"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ }
+]

@@ -1,0 +1,2259 @@
+[
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-subject-verb-agreement-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "subject-verb-agreement",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Neither the manager nor the employees ___ present at the meeting.",
+  "options": [
+   "were",
+   "is",
+   "was",
+   "has been"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "With \"neither…nor\", the verb agrees with the nearer subject. \"Employees\" is plural, so \"were\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-subject-verb-agreement-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "subject-verb-agreement",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "The list of items ___ on the table.",
+  "options": [
+   "are",
+   "were",
+   "is",
+   "have been"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The subject is the singular \"list\"; \"of items\" is only a modifier.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-subject-verb-agreement-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "subject-verb-agreement",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Each of the students ___ given a certificate.",
+  "options": [
+   "was",
+   "were",
+   "have been",
+   "are"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "\"Each\" is singular, so it takes a singular verb.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-subject-verb-agreement-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "subject-verb-agreement",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "A number of students ___ absent today.",
+  "options": [
+   "is",
+   "are",
+   "was",
+   "has been"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "\"A number of\" means \"several\" and takes a plural verb. (Compare \"The number of students is large\".)",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-subject-verb-agreement-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "subject-verb-agreement",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "The news ___ surprising.",
+  "options": [
+   "are",
+   "is",
+   "were",
+   "have been"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "\"News\" looks plural but is an uncountable, singular noun.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-tenses-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "tenses",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "By the time we reached the station, the train ___.",
+  "options": [
+   "have left",
+   "has left",
+   "had left",
+   "was leaving"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Two past events: the earlier one (leaving) uses the past perfect.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-tenses-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "tenses",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "She ___ in this company since 2019.",
+  "options": [
+   "has been working",
+   "is working",
+   "worked",
+   "works"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "\"Since 2019\" signals an action continuing up to now: present perfect (continuous).",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-tenses-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "tenses",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "I ___ my homework when the power went out.",
+  "options": [
+   "do",
+   "was doing",
+   "did",
+   "have done"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "An action in progress in the past that was interrupted: past continuous.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-tenses-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "tenses",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "If it rains tomorrow, we ___ the match.",
+  "options": [
+   "cancelled",
+   "will cancel",
+   "had cancelled",
+   "would cancel"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "First conditional: if + present simple, will + base verb.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-articles-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "articles",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "He is ___ honest man.",
+  "options": [
+   "an",
+   "the",
+   "no article",
+   "a"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "\"Honest\" begins with a vowel sound (the h is silent), so \"an\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-articles-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "articles",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "She plays ___ violin very well.",
+  "options": [
+   "a",
+   "an",
+   "no article",
+   "the"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Musical instruments take \"the\" when we speak of playing them.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-articles-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "articles",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "___ Sun rises in the east.",
+  "options": [
+   "An",
+   "No article",
+   "The",
+   "A"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Unique objects (the Sun, the Moon) take \"the\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-articles-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "articles",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "I have ___ university degree in engineering.",
+  "options": [
+   "no article",
+   "the",
+   "a",
+   "an"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "\"University\" starts with a \"yoo\" consonant sound, so \"a\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-prepositions-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "prepositions",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "She is good ___ mathematics.",
+  "options": [
+   "for",
+   "on",
+   "in",
+   "at"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The fixed collocation is \"good at\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-prepositions-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "prepositions",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "He was accused ___ stealing the money.",
+  "options": [
+   "with",
+   "on",
+   "for",
+   "of"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "\"Accused of\" is the correct collocation.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-prepositions-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "prepositions",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "I prefer tea ___ coffee.",
+  "options": [
+   "than",
+   "over",
+   "to",
+   "from"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "\"Prefer X to Y\" is the standard pattern.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-prepositions-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "prepositions",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "He is married ___ a doctor.",
+  "options": [
+   "to",
+   "with",
+   "for",
+   "by"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "\"Married to\" is correct.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-prepositions-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "prepositions",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "The meeting has been postponed ___ next Monday.",
+  "options": [
+   "for",
+   "since",
+   "at",
+   "until"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "\"Postponed until\" a future date.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-error-spotting-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "error-spotting",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Find the part with an error: \"She don't like spicy food.\"",
+  "options": [
+   "She",
+   "food",
+   "don't like",
+   "spicy"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "A third-person singular subject needs \"doesn't\": \"She doesn't like spicy food.\"",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-error-spotting-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "error-spotting",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Find the part with an error: \"Neither of the boys have completed their homework.\"",
+  "options": [
+   "Neither of the boys",
+   "their homework",
+   "have completed",
+   "No error"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "\"Neither\" is singular, so it should be \"has completed\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-error-spotting-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "error-spotting",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Find the part with an error: \"He is senior than me by two years.\"",
+  "options": [
+   "by two years",
+   "He is",
+   "senior than me",
+   "No error"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "\"Senior\" and \"junior\" are followed by \"to\": \"senior to me\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-error-spotting-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "error-spotting",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Find the part with an error: \"I have been knowing him for ten years.\"",
+  "options": [
+   "No error",
+   "have been knowing",
+   "him",
+   "for ten years"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Stative verbs like \"know\" are not used in continuous tenses: \"I have known him\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-error-spotting-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "error-spotting",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Find the part with an error: \"The furniture in the room are very old.\"",
+  "options": [
+   "are very old",
+   "in the room",
+   "No error",
+   "The furniture"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "\"Furniture\" is uncountable and takes a singular verb: \"is very old\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-active-passive-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "active-passive",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Choose the passive form of: \"The chef cooked the meal.\"",
+  "options": [
+   "The chef was cooked by the meal.",
+   "The meal is cooked by the chef.",
+   "The meal has been cooked by the chef.",
+   "The meal was cooked by the chef."
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Simple past active becomes \"was/were + past participle\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-active-passive-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "active-passive",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the passive form of: \"They are building a new bridge.\"",
+  "options": [
+   "A new bridge has been built by them.",
+   "A new bridge is built by them.",
+   "A new bridge was built by them.",
+   "A new bridge is being built by them."
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Present continuous active becomes \"is/are being + past participle\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-active-passive-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "active-passive",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the passive form of: \"Someone has stolen my wallet.\"",
+  "options": [
+   "My wallet is being stolen.",
+   "My wallet had been stolen.",
+   "My wallet was stolen.",
+   "My wallet has been stolen."
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Present perfect active becomes \"has/have been + past participle\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-active-passive-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "active-passive",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Choose the active form of: \"The report was submitted by Rahul.\"",
+  "options": [
+   "Rahul has submitted the report.",
+   "Rahul submitted the report.",
+   "The report submitted Rahul.",
+   "Rahul submits the report."
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Past passive \"was submitted\" becomes simple past \"submitted\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-direct-indirect-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "direct-indirect",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Choose the indirect speech: He said, \"I am tired.\"",
+  "options": [
+   "He said that he is tired.",
+   "He said that I was tired.",
+   "He said that I am tired.",
+   "He said that he was tired."
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Reporting verb in the past shifts \"am\" to \"was\" and \"I\" to \"he\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-direct-indirect-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "direct-indirect",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the indirect speech: She asked me, \"Where do you live?\"",
+  "options": [
+   "She asked me where do I live.",
+   "She asked me where I lived.",
+   "She asked me where did I live.",
+   "She asked me where I live?"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "In reported questions, use statement word order and shift the tense.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-direct-indirect-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "direct-indirect",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the indirect speech: The teacher said to the class, \"Open your books.\"",
+  "options": [
+   "The teacher said the class that open your books.",
+   "The teacher asked the class if open their books.",
+   "The teacher told the class opened their books.",
+   "The teacher ordered the class to open their books."
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Imperatives are reported with \"ordered/told + to + verb\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-vocabulary-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "vocabulary",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Choose the synonym of ABUNDANT.",
+  "options": [
+   "Scarce",
+   "Plentiful",
+   "Rare",
+   "Limited"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Abundant means existing in large quantities.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-vocabulary-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "vocabulary",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Choose the synonym of BRIEF.",
+  "options": [
+   "Complex",
+   "Vague",
+   "Short",
+   "Lengthy"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Brief means of short duration or length.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-vocabulary-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "vocabulary",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the synonym of CANDID.",
+  "options": [
+   "Shy",
+   "Secretive",
+   "Rude",
+   "Frank"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Candid means truthful and straightforward.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-vocabulary-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "vocabulary",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the synonym of METICULOUS.",
+  "options": [
+   "Lazy",
+   "Hasty",
+   "Careful",
+   "Careless"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Meticulous means showing great attention to detail.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-vocabulary-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "vocabulary",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the synonym of EPHEMERAL.",
+  "options": [
+   "Valuable",
+   "Ancient",
+   "Permanent",
+   "Short-lived"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Ephemeral things last only a very short time.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-vocabulary-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "vocabulary",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Choose the antonym of EXPAND.",
+  "options": [
+   "Grow",
+   "Contract",
+   "Enlarge",
+   "Extend"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "To expand is to become larger; to contract is to become smaller.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-vocabulary-007",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "vocabulary",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Choose the antonym of ANCIENT.",
+  "options": [
+   "Historic",
+   "Old",
+   "Aged",
+   "Modern"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Ancient means very old; modern is its opposite.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-vocabulary-008",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "vocabulary",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the antonym of GENEROUS.",
+  "options": [
+   "Stingy",
+   "Liberal",
+   "Lavish",
+   "Kind"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Generous means giving freely; stingy means unwilling to give.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-vocabulary-009",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "vocabulary",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Choose the antonym of VICTORY.",
+  "options": [
+   "Defeat",
+   "Success",
+   "Win",
+   "Triumph"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Victory is winning; defeat is losing.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-idioms-phrases-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "idioms-phrases",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What does the idiom \"a piece of cake\" mean?",
+  "options": [
+   "A small gift",
+   "Something very easy",
+   "Something expensive",
+   "A sweet dessert"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "It describes a task that is very easy to do.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-idioms-phrases-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "idioms-phrases",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What does \"break the ice\" mean?",
+  "options": [
+   "Cool a drink",
+   "Start a conversation in an awkward situation",
+   "End a friendship",
+   "Damage something fragile"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "To break the ice is to ease initial social tension.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-idioms-phrases-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "idioms-phrases",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What does \"once in a blue moon\" mean?",
+  "options": [
+   "Every month",
+   "Very rarely",
+   "At night",
+   "Very often"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "A \"blue moon\" is rare, so the phrase means \"very seldom\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-idioms-phrases-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "idioms-phrases",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What does \"hit the nail on the head\" mean?",
+  "options": [
+   "Make a mistake",
+   "Say or do exactly the right thing",
+   "Work very hard",
+   "Cause an injury"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "It means to be exactly right about something.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-sentence-correction-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "sentence-correction",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Choose the grammatically correct sentence.",
+  "options": [
+   "He not knows the answer.",
+   "He do not know the answer.",
+   "He does not knows the answer.",
+   "He does not know the answer."
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "After \"does\", the main verb stays in base form: \"know\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-sentence-correction-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "sentence-correction",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the grammatically correct sentence.",
+  "options": [
+   "Me and him went to the market.",
+   "Him and I went to the market.",
+   "Me and he went to the market.",
+   "He and I went to the market."
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Subject pronouns (he, I) are used as subjects.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-fill-blanks-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "fill-blanks",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "The CEO's speech was so ___ that the entire audience was moved to tears.",
+  "options": [
+   "trivial",
+   "ambiguous",
+   "touching",
+   "boring"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Being moved to tears suggests an emotionally affecting speech.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-fill-blanks-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "fill-blanks",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Despite his best efforts, the plan ___ because of poor planning.",
+  "options": [
+   "succeeded",
+   "flourished",
+   "improved",
+   "failed"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "\"Despite\" and \"poor planning\" point to a negative outcome.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-fill-blanks-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "fill-blanks",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "She has a ___ for languages; she picks them up quickly.",
+  "options": [
+   "lack",
+   "fear",
+   "dislike",
+   "knack"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "A \"knack for\" something means a natural talent for it.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-para-jumbles-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "para-jumbles",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Arrange in order — P: She opened the door. Q: There was a knock at the door. R: A courier stood outside with a parcel. S: She signed for it and thanked him.",
+  "options": [
+   "QRPS",
+   "RQPS",
+   "PQRS",
+   "QPRS"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The knock (Q) comes first, she opens the door (P), sees the courier (R), then signs (S).",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-para-jumbles-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "para-jumbles",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Arrange in order — P: He studied hard for months. Q: Rohan wanted to crack the placement exam. R: He cleared all three rounds. S: Finally, the offer letter arrived.",
+  "options": [
+   "QRSP",
+   "QPRS",
+   "SRQP",
+   "PQRS"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Goal (Q), effort (P), result (R), outcome (S).",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-parts-of-speech-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "parts-of-speech",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Identify the adverb: \"She sings beautifully.\"",
+  "options": [
+   "None",
+   "sings",
+   "She",
+   "beautifully"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "\"Beautifully\" modifies the verb \"sings\", so it is an adverb.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-parts-of-speech-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "parts-of-speech",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Identify the preposition: \"The cat jumped over the fence.\"",
+  "options": [
+   "cat",
+   "fence",
+   "over",
+   "jumped"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "\"Over\" shows the relationship between the cat's movement and the fence.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-parts-of-speech-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "parts-of-speech",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "In \"He ran quickly\", the word \"quickly\" is a(n)",
+  "options": [
+   "noun",
+   "adjective",
+   "verb",
+   "adverb"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "\"Quickly\" tells how he ran, so it is an adverb.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-reading-comprehension-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "reading-comprehension",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Passage: Remote work has changed how many software teams operate. Without a shared office, teams rely heavily on written communication, documentation and scheduled meetings. Companies report that clear documentation reduces repeated questions and helps new members join faster. However, some managers worry that informal conversations, which often spark ideas, are harder to recreate online. As a result, several teams now set aside short, unstructured video calls just for casual discussion.\n\nWhat do remote teams rely on heavily?",
+  "options": [
+   "Only phone calls",
+   "Informal hallway talks",
+   "Written communication and documentation",
+   "Shared office space"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The passage says teams rely on written communication, documentation and scheduled meetings.",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-reading-comprehension-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "reading-comprehension",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Passage: Remote work has changed how many software teams operate. Without a shared office, teams rely heavily on written communication, documentation and scheduled meetings. Companies report that clear documentation reduces repeated questions and helps new members join faster. However, some managers worry that informal conversations, which often spark ideas, are harder to recreate online. As a result, several teams now set aside short, unstructured video calls just for casual discussion.\n\nWhat concern do some managers have?",
+  "options": [
+   "Meetings are too short",
+   "New members join slowly",
+   "Documentation is too long",
+   "Idea-sparking informal conversations are harder to recreate online"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The passage says informal conversations that spark ideas are harder to recreate online.",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-reading-comprehension-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "reading-comprehension",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Passage: Remote work has changed how many software teams operate. Without a shared office, teams rely heavily on written communication, documentation and scheduled meetings. Companies report that clear documentation reduces repeated questions and helps new members join faster. However, some managers worry that informal conversations, which often spark ideas, are harder to recreate online. As a result, several teams now set aside short, unstructured video calls just for casual discussion.\n\nWhy have some teams added short, unstructured video calls?",
+  "options": [
+   "To create room for casual discussion",
+   "To replace written documentation",
+   "To reduce the number of meetings",
+   "To train new members"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The passage says these calls are set aside \"just for casual discussion\".",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-reading-comprehension-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "reading-comprehension",
+  "difficulty": "hard",
+  "type": "mcq_single",
+  "text": "Passage: Remote work has changed how many software teams operate. Without a shared office, teams rely heavily on written communication, documentation and scheduled meetings. Companies report that clear documentation reduces repeated questions and helps new members join faster. However, some managers worry that informal conversations, which often spark ideas, are harder to recreate online. As a result, several teams now set aside short, unstructured video calls just for casual discussion.\n\nIn this passage, \"unstructured\" most nearly means",
+  "options": [
+   "poorly built",
+   "without a fixed agenda",
+   "very long",
+   "formally scheduled"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Casual discussion calls have no fixed agenda, in contrast to scheduled meetings.",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-critical-reasoning-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "critical-reasoning",
+  "difficulty": "hard",
+  "type": "mcq_single",
+  "text": "An advertisement claims: \"Regular use of Brand X toothpaste reduces cavities.\" Which finding would most weaken this claim?",
+  "options": [
+   "Brand X is the best-selling toothpaste",
+   "Brand X users also tend to eat less sugar and visit dentists more often",
+   "Brand X costs less than rival brands",
+   "Brand X comes in several flavours"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "An alternative explanation (diet, dental visits) undermines the causal link. The other options are irrelevant to cavities.",
+  "estimatedSeconds": 80
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-critical-reasoning-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "critical-reasoning",
+  "difficulty": "hard",
+  "type": "mcq_single",
+  "text": "A company's revenue rose 20% while its headcount stayed the same. Which inference is best supported?",
+  "options": [
+   "Employees worked longer hours",
+   "Profit rose by 20%",
+   "Revenue per employee increased",
+   "Costs fell by 20%"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "With revenue up and headcount unchanged, revenue per employee must have risen. The other options need extra information.",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-email-writing-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "email-writing",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which is the most appropriate subject line for an email requesting a one-day leave?",
+  "options": [
+   "Request for leave on 12 March",
+   "URGENT!!! READ NOW",
+   "Hey!!",
+   "Leave"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A good subject line is specific and professional.",
+  "estimatedSeconds": 40
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-email-writing-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "email-writing",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which closing is most appropriate for a formal email to a hiring manager?",
+  "options": [
+   "Yours sincerely,",
+   "Cheers!",
+   "Catch you later",
+   "Bye for now"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Formal emails end with a polite, professional sign-off.",
+  "estimatedSeconds": 40
+ }
+]

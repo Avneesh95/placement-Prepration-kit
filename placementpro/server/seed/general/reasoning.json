@@ -1,0 +1,1371 @@
+[
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-blood-relations-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "blood-relations",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Pointing to a man, a woman says, 'He is the son of my mother's only son.' How is the man related to the woman?",
+  "options": [
+   "Cousin",
+   "Nephew",
+   "Brother",
+   "Son"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Her mother's only son is her brother; his son is her nephew.",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-blood-relations-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "blood-relations",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "A is B's sister. C is B's mother. D is C's father. How is A related to D?",
+  "options": [
+   "Sister",
+   "Grandmother",
+   "Daughter",
+   "Granddaughter"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "A and B are children of C. D is C's father, so A is D's granddaughter.",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-blood-relations-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "blood-relations",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Pointing to a photograph, Rohit says, 'She is the daughter of my grandfather's only son.' How is she related to Rohit?",
+  "options": [
+   "Niece",
+   "Cousin",
+   "Sister",
+   "Aunt"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Rohit's grandfather's only son is Rohit's father. His daughter is Rohit's sister.",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-blood-relations-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "blood-relations",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "P is the brother of Q. Q is the sister of R. R is the father of S. How is P related to S?",
+  "options": [
+   "Grandfather",
+   "Uncle",
+   "Father",
+   "Cousin"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "P and R are siblings, so P is the brother of S's father, i.e. S's uncle.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-blood-relations-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "blood-relations",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Anita, a woman, says, 'Raj's mother is the only daughter of my mother.' How is Anita related to Raj?",
+  "options": [
+   "Aunt",
+   "Grandmother",
+   "Sister",
+   "Mother"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The only daughter of Anita's mother is Anita herself, so Anita is Raj's mother.",
+  "estimatedSeconds": 80
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-blood-relations-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "blood-relations",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Sita's father is Ram's son. How is Ram related to Sita?",
+  "options": [
+   "Father",
+   "Uncle",
+   "Grandfather",
+   "Brother"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Ram's son is Sita's father, so Ram is Sita's paternal grandfather.",
+  "estimatedSeconds": 40
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-blood-relations-007",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "blood-relations",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Introducing a man, a woman said, 'His wife is the only daughter of my father.' How is the woman related to the man?",
+  "options": [
+   "Daughter",
+   "Mother",
+   "Wife",
+   "Sister"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The only daughter of the woman's father is the woman herself, so she is his wife.",
+  "estimatedSeconds": 80
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-blood-relations-008",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "blood-relations",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "X is the father of Y. Y is the sister of Z. Z is the mother of W. How is X related to W?",
+  "options": [
+   "Father",
+   "Grandfather",
+   "Brother",
+   "Uncle"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Y and Z are X's daughters; W is Z's child, so X is W's grandfather.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-syllogisms-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "syllogisms",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Statements: All cats are animals. All animals are living beings. Conclusions: I. All cats are living beings. II. All living beings are cats.",
+  "options": [
+   "Only I follows",
+   "Only II follows",
+   "Both follow",
+   "Neither follows"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The chain cats ⊂ animals ⊂ living beings gives I. II reverses the relation and does not follow.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-syllogisms-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "syllogisms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Statements: Some doctors are teachers. All teachers are honest. Conclusions: I. Some doctors are honest. II. All doctors are honest.",
+  "options": [
+   "Only I follows",
+   "Only II follows",
+   "Both follow",
+   "Neither follows"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Those doctors who are teachers are honest, so some doctors are honest. We cannot say all doctors are.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-syllogisms-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "syllogisms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Statements: No pen is a book. All books are papers. Conclusions: I. No pen is a paper. II. Some papers are books.",
+  "options": [
+   "Only I follows",
+   "Only II follows",
+   "Both follow",
+   "Neither follows"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Books are papers, so some papers are books (II). Pens could still be other kinds of paper, so I does not follow.",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-syllogisms-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "syllogisms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Statements: All flowers are trees. Some trees are rocks. Conclusions: I. Some flowers are rocks. II. Some rocks are trees.",
+  "options": [
+   "Only I follows",
+   "Neither follows",
+   "Both follow",
+   "Only II follows"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "\"Some trees are rocks\" converts to \"some rocks are trees\". The flowers–rocks link is not established.",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-syllogisms-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "syllogisms",
+  "difficulty": "hard",
+  "type": "mcq_single",
+  "text": "Statements: Some A are B. Some B are C. Conclusions: I. Some A are C. II. Some C are A.",
+  "options": [
+   "Both follow",
+   "Only II follows",
+   "Neither follows",
+   "Only I follows"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Two \"some\" statements never guarantee that the end terms overlap.",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-syllogisms-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "syllogisms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Statements: All A are B. No B is C. Conclusions: I. No A is C. II. Some A are C.",
+  "options": [
+   "Only I follows",
+   "Both follow",
+   "Neither follows",
+   "Only II follows"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A ⊂ B and B has nothing in common with C, so A has nothing in common with C.",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-statements-assumptions-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "statements-assumptions",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Statement: \"Please use the stairs; the lift is under repair.\" Assumptions: I. The lift is currently not working. II. Everyone in the building is able to climb stairs.",
+  "options": [
+   "Only II is implicit",
+   "Neither is implicit",
+   "Only I is implicit",
+   "Both are implicit"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The notice rests on the lift being unavailable. It does not assume that everyone can climb stairs.",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-analogies-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "analogies",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Doctor : Hospital :: Teacher : ?",
+  "options": [
+   "School",
+   "Book",
+   "Exam",
+   "Student"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A doctor works in a hospital; a teacher works in a school.",
+  "estimatedSeconds": 30
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-analogies-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "analogies",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "8 : 64 :: 9 : ?",
+  "options": [
+   "72",
+   "99",
+   "81",
+   "90"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The second number is the square of the first.",
+  "estimatedSeconds": 30
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-analogies-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "analogies",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Bird : Fly :: Fish : ?",
+  "options": [
+   "Walk",
+   "Water",
+   "Swim",
+   "Fin"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The pairs relate a creature to its mode of movement.",
+  "estimatedSeconds": 30
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-analogies-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "analogies",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Book : Library :: Painting : ?",
+  "options": [
+   "Artist",
+   "Brush",
+   "Gallery",
+   "Canvas"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "A library houses books; a gallery houses paintings.",
+  "estimatedSeconds": 30
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-analogies-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "analogies",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "3 : 27 :: 4 : ?",
+  "options": [
+   "64",
+   "81",
+   "256",
+   "48"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The second number is the cube of the first.",
+  "estimatedSeconds": 30
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-analogies-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "analogies",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "CAT : DBU :: DOG : ?",
+  "options": [
+   "FPI",
+   "DPH",
+   "EOH",
+   "EPH"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Each letter moves one step forward.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-classification-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "classification",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Find the odd one out: Apple, Mango, Potato, Banana",
+  "options": [
+   "Potato",
+   "Banana",
+   "Apple",
+   "Mango"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Potato is a vegetable; the others are fruits.",
+  "estimatedSeconds": 30
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-classification-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "classification",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Find the odd one out: Circle, Square, Triangle, Cube",
+  "options": [
+   "Cube",
+   "Circle",
+   "Square",
+   "Triangle"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A cube is a three-dimensional solid; the others are flat shapes.",
+  "estimatedSeconds": 30
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-classification-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "classification",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Find the odd one out: Java, Python, C++, MySQL",
+  "options": [
+   "Java",
+   "C++",
+   "Python",
+   "MySQL"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "MySQL is a database system; the others are programming languages.",
+  "estimatedSeconds": 30
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-classification-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "classification",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Find the odd one out: 2, 3, 5, 9, 11",
+  "options": [
+   "5",
+   "11",
+   "9",
+   "2"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "9 = 3 × 3 is not prime; the others are prime.",
+  "estimatedSeconds": 30
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-seating-arrangements-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "seating-arrangements",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Five friends A, B, C, D, E sit in a row facing north. A is at the extreme left. C is immediately right of A. E is at the extreme right. B is immediately left of E. Who sits in the middle?",
+  "options": [
+   "B",
+   "D",
+   "C",
+   "E"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Order left to right: A, C, D, B, E. The middle seat belongs to D.",
+  "estimatedSeconds": 80
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-seating-arrangements-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "seating-arrangements",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Four people sit in a row. Mohan sits to the left of Sohan, Rohan sits to the right of Sohan, and Dev sits to the left of Mohan. Who is at the extreme right?",
+  "options": [
+   "Rohan",
+   "Dev",
+   "Mohan",
+   "Sohan"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Order left to right: Dev, Mohan, Sohan, Rohan.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-seating-arrangements-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "seating-arrangements",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Four friends A, B, C, D sit around a circular table facing the centre. A sits opposite C. B sits to the immediate right of A. Who sits to the immediate left of A?",
+  "options": [
+   "C",
+   "D",
+   "B",
+   "Cannot be determined"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "A's neighbours are B and D (C is opposite). B is on the right, so D is on the left.",
+  "estimatedSeconds": 80
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-data-sufficiency-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "data-sufficiency",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is Priya's age? I. Priya is 4 years older than Rahul. II. Rahul is 20 years old.",
+  "options": [
+   "Neither is sufficient",
+   "Both statements together are needed",
+   "I alone is sufficient",
+   "II alone is sufficient"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Neither statement alone gives Priya's age; together, Priya is 24.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-data-sufficiency-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "data-sufficiency",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Is the integer n even? I. n is divisible by 6. II. n is greater than 10.",
+  "options": [
+   "I alone is sufficient",
+   "Both together are needed",
+   "Neither is sufficient",
+   "II alone is sufficient"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Any multiple of 6 is even. Knowing n > 10 does not settle parity.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-data-sufficiency-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "data-sufficiency",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What is the value of x? I. 2x + 4 = 10. II. x is a prime number.",
+  "options": [
+   "Both together are needed",
+   "Neither is sufficient",
+   "II alone is sufficient",
+   "I alone is sufficient"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Statement I gives x = 3. Statement II alone allows many values.",
+  "estimatedSeconds": 50
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-venn-diagrams-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "venn-diagrams",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which relationship correctly describes: Surgeons, Doctors, Humans?",
+  "options": [
+   "Surgeons inside Doctors inside Humans",
+   "Surgeons and Humans overlap, Doctors separate",
+   "Three separate circles",
+   "Doctors inside Surgeons inside Humans"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "All surgeons are doctors and all doctors are humans, so the sets nest.",
+  "estimatedSeconds": 40
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-venn-diagrams-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "venn-diagrams",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "In a class of 60, 35 play cricket, 25 play football and 10 play both. How many play neither?",
+  "options": [
+   "15",
+   "5",
+   "10",
+   "20"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Play at least one = 35 + 25 − 10 = 50. Neither = 60 − 50 = 10.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-venn-diagrams-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "venn-diagrams",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Of 100 people, 70 like tea and 60 like coffee. Everyone likes at least one. How many like both?",
+  "options": [
+   "20",
+   "10",
+   "30",
+   "40"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Both = 70 + 60 − 100 = 30.",
+  "estimatedSeconds": 50
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-logical-deduction-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "logical-deduction",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "In a race, Asha finished before Bala, Bala before Chitra, and Dinesh finished after Chitra but before Esha. Who finished third?",
+  "options": [
+   "Dinesh",
+   "Chitra",
+   "Asha",
+   "Bala"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Order: Asha, Bala, Chitra, Dinesh, Esha.",
+  "estimatedSeconds": 50
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-logical-deduction-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "logical-deduction",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "A is taller than B. B is taller than C. D is shorter than C. Who is the shortest?",
+  "options": [
+   "A",
+   "C",
+   "B",
+   "D"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Order by height: A > B > C > D.",
+  "estimatedSeconds": 40
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-logical-deduction-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "logical-deduction",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Today is Monday. Anil's birthday was 3 days before the day after tomorrow. On which day was it?",
+  "options": [
+   "Monday",
+   "Saturday",
+   "Friday",
+   "Sunday"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Day after tomorrow = Wednesday. Three days before Wednesday is Sunday.",
+  "estimatedSeconds": 50
+ }
+]

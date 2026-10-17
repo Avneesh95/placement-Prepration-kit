@@ -1,0 +1,1493 @@
+[
+ {
+  "uid": "tech-mahindra-apt-percentages-001",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "percentages",
+  "subtopic": "finding the whole",
+  "difficulty": "easy",
+  "explanation": "Number = 72 × 100 / 36 = 200.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "72 is 36% of a number. What is the number?",
+  "options": [
+   "200",
+   "160",
+   "220",
+   "300"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-percentages-002",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "percentages",
+  "subtopic": "successive change",
+  "difficulty": "medium",
+  "explanation": "Net change = x − y − xy/100 = 25 − 20 − (25×20)/100 = 0%. A positive value means a net increase, a negative one a net decrease.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number is first increased by 25% and then decreased by 20%. What is the net percentage change?",
+  "options": [
+   "0%",
+   "12.5%",
+   "-2.5%",
+   "10%"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-profit-loss-003",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "discount",
+  "difficulty": "easy",
+  "explanation": "Price = 5200 × (100 − 10)/100 = 4680.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A shirt has a marked price of ₹5,200. A discount of 10% is given. What is the price paid (in ₹)?",
+  "options": [
+   "3276",
+   "3744",
+   "4680",
+   "5148"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-profit-loss-004",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "cost price from loss",
+  "difficulty": "medium",
+  "explanation": "SP = 0.80 × CP → CP = 1280 × 100/80 = 1600.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "By selling an item for ₹1,280, a shopkeeper incurs a loss of 20%. What was the cost price (in ₹)?",
+  "options": [
+   "1600",
+   "1760",
+   "1280",
+   "2080"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-ratio-proportion-005",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 17. One part = 3910/17 = 230. Second share = 4 × 230 = 920.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹3,910 is divided among three people in the ratio 5:4:8. How much does the second person get (in ₹)?",
+  "options": [
+   "920",
+   "828",
+   "1104",
+   "1196"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-ratio-proportion-006",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 13. One part = 2990/13 = 230. Second share = 2 × 230 = 460.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹2,990 is divided among three people in the ratio 3:2:8. How much does the second person get (in ₹)?",
+  "options": [
+   "322",
+   "598",
+   "414",
+   "460"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-averages-007",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 130. Sum of 6 = 192. Sixth number = 192 − 130 = 62.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 26. A sixth number is added and the average becomes 32. What is the sixth number?",
+  "options": [
+   "44",
+   "62",
+   "56",
+   "50"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-averages-008",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 175. Sum of 6 = 240. Sixth number = 240 − 175 = 65.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 35. A sixth number is added and the average becomes 40. What is the sixth number?",
+  "options": [
+   "65",
+   "44",
+   "86",
+   "72"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-time-work-009",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/4 + 1/12 = 16/48 per day. Days = 48/16 = 3.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A can finish a job in 4 days and B can finish it in 12 days. Working together, in how many days will they finish it?\n(Type your answer as a number.)",
+  "numericAnswer": 3,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-time-work-010",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/40 + 1/60 = 100/2400 per day. Days = 2400/100 = 24.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A can finish a job in 40 days and B can finish it in 60 days. Working together, in how many days will they finish it?\n(Type your answer as a number.)",
+  "numericAnswer": 24,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-pipes-cisterns-011",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/20. Pipe rate = 1/4. Leak rate = 1/4 − 1/20 = 16/80 = 1/5. So the leak empties the tank in 5 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 4 hours. Because of a leak at the bottom, it takes the pipe 20 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "3",
+   "5",
+   "9",
+   "6"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-pipes-cisterns-012",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/12. Pipe rate = 1/3. Leak rate = 1/3 − 1/12 = 9/36 = 1/4. So the leak empties the tank in 4 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 3 hours. Because of a leak at the bottom, it takes the pipe 12 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "4",
+   "7",
+   "2",
+   "8"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-speed-distance-013",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "train crossing a pole",
+  "difficulty": "medium",
+  "explanation": "Speed = 36 × 5/18 = 10 m/s. Time = 40/10 = 4 s.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train 40 m long runs at 36 km/h. How many seconds does it take to cross a telegraph pole?",
+  "options": [
+   "7",
+   "3",
+   "4",
+   "1"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-speed-distance-014",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "trains in opposite directions",
+  "difficulty": "hard",
+  "explanation": "Relative speed = 21 + 123 = 144 km/h = 40 m/s. Distance = 200 + 200 = 400 m. Time = 400/40 = 10 s.",
+  "estimatedSeconds": 100,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Two trains of lengths 200 m and 200 m run in opposite directions at 21 km/h and 123 km/h. In how many seconds do they completely cross each other?",
+  "options": [
+   "10",
+   "7",
+   "14",
+   "13"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-boats-streams-015",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 10 + 2 = 12 km/h. Time = 36/12 = 3 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A boat goes 10 km/h in still water and the stream flows at 2 km/h. How many hours will it take to go 36 km downstream?\n(Type your answer as a number.)",
+  "numericAnswer": 3,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-boats-streams-016",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "upstream speed",
+  "difficulty": "easy",
+  "explanation": "Upstream speed = 17 − 5 = 12 km/h.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat's speed in still water is 17 km/h and the stream's speed is 5 km/h. What is its speed upstream (in km/h)?",
+  "options": [
+   "9",
+   "17",
+   "12",
+   "14"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-interest-017",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "interest",
+  "subtopic": "simple interest",
+  "difficulty": "easy",
+  "explanation": "SI = PRT/100 = 38000×12×3/100 = 13680.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the simple interest on ₹38,000 at 12% per annum for 3 years (in ₹).",
+  "options": [
+   "13680",
+   "15048",
+   "20520",
+   "16416"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-interest-018",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "interest",
+  "subtopic": "simple interest",
+  "difficulty": "easy",
+  "explanation": "SI = PRT/100 = 39000×4×5/100 = 7800.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the simple interest on ₹39,000 at 4% per annum for 5 years (in ₹).",
+  "options": [
+   "7800",
+   "9360",
+   "8580",
+   "10920"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-number-series-019",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "number-series",
+  "subtopic": "increasing differences",
+  "difficulty": "medium",
+  "explanation": "Differences are 5, 6, 7, 8 — they grow by 1 each step. Next difference 9, so 35 + 9 = 44.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Find the next number: 9, 14, 20, 27, 35, ?\n(Type your answer as a number.)",
+  "numericAnswer": 44,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-number-series-020",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "number-series",
+  "subtopic": "increasing differences",
+  "difficulty": "medium",
+  "explanation": "Differences are 5, 6, 7, 8 — they grow by 1 each step. Next difference 9, so 28 + 9 = 37.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 2, 7, 13, 20, 28, ?",
+  "options": [
+   "45",
+   "57",
+   "25",
+   "37"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-hcf-lcm-021",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "LCM of two numbers",
+  "difficulty": "easy",
+  "explanation": "HCF = 5. LCM = (25 × 15)/5 = 75.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the LCM of 25 and 15.",
+  "options": [
+   "83",
+   "75",
+   "107",
+   "67"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-hcf-lcm-022",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "HCF × LCM relation",
+  "difficulty": "medium",
+  "explanation": "Product of the numbers = HCF × LCM = 7 × 147 = 1029. Other number = 1029/49 = 21.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The HCF of two numbers is 7 and their LCM is 147. If one number is 49, what is the other?",
+  "options": [
+   "27",
+   "21",
+   "23",
+   "25"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-ages-023",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "ages",
+  "subtopic": "ages in the past",
+  "difficulty": "medium",
+  "explanation": "Sita 4 years ago = 15. Ravi then = 3 × 15 = 45. Ravi now = 45 + 4 = 49.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "4 years ago, Ravi was 3 times as old as Sita. Sita is now 19 years old. How old is Ravi now?",
+  "options": [
+   "49",
+   "59",
+   "54",
+   "34"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-ages-024",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "ages",
+  "subtopic": "sum and difference",
+  "difficulty": "easy",
+  "explanation": "Asha = (sum + difference)/2 = (70 + 14)/2 = 42.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The sum of the ages of Asha and Bala is 70 years and Asha is 14 years older than Bala. How old is Asha?",
+  "options": [
+   "34",
+   "30",
+   "38",
+   "42"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-permutations-combinations-025",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "arrangements with repeated letters",
+  "difficulty": "hard",
+  "explanation": "5! divided by the factorial of each repeated letter's count (L:2, E:2) = 30.",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many distinct arrangements can be made using all the letters of the word LEVEL?",
+  "options": [
+   "42",
+   "45",
+   "30",
+   "24"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-permutations-combinations-026",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "combinations",
+  "difficulty": "easy",
+  "explanation": "7C2 = 7!/(2!×5!) = 21.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can a committee of 2 be chosen from 7 people?",
+  "options": [
+   "15",
+   "25",
+   "21",
+   "29"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-probability-027",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "probability",
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 7/13 = 7/13.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A bag has 7 red and 6 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "options": [
+   "1/2",
+   "7/13",
+   "6/13",
+   "8/13"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-probability-028",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "probability",
+  "subtopic": "two dice",
+  "difficulty": "medium",
+  "explanation": "Ways to get a sum of 3 = 2 out of 36 outcomes, so P = 2/36 = 1/18.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 3?",
+  "options": [
+   "1/12",
+   "1/18",
+   "1/9",
+   "1/36"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-mixtures-alligation-029",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "mean price",
+  "difficulty": "medium",
+  "explanation": "Mean price = (2×100 + 2×140)/4 = 120.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Rice at ₹100/kg and rice at ₹140/kg are mixed in the ratio 2:2. What is the price per kg of the mixture (in ₹)?",
+  "options": [
+   "168",
+   "120",
+   "108",
+   "156"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-mixtures-alligation-030",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 25 L, water = 10 L. For 1:1 water must equal milk, so add 25 − 10 = 15 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A 35 litre mixture has milk and water in the ratio 5:2. How many litres of water must be added to make the ratio 1:1?\n(Type your answer as a number.)",
+  "numericAnswer": 15,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-partnership-031",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 6000×8 : 5000×11 = 48000 : 55000 = 48 : 55. Anil's share = 48/103 × 30900 = 14400.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Anil invests ₹6,000 for 8 months and Binu invests ₹5,000 for 11 months. They earn a profit of ₹30,900. What is Anil's share (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 14400,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-partnership-032",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 2000×6 : 5000×7 = 12000 : 35000 = 12 : 35. Anil's share = 12/47 × 18800 = 4800.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Anil invests ₹2,000 for 6 months and Binu invests ₹5,000 for 7 months. They earn a profit of ₹18,800. What is Anil's share (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 4800,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-algebra-033",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "algebra",
+  "subtopic": "x + 1/x identity",
+  "difficulty": "medium",
+  "explanation": "Square both sides: x² + 2 + 1/x² = 64. So x² + 1/x² = 64 − 2 = 62.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "If x + 1/x = 8, find the value of x² + 1/x².\n(Type your answer as a number.)",
+  "numericAnswer": 62,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-algebra-034",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "algebra",
+  "subtopic": "x + 1/x identity",
+  "difficulty": "medium",
+  "explanation": "Square both sides: x² + 2 + 1/x² = 25. So x² + 1/x² = 25 − 2 = 23.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If x + 1/x = 5, find the value of x² + 1/x².",
+  "options": [
+   "23",
+   "31",
+   "33",
+   "21"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-progressions-035",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "progressions",
+  "subtopic": "sum of AP",
+  "difficulty": "medium",
+  "explanation": "Sₙ = n/2 × [2a + (n−1)d] = 16/2 × [10 + 60] = 560.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Find the sum of the first 16 terms of the AP 5, 9, 13, ...\n(Type your answer as a number.)",
+  "numericAnswer": 560,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-progressions-036",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "progressions",
+  "subtopic": "sum of AP",
+  "difficulty": "medium",
+  "explanation": "Sₙ = n/2 × [2a + (n−1)d] = 12/2 × [16 + 66] = 492.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the sum of the first 12 terms of the AP 8, 14, 20, ...",
+  "options": [
+   "394",
+   "492",
+   "688",
+   "443"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-geometry-mensuration-037",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "rectangle",
+  "difficulty": "easy",
+  "explanation": "l + b = 20, so b = 5 cm. Area = 15 × 5 = 75 cm².",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The perimeter of a rectangle is 40 cm and its length is 15 cm. What is its area (in cm²)?",
+  "options": [
+   "75",
+   "91",
+   "115",
+   "107"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-geometry-mensuration-038",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "right triangle",
+  "difficulty": "easy",
+  "explanation": "Hypotenuse = √(9² + 12²) = √225 = 15 cm.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The two shorter sides of a right-angled triangle are 9 cm and 12 cm. Find the hypotenuse (in cm).",
+  "options": [
+   "21",
+   "15",
+   "9",
+   "19"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-data-interpretation-039",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
+  "difficulty": "medium",
+  "explanation": "Change = (220 − 250)/250 × 100 = -12%.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 170 | 220 | 120\nBooks | 160 | 100 | 170\nBags | 250 | 170 | 220\nBottles | 140 | 170 | 120\n\nBy what percentage did sales of Bags change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "options": [
+   "-27%",
+   "-17%",
+   "13%",
+   "-12%"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-data-interpretation-040",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
+  "difficulty": "medium",
+  "explanation": "Change = (270 − 320)/320 × 100 = -15.62%.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 320 | 290 | 120\nBooks | 320 | 370 | 270\nBags | 250 | 260 | 210\nBottles | 390 | 370 | 150\n\nBy what percentage did sales of Books change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "options": [
+   "-30.62%",
+   "-10.62%",
+   "-20.62%",
+   "-15.62%"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-approximation-simplification-041",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 60 × 2 = 120; ÷ 5 = 24; then + 40 − 1 = 63.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 60 × 2 ÷ 5 + 40 − 1",
+  "options": [
+   "63",
+   "87",
+   "51",
+   "75"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-approximation-simplification-042",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 28 × 7 = 196; ÷ 4 = 49; then + 39 − 1 = 87.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 28 × 7 ÷ 4 + 39 − 1",
+  "options": [
+   "114",
+   "96",
+   "69",
+   "87"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-remainders-divisibility-043",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "division remainder",
+  "difficulty": "easy",
+  "explanation": "Dividend = divisor × quotient + remainder = 7×62 + 6 = 440.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number gives remainder 6 when divided by 7. If the quotient is 62, what is the number?",
+  "options": [
+   "396",
+   "572",
+   "440",
+   "616"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-remainders-divisibility-044",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "division remainder",
+  "difficulty": "easy",
+  "explanation": "Dividend = divisor × quotient + remainder = 13×20 + 2 = 262.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number gives remainder 2 when divided by 13. If the quotient is 20, what is the number?",
+  "options": [
+   "340",
+   "366",
+   "262",
+   "210"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-number-systems-045",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "number-systems",
+  "subtopic": "primes in a range",
+  "difficulty": "medium",
+  "explanation": "The primes in the range are 37, 41, 43, 47 — 4 in total.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many prime numbers are there between 33 and 50 (both inclusive)?",
+  "options": [
+   "1",
+   "4",
+   "7",
+   "6"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-number-systems-046",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "number-systems",
+  "subtopic": "primes in a range",
+  "difficulty": "medium",
+  "explanation": "The primes in the range are 29, 31, 37, 41, 43 — 5 in total.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "How many prime numbers are there between 25 and 44 (both inclusive)?\n(Type your answer as a number.)",
+  "numericAnswer": 5,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-data-interpretation-047",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "column totals",
+  "difficulty": "easy",
+  "explanation": "2024: 280 + 210 + 310 + 180 = 980.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 150 | 360 | 280\nBooks | 290 | 130 | 210\nBags | 200 | 310 | 310\nBottles | 300 | 200 | 180\n\nHow many items of all products together were sold in 2024 (in hundreds)?",
+  "options": [
+   "1470",
+   "980",
+   "1078",
+   "784"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-data-interpretation-048",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "column totals",
+  "difficulty": "easy",
+  "explanation": "2024: 90 + 270 + 310 + 120 = 790.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 200 | 250 | 90\nBooks | 170 | 260 | 270\nBags | 80 | 110 | 310\nBottles | 240 | 100 | 120\n\nHow many items of all products together were sold in 2024 (in hundreds)?",
+  "options": [
+   "1106",
+   "790",
+   "1185",
+   "869"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-boats-streams-049",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "upstream speed",
+  "difficulty": "easy",
+  "explanation": "Upstream speed = 14 − 2 = 12 km/h.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat's speed in still water is 14 km/h and the stream's speed is 2 km/h. What is its speed upstream (in km/h)?",
+  "options": [
+   "12",
+   "16",
+   "13",
+   "17"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-geometry-mensuration-050",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "cylinder",
+  "difficulty": "medium",
+  "explanation": "V = πr²h = 22/7 × 14² × 6 = 3696 cm³.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the volume of a cylinder with radius 14 cm and height 6 cm (π = 22/7), in cm³.",
+  "options": [
+   "3696",
+   "2586",
+   "5546",
+   "4066"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-probability-051",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "probability",
+  "subtopic": "two dice",
+  "difficulty": "medium",
+  "explanation": "Ways to get a sum of 11 = 2 out of 36 outcomes, so P = 2/36 = 1/18.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 11?",
+  "options": [
+   "1/18",
+   "1/36",
+   "1/9",
+   "1/12"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-speed-distance-052",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "trains in opposite directions",
+  "difficulty": "hard",
+  "explanation": "Relative speed = 30 + 60 = 90 km/h = 25 m/s. Distance = 125 + 125 = 250 m. Time = 250/25 = 10 s.",
+  "estimatedSeconds": 100,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Two trains of lengths 125 m and 125 m run in opposite directions at 30 km/h and 60 km/h. In how many seconds do they completely cross each other?",
+  "options": [
+   "9",
+   "13",
+   "11",
+   "10"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-partnership-053",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 6000×12 : 2000×10 = 72000 : 20000 = 18 : 5. Anil's share = 18/23 × 13800 = 10800.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Anil invests ₹6,000 for 12 months and Binu invests ₹2,000 for 10 months. They earn a profit of ₹13,800. What is Anil's share (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 10800,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-number-series-054",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "number-series",
+  "subtopic": "increasing differences",
+  "difficulty": "medium",
+  "explanation": "Differences are 4, 5, 6, 7 — they grow by 1 each step. Next difference 8, so 31 + 8 = 39.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 9, 13, 18, 24, 31, ?",
+  "options": [
+   "27",
+   "59",
+   "39",
+   "35"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-boats-streams-055",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 18 + 6 = 24 km/h. Time = 120/24 = 5 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat goes 18 km/h in still water and the stream flows at 6 km/h. How many hours will it take to go 120 km downstream?",
+  "options": [
+   "7",
+   "5",
+   "6",
+   "2"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tech-mahindra-apt-hcf-lcm-056",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "HCF × LCM relation",
+  "difficulty": "medium",
+  "explanation": "Product of the numbers = HCF × LCM = 9 × 270 = 2430. Other number = 2430/45 = 54.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The HCF of two numbers is 9 and their LCM is 270. If one number is 45, what is the other?",
+  "options": [
+   "54",
+   "44",
+   "69",
+   "39"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ }
+]

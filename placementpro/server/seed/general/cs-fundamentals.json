@@ -1,0 +1,2967 @@
+[
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-java-basics-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "java-basics",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the output?\n\nint x = 5;\nSystem.out.println(x++ + ++x);",
+  "options": [
+   "13",
+   "12",
+   "11",
+   "10"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "x++ yields 5 (x becomes 6); ++x makes x 7 and yields 7. 5 + 7 = 12.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-java-basics-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "java-basics",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What does System.out.println(10 / 4); print in Java?",
+  "options": [
+   "2.0",
+   "2.5",
+   "2",
+   "3"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Both operands are int, so integer division truncates the result to 2.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-java-basics-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "java-basics",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What does System.out.println(10 % 3 + 2 * 3); print?",
+  "options": [
+   "13",
+   "9",
+   "7",
+   "5"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "10 % 3 = 1 and 2 * 3 = 6, so 1 + 6 = 7.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-java-basics-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "java-basics",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which keyword prevents a class from being inherited in Java?",
+  "options": [
+   "final",
+   "abstract",
+   "static",
+   "private"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A final class cannot be extended.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-java-basics-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "java-basics",
+  "difficulty": "hard",
+  "type": "mcq_single",
+  "text": "What is the output?\n\nString s = \"hello\";\nSystem.out.println(s.length() + s.charAt(1));",
+  "options": [
+   "106",
+   "6",
+   "Compilation error",
+   "5e"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "int + char is numeric addition. charAt(1) is 'e' (code 101), so 5 + 101 = 106.",
+  "estimatedSeconds": 70
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-java-basics-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "java-basics",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the output?\n\nString a = new String(\"java\");\nString b = new String(\"java\");\nSystem.out.println((a == b) + \" \" + a.equals(b));",
+  "options": [
+   "true true",
+   "false false",
+   "true false",
+   "false true"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "== compares references (two distinct objects); equals compares contents.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-java-basics-007",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "java-basics",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which of these is NOT a primitive type in Java?",
+  "options": [
+   "int",
+   "boolean",
+   "String",
+   "char"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "String is a class (reference type).",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-java-basics-008",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "java-basics",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What is the default value of an int instance variable in Java?",
+  "options": [
+   "null",
+   "0",
+   "-1",
+   "Undefined"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Instance variables get default values; numeric types default to 0.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-java-basics-009",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "java-basics",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the output?\n\nfor (int i = 0; i < 5; i++) {\n  if (i == 2) continue;\n  if (i == 4) break;\n  System.out.print(i);\n}",
+  "options": [
+   "0134",
+   "01",
+   "0123",
+   "013"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "i=2 is skipped by continue, and the loop stops at i=4 before printing.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-java-basics-010",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "java-basics",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which method is the entry point of a Java application?",
+  "options": [
+   "void start()",
+   "public static void main(String[] args)",
+   "static int main()",
+   "public void run()"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The JVM looks for this exact signature to start a program.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-oop-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "oop",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "A subclass provides its own implementation of a superclass method. Which OOP idea is this?",
+  "options": [
+   "Abstraction",
+   "Composition",
+   "Polymorphism (overriding)",
+   "Encapsulation"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Method overriding is runtime polymorphism.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-oop-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "oop",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which feature of Java supports runtime polymorphism?",
+  "options": [
+   "Method overriding",
+   "Method overloading",
+   "Constructors",
+   "Static methods"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Overriding is resolved at runtime based on the actual object type.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-oop-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "oop",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Can an abstract class be instantiated directly with new?",
+  "options": [
+   "Only if it has no abstract methods",
+   "No",
+   "Yes, always",
+   "Only inside its own package"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Abstract classes cannot be instantiated; only concrete subclasses can.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-oop-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "oop",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the output?\n\nclass A { void show() { System.out.print(\"A\"); } }\nclass B extends A { void show() { System.out.print(\"B\"); } }\n// ...\nA obj = new B();\nobj.show();",
+  "options": [
+   "AB",
+   "B",
+   "Compilation error",
+   "A"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The overridden method of the actual object type (B) runs.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-oop-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "oop",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Java does not allow multiple inheritance of classes. Which feature gives a similar capability?",
+  "options": [
+   "Inner classes only",
+   "Interfaces",
+   "Packages",
+   "Static blocks"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "A class can implement several interfaces.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-oop-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "oop",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Encapsulation means",
+  "options": [
+   "converting one type to another",
+   "hiding a class from other packages",
+   "bundling data with methods and restricting direct access to it",
+   "creating many objects quickly"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Fields are kept private and exposed through methods.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-oop-007",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "oop",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which access modifier makes a member visible only within its own class?",
+  "options": [
+   "private",
+   "default (package-private)",
+   "public",
+   "protected"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "private restricts access to the declaring class.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-oop-008",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "oop",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Constructor overloading means",
+  "options": [
+   "a constructor returns a value",
+   "a subclass has no constructor",
+   "a class has several constructors with different parameter lists",
+   "a constructor calls itself"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Overloaded constructors differ in the number or types of parameters.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-exception-handling-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "exception-handling",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which block runs whether or not an exception occurs (barring JVM exit)?",
+  "options": [
+   "throws",
+   "catch",
+   "finally",
+   "try"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "finally is intended for cleanup that must always run.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-exception-handling-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "exception-handling",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which of these is a checked exception?",
+  "options": [
+   "ArithmeticException",
+   "IOException",
+   "NullPointerException",
+   "ArrayIndexOutOfBoundsException"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Checked exceptions must be handled or declared; the others are runtime exceptions.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-exception-handling-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "exception-handling",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the output?\n\ntry { int x = 5 / 0; }\ncatch (ArithmeticException e) { System.out.print(\"A\"); }\nfinally { System.out.print(\"F\"); }",
+  "options": [
+   "FA",
+   "F",
+   "AF",
+   "A"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Division by zero throws ArithmeticException, caught first, then finally runs.",
+  "estimatedSeconds": 50
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-exception-handling-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "exception-handling",
+  "difficulty": "medium",
+  "type": "mcq_multi",
+  "text": "Select all unchecked exceptions in Java.\n(Select all that apply.)",
+  "options": [
+   "NullPointerException",
+   "FileNotFoundException",
+   "IOException",
+   "ArithmeticException"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "explanation": "Subclasses of RuntimeException are unchecked; IOException and FileNotFoundException are checked.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-collections-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "collections",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which collection does not allow duplicate elements?",
+  "options": [
+   "LinkedList",
+   "ArrayList",
+   "HashSet",
+   "ArrayDeque"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Sets store unique elements.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-collections-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "collections",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the average time complexity of get() in a HashMap?",
+  "options": [
+   "O(n log n)",
+   "O(1)",
+   "O(n)",
+   "O(log n)"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Hashing gives constant average-time lookups.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-collections-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "collections",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which gives faster random access by index?",
+  "options": [
+   "Neither supports it",
+   "Both are equal",
+   "LinkedList",
+   "ArrayList"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "ArrayList is backed by an array, so get(i) is O(1).",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-collections-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "collections",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which collection keeps its elements in sorted order?",
+  "options": [
+   "TreeSet",
+   "ArrayList",
+   "LinkedHashSet",
+   "HashSet"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "TreeSet stores elements sorted by natural order or a comparator.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-collections-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "collections",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which class implements the Queue interface using a doubly linked list?",
+  "options": [
+   "LinkedList",
+   "HashMap",
+   "Stack",
+   "TreeSet"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "LinkedList implements both List and Deque (hence Queue).",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-complexity-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "complexity",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Time complexity of binary search on a sorted array?",
+  "options": [
+   "O(log n)",
+   "O(n)",
+   "O(1)",
+   "O(n log n)"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The search space halves every step.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-complexity-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "complexity",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Time complexity of two nested loops that each run n times?",
+  "options": [
+   "O(log n)",
+   "O(n)",
+   "O(2n)",
+   "O(n²)"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "n × n iterations.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-complexity-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "complexity",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Worst-case time complexity of bubble sort?",
+  "options": [
+   "O(n²)",
+   "O(n)",
+   "O(log n)",
+   "O(n log n)"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "It compares adjacent pairs across up to n passes.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-complexity-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "complexity",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Space complexity of merge sort on an array?",
+  "options": [
+   "O(1)",
+   "O(n²)",
+   "O(log n)",
+   "O(n)"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Merging needs an auxiliary array of size n.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-complexity-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "complexity",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Average-case time complexity of quicksort?",
+  "options": [
+   "O(log n)",
+   "O(n log n)",
+   "O(n²)",
+   "O(n)"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Balanced partitions give log n levels with n work each.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-complexity-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "complexity",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "How many times does this loop run?\n\nfor (int i = 1; i < n; i *= 2) { ... }",
+  "options": [
+   "O(n²)",
+   "O(n)",
+   "O(sqrt n)",
+   "O(log n)"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "i doubles every iteration, so about log₂ n iterations.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-data-structures-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "data-structures",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which data structure follows LIFO order?",
+  "options": [
+   "Queue",
+   "Array",
+   "Heap",
+   "Stack"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The last element pushed is the first popped.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-data-structures-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "data-structures",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which traversal of a binary search tree gives sorted order?",
+  "options": [
+   "Inorder",
+   "Level order",
+   "Preorder",
+   "Postorder"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Left, node, right visits keys in ascending order.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-data-structures-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "data-structures",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Maximum number of nodes in a binary tree of height h (a single root has height 0)?",
+  "options": [
+   "2^(h+1) − 1",
+   "2h + 1",
+   "h²",
+   "2^h"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A full binary tree has 1 + 2 + 4 + … + 2^h = 2^(h+1) − 1 nodes.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-data-structures-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "data-structures",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which data structure is used for breadth-first search?",
+  "options": [
+   "Heap",
+   "Queue",
+   "Stack",
+   "Hash table"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "BFS processes nodes in the order they are discovered (FIFO).",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-data-structures-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "data-structures",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which data structure is typically used for iterative depth-first search?",
+  "options": [
+   "Trie",
+   "Heap",
+   "Queue",
+   "Stack"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "DFS explores the most recently discovered node first.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-data-structures-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "data-structures",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Where is the smallest element in a min-heap?",
+  "options": [
+   "At the root",
+   "In the middle",
+   "At the last level",
+   "At a leaf"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The heap property puts the minimum at the root.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-data-structures-007",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "data-structures",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which of these is a self-balancing binary search tree?",
+  "options": [
+   "Linked list",
+   "Trie",
+   "Binary heap",
+   "AVL tree"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "AVL trees rebalance with rotations to keep height O(log n).",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-data-structures-008",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "data-structures",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Time to access an element by index in an array?",
+  "options": [
+   "O(1)",
+   "O(log n)",
+   "O(n)",
+   "O(n²)"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Index arithmetic gives direct access.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-dbms-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "dbms",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What does ACID stand for in databases?",
+  "options": [
+   "Accuracy, Consistency, Integrity, Durability",
+   "Availability, Consistency, Integrity, Distribution",
+   "Atomicity, Consistency, Isolation, Durability",
+   "Atomicity, Concurrency, Isolation, Data"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "These are the four guarantees of a transaction.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-dbms-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "dbms",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Can a primary key column contain NULL values?",
+  "options": [
+   "Yes, once",
+   "No",
+   "Only in MySQL",
+   "Yes, many times"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "A primary key must uniquely identify a row, so it cannot be NULL.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-dbms-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "dbms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which normal form removes partial dependencies?",
+  "options": [
+   "2NF",
+   "3NF",
+   "1NF",
+   "BCNF only"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "2NF removes dependency of non-key attributes on part of a composite key.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-dbms-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "dbms",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which SQL clause filters groups after aggregation?",
+  "options": [
+   "ORDER BY",
+   "WHERE",
+   "HAVING",
+   "GROUP BY"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "WHERE filters rows before grouping; HAVING filters groups.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-dbms-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "dbms",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which join returns all rows from the left table and matching rows from the right?",
+  "options": [
+   "RIGHT JOIN",
+   "LEFT JOIN",
+   "INNER JOIN",
+   "CROSS JOIN"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Unmatched right-side columns appear as NULL.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-dbms-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "dbms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the main trade-off of adding a database index?",
+  "options": [
+   "Faster writes, slower reads",
+   "It removes duplicate rows",
+   "No effect on speed",
+   "Faster reads, but extra storage and slower writes"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Indexes must be maintained on every insert, update and delete.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-dbms-007",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "dbms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which is true about DELETE and TRUNCATE?",
+  "options": [
+   "Both can only remove one row",
+   "TRUNCATE can use a WHERE clause; DELETE cannot",
+   "DELETE can use a WHERE clause; TRUNCATE removes all rows",
+   "They are identical"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "DELETE is row-filtered DML; TRUNCATE empties the whole table.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-dbms-008",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "dbms",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What is the purpose of a foreign key?",
+  "options": [
+   "To sort rows",
+   "To speed up all queries",
+   "To enforce referential integrity between tables",
+   "To encrypt a column"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "It ensures a value exists in the referenced table.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-dbms-009",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "dbms",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which of these is a DDL command?",
+  "options": [
+   "INSERT",
+   "UPDATE",
+   "CREATE",
+   "SELECT"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "DDL defines structure: CREATE, ALTER, DROP.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-dbms-010",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "dbms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "A \"dirty read\" is",
+  "options": [
+   "reading data written by an uncommitted transaction",
+   "reading deleted data",
+   "reading a corrupted disk block",
+   "reading from a backup"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "It occurs at the READ UNCOMMITTED isolation level.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-os-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "os",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which CPU scheduling algorithm can starve long processes?",
+  "options": [
+   "Multilevel feedback with aging",
+   "Shortest Job First",
+   "Round Robin",
+   "First Come First Served"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "A steady stream of short jobs can keep postponing a long job.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-os-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "os",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "A deadlock is a situation where",
+  "options": [
+   "memory runs out",
+   "processes wait indefinitely for resources held by each other",
+   "a process finishes too quickly",
+   "the CPU overheats"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Each process holds a resource while waiting for another.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-os-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "os",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which is NOT one of the four necessary conditions for deadlock?",
+  "options": [
+   "Circular wait",
+   "Resource preemption",
+   "Mutual exclusion",
+   "Hold and wait"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The condition is \"no preemption\"; being able to preempt breaks deadlock.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-os-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "os",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Threads of the same process share",
+  "options": [
+   "the address space and open files",
+   "their stacks and registers",
+   "nothing",
+   "only the program counter"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Each thread has its own stack and registers, but memory is shared.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-os-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "os",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "A page fault occurs when",
+  "options": [
+   "the requested page is not in main memory",
+   "a process terminates",
+   "the disk is full",
+   "the CPU is idle"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The OS must load the page from secondary storage.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-os-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "os",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which memory is the fastest?",
+  "options": [
+   "Hard disk",
+   "Cache",
+   "RAM",
+   "CPU registers"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Registers sit inside the CPU.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-os-007",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "os",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Round Robin scheduling is based on",
+  "options": [
+   "a fixed time quantum",
+   "shortest burst time",
+   "memory size",
+   "process priority only"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Each process runs for one quantum before moving to the back of the queue.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-os-008",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "os",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "A semaphore is primarily used for",
+  "options": [
+   "synchronising access to shared resources",
+   "compressing files",
+   "compiling code",
+   "allocating IP addresses"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Semaphores coordinate processes and threads.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-networks-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "networks",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which OSI layer is responsible for routing?",
+  "options": [
+   "Data link layer",
+   "Transport layer",
+   "Network layer",
+   "Session layer"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Routers forward packets using network-layer (IP) addresses.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-networks-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "networks",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which protocol is connection-oriented?",
+  "options": [
+   "IP",
+   "UDP",
+   "TCP",
+   "ICMP"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "TCP sets up a connection with a handshake and provides reliable delivery.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-networks-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "networks",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What is the default port for HTTPS?",
+  "options": [
+   "443",
+   "25",
+   "21",
+   "80"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "HTTP uses 80, HTTPS uses 443.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-networks-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "networks",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "DNS is used to",
+  "options": [
+   "translate domain names into IP addresses",
+   "assign IP addresses",
+   "encrypt web traffic",
+   "route packets"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "DNS is the internet's phone book.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-networks-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "networks",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which protocol assigns IP addresses automatically to devices on a network?",
+  "options": [
+   "DNS",
+   "SMTP",
+   "DHCP",
+   "FTP"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "DHCP leases addresses to clients.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-networks-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "networks",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "How many layers does the OSI model have?",
+  "options": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Physical, data link, network, transport, session, presentation, application.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-networks-007",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "networks",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which HTTP status code means \"Not Found\"?",
+  "options": [
+   "301",
+   "200",
+   "404",
+   "500"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "404 indicates the resource does not exist.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-networks-008",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "networks",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "A network switch operates mainly at which layer?",
+  "options": [
+   "Network layer",
+   "Transport layer",
+   "Data link layer",
+   "Application layer"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Switches forward frames using MAC addresses.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-sdlc-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "sdlc",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which model delivers working software in short iterative cycles?",
+  "options": [
+   "Big Bang",
+   "Waterfall",
+   "V-model",
+   "Agile"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Agile emphasises iterations and frequent feedback.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-sdlc-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "sdlc",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "In the Waterfall model,",
+  "options": [
+   "phases overlap freely",
+   "testing happens every day",
+   "each phase is completed before the next begins",
+   "there is no requirements phase"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Waterfall is sequential.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-git-github-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "git-github",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which command creates a new branch and switches to it?",
+  "options": [
+   "git branch -d feature",
+   "git clone feature",
+   "git checkout -b feature",
+   "git merge feature"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "git checkout -b (or git switch -c) creates and switches.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-git-github-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "git-github",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What does git pull do?",
+  "options": [
+   "Creates a repository",
+   "Deletes a branch",
+   "Fetches remote changes and merges them into the current branch",
+   "Uploads local commits"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "It is fetch followed by merge.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-rest-web-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "rest-web",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which HTTP method is used to retrieve a resource without changing it?",
+  "options": [
+   "GET",
+   "PATCH",
+   "DELETE",
+   "POST"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "GET is safe and idempotent.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-rest-web-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "rest-web",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which format do REST APIs most commonly exchange?",
+  "options": [
+   "BMP",
+   "JSON",
+   "EXE",
+   "MP3"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "JSON is lightweight and widely supported.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-rest-web-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "rest-web",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which HTTP method is typically used to create a new resource?",
+  "options": [
+   "OPTIONS",
+   "HEAD",
+   "POST",
+   "GET"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "POST submits data to create a resource.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-rest-web-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "rest-web",
+  "difficulty": "medium",
+  "type": "mcq_multi",
+  "text": "Select all HTTP methods that are idempotent.\n(Select all that apply.)",
+  "options": [
+   "PUT",
+   "DELETE",
+   "POST",
+   "GET"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ],
+  "explanation": "Repeating GET, PUT or DELETE has the same effect as doing it once. POST generally does not.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-rest-web-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "rest-web",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What does CORS control?",
+  "options": [
+   "Which origins a browser lets call a server's API",
+   "Database indexing",
+   "How passwords are hashed",
+   "File compression"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Cross-Origin Resource Sharing is a browser-enforced policy.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-cloud-security-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "cloud-security",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "SQL injection is best prevented by",
+  "options": [
+   "using parameterised queries",
+   "using longer table names",
+   "disabling JavaScript",
+   "hiding the login page"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Parameterised queries keep user input separate from SQL code.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-cloud-security-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "cloud-security",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which cloud service model provides virtual machines on demand?",
+  "options": [
+   "PaaS",
+   "DaaS",
+   "SaaS",
+   "IaaS"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Infrastructure as a Service rents compute, storage and networking.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-cloud-security-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "cloud-security",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Why are passwords stored as salted hashes rather than plain text?",
+  "options": [
+   "A leaked database does not reveal the passwords directly",
+   "It saves disk space",
+   "It lets admins read them",
+   "It makes logins faster"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Hashing is one-way and salting defeats precomputed tables.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-cloud-security-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "cloud-security",
+  "difficulty": "medium",
+  "type": "mcq_multi",
+  "text": "Which of the following does TLS (used by HTTPS) provide?\n(Select all that apply.)",
+  "options": [
+   "Protection from SQL injection",
+   "Integrity checking",
+   "Encryption of data in transit",
+   "Server authentication"
+  ],
+  "correct": [
+   1,
+   2,
+   3
+  ],
+  "explanation": "TLS secures the channel; it does not fix application-level bugs such as SQL injection.",
+  "estimatedSeconds": 60
+ }
+]

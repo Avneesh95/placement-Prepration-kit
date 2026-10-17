@@ -1,0 +1,1866 @@
+[
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-select-where-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "select-where",
+  "difficulty": "easy",
+  "type": "sql",
+  "text": "List the name and salary of all employees who work in Pune, ordered by name.",
+  "explanation": "Filter rows with WHERE, then sort with ORDER BY.",
+  "estimatedSeconds": 120,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT name, salary FROM employees WHERE city = 'Pune' ORDER BY name;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "name",
+     "salary"
+    ],
+    "rowsJson": "[[\"Asha\",95000],[\"Chitra\",72000],[\"Esha\",48000]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-order-distinct-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "order-distinct",
+  "difficulty": "easy",
+  "type": "sql",
+  "text": "List the distinct, non-NULL cities where employees are based, in alphabetical order.",
+  "explanation": "DISTINCT removes duplicates. NULL must be tested with IS NOT NULL, never \"<> NULL\".",
+  "estimatedSeconds": 120,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT DISTINCT city FROM employees WHERE city IS NOT NULL ORDER BY city;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "city"
+    ],
+    "rowsJson": "[[\"Chennai\"],[\"Delhi\"],[\"Mumbai\"],[\"Pune\"]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-aggregates-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "aggregates",
+  "difficulty": "easy",
+  "type": "sql",
+  "text": "Return the total payroll (sum of salaries) and the average salary rounded to 2 decimals, in one row.",
+  "explanation": "Aggregate functions collapse all rows into one when there is no GROUP BY.",
+  "estimatedSeconds": 120,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT SUM(salary), ROUND(AVG(salary), 2) FROM employees;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "SUM(salary)",
+     "ROUND(AVG(salary), 2)"
+    ],
+    "rowsJson": "[[644000,64400]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-group-by-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "group-by",
+  "difficulty": "easy",
+  "type": "sql",
+  "text": "For each dept_id, show the number of employees. Order by dept_id.",
+  "explanation": "GROUP BY forms one group per dept_id; COUNT(*) counts rows in each.",
+  "estimatedSeconds": 120,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT dept_id, COUNT(*) FROM employees GROUP BY dept_id ORDER BY dept_id;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "dept_id",
+     "COUNT(*)"
+    ],
+    "rowsJson": "[[1,5],[2,3],[3,2]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-having-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "having",
+  "difficulty": "medium",
+  "type": "sql",
+  "text": "Show department names whose average salary is above 60000, with the average rounded to 2 decimals. Order by department name.",
+  "explanation": "Join to get names, group by department, and use HAVING (not WHERE) to filter on an aggregate.",
+  "estimatedSeconds": 240,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT d.dept_name, ROUND(AVG(e.salary), 2) FROM employees e JOIN departments d ON e.dept_id = d.dept_id GROUP BY d.dept_name HAVING AVG(e.salary) > 60000 ORDER BY d.dept_name;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "dept_name",
+     "ROUND(AVG(e.salary), 2)"
+    ],
+    "rowsJson": "[[\"Engineering\",78600]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-inner-join-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "inner-join",
+  "difficulty": "easy",
+  "type": "sql",
+  "text": "List each employee name with their department name, ordered by employee name.",
+  "explanation": "INNER JOIN keeps only rows that match on dept_id.",
+  "estimatedSeconds": 120,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT e.name, d.dept_name FROM employees e INNER JOIN departments d ON e.dept_id = d.dept_id ORDER BY e.name;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "name",
+     "dept_name"
+    ],
+    "rowsJson": "[[\"Asha\",\"Engineering\"],[\"Bala\",\"Engineering\"],[\"Chitra\",\"Engineering\"],[\"Dinesh\",\"Sales\"],[\"Esha\",\"Sales\"],[\"Farhan\",\"Sales\"],[\"Gita\",\"HR\"],[\"Hari\",\"HR\"],[\"Indu\",\"Engineering\"],[\"Jay\",\"Engineering\"]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-left-join-007",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "left-join",
+  "difficulty": "medium",
+  "type": "sql",
+  "text": "List every department with its number of employees, including departments with none. Order by department name.",
+  "explanation": "LEFT JOIN keeps departments with no employees. COUNT(e.emp_id) ignores the NULLs, giving 0.",
+  "estimatedSeconds": 240,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT d.dept_name, COUNT(e.emp_id) FROM departments d LEFT JOIN employees e ON e.dept_id = d.dept_id GROUP BY d.dept_id, d.dept_name ORDER BY d.dept_name;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "dept_name",
+     "COUNT(e.emp_id)"
+    ],
+    "rowsJson": "[[\"Engineering\",5],[\"Finance\",0],[\"HR\",2],[\"Sales\",3]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-self-join-008",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "self-join",
+  "difficulty": "medium",
+  "type": "sql",
+  "text": "List each employee with their manager's name (NULL if none), ordered by employee name.",
+  "explanation": "Join the table to itself using manager_id = emp_id; LEFT JOIN retains the top manager.",
+  "estimatedSeconds": 240,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT e.name, m.name FROM employees e LEFT JOIN employees m ON e.manager_id = m.emp_id ORDER BY e.name;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "name",
+     "name"
+    ],
+    "rowsJson": "[[\"Asha\",null],[\"Bala\",\"Asha\"],[\"Chitra\",\"Asha\"],[\"Dinesh\",\"Asha\"],[\"Esha\",\"Dinesh\"],[\"Farhan\",\"Dinesh\"],[\"Gita\",\"Asha\"],[\"Hari\",\"Gita\"],[\"Indu\",\"Bala\"],[\"Jay\",\"Bala\"]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-subqueries-009",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "subqueries",
+  "difficulty": "medium",
+  "type": "sql",
+  "text": "Find the names of employees who earn more than the company average salary, ordered by name.",
+  "explanation": "A scalar subquery computes the average once; compare each salary with it.",
+  "estimatedSeconds": 240,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT name FROM employees WHERE salary > (SELECT AVG(salary) FROM employees) ORDER BY name;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "name"
+    ],
+    "rowsJson": "[[\"Asha\"],[\"Bala\"],[\"Chitra\"],[\"Indu\"],[\"Jay\"]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-correlated-subqueries-010",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "correlated-subqueries",
+  "difficulty": "hard",
+  "type": "sql",
+  "text": "Find employees who earn more than the average salary of their own department. Return name, ordered by name.",
+  "explanation": "The inner query references the outer row (e.dept_id), so it is re-evaluated per employee.",
+  "estimatedSeconds": 360,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT e.name FROM employees e WHERE e.salary > (SELECT AVG(salary) FROM employees WHERE dept_id = e.dept_id) ORDER BY e.name;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "name"
+    ],
+    "rowsJson": "[[\"Asha\"],[\"Dinesh\"],[\"Farhan\"],[\"Gita\"],[\"Indu\"]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-case-expressions-011",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "case-expressions",
+  "difficulty": "medium",
+  "type": "sql",
+  "text": "Label each employee's salary band: \"High\" if salary >= 80000, \"Mid\" if >= 50000, otherwise \"Low\". Return name and band, ordered by name.",
+  "explanation": "CASE evaluates conditions top to bottom and returns the first match.",
+  "estimatedSeconds": 240,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT name, CASE WHEN salary >= 80000 THEN 'High' WHEN salary >= 50000 THEN 'Mid' ELSE 'Low' END FROM employees ORDER BY name;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "name",
+     "CASE WHEN salary >= 80000 THEN 'High' WHEN salary >= 50000 THEN 'Mid' ELSE 'Low' END"
+    ],
+    "rowsJson": "[[\"Asha\",\"High\"],[\"Bala\",\"Mid\"],[\"Chitra\",\"Mid\"],[\"Dinesh\",\"Mid\"],[\"Esha\",\"Low\"],[\"Farhan\",\"Mid\"],[\"Gita\",\"Low\"],[\"Hari\",\"Low\"],[\"Indu\",\"High\"],[\"Jay\",\"Mid\"]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-null-handling-012",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "null-handling",
+  "difficulty": "easy",
+  "type": "sql",
+  "text": "Show each employee name with their city, replacing a missing city with \"Unknown\". Order by name.",
+  "explanation": "COALESCE returns its first non-NULL argument.",
+  "estimatedSeconds": 120,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT name, COALESCE(city, 'Unknown') FROM employees ORDER BY name;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "name",
+     "COALESCE(city, 'Unknown')"
+    ],
+    "rowsJson": "[[\"Asha\",\"Pune\"],[\"Bala\",\"Chennai\"],[\"Chitra\",\"Pune\"],[\"Dinesh\",\"Mumbai\"],[\"Esha\",\"Pune\"],[\"Farhan\",\"Unknown\"],[\"Gita\",\"Delhi\"],[\"Hari\",\"Chennai\"],[\"Indu\",\"Mumbai\"],[\"Jay\",\"Delhi\"]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-string-date-functions-013",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "string-date-functions",
+  "difficulty": "medium",
+  "type": "sql",
+  "text": "List names (in UPPER case) of employees hired in 2022, ordered by name.",
+  "explanation": "strftime extracts the year from an ISO date string in SQLite.",
+  "estimatedSeconds": 240,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT UPPER(name) FROM employees WHERE strftime('%Y', hire_date) = '2022' ORDER BY name;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "UPPER(name)"
+    ],
+    "rowsJson": "[[\"CHITRA\"],[\"ESHA\"],[\"GITA\"]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-duplicates-014",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "duplicates",
+  "difficulty": "medium",
+  "type": "sql",
+  "text": "Find email addresses that appear more than once in employees, with their counts.",
+  "explanation": "Group by the column and keep groups with more than one row.",
+  "estimatedSeconds": 240,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT email, COUNT(*) FROM employees GROUP BY email HAVING COUNT(*) > 1;",
+   "orderMatters": false,
+   "expected": {
+    "columns": [
+     "email",
+     "COUNT(*)"
+    ],
+    "rowsJson": "[[\"asha@corp.com\",2]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-second-highest-salary-015",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "second-highest-salary",
+  "difficulty": "medium",
+  "type": "sql",
+  "text": "Find the second-highest distinct salary.",
+  "explanation": "The highest salary below the overall maximum is the second highest. Using DISTINCT semantics avoids ties.",
+  "estimatedSeconds": 240,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees);",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "MAX(salary)"
+    ],
+    "rowsJson": "[[88000]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-nth-highest-salary-016",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "nth-highest-salary",
+  "difficulty": "hard",
+  "type": "sql",
+  "text": "Find the 3rd-highest distinct salary.",
+  "explanation": "Take distinct salaries in descending order and skip two (OFFSET 2).",
+  "estimatedSeconds": 360,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT salary FROM (SELECT DISTINCT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 2);",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "salary"
+    ],
+    "rowsJson": "[[72000]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-window-ranking-017",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "window-ranking",
+  "difficulty": "hard",
+  "type": "sql",
+  "text": "For each employee show name, dept_id and their salary rank within the department using RANK (highest salary = 1). Order by dept_id, rank, name.",
+  "explanation": "PARTITION BY restarts ranking in each department. RANK gives ties the same rank and skips the next numbers.",
+  "estimatedSeconds": 360,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT name, dept_id, RANK() OVER (PARTITION BY dept_id ORDER BY salary DESC) AS rnk FROM employees ORDER BY dept_id, rnk, name;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "name",
+     "dept_id",
+     "rnk"
+    ],
+    "rowsJson": "[[\"Asha\",1,1],[\"Indu\",1,2],[\"Bala\",1,3],[\"Chitra\",1,3],[\"Jay\",1,5],[\"Farhan\",2,1],[\"Dinesh\",2,2],[\"Esha\",2,3],[\"Gita\",3,1],[\"Hari\",3,2]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-cte-018",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "cte",
+  "difficulty": "hard",
+  "type": "sql",
+  "text": "Using a CTE of total salary per department, list department ids whose total is greater than the average of those totals. Order by dept_id.",
+  "explanation": "The CTE names an intermediate result so it can be reused twice.",
+  "estimatedSeconds": 360,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "WITH t AS (SELECT dept_id, SUM(salary) AS total FROM employees GROUP BY dept_id) SELECT dept_id FROM t WHERE total > (SELECT AVG(total) FROM t) ORDER BY dept_id;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "dept_id"
+    ],
+    "rowsJson": "[[1]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-anti-join-019",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "anti-join",
+  "difficulty": "medium",
+  "type": "sql",
+  "text": "List the names of customers who have never placed an order, ordered by name.",
+  "explanation": "After a LEFT JOIN, customers without orders have NULL order columns.",
+  "estimatedSeconds": 240,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT c.name FROM customers c LEFT JOIN orders o ON o.cust_id = c.cust_id WHERE o.order_id IS NULL ORDER BY c.name;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "name"
+    ],
+    "rowsJson": "[[\"Echo\"]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-top-n-020",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "top-n",
+  "difficulty": "medium",
+  "type": "sql",
+  "text": "Which customer has the highest total of delivered orders? Return the name and total.",
+  "explanation": "Filter to delivered, aggregate per customer, sort descending and keep one row.",
+  "estimatedSeconds": 240,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT c.name, SUM(o.amount) AS total FROM customers c JOIN orders o ON o.cust_id = c.cust_id WHERE o.status = 'delivered' GROUP BY c.cust_id, c.name ORDER BY total DESC LIMIT 1;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "name",
+     "total"
+    ],
+    "rowsJson": "[[\"Cleo\",6800]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-running-total-021",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "running-total",
+  "difficulty": "hard",
+  "type": "sql",
+  "text": "Show order_id, amount and the running total of amount ordered by order_id.",
+  "explanation": "SUM() OVER (ORDER BY …) accumulates from the first row to the current one.",
+  "estimatedSeconds": 360,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT order_id, amount, SUM(amount) OVER (ORDER BY order_id) AS running FROM orders ORDER BY order_id;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "order_id",
+     "amount",
+     "running"
+    ],
+    "rowsJson": "[[101,2500,2500],[102,1800,4300],[103,4000,8300],[104,1200,9500],[105,3200,12700],[106,700,13400],[107,5600,19000],[108,900,19900]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "sql-department-top-earner-022",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "sql",
+  "topic": "department-top-earner",
+  "difficulty": "hard",
+  "type": "sql",
+  "text": "For each department that has employees, return the dept_name and the highest salary in it. Order by dept_name.",
+  "explanation": "Group employees by department and take MAX(salary).",
+  "estimatedSeconds": 360,
+  "sql": {
+   "schemaSql": "\nCREATE TABLE departments (dept_id INTEGER PRIMARY KEY, dept_name TEXT NOT NULL);\nCREATE TABLE employees (emp_id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT, dept_id INTEGER REFERENCES departments(dept_id), manager_id INTEGER REFERENCES employees(emp_id), salary INTEGER, hire_date TEXT, city TEXT);\nCREATE TABLE customers (cust_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT);\nCREATE TABLE orders (order_id INTEGER PRIMARY KEY, cust_id INTEGER REFERENCES customers(cust_id), amount INTEGER, order_date TEXT, status TEXT);",
+   "seedSql": "\nINSERT INTO departments VALUES (1,'Engineering'),(2,'Sales'),(3,'HR'),(4,'Finance');\nINSERT INTO employees VALUES\n(1,'Asha','asha@corp.com',1,NULL,95000,'2019-03-15','Pune'),\n(2,'Bala','bala@corp.com',1,1,72000,'2021-07-01','Chennai'),\n(3,'Chitra','chitra@corp.com',1,1,72000,'2022-01-10','Pune'),\n(4,'Dinesh','dinesh@corp.com',2,1,55000,'2020-11-20','Mumbai'),\n(5,'Esha','esha@corp.com',2,4,48000,'2022-05-05','Pune'),\n(6,'Farhan','farhan@corp.com',2,4,61000,'2018-09-09',NULL),\n(7,'Gita','gita@corp.com',3,1,45000,'2022-08-30','Delhi'),\n(8,'Hari','hari@corp.com',3,7,42000,'2023-02-14','Chennai'),\n(9,'Indu','indu@corp.com',1,2,88000,'2020-06-18','Mumbai'),\n(10,'Jay','asha@corp.com',1,2,66000,'2023-04-01','Delhi');\nINSERT INTO customers VALUES (1,'Acme','Pune'),(2,'Bolt','Mumbai'),(3,'Cleo','Delhi'),(4,'Dyna','Chennai'),(5,'Echo','Pune');\nINSERT INTO orders VALUES\n(101,1,2500,'2024-01-05','delivered'),(102,1,1800,'2024-02-11','delivered'),(103,2,4000,'2024-02-20','cancelled'),\n(104,3,1200,'2024-03-02','delivered'),(105,2,3200,'2024-03-15','delivered'),(106,1,700,'2024-04-01','pending'),\n(107,3,5600,'2024-04-12','delivered'),(108,4,900,'2024-05-03','delivered');",
+   "referenceQuery": "SELECT d.dept_name, MAX(e.salary) FROM departments d JOIN employees e ON e.dept_id = d.dept_id GROUP BY d.dept_id, d.dept_name ORDER BY d.dept_name;",
+   "orderMatters": true,
+   "expected": {
+    "columns": [
+     "dept_name",
+     "MAX(e.salary)"
+    ],
+    "rowsJson": "[[\"Engineering\",95000],[\"HR\",45000],[\"Sales\",61000]]"
+   },
+   "tablesPreview": [
+    {
+     "name": "customers",
+     "columns": [
+      "cust_id",
+      "name",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Acme\",\"Pune\"],[2,\"Bolt\",\"Mumbai\"],[3,\"Cleo\",\"Delhi\"],[4,\"Dyna\",\"Chennai\"],[5,\"Echo\",\"Pune\"]]"
+    },
+    {
+     "name": "departments",
+     "columns": [
+      "dept_id",
+      "dept_name"
+     ],
+     "rowsJson": "[[1,\"Engineering\"],[2,\"Sales\"],[3,\"HR\"],[4,\"Finance\"]]"
+    },
+    {
+     "name": "employees",
+     "columns": [
+      "emp_id",
+      "name",
+      "email",
+      "dept_id",
+      "manager_id",
+      "salary",
+      "hire_date",
+      "city"
+     ],
+     "rowsJson": "[[1,\"Asha\",\"asha@corp.com\",1,null,95000,\"2019-03-15\",\"Pune\"],[2,\"Bala\",\"bala@corp.com\",1,1,72000,\"2021-07-01\",\"Chennai\"],[3,\"Chitra\",\"chitra@corp.com\",1,1,72000,\"2022-01-10\",\"Pune\"],[4,\"Dinesh\",\"dinesh@corp.com\",2,1,55000,\"2020-11-20\",\"Mumbai\"],[5,\"Esha\",\"esha@corp.com\",2,4,48000,\"2022-05-05\",\"Pune\"]]"
+    },
+    {
+     "name": "orders",
+     "columns": [
+      "order_id",
+      "cust_id",
+      "amount",
+      "order_date",
+      "status"
+     ],
+     "rowsJson": "[[101,1,2500,\"2024-01-05\",\"delivered\"],[102,1,1800,\"2024-02-11\",\"delivered\"],[103,2,4000,\"2024-02-20\",\"cancelled\"],[104,3,1200,\"2024-03-02\",\"delivered\"],[105,2,3200,\"2024-03-15\",\"delivered\"]]"
+    }
+   ]
+  }
+ }
+]

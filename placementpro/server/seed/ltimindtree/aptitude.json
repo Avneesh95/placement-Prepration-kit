@@ -1,0 +1,1458 @@
+[
+ {
+  "uid": "ltimindtree-apt-percentages-001",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "percentages",
+  "subtopic": "successive change",
+  "difficulty": "medium",
+  "explanation": "Net change = x − y − xy/100 = 15 − 10 − (15×10)/100 = 3.5%. A positive value means a net increase, a negative one a net decrease.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number is first increased by 15% and then decreased by 10%. What is the net percentage change?",
+  "options": [
+   "1%",
+   "3.5%",
+   "16%",
+   "13.5%"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-percentages-002",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "percentages",
+  "subtopic": "percentage of a quantity",
+  "difficulty": "easy",
+  "explanation": "15% of 800 = 15/100 × 800 = 120.",
+  "estimatedSeconds": 40,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is 15% of 800?",
+  "options": [
+   "120",
+   "108",
+   "156",
+   "168"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-profit-loss-003",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "discount",
+  "difficulty": "easy",
+  "explanation": "Price = 1100 × (100 − 30)/100 = 770.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A shirt has a marked price of ₹1,100. A discount of 30% is given. What is the price paid (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 770,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-profit-loss-004",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "cost price from loss",
+  "difficulty": "medium",
+  "explanation": "SP = 0.90 × CP → CP = 2880 × 100/90 = 3200.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "By selling an item for ₹2,880, a shopkeeper incurs a loss of 10%. What was the cost price (in ₹)?",
+  "options": [
+   "3200",
+   "4800",
+   "4160",
+   "2880"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-ratio-proportion-005",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 10. One part = 600/10 = 60. Second share = 2 × 60 = 120.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹600 is divided among three people in the ratio 5:2:3. How much does the second person get (in ₹)?",
+  "options": [
+   "180",
+   "168",
+   "132",
+   "120"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-ratio-proportion-006",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 11. One part = 2420/11 = 220. Second share = 6 × 220 = 1320.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "₹2,420 is divided among three people in the ratio 2:6:3. How much does the second person get (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 1320,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-averages-007",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 130. Sum of 6 = 180. Sixth number = 180 − 130 = 50.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 26. A sixth number is added and the average becomes 30. What is the sixth number?",
+  "options": [
+   "35",
+   "50",
+   "55",
+   "60"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-averages-008",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 200. Sum of 6 = 270. Sixth number = 270 − 200 = 70.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 40. A sixth number is added and the average becomes 45. What is the sixth number?",
+  "options": [
+   "84",
+   "98",
+   "63",
+   "70"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-time-work-009",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/5 + 1/20 = 25/100 per day. Days = 100/25 = 4.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A can finish a job in 5 days and B can finish it in 20 days. Working together, in how many days will they finish it?",
+  "options": [
+   "1",
+   "9",
+   "4",
+   "3"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-time-work-010",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/4 + 1/12 = 16/48 per day. Days = 48/16 = 3.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A can finish a job in 4 days and B can finish it in 12 days. Working together, in how many days will they finish it?",
+  "options": [
+   "6",
+   "1",
+   "0",
+   "3"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-pipes-cisterns-011",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/18. Pipe rate = 1/6. Leak rate = 1/6 − 1/18 = 12/108 = 1/9. So the leak empties the tank in 9 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 6 hours. Because of a leak at the bottom, it takes the pipe 18 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "8",
+   "9",
+   "11",
+   "6"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-pipes-cisterns-012",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/12. Pipe rate = 1/4. Leak rate = 1/4 − 1/12 = 8/48 = 1/6. So the leak empties the tank in 6 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 4 hours. Because of a leak at the bottom, it takes the pipe 12 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "9",
+   "3",
+   "6",
+   "7"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-speed-distance-013",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "trains in opposite directions",
+  "difficulty": "hard",
+  "explanation": "Relative speed = 27 + 81 = 108 km/h = 30 m/s. Distance = 135 + 135 = 270 m. Time = 270/30 = 9 s.",
+  "estimatedSeconds": 100,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Two trains of lengths 135 m and 135 m run in opposite directions at 27 km/h and 81 km/h. In how many seconds do they completely cross each other?",
+  "options": [
+   "9",
+   "12",
+   "10",
+   "7"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-speed-distance-014",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "train crossing a pole",
+  "difficulty": "medium",
+  "explanation": "Speed = 108 × 5/18 = 30 m/s. Time = 240/30 = 8 s.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train 240 m long runs at 108 km/h. How many seconds does it take to cross a telegraph pole?",
+  "options": [
+   "8",
+   "11",
+   "5",
+   "7"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-boats-streams-015",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "upstream speed",
+  "difficulty": "easy",
+  "explanation": "Upstream speed = 20 − 2 = 18 km/h.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat's speed in still water is 20 km/h and the stream's speed is 2 km/h. What is its speed upstream (in km/h)?",
+  "options": [
+   "18",
+   "26",
+   "24",
+   "28"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-boats-streams-016",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 15 + 5 = 20 km/h. Time = 40/20 = 2 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat goes 15 km/h in still water and the stream flows at 5 km/h. How many hours will it take to go 40 km downstream?",
+  "options": [
+   "7",
+   "2",
+   "0",
+   "1"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-interest-017",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "interest",
+  "subtopic": "simple interest",
+  "difficulty": "easy",
+  "explanation": "SI = PRT/100 = 13000×12×2/100 = 3120.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Find the simple interest on ₹13,000 at 12% per annum for 2 years (in ₹).\n(Type your answer as a number.)",
+  "numericAnswer": 3120,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-interest-018",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "interest",
+  "subtopic": "compound interest (2 years)",
+  "difficulty": "medium",
+  "explanation": "Amount = 5200 × (1 + 20/100)² = 7488. CI = Amount − Principal = 2288.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "What is the compound interest on ₹5,200 for 2 years at 20% per annum, compounded annually (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 2288,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-number-series-019",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "number-series",
+  "subtopic": "geometric series",
+  "difficulty": "easy",
+  "explanation": "Each term is multiplied by 3. Next = 162 × 3 = 486.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 2, 6, 18, 54, 162, ?",
+  "options": [
+   "486",
+   "388",
+   "535",
+   "731"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-number-series-020",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "number-series",
+  "subtopic": "squares plus constant",
+  "difficulty": "medium",
+  "explanation": "The terms are 2²+1, 3²+1, 4²+1, 5²+1, 6²+1. Next = 7²+1 = 50.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 5, 10, 17, 26, 37, ?",
+  "options": [
+   "50",
+   "35",
+   "65",
+   "55"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-hcf-lcm-021",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "LCM of two numbers",
+  "difficulty": "easy",
+  "explanation": "HCF = 2. LCM = (4 × 14)/2 = 28.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the LCM of 4 and 14.",
+  "options": [
+   "28",
+   "37",
+   "25",
+   "43"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-hcf-lcm-022",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "HCF × LCM relation",
+  "difficulty": "medium",
+  "explanation": "Product of the numbers = HCF × LCM = 6 × 72 = 432. Other number = 432/24 = 18.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "The HCF of two numbers is 6 and their LCM is 72. If one number is 24, what is the other?\n(Type your answer as a number.)",
+  "numericAnswer": 18,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-ages-023",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "ages",
+  "subtopic": "sum and difference",
+  "difficulty": "easy",
+  "explanation": "Asha = (sum + difference)/2 = (40 + 6)/2 = 23.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The sum of the ages of Asha and Bala is 40 years and Asha is 6 years older than Bala. How old is Asha?",
+  "options": [
+   "23",
+   "21",
+   "33",
+   "27"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-ages-024",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "ages",
+  "subtopic": "sum and difference",
+  "difficulty": "easy",
+  "explanation": "Asha = (sum + difference)/2 = (72 + 14)/2 = 43.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The sum of the ages of Asha and Bala is 72 years and Asha is 14 years older than Bala. How old is Asha?",
+  "options": [
+   "43",
+   "59",
+   "35",
+   "51"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-permutations-combinations-025",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "arrangements with repeated letters",
+  "difficulty": "hard",
+  "explanation": "5! divided by the factorial of each repeated letter's count (L:2, E:2) = 30.",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "How many distinct arrangements can be made using all the letters of the word LEVEL?\n(Type your answer as a number.)",
+  "numericAnswer": 30,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-permutations-combinations-026",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "arrangements with repeated letters",
+  "difficulty": "hard",
+  "explanation": "6! divided by the factorial of each repeated letter's count (T:2, O:2) = 180.",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many distinct arrangements can be made using all the letters of the word TOMATO?",
+  "options": [
+   "180",
+   "126",
+   "162",
+   "252"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-probability-027",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "probability",
+  "subtopic": "two dice",
+  "difficulty": "medium",
+  "explanation": "Ways to get a sum of 4 = 3 out of 36 outcomes, so P = 3/36 = 1/12.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 4?",
+  "options": [
+   "5/36",
+   "1/12",
+   "1/6",
+   "1/18"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-probability-028",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "probability",
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 3/8 = 3/8.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A bag has 3 red and 5 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "options": [
+   "1/3",
+   "3/8",
+   "3/5",
+   "1/2"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-mixtures-alligation-029",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 6 L, water = 4 L. For 1:1 water must equal milk, so add 6 − 4 = 2 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A 10 litre mixture has milk and water in the ratio 3:2. How many litres of water must be added to make the ratio 1:1?",
+  "options": [
+   "1",
+   "4",
+   "0",
+   "2"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-mixtures-alligation-030",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 12 L, water = 4 L. For 1:1 water must equal milk, so add 12 − 4 = 8 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A 16 litre mixture has milk and water in the ratio 3:1. How many litres of water must be added to make the ratio 1:1?",
+  "options": [
+   "8",
+   "13",
+   "5",
+   "11"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-partnership-031",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 3000×12 : 4000×5 = 36000 : 20000 = 9 : 5. Anil's share = 9/14 × 11200 = 7200.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹3,000 for 12 months and Binu invests ₹4,000 for 5 months. They earn a profit of ₹11,200. What is Anil's share (in ₹)?",
+  "options": [
+   "5760",
+   "9360",
+   "6480",
+   "7200"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-partnership-032",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 5000×7 : 2000×9 = 35000 : 18000 = 35 : 18. Anil's share = 35/53 × 37100 = 24500.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹5,000 for 7 months and Binu invests ₹2,000 for 9 months. They earn a profit of ₹37,100. What is Anil's share (in ₹)?",
+  "options": [
+   "17150",
+   "24500",
+   "34300",
+   "22050"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-algebra-033",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "algebra",
+  "subtopic": "linear equation",
+  "difficulty": "easy",
+  "explanation": "x + 9 = 57/3 = 19, so x = 10.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "If 3(x + 9) = 57, find x.\n(Type your answer as a number.)",
+  "numericAnswer": 10,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-algebra-034",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "algebra",
+  "subtopic": "linear equation",
+  "difficulty": "easy",
+  "explanation": "x + 4 = 114/6 = 19, so x = 15.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If 6(x + 4) = 114, find x.",
+  "options": [
+   "11",
+   "23",
+   "13",
+   "15"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-progressions-035",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "progressions",
+  "subtopic": "GP term",
+  "difficulty": "medium",
+  "explanation": "Tₙ = a·r^(n−1) = 7 × 3^5 = 1701.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "The first term of a GP is 7 and the common ratio is 3. What is its 6th term?\n(Type your answer as a number.)",
+  "numericAnswer": 1701,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-progressions-036",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "progressions",
+  "subtopic": "GP term",
+  "difficulty": "medium",
+  "explanation": "Tₙ = a·r^(n−1) = 4 × 2^3 = 32.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The first term of a GP is 4 and the common ratio is 2. What is its 4th term?",
+  "options": [
+   "41",
+   "29",
+   "44",
+   "32"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-geometry-mensuration-037",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "cylinder",
+  "difficulty": "medium",
+  "explanation": "V = πr²h = 22/7 × 14² × 3 = 1848 cm³.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the volume of a cylinder with radius 14 cm and height 3 cm (π = 22/7), in cm³.",
+  "options": [
+   "2773",
+   "2588",
+   "1848",
+   "2403"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-geometry-mensuration-038",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "right triangle",
+  "difficulty": "easy",
+  "explanation": "Hypotenuse = √(3² + 4²) = √25 = 5 cm.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The two shorter sides of a right-angled triangle are 3 cm and 4 cm. Find the hypotenuse (in cm).",
+  "options": [
+   "5",
+   "3",
+   "6",
+   "8"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-data-interpretation-039",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
+  "difficulty": "medium",
+  "explanation": "Change = (400 − 280)/280 × 100 = 42.86%.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 280 | 240 | 400\nBooks | 100 | 360 | 370\nBags | 350 | 230 | 280\nBottles | 280 | 270 | 250\n\nBy what percentage did sales of Pens change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "options": [
+   "42.86%",
+   "27.86%",
+   "67.86%",
+   "57.86%"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-data-interpretation-040",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "table totals",
+  "difficulty": "easy",
+  "explanation": "Bottles: 240 + 190 + 110 = 540.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 120 | 140 | 320\nBooks | 100 | 340 | 280\nBags | 120 | 280 | 290\nBottles | 240 | 190 | 110\n\nWhat is the total number of Bottles sold over the three years (in hundreds)?\n(Type your answer as a number.)",
+  "numericAnswer": 540,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-approximation-simplification-041",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "squares and roots",
+  "difficulty": "easy",
+  "explanation": "√16 = 4; 8² = 64. So 4 + 64 − 4 = 64.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Evaluate: √16 + 8² − 4",
+  "options": [
+   "52",
+   "88",
+   "64",
+   "82"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-approximation-simplification-042",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "squares and roots",
+  "difficulty": "easy",
+  "explanation": "√49 = 7; 8² = 64. So 7 + 64 − 7 = 64.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Evaluate: √49 + 8² − 7",
+  "options": [
+   "70",
+   "82",
+   "94",
+   "64"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-remainders-divisibility-043",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "division remainder",
+  "difficulty": "easy",
+  "explanation": "Dividend = divisor × quotient + remainder = 7×35 + 3 = 248.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number gives remainder 3 when divided by 7. If the quotient is 35, what is the number?",
+  "options": [
+   "198",
+   "298",
+   "248",
+   "273"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-remainders-divisibility-044",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 8^k mod 5. Reducing the exponent 70 by the cycle length gives a remainder of 4.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the remainder when 8^70 is divided by 5?",
+  "options": [
+   "4",
+   "8",
+   "1",
+   "3"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-number-systems-045",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "number-systems",
+  "subtopic": "unit digit",
+  "difficulty": "medium",
+  "explanation": "Unit digits of 6^k repeat every 4 steps: 6, 6, 6, 6. Position (84 − 1) mod 4 = 3 gives 6.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "What is the unit digit of 6^84?\n(Type your answer as a number.)",
+  "numericAnswer": 6,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-number-systems-046",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "number-systems",
+  "subtopic": "primes in a range",
+  "difficulty": "medium",
+  "explanation": "The primes in the range are 37, 41, 43, 47, 53 — 5 in total.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many prime numbers are there between 33 and 56 (both inclusive)?",
+  "options": [
+   "5",
+   "4",
+   "6",
+   "8"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-percentages-047",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "percentages",
+  "subtopic": "percentage of a quantity",
+  "difficulty": "easy",
+  "explanation": "24% of 400 = 24/100 × 400 = 96.",
+  "estimatedSeconds": 40,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "What is 24% of 400?\n(Type your answer as a number.)",
+  "numericAnswer": 96,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-pipes-cisterns-048",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/24. Pipe rate = 1/6. Leak rate = 1/6 − 1/24 = 18/144 = 1/8. So the leak empties the tank in 8 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A pipe fills a tank in 6 hours. Because of a leak at the bottom, it takes the pipe 24 hours to fill the tank. In how many hours can the leak alone empty the full tank?\n(Type your answer as a number.)",
+  "numericAnswer": 8,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-probability-049",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "probability",
+  "subtopic": "two dice",
+  "difficulty": "medium",
+  "explanation": "Ways to get a sum of 10 = 3 out of 36 outcomes, so P = 3/36 = 1/12.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 10?",
+  "options": [
+   "5/36",
+   "1/9",
+   "1/12",
+   "1/18"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-ratio-proportion-050",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 14. One part = 3500/14 = 250. Second share = 6 × 250 = 1500.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "₹3,500 is divided among three people in the ratio 4:6:4. How much does the second person get (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 1500,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-profit-loss-051",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "discount",
+  "difficulty": "easy",
+  "explanation": "Price = 2900 × (100 − 30)/100 = 2030.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A shirt has a marked price of ₹2,900. A discount of 30% is given. What is the price paid (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 2030,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-interest-052",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "interest",
+  "subtopic": "compound interest (2 years)",
+  "difficulty": "medium",
+  "explanation": "Amount = 1200 × (1 + 20/100)² = 1728. CI = Amount − Principal = 528.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "What is the compound interest on ₹1,200 for 2 years at 20% per annum, compounded annually (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 528,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-percentages-053",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "percentages",
+  "subtopic": "finding the whole",
+  "difficulty": "easy",
+  "explanation": "Number = 24 × 100 / 12 = 200.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "24 is 12% of a number. What is the number?",
+  "options": [
+   "200",
+   "180",
+   "280",
+   "300"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-geometry-mensuration-054",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "right triangle",
+  "difficulty": "easy",
+  "explanation": "Hypotenuse = √(10² + 24²) = √676 = 26 cm.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The two shorter sides of a right-angled triangle are 10 cm and 24 cm. Find the hypotenuse (in cm).",
+  "options": [
+   "41",
+   "20",
+   "23",
+   "26"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-number-series-055",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "number-series",
+  "subtopic": "geometric series",
+  "difficulty": "easy",
+  "explanation": "Each term is multiplied by 2. Next = 16 × 2 = 32.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Find the next number: 1, 2, 4, 8, 16, ?\n(Type your answer as a number.)",
+  "numericAnswer": 32,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "ltimindtree-apt-mixtures-alligation-056",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "mean price",
+  "difficulty": "medium",
+  "explanation": "Mean price = (3×60 + 2×80)/5 = 68.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Rice at ₹60/kg and rice at ₹80/kg are mixed in the ratio 3:2. What is the price per kg of the mixture (in ₹)?",
+  "options": [
+   "68",
+   "82",
+   "47",
+   "89"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ }
+]

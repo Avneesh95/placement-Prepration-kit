@@ -1,0 +1,1528 @@
+[
+ {
+  "uid": "tcs-apt-percentages-001",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "percentages",
+  "subtopic": "successive change",
+  "difficulty": "medium",
+  "explanation": "Net change = x − y − xy/100 = 20 − 10 − (20×10)/100 = 8%. A positive value means a net increase, a negative one a net decrease.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number is first increased by 20% and then decreased by 10%. What is the net percentage change?",
+  "options": [
+   "5.5%",
+   "20.5%",
+   "8%",
+   "0.5%"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-percentages-002",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "percentages",
+  "subtopic": "successive change",
+  "difficulty": "medium",
+  "explanation": "Net change = x − y − xy/100 = 40 − 5 − (40×5)/100 = 33%. A positive value means a net increase, a negative one a net decrease.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number is first increased by 40% and then decreased by 5%. What is the net percentage change?",
+  "options": [
+   "35.5%",
+   "33%",
+   "38%",
+   "28%"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-profit-loss-003",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "discount",
+  "difficulty": "easy",
+  "explanation": "Price = 4900 × (100 − 25)/100 = 3675.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A shirt has a marked price of ₹4,900. A discount of 25% is given. What is the price paid (in ₹)?",
+  "options": [
+   "2939",
+   "5515",
+   "3675",
+   "4411"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-profit-loss-004",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "discount",
+  "difficulty": "easy",
+  "explanation": "Price = 5200 × (100 − 30)/100 = 3640.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A shirt has a marked price of ₹5,200. A discount of 30% is given. What is the price paid (in ₹)?",
+  "options": [
+   "2912",
+   "3640",
+   "4732",
+   "5096"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-ratio-proportion-005",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 11. One part = 990/11 = 90. Second share = 5 × 90 = 450.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹990 is divided among three people in the ratio 2:5:4. How much does the second person get (in ₹)?",
+  "options": [
+   "540",
+   "450",
+   "405",
+   "360"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-ratio-proportion-006",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 15. One part = 3600/15 = 240. Second share = 6 × 240 = 1440.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹3,600 is divided among three people in the ratio 2:6:7. How much does the second person get (in ₹)?",
+  "options": [
+   "1296",
+   "1440",
+   "1728",
+   "1584"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-averages-007",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 160. Sum of 6 = 210. Sixth number = 210 − 160 = 50.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 32. A sixth number is added and the average becomes 35. What is the sixth number?",
+  "options": [
+   "65",
+   "50",
+   "70",
+   "55"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-averages-008",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 145. Sum of 6 = 186. Sixth number = 186 − 145 = 41.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 29. A sixth number is added and the average becomes 31. What is the sixth number?",
+  "options": [
+   "61",
+   "41",
+   "37",
+   "57"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-time-work-009",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/16 + 1/48 = 64/768 per day. Days = 768/64 = 12.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A can finish a job in 16 days and B can finish it in 48 days. Working together, in how many days will they finish it?",
+  "options": [
+   "16",
+   "12",
+   "13",
+   "10"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-time-work-010",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/14 + 1/35 = 49/490 per day. Days = 490/49 = 10.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A can finish a job in 14 days and B can finish it in 35 days. Working together, in how many days will they finish it?",
+  "options": [
+   "10",
+   "7",
+   "14",
+   "11"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-pipes-cisterns-011",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/6. Pipe rate = 1/2. Leak rate = 1/2 − 1/6 = 4/12 = 1/3. So the leak empties the tank in 3 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 2 hours. Because of a leak at the bottom, it takes the pipe 6 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "2",
+   "1",
+   "3",
+   "4"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-pipes-cisterns-012",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/20. Pipe rate = 1/4. Leak rate = 1/4 − 1/20 = 16/80 = 1/5. So the leak empties the tank in 5 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 4 hours. Because of a leak at the bottom, it takes the pipe 20 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "5",
+   "2",
+   "10",
+   "7"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-speed-distance-013",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "average speed",
+  "difficulty": "medium",
+  "explanation": "For equal distances, average speed = 2ab/(a+b) = 2×30×60/90 = 40 km/h.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A car covers a distance at 30 km/h and returns the same distance at 60 km/h. What is its average speed for the whole trip (in km/h)?",
+  "options": [
+   "40",
+   "48",
+   "28",
+   "56"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-speed-distance-014",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "average speed",
+  "difficulty": "medium",
+  "explanation": "For equal distances, average speed = 2ab/(a+b) = 2×50×75/125 = 60 km/h.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A car covers a distance at 50 km/h and returns the same distance at 75 km/h. What is its average speed for the whole trip (in km/h)?",
+  "options": [
+   "54",
+   "48",
+   "66",
+   "60"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-boats-streams-015",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "upstream speed",
+  "difficulty": "easy",
+  "explanation": "Upstream speed = 14 − 3 = 11 km/h.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat's speed in still water is 14 km/h and the stream's speed is 3 km/h. What is its speed upstream (in km/h)?",
+  "options": [
+   "8",
+   "11",
+   "9",
+   "14"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-boats-streams-016",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 18 + 6 = 24 km/h. Time = 72/24 = 3 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat goes 18 km/h in still water and the stream flows at 6 km/h. How many hours will it take to go 72 km downstream?",
+  "options": [
+   "0",
+   "3",
+   "6",
+   "1"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-interest-017",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "interest",
+  "subtopic": "compound interest (2 years)",
+  "difficulty": "medium",
+  "explanation": "Amount = 5200 × (1 + 20/100)² = 7488. CI = Amount − Principal = 2288.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the compound interest on ₹5,200 for 2 years at 20% per annum, compounded annually (in ₹)?",
+  "options": [
+   "3433",
+   "2288",
+   "3204",
+   "2059"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-interest-018",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "interest",
+  "subtopic": "compound interest (2 years)",
+  "difficulty": "medium",
+  "explanation": "Amount = 3200 × (1 + 20/100)² = 4608. CI = Amount − Principal = 1408.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "What is the compound interest on ₹3,200 for 2 years at 20% per annum, compounded annually (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 1408,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-number-series-019",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "number-series",
+  "subtopic": "squares plus constant",
+  "difficulty": "medium",
+  "explanation": "The terms are 6²+1, 7²+1, 8²+1, 9²+1, 10²+1. Next = 11²+1 = 122.",
+  "estimatedSeconds": 60,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 37, 50, 65, 82, 101, ?",
+  "options": [
+   "146",
+   "134",
+   "122",
+   "182"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-number-series-020",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "number-series",
+  "subtopic": "squares plus constant",
+  "difficulty": "medium",
+  "explanation": "The terms are 3²+1, 4²+1, 5²+1, 6²+1, 7²+1. Next = 8²+1 = 65.",
+  "estimatedSeconds": 60,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Find the next number: 10, 17, 26, 37, 50, ?\n(Type your answer as a number.)",
+  "numericAnswer": 65,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-hcf-lcm-021",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "LCM of two numbers",
+  "difficulty": "easy",
+  "explanation": "HCF = 9. LCM = (36 × 81)/9 = 324.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Find the LCM of 36 and 81.\n(Type your answer as a number.)",
+  "numericAnswer": 324,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-hcf-lcm-022",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "LCM of two numbers",
+  "difficulty": "easy",
+  "explanation": "HCF = 3. LCM = (12 × 9)/3 = 36.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the LCM of 12 and 9.",
+  "options": [
+   "36",
+   "56",
+   "24",
+   "48"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-ages-023",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "ages",
+  "subtopic": "ages in the past",
+  "difficulty": "medium",
+  "explanation": "Sita 5 years ago = 16. Ravi then = 4 × 16 = 64. Ravi now = 64 + 5 = 69.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "5 years ago, Ravi was 4 times as old as Sita. Sita is now 21 years old. How old is Ravi now?",
+  "options": [
+   "69",
+   "104",
+   "62",
+   "90"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-ages-024",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "ages",
+  "subtopic": "ages in the past",
+  "difficulty": "medium",
+  "explanation": "Sita 8 years ago = 14. Ravi then = 2 × 14 = 28. Ravi now = 28 + 8 = 36.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "8 years ago, Ravi was 2 times as old as Sita. Sita is now 22 years old. How old is Ravi now?",
+  "options": [
+   "56",
+   "40",
+   "48",
+   "36"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-permutations-combinations-025",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "permutations",
+  "difficulty": "medium",
+  "explanation": "7P2 = 7×6 = 42.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can 2 different prizes be given to 7 students if no student gets more than one prize?",
+  "options": [
+   "42",
+   "58",
+   "50",
+   "62"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-permutations-combinations-026",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "combinations",
+  "difficulty": "easy",
+  "explanation": "10C2 = 10!/(2!×8!) = 45.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can a committee of 2 be chosen from 10 people?",
+  "options": [
+   "70",
+   "45",
+   "65",
+   "50"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-probability-027",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "probability",
+  "subtopic": "two dice",
+  "difficulty": "medium",
+  "explanation": "Ways to get a sum of 5 = 4 out of 36 outcomes, so P = 4/36 = 1/9.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 5?",
+  "options": [
+   "1/9",
+   "2/9",
+   "5/36",
+   "1/12"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-probability-028",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "probability",
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 5/8 = 5/8.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A bag has 5 red and 3 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "options": [
+   "5/8",
+   "3/4",
+   "5/9",
+   "5/3"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-mixtures-alligation-029",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "mean price",
+  "difficulty": "medium",
+  "explanation": "Mean price = (1×70 + 1×90)/2 = 80.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Rice at ₹70/kg and rice at ₹90/kg are mixed in the ratio 1:1. What is the price per kg of the mixture (in ₹)?",
+  "options": [
+   "72",
+   "112",
+   "104",
+   "80"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-mixtures-alligation-030",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 15 L, water = 12 L. For 1:1 water must equal milk, so add 15 − 12 = 3 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A 27 litre mixture has milk and water in the ratio 5:4. How many litres of water must be added to make the ratio 1:1?",
+  "options": [
+   "2",
+   "3",
+   "6",
+   "4"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-partnership-031",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 6000×7 : 5000×8 = 42000 : 40000 = 21 : 20. Anil's share = 21/41 × 8200 = 4200.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Anil invests ₹6,000 for 7 months and Binu invests ₹5,000 for 8 months. They earn a profit of ₹8,200. What is Anil's share (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 4200,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-partnership-032",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 5000×9 : 5000×4 = 45000 : 20000 = 9 : 4. Anil's share = 9/13 × 3900 = 2700.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹5,000 for 9 months and Binu invests ₹5,000 for 4 months. They earn a profit of ₹3,900. What is Anil's share (in ₹)?",
+  "options": [
+   "2700",
+   "2970",
+   "3780",
+   "4050"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-algebra-033",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "algebra",
+  "subtopic": "linear equation",
+  "difficulty": "easy",
+  "explanation": "x + 8 = 65/5 = 13, so x = 5.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If 5(x + 8) = 65, find x.",
+  "options": [
+   "9",
+   "4",
+   "10",
+   "5"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-algebra-034",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "algebra",
+  "subtopic": "x + 1/x identity",
+  "difficulty": "medium",
+  "explanation": "Square both sides: x² + 2 + 1/x² = 36. So x² + 1/x² = 36 − 2 = 34.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If x + 1/x = 6, find the value of x² + 1/x².",
+  "options": [
+   "34",
+   "40",
+   "25",
+   "31"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-progressions-035",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "progressions",
+  "subtopic": "GP term",
+  "difficulty": "medium",
+  "explanation": "Tₙ = a·r^(n−1) = 8 × 2^5 = 256.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The first term of a GP is 8 and the common ratio is 2. What is its 6th term?",
+  "options": [
+   "204",
+   "282",
+   "230",
+   "256"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-progressions-036",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "progressions",
+  "subtopic": "nth term of AP",
+  "difficulty": "easy",
+  "explanation": "Tₙ = a + (n−1)d = 2 + 12×6 = 74.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The first term of an AP is 2 and the common difference is 6. Find its 13th term.",
+  "options": [
+   "95",
+   "60",
+   "74",
+   "53"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-geometry-mensuration-037",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "circle",
+  "difficulty": "easy",
+  "explanation": "Area = πr² = 22/7 × 14² = 616 cm².",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the area of a circle of radius 14 cm (take π = 22/7), in cm².",
+  "options": [
+   "430",
+   "864",
+   "616",
+   "678"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-geometry-mensuration-038",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "cylinder",
+  "difficulty": "medium",
+  "explanation": "V = πr²h = 22/7 × 7² × 4 = 616 cm³.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the volume of a cylinder with radius 7 cm and height 4 cm (π = 22/7), in cm³.",
+  "options": [
+   "616",
+   "926",
+   "492",
+   "430"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-data-interpretation-039",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
+  "difficulty": "medium",
+  "explanation": "Change = (260 − 190)/190 × 100 = 36.84%.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 310 | 400 | 320\nBooks | 400 | 140 | 100\nBags | 280 | 290 | 310\nBottles | 190 | 160 | 260\n\nBy what percentage did sales of Bottles change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "options": [
+   "41.84%",
+   "31.84%",
+   "36.84%",
+   "26.84%"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-data-interpretation-040",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
+  "difficulty": "medium",
+  "explanation": "Change = (90 − 210)/210 × 100 = -57.14%.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 90 | 90 | 370\nBooks | 210 | 230 | 90\nBags | 360 | 120 | 150\nBottles | 200 | 160 | 270\n\nBy what percentage did sales of Books change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "options": [
+   "-42.14%",
+   "-37.14%",
+   "-57.14%",
+   "-67.14%"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-approximation-simplification-041",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 44 × 7 = 308; ÷ 4 = 77; then + 32 − 2 = 107.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 44 × 7 ÷ 4 + 32 − 2",
+  "options": [
+   "118",
+   "107",
+   "162",
+   "151"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-approximation-simplification-042",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "squares and roots",
+  "difficulty": "easy",
+  "explanation": "√81 = 9; 9² = 81. So 9 + 81 − 9 = 81.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Evaluate: √81 + 9² − 9",
+  "options": [
+   "97",
+   "121",
+   "73",
+   "81"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-remainders-divisibility-043",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 8^k mod 6. Reducing the exponent 24 by the cycle length gives a remainder of 4.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the remainder when 8^24 is divided by 6?",
+  "options": [
+   "5",
+   "4",
+   "8",
+   "3"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-remainders-divisibility-044",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 7^k mod 9. Reducing the exponent 39 by the cycle length gives a remainder of 1.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the remainder when 7^39 is divided by 9?",
+  "options": [
+   "3",
+   "6",
+   "1",
+   "2"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-number-systems-045",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "number-systems",
+  "subtopic": "primes in a range",
+  "difficulty": "medium",
+  "explanation": "The primes in the range are 37, 41, 43, 47, 53, 59 — 6 in total.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many prime numbers are there between 32 and 59 (both inclusive)?",
+  "options": [
+   "6",
+   "5",
+   "3",
+   "11"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-number-systems-046",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "number-systems",
+  "subtopic": "unit digit",
+  "difficulty": "medium",
+  "explanation": "Unit digits of 6^k repeat every 4 steps: 6, 6, 6, 6. Position (33 − 1) mod 4 = 0 gives 6.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the unit digit of 6^33?",
+  "options": [
+   "5",
+   "9",
+   "6",
+   "10"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-percentages-047",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "percentages",
+  "subtopic": "successive change",
+  "difficulty": "medium",
+  "explanation": "Net change = x − y − xy/100 = 40 − 10 − (40×10)/100 = 26%. A positive value means a net increase, a negative one a net decrease.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number is first increased by 40% and then decreased by 10%. What is the net percentage change?",
+  "options": [
+   "36%",
+   "38.5%",
+   "18.5%",
+   "26%"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-hcf-lcm-048",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "LCM of two numbers",
+  "difficulty": "easy",
+  "explanation": "HCF = 2. LCM = (6 × 10)/2 = 30.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the LCM of 6 and 10.",
+  "options": [
+   "21",
+   "39",
+   "24",
+   "30"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-progressions-049",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "progressions",
+  "subtopic": "sum of AP",
+  "difficulty": "medium",
+  "explanation": "Sₙ = n/2 × [2a + (n−1)d] = 20/2 × [14 + 57] = 710.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the sum of the first 20 terms of the AP 7, 10, 13, ...",
+  "options": [
+   "710",
+   "1065",
+   "994",
+   "781"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-boats-streams-050",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "upstream speed",
+  "difficulty": "easy",
+  "explanation": "Upstream speed = 14 − 2 = 12 km/h.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat's speed in still water is 14 km/h and the stream's speed is 2 km/h. What is its speed upstream (in km/h)?",
+  "options": [
+   "12",
+   "10",
+   "16",
+   "17"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-profit-loss-051",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "selling price from profit",
+  "difficulty": "easy",
+  "explanation": "SP = CP × (100 + profit%)/100 = 1020 × 115/100 = 1173.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "An article is bought for ₹1,020 and sold at a profit of 15%. Find its selling price (in ₹).",
+  "options": [
+   "1056",
+   "1173",
+   "1290",
+   "1407"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-algebra-052",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "algebra",
+  "subtopic": "x + 1/x identity",
+  "difficulty": "medium",
+  "explanation": "Square both sides: x² + 2 + 1/x² = 64. So x² + 1/x² = 64 − 2 = 62.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "If x + 1/x = 8, find the value of x² + 1/x².\n(Type your answer as a number.)",
+  "numericAnswer": 62,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-ratio-proportion-053",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 16. One part = 2240/16 = 140. Second share = 6 × 140 = 840.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹2,240 is divided among three people in the ratio 3:6:7. How much does the second person get (in ₹)?",
+  "options": [
+   "1260",
+   "1092",
+   "840",
+   "672"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-geometry-mensuration-054",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "cylinder",
+  "difficulty": "medium",
+  "explanation": "V = πr²h = 22/7 × 7² × 5 = 770 cm³.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the volume of a cylinder with radius 7 cm and height 5 cm (π = 22/7), in cm³.",
+  "options": [
+   "770",
+   "539",
+   "847",
+   "1078"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-boats-streams-055",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 16 + 2 = 18 km/h. Time = 54/18 = 3 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat goes 16 km/h in still water and the stream flows at 2 km/h. How many hours will it take to go 54 km downstream?",
+  "options": [
+   "1",
+   "2",
+   "4",
+   "3"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "tcs-apt-approximation-simplification-056",
+  "companies": [
+   "tcs"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 33 × 8 = 264; ÷ 3 = 88; then + 22 − 3 = 107.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Simplify: 33 × 8 ÷ 3 + 22 − 3\n(Type your answer as a number.)",
+  "numericAnswer": 107,
+  "tolerance": 0,
+  "subject": "aptitude"
+ }
+]
