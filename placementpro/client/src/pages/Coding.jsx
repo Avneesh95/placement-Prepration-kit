@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
-import { Bookmark, BookmarkCheck, Lightbulb } from 'lucide-react';
+import { Bookmark, BookmarkCheck, Lightbulb, ExternalLink } from 'lucide-react';
 import { useGet } from '../lib/useApi';
 import { api, qs } from '../lib/api';
 import { Card, Badge, Btn, Spinner, ErrorBox, PageTitle, Empty, Disclaimer } from '../components/ui';
@@ -15,7 +15,7 @@ export function CodingList() {
     <div>
       <PageTitle title="Coding Arena" sub="Practise problems, then compare with reference solutions." />
       <div className="mb-4"><Disclaimer><b>Practice interface, not an online judge.</b> Your code is saved but never executed. Reference solutions (Java and Python) were checked offline against the test cases. Mark your own result honestly.</Disclaimer></div>
-      {daily.data && <Link to={`/coding/${daily.data.question._id}`}><Card className="mb-4 border-accent-500/40 hover:border-accent-500"><Badge tone="orange">Daily challenge</Badge><h2 className="mt-2 font-semibold">{daily.data.question.subtopic}</h2><p className="muted">{label(daily.data.question.topic)} · {daily.data.question.difficulty}</p></Card></Link>}
+      {daily.data && <Link to={`/coding/${daily.data.question._id}`}><Card className="mb-4 border-accent-500/40 hover:border-accent-500"><div className="flex items-center justify-between"><Badge tone="orange">Daily challenge</Badge>{daily.data.question.coding?.leetcodeUrl && <span className="inline-flex items-center gap-1 text-xs text-amber-600 dark:text-amber-400">LeetCode Available ↗</span>}</div><h2 className="mt-2 font-semibold">{daily.data.question.subtopic}</h2><p className="muted">{label(daily.data.question.topic)} · {daily.data.question.difficulty}</p></Card></Link>}
       <div className="card mb-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
         <input className="input sm:col-span-2" placeholder="Search problems…" value={f.q} onChange={(e) => set('q', e.target.value)} aria-label="Search" />
         <select className="input" value={f.collection} onChange={(e) => set('collection', e.target.value)} aria-label="Collection"><option value="">All problems</option><option value="top100">Core fresher set</option><option value="beginner">Beginner</option><option value="intermediate">Intermediate</option><option value="advanced">Advanced</option></select>
@@ -27,7 +27,7 @@ export function CodingList() {
       </div>
       {list.loading ? <Spinner /> : list.error ? <ErrorBox error={list.error} onRetry={list.reload} /> : list.data.items.length === 0 ? <Empty>No problems match these filters.</Empty> : (
         <div className="space-y-2">{list.data.items.map((q) => (
-          <Link key={q._id} to={`/coding/${q._id}`}><Card className="flex items-center justify-between gap-3 hover:border-brand-500"><div><h3 className="font-semibold">{q.subtopic}</h3><p className="muted">{label(q.topic)}</p></div>
+          <Link key={q._id} to={`/coding/${q._id}`}><Card className="flex items-center justify-between gap-3 hover:border-brand-500"><div><div className="flex items-center gap-2"><h3 className="font-semibold">{q.subtopic}</h3>{q.coding?.leetcodeUrl && <span className="rounded bg-amber-500/10 px-1.5 py-0.5 text-[10px] font-medium text-amber-600 dark:text-amber-400">LeetCode</span>}</div><p className="muted">{label(q.topic)}</p></div>
             <div className="flex shrink-0 items-center gap-2">{q.userState.solved ? <Badge tone="green">Solved</Badge> : q.userState.attempted ? <Badge tone="amber">Attempted</Badge> : null}<Badge tone={q.difficulty === 'hard' ? 'red' : q.difficulty === 'medium' ? 'amber' : 'green'}>{q.difficulty}</Badge></div></Card></Link>))}
           <div className="flex items-center justify-between pt-2"><Btn variant="ghost" disabled={list.data.page <= 1} onClick={() => set('page', String(list.data.page - 1))}>Previous</Btn><span className="muted">{list.data.total} problems</span><Btn variant="ghost" disabled={list.data.page >= list.data.pages} onClick={() => set('page', String(list.data.page + 1))}>Next</Btn></div></div>)}
     </div>
@@ -44,7 +44,29 @@ export function CodingProblem() {
   const flip = async () => { if (bm) await api.del(`/bookmarks/${id}`); else await api.post(`/bookmarks/${id}`); setBm(!bm); };
   return (
     <div className="space-y-4">
-      <PageTitle title={q.subtopic} sub={`${label(q.topic)} · ${q.difficulty}`} right={<button className="rounded-lg p-2" onClick={flip} aria-label={bm ? 'Remove bookmark' : 'Bookmark'}>{bm ? <BookmarkCheck className="text-accent-500" /> : <Bookmark />}</button>} />
+      <PageTitle
+        title={q.subtopic}
+        sub={`${label(q.topic)} · ${q.difficulty}`}
+        right={
+          <div className="flex items-center gap-2">
+            {c?.leetcodeUrl && (
+              <a
+                href={c.leetcodeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-lg border border-amber-500/30 bg-amber-500/10 px-3 py-1.5 text-xs font-semibold text-amber-700 transition hover:bg-amber-500/20 dark:text-amber-300"
+                title="Practice this exact problem on LeetCode"
+              >
+                <span>Solve on LeetCode</span>
+                <ExternalLink className="h-3.5 w-3.5" />
+              </a>
+            )}
+            <button className="rounded-lg p-2" onClick={flip} aria-label={bm ? 'Remove bookmark' : 'Bookmark'}>
+              {bm ? <BookmarkCheck className="text-accent-500" /> : <Bookmark />}
+            </button>
+          </div>
+        }
+      />
       <Card><p className="pre-wrap">{c.statement}</p>
         <h3 className="mt-3 text-sm font-semibold">Constraints</h3><ul className="list-disc pl-5 text-sm">{c.constraints.map((x) => <li key={x}>{x}</li>)}</ul>
         <div className="mt-3 grid gap-3 text-sm sm:grid-cols-2"><div><b>Input</b><p className="muted">{c.inputFormat}</p></div><div><b>Output</b><p className="muted">{c.outputFormat}</p></div></div>

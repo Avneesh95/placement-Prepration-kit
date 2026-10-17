@@ -30,6 +30,7 @@ const s = new mongoose.Schema({
     referenceSolutions: { java: String, python: String },
     testCases: [{ input: String, output: String, hidden: Boolean }],
     top100: Boolean,
+    leetcodeUrl: String,
   },
   // SQL exercises (executed in an isolated in-memory SQLite sandbox)
   sql: {

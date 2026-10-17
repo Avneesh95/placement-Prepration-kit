@@ -14,6 +14,43 @@ const listQ = z.object({
   q: z.string().max(100).optional(), page: z.coerce.number().int().min(1).default(1), limit: z.coerce.number().int().min(1).max(50).default(20),
 });
 
+const LEETCODE_MAP = {
+  'coding-sum-of-digits': 'https://leetcode.com/problems/add-digits/',
+  'coding-prime-check': 'https://leetcode.com/problems/count-primes/',
+  'coding-gcd-lcm': 'https://leetcode.com/problems/find-greatest-common-divisor-of-array/',
+  'coding-two-sum': 'https://leetcode.com/problems/two-sum/',
+  'coding-palindrome-check': 'https://leetcode.com/problems/valid-palindrome/',
+  'coding-valid-parentheses': 'https://leetcode.com/problems/valid-parentheses/',
+  'coding-binary-search': 'https://leetcode.com/problems/binary-search/',
+  'coding-rotate-array': 'https://leetcode.com/problems/rotate-array/',
+  'coding-maximum-subarray': 'https://leetcode.com/problems/maximum-subarray/',
+  'coding-first-non-repeating-char': 'https://leetcode.com/problems/first-unique-character-in-a-string/',
+  'coding-longest-substring-no-repeat': 'https://leetcode.com/problems/longest-substring-without-repeating-characters/',
+  'coding-subarray-sum-equals-k': 'https://leetcode.com/problems/subarray-sum-equals-k/',
+  'coding-coin-change': 'https://leetcode.com/problems/coin-change/',
+  'coding-climbing-stairs': 'https://leetcode.com/problems/climbing-stairs/',
+  'coding-number-of-islands': 'https://leetcode.com/problems/number-of-islands/',
+  'coding-next-greater-element': 'https://leetcode.com/problems/next-greater-element-i/',
+  'coding-best-time-to-buy-sell': 'https://leetcode.com/problems/best-time-to-buy-and-sell-stock/',
+  'coding-merge-intervals': 'https://leetcode.com/problems/merge-intervals/',
+  'coding-single-number': 'https://leetcode.com/problems/single-number/',
+  'coding-top-k-largest': 'https://leetcode.com/problems/kth-largest-element-in-an-array/',
+  'coding-binary-tree-height': 'https://leetcode.com/problems/maximum-depth-of-binary-tree/',
+  'coding-activity-selection': 'https://leetcode.com/problems/non-overlapping-intervals/',
+  'coding-container-with-most-water': 'https://leetcode.com/problems/container-with-most-water/',
+  'coding-spiral-matrix': 'https://leetcode.com/problems/spiral-matrix/',
+  'coding-count-subsets-with-sum': 'https://leetcode.com/problems/target-sum/',
+};
+
+const withLeetCode = (q) => {
+  if (!q) return q;
+  const url = q.coding?.leetcodeUrl || LEETCODE_MAP[q.uid] || null;
+  return {
+    ...q,
+    coding: q.coding ? { ...q.coding, leetcodeUrl: url } : { leetcodeUrl: url },
+  };
+};
+
 router.get('/', asyncHandler(async (req, res) => {
   const p = listQ.parse(req.query);
   const f = { subject: 'coding', active: true };
@@ -31,7 +68,7 @@ router.get('/', asyncHandler(async (req, res) => {
   const [items, total] = await Promise.all([Question.find(f).select(`${HIDE} -coding.hints -coding.examples`).sort({ uid: 1 }).skip((p.page - 1) * p.limit).limit(p.limit).lean(), Question.countDocuments(f)]);
   const ann = await annotate(req.user._id, items);
   const sm = new Set(solved), am = new Set(attempted);
-  res.json({ items: ann.map((q) => ({ ...q, userState: { ...q.userState, solved: sm.has(String(q._id)), attempted: am.has(String(q._id)) } })), page: p.page, limit: p.limit, total, pages: Math.ceil(total / p.limit),
+  res.json({ items: ann.map((q) => withLeetCode({ ...q, userState: { ...q.userState, solved: sm.has(String(q._id)), attempted: am.has(String(q._id)) } })), page: p.page, limit: p.limit, total, pages: Math.ceil(total / p.limit),
     note: 'Code is not executed on the server. Statuses reflect your own self-assessment.' });
 }));
 
@@ -41,14 +78,14 @@ router.get('/daily', asyncHandler(async (req, res) => {
   const d = Math.floor(Date.now() / 86400000);
   const pick = all[(d * 7 + 3) % all.length];
   const q = await Question.findById(pick._id).select(HIDE).lean();
-  res.json({ question: (await annotate(req.user._id, [q]))[0] });
+  res.json({ question: withLeetCode((await annotate(req.user._id, [q]))[0]) });
 }));
 
 router.get('/:id', asyncHandler(async (req, res) => {
   const q = await Question.findOne({ _id: req.params.id, subject: 'coding', active: true }).select(HIDE).lean();
   if (!q) throw new ApiError(404, 'NOT_FOUND', 'Problem not found.');
   const last = await CodingSubmission.findOne({ user: req.user._id, question: q._id }).sort({ createdAt: -1 }).lean();
-  res.json({ question: (await annotate(req.user._id, [q]))[0], lastSubmission: last, judging: { enabled: false, message: 'Practice interface: your code is saved but not executed. Compare with the reference solution and mark your own result.' } });
+  res.json({ question: withLeetCode((await annotate(req.user._id, [q]))[0]), lastSubmission: last, judging: { enabled: false, message: 'Practice interface: your code is saved but not executed. Compare with the reference solution and mark your own result.' } });
 }));
 
 router.post('/:id/submissions', asyncHandler(async (req, res) => {
