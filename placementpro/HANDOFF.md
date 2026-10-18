@@ -19,18 +19,19 @@
    - **Dynamic Chart Theming:** Recharts tooltips, gridlines, and axes in `Dashboard.jsx` and `Result.jsx` adapt colors dynamically based on active theme.
    - **Form Controls & Accessibility:** Styled select dropdown options, date pickers, range sliders, and added `prefers-reduced-motion` compliance.
 
-2. **Premium Student Dashboard & Modern SaaS Redesign:**
-   - **Visual System & Color Palette:** Primary Navy (`#111827`), Primary Blue (`#2563EB`), Light Background (`#F3F6FC`), Dark Background (`#0B0F19`), Light Cards (`#FFFFFF`), Dark Cards (`#111827` / `#1F2937`), Success Green (`#16A34A`), and Secondary Slate (`#64748B`).
-   - **Persistent Sidebar Navigation (`client/src/components/Layout.jsx`):** Structured into logical sections (Overview, Practice Arena, Study & Revision, Settings) with active state indicators, collapsible mobile drawer, mobile bottom bar, and mini user profile footer.
-   - **Top Navigation Header:** Sticky header with global question/topic search input (`/practice?q=`), notification popover, ThemeToggle, and user dropdown menu.
-   - **Welcome Hero Section (`Dashboard.jsx`):** Personalized student greeting ("Welcome back, {firstName} 👋"), motivational subtitle, and dual action CTAs ("Continue Preparation" and "Take a Mock Test").
-   - **5 Progress Overview Metric Cards:** Questions Attempted, Mock Tests Completed, Average Accuracy, Study Streak, and Overall Progress percentage.
-   - **Top 6 Company Preparation Cards:** TCS, Infosys, Wipro, Accenture, Capgemini, and Cognizant with distinct brand badges, syllabus coverage indicators, and direct links.
-   - **Performance & Analytics Section:** 14-day interactive Recharts activity chart, subject progress breakdown, weak topics radar, and recent test results.
-   - **Redesigned MCQ Engine (`QuestionCard.jsx`):** Sleek letter circles (A, B, C, D), active/selected rings, accessible radiogroups, and instant emerald/rose feedback panels with explanations.
-   - **Distraction-Free Test Runner (`TestRunner.jsx`):** Sticky exam header with server-synced countdown timer, section progress, desktop/mobile question palette, mark-for-review flags, and auto-submit on expiry.
-   - **Coding Arena & SQL Lab:** Modern code editors with syntax highlighting, sample outputs, execution results, and direct one-click practice links to official LeetCode problems.
-   - **Polished Supporting Pages:** Result scorecard (`Result.jsx`), Day-by-Day Study Planner (`StudyPlan.jsx`), Company detail tabs (`Companies.jsx`), Topic deep dives (`Topic.jsx`), FAQs accordion (`Faqs.jsx`), Account profile (`Profile.jsx`), and Auth flows (`Auth.jsx`).
+2. **Premium Student Dashboard & Modern SaaS Redesign (Sky Blue, White & Orange Theme):**
+   - **Visual System & Theme Palette:** Inspired directly by modern visual design benchmarks with vibrant Sky Blue (`#0ea5e9`, `#0284c7`, `#38bdf8`), Crisp White (`#ffffff`), and High-Energy Orange / Coral (`#f97316`, `#ea580c`, `#ff5722`).
+   - **Light Theme & Dark Theme Harmony:**
+     - Light Theme: Crisp white cards, soft skyblue-tinted ambient background (`#f0f6ff`), sky blue action buttons, and glowing orange focus accents.
+     - Dark Theme: Deep slate-navy background (`#101624`), elevated dark cards (`#171f30`), and glowing neon sky/orange accents matching the design screenshot.
+   - **Multi-Layer Wave Area Chart:** Smooth flowing waves with translucent Sky Blue, Orange, and Indigo gradient curves, interactive dark tooltip card with glowing active node.
+   - **The 3 Iconic Circular Progress Gauge Cards:**
+     - Vibrant Orange/Coral Card (`#ff5722` -> `#ea580c`) with white circular gauge for Questions Attempted & Solved.
+     - Vibrant Purple/Periwinkle Card (`#6366f1` -> `#8b5cf6`) with white circular gauge for Study Streak.
+     - Vibrant Sky Blue Card (`#0284c7` -> `#38bdf8`) with white circular gauge for Overall Syllabus Progress.
+   - **Target Company Live Tracker Panel:** Right-hand vertical list with company avatars (TCS, Infosys, Wipro, Accenture, Capgemini, Cognizant) with active green status indicators and question counts.
+   - **Persistent Sidebar Navigation (`client/src/components/Layout.jsx`):** Features user profile at top with green active status dot, active menu items with left skyblue border indicator line, and orange revision alerts.
+   - **Distraction-Free Test Runner & Scorecards:** Refined with skyblue and orange palette tokens.
 
 3. **Branding Update:**
    - Rebranded the platform to **Prepo by Avneesh** across layout headers, index page titles, auth flows, and smoke tests.

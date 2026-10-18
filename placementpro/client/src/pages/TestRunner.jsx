@@ -8,9 +8,9 @@ import { mmss, label } from '../lib/format';
 import { remainingSeconds, paletteState, summarise } from '../lib/testState';
 
 const PALETTE = {
-  answered: 'bg-brand-600 text-white border-brand-600 shadow-sm',
-  'marked-answered': 'bg-brand-600 text-white border-amber-500 ring-2 ring-amber-500',
-  marked: 'bg-white text-slate-800 border-amber-500 ring-2 ring-amber-500 dark:bg-gray-800 dark:text-gray-100',
+  answered: 'bg-brand-500 text-white border-brand-500 shadow-sm shadow-brand-500/25',
+  'marked-answered': 'bg-brand-500 text-white border-orange-500 ring-2 ring-orange-500',
+  marked: 'bg-white text-slate-800 border-orange-500 ring-2 ring-orange-500 dark:bg-gray-800 dark:text-gray-100',
   visited: 'bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-950/50 dark:text-rose-300 dark:border-rose-900',
   fresh: 'bg-white text-slate-600 border-slate-200 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700',
 };
@@ -281,9 +281,9 @@ export default function TestRunner() {
   );
 
   return (
-    <div className="flex min-h-screen flex-col bg-[#f3f6fc] dark:bg-[#0b0f19]">
+    <div className="flex min-h-screen flex-col bg-[#f0f6ff] dark:bg-[#101624]">
       {/* Top Distraction-Free Header */}
-      <header className="safe-top sticky top-0 z-20 border-b border-slate-200/80 bg-white/90 backdrop-blur-md px-4 py-2.5 dark:border-gray-800 dark:bg-[#111827]/90">
+      <header className="safe-top sticky top-0 z-20 border-b border-[#e0edfb] bg-white/95 backdrop-blur-md px-4 py-2.5 dark:border-[#1e273a] dark:bg-[#131926]/95">
         <div className="mx-auto flex max-w-5xl items-center gap-3">
           <div className="min-w-0 flex-1">
             <div className="truncate text-sm font-bold text-slate-900 dark:text-white">

@@ -108,10 +108,10 @@ export default function Layout() {
 
   const linkClass = (item) => {
     const active = isItemActive(item);
-    return `group flex items-center gap-3 rounded-xl px-3 py-2 text-xs font-semibold transition-all ${
+    return `group relative flex items-center justify-between gap-3 rounded-xl px-3 py-2.5 text-xs font-semibold transition-all ${
       active
-        ? 'bg-brand-600 text-white shadow-sm shadow-brand-500/20'
-        : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-gray-400 dark:hover:bg-gray-800/80 dark:hover:text-gray-200'
+        ? 'border-l-4 border-sky-500 bg-sky-500/10 text-sky-600 dark:border-sky-400 dark:bg-sky-500/20 dark:text-sky-300 font-bold -ml-3 pl-2.5 rounded-l-none'
+        : 'text-slate-600 hover:bg-sky-50/60 hover:text-sky-600 dark:text-gray-400 dark:hover:bg-gray-800/80 dark:hover:text-gray-200'
     }`;
   };
 
@@ -127,41 +127,69 @@ export default function Layout() {
   const NavContent = () => (
     <div className="flex h-full flex-col justify-between">
       <div>
-        {/* Brand Logo Header */}
-        <div className="flex items-center gap-2.5 px-4 py-5">
+        {/* Brand Header */}
+        <div className="flex items-center justify-between px-4 pt-5 pb-3">
           <NavLink to="/" className="flex items-center gap-2.5">
-            <div className="grid h-9 w-9 place-items-center rounded-xl bg-brand-600 text-base font-extrabold text-white shadow-sm shadow-brand-500/30">
+            <div className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-tr from-brand-600 to-sky-400 text-base font-extrabold text-white shadow-md shadow-brand-500/30">
               P
             </div>
             <div>
               <div className="flex items-center gap-1.5 text-base font-bold tracking-tight text-slate-900 dark:text-white">
                 <span>Prepo</span>
-                <span className="rounded bg-amber-500/10 px-1.5 py-0.5 text-[10px] font-semibold text-amber-600 dark:text-amber-400">
+                <span className="rounded bg-orange-500/15 px-1.5 py-0.5 text-[10px] font-bold text-orange-600 dark:text-orange-400">
                   by Avneesh
                 </span>
               </div>
-              <p className="text-[10px] font-medium text-slate-600 dark:text-gray-400">
+              <p className="text-[10px] font-medium text-slate-500 dark:text-gray-400">
                 CSE 2027 Placement Prep
               </p>
             </div>
           </NavLink>
         </div>
 
+        {/* Top Profile Badge (Matching UI Screenshot) */}
+        <div className="mx-3 my-3 rounded-2xl border border-sky-100 bg-white/80 p-2.5 shadow-xs dark:border-[#222d44] dark:bg-[#171f30]">
+          <NavLink to="/profile" className="flex items-center gap-3">
+            <div className="relative">
+              <div className="grid h-9 w-9 place-items-center rounded-full bg-gradient-to-tr from-sky-500 to-brand-600 text-xs font-bold text-white shadow-xs">
+                {initials}
+              </div>
+              <span className="absolute -bottom-0.5 -right-0.5 h-2.5 w-2.5 rounded-full bg-emerald-500 ring-2 ring-white dark:ring-[#171f30]" />
+            </div>
+            <div className="min-w-0 flex-1">
+              <div className="truncate text-xs font-bold text-slate-900 dark:text-white">
+                {user?.name || 'Student Prep'}
+              </div>
+              <div className="flex items-center gap-1.5 text-[10px] font-medium text-emerald-600 dark:text-emerald-400">
+                <span>Online</span>
+                <span className="text-slate-300 dark:text-gray-600">·</span>
+                <span className="text-slate-500 dark:text-gray-400">Batch 2027</span>
+              </div>
+            </div>
+          </NavLink>
+        </div>
+
         {/* Navigation Sections */}
-        <nav className="space-y-5 px-3 py-2" aria-label="Main sidebar">
+        <nav className="space-y-4 px-3 py-1" aria-label="Main sidebar">
           {NAV_GROUPS.map((group) => (
             <div key={group.title}>
-              <div className="px-3 pb-1.5 text-[10px] font-bold uppercase tracking-wider text-slate-600 dark:text-gray-400">
+              <div className="px-3 pb-1 text-[10px] font-bold uppercase tracking-wider text-slate-400 dark:text-gray-500">
                 {group.title}
               </div>
-              <div className="space-y-1">
+              <div className="space-y-0.5">
                 {group.items.map((item) => {
                   const Icon = item.icon;
                   const active = isItemActive(item);
+                  const isOrangeDot = item.name.includes('Revision') || item.name.includes('Coding');
                   return (
                     <NavLink key={item.name} to={item.to} className={linkClass(item)}>
-                      <Icon className={`h-4 w-4 shrink-0 transition-transform ${active ? 'text-white' : 'text-slate-600 group-hover:text-slate-900 dark:text-gray-400 dark:group-hover:text-gray-200'}`} />
-                      <span className="truncate">{item.name}</span>
+                      <div className="flex items-center gap-3 min-w-0">
+                        <Icon className={`h-4 w-4 shrink-0 transition-transform ${active ? 'text-sky-600 dark:text-sky-300' : 'text-slate-500 group-hover:text-sky-600 dark:text-gray-400 dark:group-hover:text-sky-400'}`} />
+                        <span className="truncate">{item.name}</span>
+                      </div>
+                      {isOrangeDot && (
+                        <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-orange-500 ring-2 ring-orange-500/20" />
+                      )}
                     </NavLink>
                   );
                 })}
@@ -172,25 +200,18 @@ export default function Layout() {
       </div>
 
       {/* User profile footer card */}
-      <div className="border-t border-slate-200/80 p-3 dark:border-gray-800">
-        <div className="flex items-center justify-between rounded-xl p-2 hover:bg-slate-50 dark:hover:bg-gray-800/50">
+      <div className="border-t border-sky-100/80 p-3 dark:border-[#222d44]">
+        <div className="flex items-center justify-between rounded-xl p-2 hover:bg-sky-50/50 dark:hover:bg-gray-800/50">
           <NavLink to="/profile" className="flex min-w-0 items-center gap-2.5">
-            <div className="grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-brand-50 text-xs font-bold text-brand-700 dark:bg-brand-950 dark:text-brand-300">
-              {initials}
-            </div>
-            <div className="min-w-0 truncate">
-              <div className="truncate text-xs font-semibold text-slate-900 dark:text-gray-100">
-                {user?.name}
-              </div>
-              <div className="truncate text-[10px] text-slate-600 dark:text-gray-400">
-                Class of {user?.graduationYear || 2027}
-              </div>
+            <User className="h-4 w-4 text-slate-500 dark:text-gray-400" />
+            <div className="min-w-0 truncate text-xs font-semibold text-slate-700 dark:text-gray-300">
+              Account Settings
             </div>
           </NavLink>
           <button
             type="button"
             onClick={logout}
-            className="rounded-lg p-1.5 text-slate-600 hover:bg-slate-200/70 hover:text-slate-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200"
+            className="rounded-lg p-1.5 text-slate-500 hover:bg-rose-50 hover:text-rose-600 dark:text-gray-400 dark:hover:bg-rose-950/40 dark:hover:text-rose-400 transition"
             aria-label="Log out"
             title="Log out"
           >
@@ -202,10 +223,10 @@ export default function Layout() {
   );
 
   return (
-    <div className="min-h-screen bg-[#f3f6fc] text-slate-900 dark:bg-[#0b0f19] dark:text-gray-100">
+    <div className="min-h-screen bg-[#f0f6ff] text-[#0f172a] dark:bg-[#101624] dark:text-gray-100">
       <div className="flex min-h-screen">
         {/* Desktop Left Sidebar */}
-        <aside className="hidden w-64 shrink-0 border-r border-slate-200/80 bg-white dark:border-gray-800 dark:bg-[#111827] lg:block">
+        <aside className="hidden w-64 shrink-0 border-r border-[#e0edfb] bg-white dark:border-[#1e273a] dark:bg-[#131926] lg:block">
           <div className="sticky top-0 h-screen overflow-y-auto">
             <NavContent />
           </div>
@@ -214,7 +235,7 @@ export default function Layout() {
         {/* Main Content Area */}
         <div className="flex flex-1 flex-col min-w-0">
           {/* Top Sticky Header */}
-          <header className="safe-top sticky top-0 z-30 border-b border-slate-200/80 bg-white/85 backdrop-blur-md dark:border-gray-800/80 dark:bg-[#111827]/85">
+          <header className="safe-top sticky top-0 z-30 border-b border-[#e0edfb] bg-white/90 backdrop-blur-md dark:border-[#1e273a] dark:bg-[#101624]/90">
             <div className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between gap-3 px-4 sm:px-6">
               {/* Left: Mobile hamburger & Search bar */}
               <div className="flex flex-1 items-center gap-3">

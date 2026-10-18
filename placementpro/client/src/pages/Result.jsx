@@ -55,13 +55,13 @@ export default function Result() {
       )}
 
       {/* Hero Scorecard */}
-      <Card className="relative overflow-hidden border-2 border-brand-500/20 bg-gradient-to-br from-white via-brand-50/20 to-brand-50/40 dark:from-[#111827] dark:via-brand-950/20 dark:to-brand-950/30">
+      <Card className="relative overflow-hidden border-2 border-sky-400/30 bg-gradient-to-br from-white via-sky-50/20 to-sky-100/40 dark:from-[#171f30] dark:via-sky-950/20 dark:to-[#131926]">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex items-center gap-5">
             <div className={`grid h-16 w-16 place-items-center rounded-2xl shadow-inner ${
               isPassed
                 ? 'bg-emerald-500/10 text-emerald-600 dark:bg-emerald-500/20 dark:text-emerald-400'
-                : 'bg-amber-500/10 text-amber-600 dark:bg-amber-500/20 dark:text-amber-400'
+                : 'bg-orange-500/10 text-orange-600 dark:bg-orange-500/20 dark:text-orange-400'
             }`}>
               <Trophy className="h-8 w-8" />
             </div>
@@ -141,7 +141,7 @@ export default function Result() {
                     boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)',
                   }}
                 />
-                <Bar dataKey="pct" fill="#2563eb" radius={[6, 6, 0, 0]} />
+                <Bar dataKey="pct" fill="#0ea5e9" radius={[6, 6, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -175,7 +175,7 @@ export default function Result() {
                       boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)',
                     }}
                   />
-                  <Line dataKey="pct" stroke="#2563eb" strokeWidth={2.5} dot={{ r: 4, fill: '#2563eb' }} activeDot={{ r: 6 }} />
+                  <Line dataKey="pct" stroke="#f97316" strokeWidth={2.5} dot={{ r: 4, fill: '#f97316' }} activeDot={{ r: 6 }} />
                 </LineChart>
               </ResponsiveContainer>
             </div>

@@ -24,11 +24,11 @@ export const Btn = ({ variant = 'primary', size = 'md', className = '', children
 
 const TONES = {
   slate: 'bg-slate-100 text-slate-700 border-slate-200 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700',
-  blue: 'bg-brand-50 text-brand-700 border-brand-200 dark:bg-brand-950/60 dark:text-brand-300 dark:border-brand-800/60',
+  blue: 'bg-sky-50 text-sky-700 border-sky-200 dark:bg-sky-950/60 dark:text-sky-300 dark:border-sky-800/60',
   green: 'bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-950/60 dark:text-emerald-300 dark:border-emerald-800/60',
   amber: 'bg-amber-50 text-amber-800 border-amber-200 dark:bg-amber-950/60 dark:text-amber-300 dark:border-amber-800/60',
   red: 'bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-950/60 dark:text-rose-300 dark:border-rose-800/60',
-  orange: 'bg-orange-50 text-orange-800 border-orange-200 dark:bg-orange-950/60 dark:text-orange-300 dark:border-orange-800/60',
+  orange: 'bg-orange-50 text-orange-700 border-orange-200 dark:bg-orange-950/60 dark:text-orange-300 dark:border-orange-800/60',
   purple: 'bg-purple-50 text-purple-700 border-purple-200 dark:bg-purple-950/60 dark:text-purple-300 dark:border-purple-800/60',
 };
 
@@ -37,6 +37,63 @@ export const Badge = ({ tone = 'slate', className = '', children }) => (
     {children}
   </span>
 );
+
+export const CircularGauge = ({
+  value = 0,
+  max = 100,
+  size = 130,
+  strokeWidth = 14,
+  strokeColor = '#ffffff',
+  trackColor = 'rgba(255, 255, 255, 0.22)',
+  textColor = 'text-white',
+  unit = '',
+  className = '',
+}) => {
+  const radius = (size - strokeWidth) / 2;
+  const circumference = 2 * Math.PI * radius;
+  const numVal = typeof value === 'number' ? value : parseFloat(value) || 0;
+  const progress = Math.min(100, Math.max(0, (numVal / max) * 100));
+  const strokeDashoffset = circumference - (progress / 100) * circumference;
+
+  return (
+    <div className={`relative inline-flex items-center justify-center ${className}`} style={{ width: size, height: size }}>
+      <svg width={size} height={size} className="-rotate-90 transform drop-shadow-sm">
+        {/* Track circle */}
+        <circle
+          cx={size / 2}
+          cy={size / 2}
+          r={radius}
+          stroke={trackColor}
+          strokeWidth={strokeWidth}
+          fill="transparent"
+        />
+        {/* Progress Arc */}
+        <circle
+          cx={size / 2}
+          cy={size / 2}
+          r={radius}
+          stroke={strokeColor}
+          strokeWidth={strokeWidth}
+          strokeDasharray={circumference}
+          strokeDashoffset={strokeDashoffset}
+          strokeLinecap="round"
+          fill="transparent"
+          className="transition-all duration-700 ease-out"
+        />
+      </svg>
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
+        <span className={`text-2xl font-black tracking-tight leading-none ${textColor}`}>
+          {value}
+        </span>
+        {unit && (
+          <span className={`text-[10px] font-bold uppercase tracking-wider mt-1 opacity-80 ${textColor}`}>
+            {unit}
+          </span>
+        )}
+      </div>
+    </div>
+  );
+};
 
 export const Progress = ({ value = 0, tone = 'brand', height = 'h-2', className = '' }) => {
   const tones = {

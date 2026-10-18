@@ -19,25 +19,25 @@ export const validateRegister = (f) => {
 
 function Shell({ title, sub, children }) {
   return (
-    <div className="relative min-h-screen flex items-center justify-center p-4 bg-[#f3f6fc] dark:bg-[#0b0f19]">
+    <div className="relative min-h-screen flex items-center justify-center p-4 bg-[#f0f6ff] dark:bg-[#101624]">
       <div className="absolute right-4 top-4 z-10">
         <ThemeToggle />
       </div>
 
       {/* Background radial glow */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 left-1/2 -translate-x-1/2 h-[450px] w-[600px] rounded-full bg-brand-500/10 blur-3xl dark:bg-brand-500/5" />
+        <div className="absolute -top-40 left-1/2 -translate-x-1/2 h-[450px] w-[600px] rounded-full bg-sky-500/10 blur-3xl dark:bg-sky-500/5" />
       </div>
 
       <div className="w-full max-w-md relative z-10">
         <div className="mb-6 text-center">
           <Link to="/" className="inline-flex items-center gap-2 mb-3">
-            <div className="grid h-12 w-12 place-items-center rounded-2xl bg-brand-600 font-extrabold text-white text-xl shadow-lg shadow-brand-600/30">
+            <div className="grid h-12 w-12 place-items-center rounded-2xl bg-gradient-to-tr from-brand-600 to-sky-400 font-extrabold text-white text-xl shadow-lg shadow-sky-500/30">
               P
             </div>
           </Link>
           <div className="text-sm font-bold text-slate-800 dark:text-slate-200">
-            Prepo <span className="text-brand-600 dark:text-brand-400">by Avneesh</span>
+            Prepo <span className="text-orange-500 font-bold">by Avneesh</span>
           </div>
           <h1 className="mt-2 text-2xl font-bold tracking-tight text-slate-900 dark:text-white">{title}</h1>
           <p className="mt-1 text-xs text-slate-500 dark:text-gray-400">{sub}</p>
