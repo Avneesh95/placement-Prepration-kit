@@ -42,7 +42,22 @@
 5. **Automated Testing & Build Verification:**
    - Executed and validated all client tests (**18/18 passed**, including test runner, theme suite, auth, and practice cards).
    - Executed and validated all server unit and integration tests (**40/40 passed**).
-   - Verified production build output (`vite build` — 2,335 modules transformed with zero errors).
+   - Executed and validated server live deployment smoke suite (**10/10 checks passed**).
+   - Verified production build output (`vite build` — 2,336 modules transformed with zero errors).
+
+6. **Notification System & State Persistence Upgrade:**
+   - Database-persisted `Notification` model with user indexing and unread tracking.
+   - REST API endpoints for fetching notifications, single read status update, and bulk mark-all-read.
+   - Reactive question progress update in `QuestionCard.jsx` without requiring re-navigation.
+
+7. **Drill Engine & Hierarchical Syllabus Explorer:**
+   - Real-time syllabus analysis endpoint (`GET /api/drill/syllabus`) calculating question counts, difficulty metrics, and student mastery.
+   - Custom drill generator with practice mode selection (Quick, Topic, Weak, Mistakes, Bookmarked) and countdown timers.
+   - Dedicated Drill page (`client/src/pages/Drill.jsx`) integrated directly into the sidebar and main routing.
+
+8. **PWA Installation & Offline Support:**
+   - Web App Manifest (`manifest.json`) with standalone display mode and responsive assets.
+   - Service Worker (`sw.js`) network-first caching app shell and static assets while keeping authenticated APIs live.
 
 ---
 
