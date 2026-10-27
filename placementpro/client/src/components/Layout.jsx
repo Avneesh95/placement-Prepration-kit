@@ -21,6 +21,7 @@ import {
   ExternalLink,
   Target,
   CheckCheck,
+  FileDown,
 } from 'lucide-react';
 import { useAuth } from '../lib/auth';
 import { api } from '../lib/api';
@@ -48,6 +49,7 @@ const NAV_GROUPS = [
   {
     title: 'STUDY & REVISION',
     items: [
+      { to: '/materials', name: 'Download Material', icon: FileDown },
       { to: '/practice?bookmarked=true', name: 'Bookmarks', icon: Bookmark, match: (loc) => loc.pathname === '/practice' && loc.search.includes('bookmarked=true') },
       { to: '/practice?status=incorrect', name: 'Mistakes & Revision', icon: RotateCcw, match: (loc) => loc.pathname === '/practice' && loc.search.includes('status=incorrect') },
       { to: '/plan', name: 'My Progress & Plan', icon: CalendarCheck },

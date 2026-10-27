@@ -60,6 +60,7 @@ function createApp() {
     dbError: mongoose.connection.readyState === 1 ? null : (getDbError() || 'Database is connecting or disconnected'),
   }));
   app.use('/api/auth', require('./routes/auth'));
+  app.use('/api/materials', require('./routes/materials'));
   app.use('/api', require('./routes/profile'));
   app.use('/api/companies', require('./routes/companies'));
   const q = require('./routes/questions');
