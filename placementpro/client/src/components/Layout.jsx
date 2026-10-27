@@ -201,13 +201,13 @@ export default function Layout() {
         </div>
 
         {/* Top Profile Badge (Matching UI Screenshot) */}
-        <div className="mx-3 my-3 rounded-2xl border border-sky-100 bg-white/80 p-2.5 shadow-xs dark:border-[#222d44] dark:bg-[#171f30]">
+        <div className="mx-3 my-3 rounded-2xl border border-sky-100 bg-white/80 p-2.5 shadow-xs dark:border-[#1f2430] dark:bg-[#0c0e14]">
           <NavLink to="/profile" className="flex items-center gap-3">
             <div className="relative">
               <div className="grid h-9 w-9 place-items-center rounded-full bg-gradient-to-tr from-sky-500 to-brand-600 text-xs font-bold text-white shadow-xs">
                 {initials}
               </div>
-              <span className="absolute -bottom-0.5 -right-0.5 h-2.5 w-2.5 rounded-full bg-emerald-500 ring-2 ring-white dark:ring-[#171f30]" />
+              <span className="absolute -bottom-0.5 -right-0.5 h-2.5 w-2.5 rounded-full bg-emerald-500 ring-2 ring-white dark:ring-[#0c0e14]" />
             </div>
             <div className="min-w-0 flex-1">
               <div className="truncate text-xs font-bold text-slate-900 dark:text-white">
@@ -276,10 +276,10 @@ export default function Layout() {
   );
 
   return (
-    <div className="min-h-screen bg-[#f0f6ff] text-[#0f172a] dark:bg-[#101624] dark:text-gray-100">
+    <div className="min-h-screen bg-[#f0f6ff] text-[#0f172a] dark:bg-[#000000] dark:text-gray-100">
       <div className="flex min-h-screen">
         {/* Desktop Left Sidebar */}
-        <aside className="hidden w-64 shrink-0 border-r border-[#e0edfb] bg-white dark:border-[#1e273a] dark:bg-[#131926] lg:block">
+        <aside className="hidden w-64 shrink-0 border-r border-[#e0edfb] bg-white dark:border-[#1a1f2c] dark:bg-[#07080c] lg:block">
           <div className="sticky top-0 h-screen overflow-y-auto">
             <NavContent />
           </div>
@@ -288,7 +288,7 @@ export default function Layout() {
         {/* Main Content Area */}
         <div className="flex flex-1 flex-col min-w-0">
           {/* Top Sticky Header */}
-          <header className="safe-top sticky top-0 z-30 border-b border-[#e0edfb] bg-white/90 backdrop-blur-md dark:border-[#1e273a] dark:bg-[#101624]/90">
+          <header className="safe-top sticky top-0 z-30 border-b border-[#e0edfb] bg-white/90 backdrop-blur-md dark:border-[#1a1f2c] dark:bg-[#000000]/90">
             <div className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between gap-3 px-4 sm:px-6">
               {/* Left: Mobile hamburger & Search bar */}
               <div className="flex flex-1 items-center gap-3">

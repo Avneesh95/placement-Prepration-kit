@@ -34,16 +34,16 @@ export default {
         navy: {
           50: '#f8fafc',
           100: '#f1f5f9',
-          800: '#1b2336',
-          900: '#101624', // Deep Slate-Navy (from UI image)
-          950: '#0d121d',
+          800: '#18181b',
+          900: '#000000', // Pure Pitch Black
+          950: '#09090b',
         },
         surface: {
           light: '#f0f6ff', // Sky Blue + White ambient light canvas
           card: '#ffffff',
-          dark: '#101624', // Deep UI canvas from image
-          darkCard: '#171f30', // Elevated card from image
-          darkSidebar: '#131926', // Sidebar from image
+          dark: '#000000', // Pure Black background for dark theme
+          darkCard: '#0f0f11', // High-contrast elevated dark card
+          darkSidebar: '#09090b', // Ultra-dark sleek sidebar
         },
         success: {
           50: '#f0fdf4',
