@@ -3,7 +3,7 @@ const path = require('path');
 const { Material } = require('../models');
 const { generateAllPdfs, PDF_DIR } = require('../services/pdfGenerator');
 
-const INITIAL_MATERIALS = [
+const EXPANDED_MATERIALS = [
   {
     slug: 'quant-formula-handbook',
     title: 'Quantitative Aptitude Formula Handbook',
@@ -88,12 +88,54 @@ const INITIAL_MATERIALS = [
     verificationStatus: 'practice_model',
     tags: ['Mock Test', 'Solved Paper', 'Aptitude Practice'],
   },
+  {
+    slug: 'verbal-ability-notes',
+    title: 'Verbal Ability & Grammar Revision Notes',
+    category: 'quick_notes',
+    subject: 'english',
+    topic: 'grammar',
+    companies: ['tcs', 'infosys', 'accenture', 'cognizant'],
+    difficulty: 'all',
+    description: 'Golden rules for subject-verb agreement, high-frequency root words, idioms, and reading comprehension trap avoidance.',
+    fileName: 'verbal-ability-notes.pdf',
+    language: 'English',
+    verificationStatus: 'original_guide',
+    tags: ['Verbal', 'English', 'Grammar', 'Vocabulary'],
+  },
+  {
+    slug: 'multicompany-placement-guide',
+    title: 'Infosys, Accenture & Wipro Preparation Guide',
+    category: 'company_guide',
+    subject: 'general',
+    topic: 'multicompany-guide',
+    companies: ['infosys', 'accenture', 'wipro'],
+    difficulty: 'all',
+    description: 'Curated breakdown of hiring patterns, pseudocode assessment expectations, coding rounds, and interview tips.',
+    fileName: 'multicompany-placement-guide.pdf',
+    language: 'English',
+    verificationStatus: 'verified_pattern',
+    tags: ['Infosys', 'Accenture', 'Wipro', 'Hiring Pattern'],
+  },
+  {
+    slug: 'technical-mcq-mock-paper',
+    title: 'Technical MCQ Placement Model Paper',
+    category: 'mock_test',
+    subject: 'cs',
+    topic: 'technical-mock',
+    companies: ['tcs', 'infosys', 'accenture', 'wipro', 'cognizant'],
+    difficulty: 'medium',
+    description: 'Realistic technical section practice paper covering output prediction, pointer operations, SQL queries, and normalization.',
+    fileName: 'technical-mcq-mock-paper.pdf',
+    language: 'English',
+    verificationStatus: 'practice_model',
+    tags: ['Technical MCQ', 'Mock Test', 'Output Prediction', 'SQL'],
+  },
 ];
 
 async function seedMaterials() {
   await generateAllPdfs();
 
-  for (const item of INITIAL_MATERIALS) {
+  for (const item of EXPANDED_MATERIALS) {
     const fullPath = path.join(PDF_DIR, item.fileName);
     let sizeKB = 15;
     if (fs.existsSync(fullPath)) {
@@ -113,7 +155,7 @@ async function seedMaterials() {
       { upsert: true, new: true }
     );
   }
-  console.log(`Seeded ${INITIAL_MATERIALS.length} verified placement materials.`);
+  console.log(`Seeded ${EXPANDED_MATERIALS.length} verified placement materials.`);
 }
 
-module.exports = { seedMaterials, INITIAL_MATERIALS };
+module.exports = { seedMaterials, EXPANDED_MATERIALS };

@@ -15,6 +15,8 @@ import {
   FileCode,
   FileSpreadsheet,
   GraduationCap,
+  Layers,
+  ArrowRight,
 } from 'lucide-react';
 import { useGet } from '../lib/useApi';
 import { qs } from '../lib/api';
@@ -23,10 +25,10 @@ import { label, SUBJECTS } from '../lib/format';
 
 const CATEGORIES = [
   { key: 'all', label: 'All Resources' },
-  { key: 'formula_sheet', label: 'Important Formula Sheets' },
+  { key: 'formula_sheet', label: 'Formula Sheets' },
   { key: 'quick_notes', label: 'Quick Revision Notes' },
   { key: 'mock_test', label: 'Solved Mock Papers' },
-  { key: 'company_guide', label: 'Company Guides & Patterns' },
+  { key: 'company_guide', label: 'Company Blueprints' },
 ];
 
 export default function Materials() {
@@ -44,7 +46,7 @@ export default function Materials() {
 
   const meta = useGet('/materials/meta');
   const companies = useGet('/companies');
-  const materials = useGet(`/materials${qs({ ...f, limit: 12 })}`);
+  const materials = useGet(`/materials${qs({ ...f, limit: 18 })}`);
 
   const setFilter = (k, v) => {
     const n = new URLSearchParams(sp);
@@ -57,10 +59,33 @@ export default function Materials() {
   return (
     <div className="space-y-6">
       <PageTitle
-        breadcrumb="Resource Center"
-        title="Download Material & Study Notes"
-        sub="Verified high-yield formula handbooks, quick revision summaries, topic cheat sheets, and solved practice papers in PDF format."
+        breadcrumb="Resource Library"
+        title="Placement Study Material & Formula Handbooks"
+        sub="Download and preview high-yield quantitative formulas, quick reasoning shortcuts, CS core handbooks, and verified company placement blueprints."
       />
+
+      {/* Featured Resources Banner */}
+      <div className="rounded-3xl border border-sky-200/80 bg-gradient-to-r from-sky-500/10 via-purple-500/10 to-amber-500/10 p-5 shadow-sm dark:border-[#263b55] dark:from-sky-950/40 dark:via-purple-950/30 dark:to-amber-950/20">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex items-center gap-3">
+            <div className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-sky-500 text-white shadow-md shadow-sky-500/25">
+              <Sparkles className="h-5 w-5" />
+            </div>
+            <div>
+              <h3 className="text-sm font-bold text-slate-900 dark:text-white">
+                Complete Placement Preparation Kit (9 PDF Handbooks)
+              </h3>
+              <p className="text-xs text-slate-500 dark:text-gray-400">
+                Original formula sheets, technical interview guides, and solved aptitude mock papers ready for instant offline revision.
+              </p>
+            </div>
+          </div>
+          <div className="flex items-center gap-2">
+            <Badge tone="blue">Verified Original</Badge>
+            <Badge tone="purple">100% Free</Badge>
+          </div>
+        </div>
+      </div>
 
       {/* Category Pills Bar */}
       <div className="flex flex-wrap items-center gap-2 border-b border-slate-200/80 pb-3 dark:border-gray-800">
@@ -74,7 +99,7 @@ export default function Materials() {
               className={`rounded-xl px-3.5 py-1.5 text-xs font-semibold transition ${
                 active
                   ? 'bg-sky-500 text-white shadow-sm shadow-sky-500/25'
-                  : 'bg-white text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:bg-[#0c0e14] dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200 border border-slate-200/80 dark:border-gray-800'
+                  : 'bg-white text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:bg-[#11243b] dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200 border border-slate-200/80 dark:border-[#263b55]'
               }`}
             >
               {cat.label}
@@ -86,14 +111,14 @@ export default function Materials() {
         })}
       </div>
 
-      {/* Modern Filter Card */}
+      {/* Filter Bar */}
       <div className="card space-y-3">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <div className="relative sm:col-span-2">
             <Search className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
             <input
               className="input pl-9 text-xs"
-              placeholder="Search formula sheets, notes, topics, keywords…"
+              placeholder="Search formulas, CS notes, topics, company patterns…"
               value={f.q}
               onChange={(e) => setFilter('q', e.target.value)}
               aria-label="Search resources"
@@ -132,7 +157,7 @@ export default function Materials() {
 
       {/* Materials Grid View */}
       {materials.loading ? (
-        <Spinner label="Loading materials library…" />
+        <Spinner label="Loading study materials library…" />
       ) : materials.error ? (
         <ErrorBox error={materials.error} onRetry={materials.reload} />
       ) : materials.data?.items?.length === 0 ? (
@@ -146,7 +171,7 @@ export default function Materials() {
         <div className="space-y-4">
           <div className="flex items-center justify-between text-xs text-slate-500 dark:text-gray-400">
             <span>
-              Showing <b>{materials.data?.items?.length}</b> of <b>{materials.data?.total}</b> resources
+              Showing <b>{materials.data?.items?.length}</b> of <b>{materials.data?.total}</b> verified resources
             </span>
           </div>
 
@@ -155,7 +180,7 @@ export default function Materials() {
               return (
                 <div
                   key={m._id}
-                  className="flex flex-col justify-between rounded-2xl border border-slate-200/80 bg-white p-5 shadow-card transition-all hover:border-sky-300 hover:shadow-hover dark:border-[#1f2430] dark:bg-[#0c0e14]"
+                  className="flex flex-col justify-between rounded-2xl border border-slate-200/80 bg-white p-5 shadow-card transition-all hover:border-sky-300 hover:shadow-hover dark:border-[#263b55] dark:bg-[#11243b]"
                 >
                   <div className="space-y-3">
                     <div className="flex items-center justify-between gap-2">
@@ -163,8 +188,8 @@ export default function Materials() {
                         <FileText className="h-3 w-3" />
                         {m.category.replace('_', ' ')}
                       </span>
-                      <span className="text-[11px] font-bold text-slate-400 dark:text-gray-500">
-                        {m.fileSizeKB} KB
+                      <span className="text-[11px] font-bold text-slate-400 dark:text-gray-400">
+                        {m.fileSizeKB} KB • PDF
                       </span>
                     </div>
 
@@ -172,7 +197,7 @@ export default function Materials() {
                       {m.title}
                     </h3>
 
-                    <p className="line-clamp-2 text-xs leading-relaxed text-slate-600 dark:text-gray-400">
+                    <p className="text-xs leading-relaxed text-slate-600 dark:text-gray-300 line-clamp-2">
                       {m.description}
                     </p>
 
@@ -199,7 +224,7 @@ export default function Materials() {
                     <button
                       type="button"
                       onClick={() => setPreviewMaterial(m)}
-                      className="flex flex-1 items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-white py-2 text-xs font-bold text-slate-700 hover:bg-slate-50 dark:border-gray-800 dark:bg-[#131926] dark:text-gray-200 dark:hover:bg-gray-800 transition"
+                      className="flex flex-1 items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-white py-2 text-xs font-bold text-slate-700 hover:bg-slate-50 dark:border-gray-700 dark:bg-[#172d49] dark:text-gray-200 dark:hover:bg-gray-800 transition"
                     >
                       <Eye className="h-3.5 w-3.5 text-sky-500" />
                       <span>Preview</span>
@@ -224,7 +249,7 @@ export default function Materials() {
       {/* Embedded In-App PDF Preview Modal */}
       {previewMaterial && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 backdrop-blur-sm">
-          <div className="flex h-[90vh] w-full max-w-4xl flex-col rounded-3xl border border-slate-200 bg-white shadow-2xl dark:border-gray-800 dark:bg-[#0c0e14]">
+          <div className="flex h-[90vh] w-full max-w-4xl flex-col rounded-3xl border border-slate-200 bg-white shadow-2xl dark:border-[#263b55] dark:bg-[#11243b]">
             {/* Modal Header */}
             <div className="flex items-center justify-between border-b border-slate-100 px-6 py-4 dark:border-gray-800">
               <div className="flex items-center gap-2.5 min-w-0">
@@ -271,7 +296,7 @@ export default function Materials() {
             </div>
 
             {/* Modal Body: Embedded PDF iframe */}
-            <div className="flex-1 bg-slate-100 dark:bg-[#07080c]">
+            <div className="flex-1 bg-slate-100 dark:bg-[#081426]">
               <iframe
                 src={`/api/materials/${previewMaterial.slug}/view`}
                 title={previewMaterial.title}
