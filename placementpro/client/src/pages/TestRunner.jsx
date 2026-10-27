@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { Flag, ChevronLeft, ChevronRight, Grid3x3, X, Timer, AlertTriangle } from 'lucide-react';
+import { Flag, ChevronLeft, ChevronRight, Grid3x3, X, Timer, AlertTriangle, Calculator as CalcIcon } from 'lucide-react';
 import { api } from '../lib/api';
 import { Btn, Spinner, ErrorBox, Badge, Card } from '../components/ui';
 import ThemeToggle from '../components/ThemeToggle';
+import ScientificCalculator from '../components/ScientificCalculator';
 import { mmss, label } from '../lib/format';
 import { remainingSeconds, paletteState, summarise } from '../lib/testState';
 
@@ -27,6 +28,7 @@ export default function TestRunner() {
   const [confirm, setConfirm] = useState(false);
   const [saveState, setSaveState] = useState('saved');
   const [submitting, setSubmitting] = useState(false);
+  const [showCalculator, setShowCalculator] = useState(false);
 
   const offset = useRef(0);
   const dirty = useRef(new Set());
@@ -310,6 +312,22 @@ export default function TestRunner() {
           </div>
 
           <ThemeToggle className="!min-h-[38px] !h-9 !w-9 !p-0 !rounded-xl" />
+
+          {/* Company Exam Scientific Calculator Toggle */}
+          <button
+            type="button"
+            onClick={() => setShowCalculator(!showCalculator)}
+            className={`btn btn-ghost !px-2.5 !py-1 text-xs font-bold transition flex items-center gap-1.5 ${
+              showCalculator
+                ? 'bg-sky-500 text-white border-sky-500 hover:bg-sky-600 dark:bg-sky-500 dark:text-white'
+                : 'text-slate-700 dark:text-gray-200'
+            }`}
+            title="Open Virtual Scientific Calculator (TCS iON Pattern)"
+            aria-label="Calculator"
+          >
+            <CalcIcon className="h-4 w-4 text-sky-500" />
+            <span className="hidden sm:inline">Calculator</span>
+          </button>
 
           <button
             type="button"
@@ -620,6 +638,11 @@ export default function TestRunner() {
             </div>
           </div>
         </div>
+      )}
+
+      {/* Floating Scientific Calculator Modal */}
+      {showCalculator && (
+        <ScientificCalculator onClose={() => setShowCalculator(false)} />
       )}
     </div>
   );
