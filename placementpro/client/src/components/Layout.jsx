@@ -25,6 +25,7 @@ import {
 import { useAuth } from '../lib/auth';
 import { api } from '../lib/api';
 import ThemeToggle from './ThemeToggle';
+import InstallPrompt from './InstallPrompt';
 
 const NAV_GROUPS = [
   {
@@ -482,9 +483,10 @@ export default function Layout() {
         </div>
       )}
 
+      <InstallPrompt />
       {/* Mobile Sticky Bottom Quick Bar */}
       <nav
-        className="fixed inset-x-0 bottom-0 z-30 border-t border-slate-200/80 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur-md dark:border-gray-800 dark:bg-[#111827]/95 lg:hidden"
+        className="fixed inset-x-0 bottom-0 z-30 border-t border-slate-200/80 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur-md dark:border-gray-800 dark:bg-[#07080c]/95 lg:hidden"
         aria-label="Bottom Navigation"
       >
         <div className="mx-auto grid max-w-md grid-cols-5">
