@@ -84,21 +84,24 @@ export default function Layout() {
   const userRef = useRef(null);
 
   const fetchNotifications = async () => {
+    if (!user) return;
     try {
       setLoadingNotifs(true);
       const res = await api.get('/notifications');
-      setNotifications(res.items || []);
-      setUnreadCount(res.unreadCount || 0);
+      setNotifications(res?.items || []);
+      setUnreadCount(res?.unreadCount || 0);
     } catch (e) {
-      // safe fallback, avoid blocking user
+      // Safe fallback: keep existing notifications without throwing an unhandled rejection
     } finally {
       setLoadingNotifs(false);
     }
   };
 
   useEffect(() => {
-    fetchNotifications();
-  }, [loc.pathname]);
+    if (user) {
+      fetchNotifications();
+    }
+  }, [loc.pathname, user]);
 
   const markAsRead = async (id, link) => {
     try {
