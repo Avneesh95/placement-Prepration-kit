@@ -25,13 +25,13 @@ describe('Theme System', () => {
     document.documentElement.className = '';
   });
 
-  test('defaults to system theme and adapts to media query', () => {
+  test('defaults to light theme and adapts to media query', () => {
     render(
       <ThemeProvider>
         <TestConsumer />
       </ThemeProvider>
     );
-    expect(screen.getByTestId('theme-val')).toHaveTextContent('system');
+    expect(screen.getByTestId('theme-val')).toHaveTextContent('light');
   });
 
   test('toggles theme between light and dark and updates document.documentElement', async () => {

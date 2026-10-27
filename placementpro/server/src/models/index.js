@@ -4,4 +4,5 @@ module.exports = {
   MockTest: require('./MockTest'), TestAttempt: require('./TestAttempt'), CodingSubmission: require('./CodingSubmission'),
   SQLSubmission: require('./SQLSubmission'), UserProgress: require('./UserProgress'), DailyActivity: require('./DailyActivity'),
   Bookmark: require('./Bookmark'), FAQ: require('./FAQ'), StudyPlan: require('./StudyPlan'),
+  Notification: require('./Notification'),
 };

@@ -13,6 +13,7 @@ export default function QuestionCard({ q, onAnswered }) {
   const [err, setErr] = useState(null);
   const [busy, setBusy] = useState(false);
   const [bm, setBm] = useState(q.userState?.bookmarked);
+  const [isSolved, setIsSolved] = useState(q.userState?.solved);
   const started = useRef(Date.now());
 
   const toggle = (i) => {
@@ -29,6 +30,9 @@ export default function QuestionCard({ q, onAnswered }) {
         timeSpentSec: Math.round((Date.now() - started.current) / 1000),
       });
       setRes(r);
+      if (r.correct) {
+        setIsSolved(true);
+      }
       onAnswered && onAnswered(r);
     } catch (e) {
       setErr(e);
@@ -61,7 +65,7 @@ export default function QuestionCard({ q, onAnswered }) {
           {q.difficulty}
         </Badge>
         <Badge tone={prov.tone}>{prov.text}</Badge>
-        {q.userState?.solved && <Badge tone="green">Solved before</Badge>}
+        {isSolved && <Badge tone="green">Solved</Badge>}
 
         <button
           type="button"

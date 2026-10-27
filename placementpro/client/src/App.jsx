@@ -6,6 +6,7 @@ import { Login, Register, Forgot } from './pages/Auth';
 import Dashboard from './pages/Dashboard';
 import { Companies, CompanyDetail } from './pages/Companies';
 import Practice from './pages/Practice';
+import Drill from './pages/Drill';
 import Topic from './pages/Topic';
 import { CodingList, CodingProblem } from './pages/Coding';
 import { SqlList, SqlExercise } from './pages/Sql';
@@ -25,6 +26,7 @@ export default function App() {
           <Route element={<Protected><Layout /></Protected>}>
             <Route index element={<Dashboard />} />
             <Route path="companies" element={<Companies />} /><Route path="companies/:slug" element={<CompanyDetail />} />
+            <Route path="drill" element={<Drill />} />
             <Route path="practice" element={<Practice />} /><Route path="topics/:slug" element={<Topic />} />
             <Route path="coding" element={<CodingList />} /><Route path="coding/:id" element={<CodingProblem />} />
             <Route path="sql" element={<SqlList />} /><Route path="sql/:id" element={<SqlExercise />} />

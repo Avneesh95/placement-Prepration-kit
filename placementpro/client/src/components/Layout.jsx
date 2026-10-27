@@ -19,8 +19,11 @@ import {
   Bell,
   ChevronRight,
   ExternalLink,
+  Target,
+  CheckCheck,
 } from 'lucide-react';
 import { useAuth } from '../lib/auth';
+import { api } from '../lib/api';
 import ThemeToggle from './ThemeToggle';
 
 const NAV_GROUPS = [
@@ -29,6 +32,7 @@ const NAV_GROUPS = [
     items: [
       { to: '/', name: 'Dashboard', icon: LayoutDashboard, exact: true },
       { to: '/companies', name: 'Company Preparation', icon: Building2 },
+      { to: '/drill', name: 'Drill & Syllabus Explorer', icon: Target },
     ],
   },
   {
@@ -69,12 +73,58 @@ export default function Layout() {
   const [searchQuery, setSearchQuery] = useState('');
   const [notifOpen, setNotifOpen] = useState(false);
   const [userMenuOpen, setUserMenuOpen] = useState(false);
+  const [notifications, setNotifications] = useState([]);
+  const [unreadCount, setUnreadCount] = useState(0);
+  const [loadingNotifs, setLoadingNotifs] = useState(false);
 
   const loc = useLocation();
   const nav = useNavigate();
   const { user, logout } = useAuth();
   const notifRef = useRef(null);
   const userRef = useRef(null);
+
+  const fetchNotifications = async () => {
+    try {
+      setLoadingNotifs(true);
+      const res = await api.get('/notifications');
+      setNotifications(res.items || []);
+      setUnreadCount(res.unreadCount || 0);
+    } catch (e) {
+      // safe fallback, avoid blocking user
+    } finally {
+      setLoadingNotifs(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchNotifications();
+  }, [loc.pathname]);
+
+  const markAsRead = async (id, link) => {
+    try {
+      const res = await api.patch(`/notifications/${id}/read`);
+      setNotifications((prev) =>
+        prev.map((n) => (n._id === id ? { ...n, read: true } : n))
+      );
+      setUnreadCount(res.unreadCount ?? Math.max(0, unreadCount - 1));
+      if (link) {
+        setNotifOpen(false);
+        nav(link);
+      }
+    } catch (e) {
+      // ignore
+    }
+  };
+
+  const markAllAsRead = async () => {
+    try {
+      await api.patch('/notifications/read-all');
+      setNotifications((prev) => prev.map((n) => ({ ...n, read: true })));
+      setUnreadCount(0);
+    } catch (e) {
+      // ignore
+    }
+  };
 
   useEffect(() => {
     setMobileOpen(false);
@@ -270,30 +320,78 @@ export default function Layout() {
                 <div className="relative" ref={notifRef}>
                   <button
                     type="button"
-                    onClick={() => setNotifOpen(!notifOpen)}
+                    onClick={() => {
+                      setNotifOpen(!notifOpen);
+                      if (!notifOpen) fetchNotifications();
+                    }}
                     className="relative grid h-9 w-9 place-items-center rounded-full border border-slate-200 bg-white text-slate-600 shadow-subtle hover:bg-slate-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
                     aria-label="Notifications"
                     aria-expanded={notifOpen}
                   >
                     <Bell className="h-4 w-4" />
-                    <span className="absolute right-1.5 top-1.5 h-2 w-2 rounded-full bg-brand-600 ring-2 ring-white dark:ring-gray-900" />
+                    {unreadCount > 0 && (
+                      <span className="absolute -top-0.5 -right-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-rose-500 text-[9px] font-bold text-white ring-2 ring-white dark:ring-gray-900">
+                        {unreadCount > 9 ? '9+' : unreadCount}
+                      </span>
+                    )}
                   </button>
 
                   {notifOpen && (
                     <div className="absolute right-0 mt-2 w-80 rounded-2xl border border-slate-200 bg-white p-4 shadow-xl dark:border-gray-800 dark:bg-gray-900 z-50">
                       <div className="flex items-center justify-between pb-2 border-b border-slate-100 dark:border-gray-800">
-                        <span className="text-xs font-bold text-slate-900 dark:text-gray-100">Updates & Notifications</span>
-                        <span className="text-[10px] text-brand-600 dark:text-brand-400 font-semibold">Placement 2027</span>
+                        <div className="flex items-center gap-1.5">
+                          <span className="text-xs font-bold text-slate-900 dark:text-gray-100">Updates & Notifications</span>
+                          {unreadCount > 0 && (
+                            <span className="rounded-full bg-sky-100 px-1.5 py-0.2 text-[10px] font-bold text-sky-700 dark:bg-sky-950/60 dark:text-sky-300">
+                              {unreadCount} new
+                            </span>
+                          )}
+                        </div>
+                        {unreadCount > 0 && (
+                          <button
+                            type="button"
+                            onClick={markAllAsRead}
+                            className="flex items-center gap-1 text-[10px] font-semibold text-sky-600 hover:underline dark:text-sky-400"
+                          >
+                            <CheckCheck className="h-3 w-3" />
+                            Mark all read
+                          </button>
+                        )}
                       </div>
-                      <div className="mt-3 space-y-2.5 text-xs">
-                        <div className="rounded-xl bg-slate-50 p-2.5 dark:bg-gray-800/60">
-                          <p className="font-semibold text-slate-800 dark:text-gray-200">24 Timed Mock Tests Ready</p>
-                          <p className="muted mt-0.5 text-[11px]">Full-length and sectional pattern tests for TCS, Infosys, and Cognizant are available.</p>
-                        </div>
-                        <div className="rounded-xl bg-slate-50 p-2.5 dark:bg-gray-800/60">
-                          <p className="font-semibold text-slate-800 dark:text-gray-200">Daily Coding Challenge</p>
-                          <p className="muted mt-0.5 text-[11px]">Practice today&apos;s coding challenge and solve it directly on LeetCode.</p>
-                        </div>
+
+                      <div className="mt-3 max-h-80 overflow-y-auto space-y-2 text-xs">
+                        {loadingNotifs && notifications.length === 0 ? (
+                          <p className="text-center py-4 text-xs text-slate-400">Loading notifications…</p>
+                        ) : notifications.length === 0 ? (
+                          <p className="text-center py-4 text-xs text-slate-400">No notifications yet.</p>
+                        ) : (
+                          notifications.map((n) => (
+                            <div
+                              key={n._id}
+                              onClick={() => markAsRead(n._id, n.link)}
+                              className={`group cursor-pointer rounded-xl p-2.5 transition ${
+                                n.read
+                                  ? 'bg-slate-50/60 hover:bg-slate-100/70 dark:bg-gray-800/40 dark:hover:bg-gray-800/70 opacity-75'
+                                  : 'bg-sky-50/80 hover:bg-sky-100/70 dark:bg-sky-950/40 dark:hover:bg-sky-950/70 border border-sky-100 dark:border-sky-900/40'
+                              }`}
+                            >
+                              <div className="flex items-start justify-between gap-1">
+                                <p className={`font-semibold ${n.read ? 'text-slate-700 dark:text-gray-300' : 'text-slate-900 dark:text-gray-100'}`}>
+                                  {n.title}
+                                </p>
+                                {!n.read && (
+                                  <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-sky-500" />
+                                )}
+                              </div>
+                              <p className="muted mt-0.5 text-[11px] leading-relaxed">{n.message}</p>
+                              {n.link && (
+                                <span className="mt-1.5 inline-flex items-center gap-1 text-[10px] font-bold text-sky-600 dark:text-sky-400 group-hover:underline">
+                                  View details →
+                                </span>
+                              )}
+                            </div>
+                          ))
+                        )}
                       </div>
                     </div>
                   )}

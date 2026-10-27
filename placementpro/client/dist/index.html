@@ -4,11 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Prepo by Avneesh</title>
+    <meta name="theme-color" content="#0ea5e9" />
+    <meta name="description" content="Prepo by Avneesh — Placement Preparation Platform for TCS, Infosys, Accenture, Wipro, and general product engineering roles." />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js').catch(function() {});
+        });
+      }
+    </script>
     <script>
       (function() {
         try {
           var t = localStorage.getItem('theme');
-          var dark = t === 'dark' || ((!t || t === 'system') && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          var dark = t === 'dark' || (t === 'system' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
           if (dark) {
             document.documentElement.classList.add('dark');
             document.documentElement.style.colorScheme = 'dark';
@@ -20,8 +31,8 @@
       })();
     </script>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>" />
-    <script type="module" crossorigin src="/assets/index-CFj6-_QK.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-QIWHrFTf.css">
+    <script type="module" crossorigin src="/assets/index-BRm2g2a-.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Ceb0A04r.css">
   </head>
   <body><div id="root"></div></body>
 </html>

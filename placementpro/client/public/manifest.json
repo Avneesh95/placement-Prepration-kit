@@ -1,0 +1,28 @@
+{
+  "name": "Prepo by Avneesh — Placement Preparation Platform",
+  "short_name": "Prepo",
+  "description": "Comprehensive placement preparation platform for TCS, Infosys, Accenture, Wipro, and product roles.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}
