@@ -21,6 +21,7 @@ import {
   ExternalLink,
   Target,
   CheckCheck,
+  Compass,
   FileDown,
 } from 'lucide-react';
 import { useAuth } from '../lib/auth';
@@ -32,8 +33,9 @@ const NAV_GROUPS = [
   {
     title: 'OVERVIEW',
     items: [
-      { to: '/', name: 'Dashboard', icon: LayoutDashboard, exact: true },
-      { to: '/companies', name: 'Company Preparation', icon: Building2 },
+      { to: '/', name: 'Home', icon: LayoutDashboard, exact: true },
+      { to: '/map', name: 'Adventure Map', icon: Compass },
+      { to: '/companies', name: 'Company Challenges', icon: Building2 },
       { to: '/drill', name: 'Drill & Syllabus Explorer', icon: Target },
     ],
   },
@@ -49,7 +51,7 @@ const NAV_GROUPS = [
   {
     title: 'STUDY & REVISION',
     items: [
-      { to: '/materials', name: 'Download Material', icon: FileDown },
+      { to: '/materials', name: 'Study Material', icon: FileDown },
       { to: '/practice?bookmarked=true', name: 'Bookmarks', icon: Bookmark, match: (loc) => loc.pathname === '/practice' && loc.search.includes('bookmarked=true') },
       { to: '/practice?status=incorrect', name: 'Mistakes & Revision', icon: RotateCcw, match: (loc) => loc.pathname === '/practice' && loc.search.includes('status=incorrect') },
       { to: '/plan', name: 'My Progress & Plan', icon: CalendarCheck },
@@ -65,10 +67,10 @@ const NAV_GROUPS = [
 ];
 
 const BOTTOM_NAV = [
-  { to: '/', name: 'Dashboard', icon: LayoutDashboard, exact: true },
+  { to: '/', name: 'Home', icon: LayoutDashboard, exact: true },
+  { to: '/map', name: 'Map', icon: Compass },
   { to: '/practice', name: 'Practice', icon: BookOpen },
   { to: '/mocks', name: 'Mocks', icon: Timer },
-  { to: '/plan', name: 'Planner', icon: CalendarCheck },
 ];
 
 export default function Layout() {

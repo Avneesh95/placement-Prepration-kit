@@ -8,6 +8,7 @@ import { Companies, CompanyDetail } from './pages/Companies';
 import Practice from './pages/Practice';
 import Drill from './pages/Drill';
 import Materials from './pages/Materials';
+import AdventureMap from './pages/AdventureMap';
 import Topic from './pages/Topic';
 import { CodingList, CodingProblem } from './pages/Coding';
 import { SqlList, SqlExercise } from './pages/Sql';
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="/attempt/:id" element={<Protected><TestRunner /></Protected>} />
           <Route element={<Protected><Layout /></Protected>}>
             <Route index element={<Dashboard />} />
+            <Route path="map" element={<AdventureMap />} />
             <Route path="companies" element={<Companies />} /><Route path="companies/:slug" element={<CompanyDetail />} />
             <Route path="drill" element={<Drill />} />
             <Route path="materials" element={<Materials />} />

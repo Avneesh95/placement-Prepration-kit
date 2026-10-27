@@ -34,16 +34,17 @@ export default {
         navy: {
           50: '#f8fafc',
           100: '#f1f5f9',
-          800: '#18181b',
-          900: '#000000', // Pure Pitch Black
-          950: '#09090b',
+          800: '#172d49',
+          900: '#0d1b2f',
+          950: '#081426', // Midnight Adventure Dark Canvas
         },
         surface: {
-          light: '#f0f6ff', // Sky Blue + White ambient light canvas
+          light: '#f5f8ff', // Adventure Sky light canvas
           card: '#ffffff',
-          dark: '#000000', // Pure Black background for dark theme
-          darkCard: '#0f0f11', // High-contrast elevated dark card
-          darkSidebar: '#09090b', // Ultra-dark sleek sidebar
+          dark: '#081426', // Midnight Adventure Canvas
+          darkCard: '#11243b', // Deep adventure surface card
+          darkElevated: '#172d49', // Elevated interactive surface
+          darkSidebar: '#0d1b2f', // Midnight sleek sidebar
         },
         success: {
           50: '#f0fdf4',

@@ -52,9 +52,52 @@ async function computeStats(user) {
   const last14 = Array.from({ length: 14 }, (_, i) => dayStr(new Date(Date.now() - (13 - i) * 86400000)));
   const actMap = new Map(activity.map((a) => [a.date, a]));
   const overall = Math.round(SUBJECTS.reduce((a, s) => a + subjects[s].progress, 0) / SUBJECTS.length * 10) / 10;
+  const streakData = computeStreak(activity.filter((a) => a.questions > 0).map((a) => a.date));
+
+  // Gamification: XP & Levels derived from real student effort
+  // 15 XP per solved question, 5 XP per attempt, 50 XP per mock test submitted, 20 XP per active study day
+  const xp = (solvedTotal * 15) + (attemptedTotal * 5) + (attempts.length * 50) + (activity.length * 20);
+  const LEVELS = [
+    { level: 1, title: 'Beginner Explorer', minXp: 0, maxXp: 200 },
+    { level: 2, title: 'Skill Seeker', minXp: 200, maxXp: 500 },
+    { level: 3, title: 'Practice Ranger', minXp: 500, maxXp: 1200 },
+    { level: 4, title: 'Exam Challenger', minXp: 1200, maxXp: 2500 },
+    { level: 5, title: 'Placement Champion', minXp: 2500, maxXp: 100000 },
+  ];
+  const currentLvl = LEVELS.find((l) => xp >= l.minXp && xp < l.maxXp) || LEVELS[LEVELS.length - 1];
+  const nextLvlXp = currentLvl.maxXp;
+  const levelProgress = Math.min(100, Math.round(((xp - currentLvl.minXp) / (currentLvl.maxXp - currentLvl.minXp)) * 100));
+
+  // Badges calculation
+  const badges = [];
+  if (attemptedTotal > 0) badges.push({ id: 'first_drill', title: 'First Drill', icon: '🎯', desc: 'Completed first practice attempt' });
+  if (solvedTotal >= 25) badges.push({ id: 'solver_25', title: 'Skill Builder', icon: '⚡', desc: 'Solved 25+ verified questions' });
+  if (solvedTotal >= 100) badges.push({ id: 'solver_100', title: 'Master Mind', icon: '🏆', desc: 'Solved 100+ questions' });
+  if (streakData.current >= 3 || streakData.longest >= 3) badges.push({ id: 'streak_3', title: '3-Day Fire', icon: '🔥', desc: 'Maintained 3+ days practice streak' });
+  if (streakData.current >= 7 || streakData.longest >= 7) badges.push({ id: 'streak_7', title: 'Seven-Day Streak', icon: '👑', desc: '7 days consecutive preparation' });
+  if (attempts.length >= 1) badges.push({ id: 'mock_finisher', title: 'Mock Finisher', icon: '🛡️', desc: 'Completed a full timed company test' });
+  if (bookmarkCount >= 5) badges.push({ id: 'curator', title: 'Curator', icon: '⭐', desc: 'Saved 5+ key questions for revision' });
+
+  // Daily Quest derived from today's actual activity
+  const todayAct = actMap.get(dayStr(new Date())) || { questions: 0, correct: 0 };
+  const dailyQuests = [
+    { id: 'solve_10', title: 'Solve 10 Questions Today', current: todayAct.questions, target: 10, rewardXp: 50, completed: todayAct.questions >= 10 },
+    { id: 'correct_5', title: 'Answer 5 Questions Correctly', current: todayAct.correct, target: 5, rewardXp: 40, completed: todayAct.correct >= 5 },
+    { id: 'mock_or_drill', title: 'Complete 1 Mock or Drill Session', current: Math.min(1, attempts.length > 0 ? 1 : (todayAct.questions >= 5 ? 1 : 0)), target: 1, rewardXp: 60, completed: attempts.length > 0 || todayAct.questions >= 5 },
+  ];
+
   return {
     overallProgress: overall, subjects,
     questionsAttempted: attemptedTotal, questionsSolved: solvedTotal, accuracy: pct(allCorrect, allAttempts),
+    gamification: {
+      xp,
+      level: currentLvl.level,
+      title: currentLvl.title,
+      nextLevelXp: nextLvlXp,
+      progressPct: levelProgress,
+      badges,
+      dailyQuests,
+    },
     mocks: { attempted: attempts.length, bestPercentage: pcts.length ? Math.max(...pcts) : null, averagePercentage: pcts.length ? Math.round((pcts.reduce((a, b) => a + b, 0) / pcts.length) * 10) / 10 : null },
     coding: { solved: codingSolved.length, total: totalBySubject.coding, completion: pct(codingSolved.length, totalBySubject.coding) },
     sql: { solved: sqlSolved.length, total: totalBySubject.sql, completion: pct(sqlSolved.length, totalBySubject.sql) },

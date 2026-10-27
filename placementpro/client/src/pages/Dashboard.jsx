@@ -18,6 +18,9 @@ import {
   Database,
   CalendarCheck,
   TrendingUp,
+  Compass,
+  Award,
+  Zap,
 } from 'lucide-react';
 import { useGet } from '../lib/useApi';
 import { api } from '../lib/api';
@@ -137,6 +140,70 @@ export default function Dashboard() {
             </Btn>
           </Link>
         </div>
+      </div>
+
+      {/* GAMIFICATION ADVENTURE BANNER & XP PROGRESS */}
+      <div className="rounded-3xl border border-purple-200/80 bg-gradient-to-r from-purple-500/15 via-sky-500/10 to-amber-500/15 p-5 shadow-card dark:border-[#263b55] dark:from-purple-950/40 dark:via-sky-950/30 dark:to-amber-950/20">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex items-center gap-3.5">
+            <div className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-gradient-to-tr from-purple-600 to-indigo-600 text-2xl shadow-md text-white">
+              🗺️
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="rounded-full bg-purple-500/20 px-2 py-0.5 text-[10px] font-bold text-purple-700 dark:text-purple-300">
+                  Level {s.gamification?.level || 1} • {s.gamification?.title || 'Beginner Explorer'}
+                </span>
+                <span className="rounded-full bg-amber-500/20 px-2 py-0.5 text-[10px] font-bold text-amber-700 dark:text-amber-300">
+                  ⭐ {s.gamification?.xp || 0} XP
+                </span>
+              </div>
+              <h3 className="mt-1 text-sm font-extrabold text-slate-900 dark:text-white">
+                Placement Odyssey Learning Map
+              </h3>
+              <p className="text-xs text-slate-500 dark:text-gray-400">
+                Level progress: {s.gamification?.progressPct || 0}% to Next Rank ({s.gamification?.nextLevelXp || 200} XP)
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-2.5">
+            <Link to="/map">
+              <Btn className="!rounded-xl bg-purple-600 hover:bg-purple-700 !py-2 text-xs font-bold gap-1.5 shadow-md shadow-purple-500/25">
+                <Compass className="h-4 w-4" />
+                <span>Open Adventure Map</span>
+              </Btn>
+            </Link>
+          </div>
+        </div>
+
+        {/* Daily Quests Mini Bar */}
+        {s.gamification?.dailyQuests?.length > 0 && (
+          <div className="mt-4 grid gap-2.5 pt-3 border-t border-purple-200/40 dark:border-purple-900/30 sm:grid-cols-3">
+            {s.gamification.dailyQuests.map((q) => (
+              <div
+                key={q.id}
+                className="flex items-center justify-between rounded-xl bg-white/70 p-2.5 text-xs dark:bg-[#11243b]/70 border border-slate-100 dark:border-[#263b55]"
+              >
+                <div className="min-w-0 pr-2">
+                  <p className="truncate font-bold text-slate-800 dark:text-gray-200">{q.title}</p>
+                  <p className="text-[10px] text-slate-500 dark:text-gray-400">
+                    Progress: {q.current} / {q.target}
+                  </p>
+                </div>
+                {q.completed ? (
+                  <span className="flex shrink-0 items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-300">
+                    <CheckCircle2 className="h-3 w-3" /> +{q.rewardXp} XP
+                  </span>
+                ) : (
+                  <span className="shrink-0 rounded-full bg-slate-100 px-2 py-0.5 text-[10px] font-bold text-slate-600 dark:bg-gray-800 dark:text-gray-300">
+                    +{q.rewardXp} XP
+                  </span>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* 2. MAIN CENTER HERO: MULTI-LAYER WAVE CHART + RIGHT ACTIVITY PANEL */}
