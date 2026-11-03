@@ -18,6 +18,7 @@ import Result from './pages/Result';
 import StudyPlan from './pages/StudyPlan';
 import Faqs from './pages/Faqs';
 import Profile from './pages/Profile';
+import Admin from './pages/Admin';
 export default function App() {
   return (
     <ThemeProvider>
@@ -36,6 +37,7 @@ export default function App() {
             <Route path="sql" element={<SqlList />} /><Route path="sql/:id" element={<SqlExercise />} />
             <Route path="mocks" element={<MockList />} /><Route path="mocks/:slug" element={<MockIntro />} /><Route path="results/:id" element={<Result />} />
             <Route path="plan" element={<StudyPlan />} /><Route path="faqs" element={<Faqs />} /><Route path="profile" element={<Profile />} />
+            <Route path="admin" element={<Admin />} />
           </Route>
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

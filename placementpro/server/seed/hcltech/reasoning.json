@@ -84,30 +84,30 @@
   "subject": "reasoning"
  },
  {
-  "uid": "hcltech-rea-coding-decoding-004",
+  "uid": "hcltech-rea-alphabet-series-004",
   "companies": [
    "hcltech"
   ],
-  "topic": "coding-decoding",
-  "subtopic": "letter shift",
-  "difficulty": "medium",
-  "explanation": "Each letter is shifted forward by 3. Applying the same shift to BOX gives ERA.",
-  "estimatedSeconds": 70,
+  "topic": "alphabet-series",
+  "subtopic": "constant step",
+  "difficulty": "easy",
+  "explanation": "Each letter moves forward by 3 positions. After S comes V.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a certain code, PEN is written as SHQ. How is BOX written in that code?",
+  "text": "Find the next letter in the series: G, J, M, P, S, ?",
   "options": [
-   "DQZ",
-   "ERA",
-   "XOB",
-   "FSB"
+   "V",
+   "T",
+   "X",
+   "U"
   ],
   "correct": [
-   1
+   0
   ],
   "subject": "reasoning"
  },
@@ -168,58 +168,58 @@
   "subject": "reasoning"
  },
  {
-  "uid": "hcltech-rea-direction-sense-007",
+  "uid": "hcltech-rea-coding-decoding-007",
   "companies": [
    "hcltech"
   ],
-  "topic": "direction-sense",
-  "subtopic": "distance from start",
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
   "difficulty": "medium",
-  "explanation": "North then east makes a right angle. Distance = √(8² + 15²) = 17 km.",
-  "estimatedSeconds": 60,
+  "explanation": "Each letter is shifted forward by 1. Applying the same shift to HIT gives IJU.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Ramesh walks 8 km north, turns right and walks 15 km. How far is he from his starting point (in km)?",
+  "text": "In a certain code, DOG is written as EPH. How is HIT written in that code?",
   "options": [
-   "25",
-   "17",
-   "11",
-   "23"
+   "HIT",
+   "JKV",
+   "TIH",
+   "IJU"
   ],
   "correct": [
-   1
+   3
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "hcltech-rea-direction-sense-008",
+  "uid": "hcltech-rea-coding-decoding-008",
   "companies": [
    "hcltech"
   ],
-  "topic": "direction-sense",
-  "subtopic": "distance from start",
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
   "difficulty": "medium",
-  "explanation": "North then east makes a right angle. Distance = √(5² + 12²) = 13 km.",
-  "estimatedSeconds": 60,
+  "explanation": "Each letter is shifted forward by 2. Applying the same shift to HIT gives JKV.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Ramesh walks 5 km north, turns right and walks 12 km. How far is he from his starting point (in km)?",
+  "text": "In a certain code, BAG is written as DCI. How is HIT written in that code?",
   "options": [
-   "16",
-   "13",
-   "12",
-   "11"
+   "FGR",
+   "TIH",
+   "JKV",
+   "IJU"
   ],
   "correct": [
-   1
+   2
   ],
   "subject": "reasoning"
  },
@@ -252,27 +252,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "hcltech-rea-ranking-010",
+  "uid": "hcltech-rea-direction-sense-010",
   "companies": [
    "hcltech"
   ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
   "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 39 − 18 + 1 = 22.",
-  "estimatedSeconds": 40,
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is West.",
+  "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a class of 39 students, Arun's rank from the top is 18. What is his rank from the bottom?",
+  "text": "Meena faces North. She turns right, then left, then left. Which direction is she facing now?",
   "options": [
-   "24",
-   "28",
-   "32",
-   "22"
+   "South",
+   "North",
+   "East",
+   "West"
   ],
   "correct": [
    3
@@ -280,27 +280,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "hcltech-rea-ranking-011",
+  "uid": "hcltech-rea-direction-sense-011",
   "companies": [
    "hcltech"
   ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
   "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 52 − 8 + 1 = 45.",
-  "estimatedSeconds": 40,
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is East.",
+  "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a class of 52 students, Arun's rank from the top is 8. What is his rank from the bottom?",
+  "text": "Meena faces North. She turns right, then right, then about (180°), then right. Which direction is she facing now?",
   "options": [
-   "55",
-   "40",
-   "70",
-   "45"
+   "North",
+   "South",
+   "West",
+   "East"
   ],
   "correct": [
    3
@@ -308,322 +308,14 @@
   "subject": "reasoning"
  },
  {
-  "uid": "hcltech-rea-ranking-012",
-  "companies": [
-   "hcltech"
-  ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
-  "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 31 − 17 + 1 = 15.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "In a class of 31 students, Arun's rank from the top is 17. What is his rank from the bottom?",
-  "options": [
-   "13",
-   "21",
-   "9",
-   "15"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "hcltech-rea-clocks-013",
-  "companies": [
-   "hcltech"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×4 − 5.5×40| = 100°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 4:40?",
-  "options": [
-   "70",
-   "100",
-   "140",
-   "110"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "hcltech-rea-clocks-014",
-  "companies": [
-   "hcltech"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×3 − 5.5×28| = 64°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 3:28?",
-  "options": [
-   "64",
-   "58",
-   "52",
-   "76"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "hcltech-rea-clocks-015",
-  "companies": [
-   "hcltech"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×5 − 5.5×46| = 103°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 5:46?",
-  "options": [
-   "153",
-   "143",
-   "103",
-   "133"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "hcltech-rea-calendars-016",
-  "companies": [
-   "hcltech"
-  ],
-  "topic": "calendars",
-  "subtopic": "day of a date",
-  "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Monday for 6 August 2018 (checked with calendar arithmetic).",
-  "estimatedSeconds": 90,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "On which day of the week does 6 August 2018 fall?",
-  "options": [
-   "Sunday",
-   "Tuesday",
-   "Monday",
-   "Wednesday"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "hcltech-rea-calendars-017",
-  "companies": [
-   "hcltech"
-  ],
-  "topic": "calendars",
-  "subtopic": "day of a date",
-  "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Friday for 5 August 2005 (checked with calendar arithmetic).",
-  "estimatedSeconds": 90,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "On which day of the week does 5 August 2005 fall?",
-  "options": [
-   "Tuesday",
-   "Friday",
-   "Monday",
-   "Sunday"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "hcltech-rea-calendars-018",
-  "companies": [
-   "hcltech"
-  ],
-  "topic": "calendars",
-  "subtopic": "day of a date",
-  "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Sunday for 16 August 2009 (checked with calendar arithmetic).",
-  "estimatedSeconds": 90,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "On which day of the week does 16 August 2009 fall?",
-  "options": [
-   "Sunday",
-   "Thursday",
-   "Wednesday",
-   "Friday"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "hcltech-rea-odd-one-out-019",
-  "companies": [
-   "hcltech"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 49 are perfect cubes (10³=1000, 5³=125, 4³=64, 3³=27).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 49, 125, 27, 1000, 64",
-  "options": [
-   "49",
-   "1000",
-   "27",
-   "125"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "hcltech-rea-odd-one-out-020",
-  "companies": [
-   "hcltech"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 33 are perfect cubes (5³=125, 6³=216, 10³=1000, 4³=64).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 125, 64, 33, 1000, 216",
-  "options": [
-   "125",
-   "64",
-   "216",
-   "33"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "hcltech-rea-odd-one-out-021",
-  "companies": [
-   "hcltech"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 50 are perfect cubes (2³=8, 6³=216, 4³=64, 3³=27).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 64, 8, 216, 27, 50",
-  "options": [
-   "27",
-   "64",
-   "50",
-   "8"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "hcltech-rea-coding-decoding-022",
-  "companies": [
-   "hcltech"
-  ],
-  "topic": "coding-decoding",
-  "subtopic": "letter shift",
-  "difficulty": "medium",
-  "explanation": "Each letter is shifted forward by 1. Applying the same shift to FAN gives GBO.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "In a certain code, SUN is written as TVO. How is FAN written in that code?",
-  "options": [
-   "HCP",
-   "GBO",
-   "FAN",
-   "NAF"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "hcltech-rea-direction-sense-023",
+  "uid": "hcltech-rea-direction-sense-012",
   "companies": [
    "hcltech"
   ],
   "topic": "direction-sense",
   "subtopic": "distance from start",
   "difficulty": "medium",
-  "explanation": "North then east makes a right angle. Distance = √(6² + 8²) = 10 km.",
+  "explanation": "North then east makes a right angle. Distance = √(8² + 15²) = 17 km.",
   "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -631,12 +323,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Ramesh walks 6 km north, turns right and walks 8 km. How far is he from his starting point (in km)?",
+  "text": "Ramesh walks 8 km north, turns right and walks 15 km. How far is he from his starting point (in km)?",
   "options": [
-   "14",
-   "10",
    "15",
-   "11"
+   "17",
+   "21",
+   "27"
   ],
   "correct": [
    1
@@ -644,14 +336,126 @@
   "subject": "reasoning"
  },
  {
-  "uid": "hcltech-rea-clocks-024",
+  "uid": "hcltech-rea-ranking-013",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "ranking",
+  "subtopic": "rank from bottom",
+  "difficulty": "easy",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 43 − 23 + 1 = 21.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a class of 43 students, Arun's rank from the top is 23. What is his rank from the bottom?",
+  "options": [
+   "31",
+   "15",
+   "21",
+   "23"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-ranking-014",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "ranking",
+  "subtopic": "rank from bottom",
+  "difficulty": "easy",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 30 − 16 + 1 = 15.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a class of 30 students, Arun's rank from the top is 16. What is his rank from the bottom?",
+  "options": [
+   "25",
+   "15",
+   "13",
+   "9"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-ranking-015",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "ranking",
+  "subtopic": "rank from bottom",
+  "difficulty": "easy",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 53 − 10 + 1 = 44.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a class of 53 students, Arun's rank from the top is 10. What is his rank from the bottom?",
+  "options": [
+   "32",
+   "64",
+   "44",
+   "40"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-ranking-016",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 9 + 10 − 1 = 18.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a row, Kavya is 9th from the left and 10th from the right. How many people are in the row?",
+  "options": [
+   "24",
+   "16",
+   "18",
+   "22"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-clocks-017",
   "companies": [
    "hcltech"
   ],
   "topic": "clocks",
   "subtopic": "angle between hands",
   "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×6 − 5.5×40| = 40°.",
+  "explanation": "Angle = |30h − 5.5m| = |30×3 − 5.5×58| = 229°, so the smaller angle is 360 − that = 131°.",
   "estimatedSeconds": 80,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -659,12 +463,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 6:40?",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 3:58?",
   "options": [
-   "40",
-   "52",
-   "44",
-   "48"
+   "131",
+   "92",
+   "170",
+   "118"
   ],
   "correct": [
    0
@@ -672,14 +476,126 @@
   "subject": "reasoning"
  },
  {
-  "uid": "hcltech-rea-calendars-025",
+  "uid": "hcltech-rea-clocks-018",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×5 − 5.5×4| = 128°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 5:04?",
+  "options": [
+   "89",
+   "167",
+   "141",
+   "128"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-clocks-019",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×2 − 5.5×48| = 204°, so the smaller angle is 360 − that = 156°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 2:48?",
+  "options": [
+   "156",
+   "204",
+   "124",
+   "108"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-clocks-020",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×8 − 5.5×52| = 46°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 8:52?",
+  "options": [
+   "56",
+   "46",
+   "31",
+   "36"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-calendars-021",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "calendars",
+  "subtopic": "days after",
+  "difficulty": "easy",
+  "explanation": "63 mod 7 = 0. Monday + 0 days = Monday.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Today is Monday. What day of the week will it be after 63 days?",
+  "options": [
+   "Thursday",
+   "Wednesday",
+   "Sunday",
+   "Monday"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-calendars-022",
   "companies": [
    "hcltech"
   ],
   "topic": "calendars",
   "subtopic": "day of a date",
   "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Friday for 4 June 1999 (checked with calendar arithmetic).",
+  "explanation": "Counting odd days from a known reference date gives Friday for 21 June 2013 (checked with calendar arithmetic).",
   "estimatedSeconds": 90,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -687,15 +603,99 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "On which day of the week does 4 June 1999 fall?",
+  "text": "On which day of the week does 21 June 2013 fall?",
   "options": [
    "Friday",
-   "Tuesday",
-   "Monday",
-   "Sunday"
+   "Wednesday",
+   "Thursday",
+   "Saturday"
   ],
   "correct": [
    0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-calendars-023",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "calendars",
+  "subtopic": "days after",
+  "difficulty": "easy",
+  "explanation": "39 mod 7 = 4. Monday + 4 days = Friday.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Today is Monday. What day of the week will it be after 39 days?",
+  "options": [
+   "Saturday",
+   "Wednesday",
+   "Thursday",
+   "Friday"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-calendars-024",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "calendars",
+  "subtopic": "days after",
+  "difficulty": "easy",
+  "explanation": "180 mod 7 = 5. Friday + 5 days = Wednesday.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Today is Friday. What day of the week will it be after 180 days?",
+  "options": [
+   "Sunday",
+   "Tuesday",
+   "Wednesday",
+   "Friday"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-odd-one-out-025",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 109 are perfect cubes (9³=729, 6³=216, 7³=343, 5³=125).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 216, 729, 109, 343, 125",
+  "options": [
+   "216",
+   "729",
+   "109",
+   "343"
+  ],
+  "correct": [
+   2
   ],
   "subject": "reasoning"
  },
@@ -752,6 +752,314 @@
   ],
   "correct": [
    1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-odd-one-out-028",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 87 are perfect cubes (10³=1000, 7³=343, 6³=216, 9³=729).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 87, 216, 1000, 343, 729",
+  "options": [
+   "1000",
+   "343",
+   "87",
+   "216"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-coding-decoding-029",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
+  "difficulty": "medium",
+  "explanation": "Each letter is shifted forward by 2. Applying the same shift to FAN gives HCP.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a certain code, SUN is written as UWP. How is FAN written in that code?",
+  "options": [
+   "IDQ",
+   "GBO",
+   "HCP",
+   "NAF"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-direction-sense-030",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
+  "difficulty": "easy",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is South.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Meena faces North. She turns about (180°), then right, then right, then about (180°). Which direction is she facing now?",
+  "options": [
+   "North",
+   "South",
+   "West",
+   "East"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-clocks-031",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×8 − 5.5×46| = 13°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 8:46?",
+  "options": [
+   "11",
+   "12",
+   "18",
+   "13"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-calendars-032",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Wednesday for 3 September 2003 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "On which day of the week does 3 September 2003 fall?",
+  "options": [
+   "Sunday",
+   "Wednesday",
+   "Friday",
+   "Saturday"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-odd-one-out-033",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 94 are perfect cubes (9³=729, 3³=27, 10³=1000, 7³=343).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 1000, 27, 343, 729, 94",
+  "options": [
+   "94",
+   "27",
+   "1000",
+   "729"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-odd-one-out-034",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 66 are perfect cubes (8³=512, 6³=216, 10³=1000, 4³=64).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 512, 64, 1000, 66, 216",
+  "options": [
+   "216",
+   "512",
+   "66",
+   "1000"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-alphabet-series-035",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "alphabet-series",
+  "subtopic": "constant step",
+  "difficulty": "easy",
+  "explanation": "Each letter moves forward by 4 positions. After U comes Y.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next letter in the series: E, I, M, Q, U, ?",
+  "options": [
+   "A",
+   "Y",
+   "W",
+   "Z"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-odd-one-out-036",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 157 are perfect cubes (5³=125, 7³=343, 4³=64, 6³=216).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 343, 216, 64, 157, 125",
+  "options": [
+   "216",
+   "157",
+   "343",
+   "125"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-coding-decoding-037",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
+  "difficulty": "medium",
+  "explanation": "Each letter is shifted forward by 3. Applying the same shift to HIT gives KLW.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a certain code, SUN is written as VXQ. How is HIT written in that code?",
+  "options": [
+   "KLW",
+   "EFQ",
+   "JKV",
+   "TIH"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "hcltech-rea-direction-sense-038",
+  "companies": [
+   "hcltech"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "distance from start",
+  "difficulty": "medium",
+  "explanation": "North then east makes a right angle. Distance = √(12² + 16²) = 20 km.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Ramesh walks 12 km north, turns right and walks 16 km. How far is he from his starting point (in km)?",
+  "options": [
+   "18",
+   "28",
+   "20",
+   "22"
+  ],
+  "correct": [
+   2
   ],
   "subject": "reasoning"
  }

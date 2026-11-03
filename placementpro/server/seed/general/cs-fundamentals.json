@@ -2963,5 +2963,1411 @@
   ],
   "explanation": "TLS secures the channel; it does not fix application-level bugs such as SQL injection.",
   "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-c-programming-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "c-programming",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which operator returns the memory address of a variable in C?",
+  "options": [
+   "%",
+   "->",
+   "*",
+   "&"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The ampersand (&) is the address-of operator.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-c-programming-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "c-programming",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What does (*p)++ do if p is an int*?",
+  "options": [
+   "Increments the pointer address p",
+   "Increments the value pointed to by p",
+   "Dereferences p+1",
+   "Compilation error"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Parentheses force dereferencing first, so the integer value at that address is incremented.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-c-programming-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "c-programming",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which function dynamically allocates uninitialized heap memory in C?",
+  "options": [
+   "realloc",
+   "malloc",
+   "calloc",
+   "free"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "malloc allocates uninitialized bytes; calloc initializes allocated memory to zero.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-c-programming-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "c-programming",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the default storage class for local variables declared inside a C function?",
+  "options": [
+   "extern",
+   "register",
+   "static",
+   "auto"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Local variables declared without a specifier have automatic storage duration (auto).",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-c-programming-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "c-programming",
+  "difficulty": "hard",
+  "type": "mcq_single",
+  "text": "In C, what is the output?\n\nint a[3] = {10, 20, 30};\nint *p = a;\nprintf(\"%d\", *(p + 1));",
+  "options": [
+   "10",
+   "11",
+   "30",
+   "20"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "p points to a[0]. *(p + 1) accesses a[1], which is 20.",
+  "estimatedSeconds": 50
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-c-programming-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "c-programming",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Why does structure padding occur in C?",
+  "options": [
+   "To encrypt struct fields",
+   "To prevent buffer overflows",
+   "To align data on CPU architecture word boundaries for faster access",
+   "To make room for methods"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Processors access memory more efficiently when data types reside at addresses that are multiples of their size.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-c-programming-007",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "c-programming",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which format specifier is used to print a string in printf()?",
+  "options": [
+   "%c",
+   "%d",
+   "%f",
+   "%s"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "%s is the string format specifier in C.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-cpp-programming-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "cpp-programming",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which keyword is used to make a member function overridable with dynamic binding in C++?",
+  "options": [
+   "mutable",
+   "virtual",
+   "dynamic",
+   "override"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Declaring a base class method virtual enables dynamic dispatch via vtable.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-cpp-programming-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "cpp-programming",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Why should a base class destructor always be declared virtual in C++?",
+  "options": [
+   "To enable constructor chaining",
+   "To make class abstract",
+   "To ensure derived class destructors run when deleting through a base pointer",
+   "To prevent object creation"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "If the destructor is not virtual, deleting a derived instance via a base pointer causes undefined behavior/memory leaks.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-cpp-programming-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "cpp-programming",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which STL container in C++ is implemented as a Red-Black balanced binary search tree?",
+  "options": [
+   "std::map",
+   "std::vector",
+   "std::unordered_map",
+   "std::list"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "std::map stores sorted key-value pairs using a Red-Black tree with O(log n) operations.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-cpp-programming-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "cpp-programming",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What does RAII stand for in modern C++?",
+  "options": [
+   "Resource Acquisition Is Initialization",
+   "Random Access Instruction Index",
+   "Rapid Application Interface Integration",
+   "Recursive Algorithm Instance Iteration"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "RAII binds resource lifetime to object lifetime, ensuring automatic cleanup in destructors.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-cpp-programming-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "cpp-programming",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the purpose of std::move in C++11?",
+  "options": [
+   "Copies an object into new memory",
+   "Casts an lvalue to an rvalue reference to enable move semantics",
+   "Deletes an object instantly",
+   "Sorts a vector"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "std::move does not move anything on its own; it casts its argument to an rvalue reference so a move constructor can be invoked.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-python-programming-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "python-programming",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which of the following data types is mutable in Python?",
+  "options": [
+   "int",
+   "str",
+   "list",
+   "tuple"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Lists, dicts, and sets are mutable; tuples, strings, and ints are immutable.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-python-programming-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "python-programming",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What does the \"is\" operator check in Python?",
+  "options": [
+   "Type compatibility",
+   "Memory identity (same object in memory)",
+   "Subset membership",
+   "Value equality only"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The \"is\" keyword checks whether two variables point to the exact same object in memory, unlike \"==\" which checks value equality.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-python-programming-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "python-programming",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the output?\n\na = [1, 2, 3]\nb = a\nb.append(4)\nprint(len(a))",
+  "options": [
+   "4",
+   "None",
+   "Error",
+   "3"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Variables a and b reference the exact same list instance; mutating b also mutates a.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-python-programming-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "python-programming",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the Global Interpreter Lock (GIL) in CPython?",
+  "options": [
+   "A mutex that allows only one native thread to execute Python bytecode at a time",
+   "A security sandbox for web apps",
+   "A garbage collector loop",
+   "A database lock manager"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The GIL prevents multi-threading race conditions in CPython memory management, limiting CPU-bound threads from running on multiple cores concurrently.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-python-programming-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "python-programming",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which keyword is used to create an anonymous function in Python?",
+  "options": [
+   "lambda",
+   "anon",
+   "function",
+   "def"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "lambda creates lightweight anonymous inline functions.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-python-programming-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "python-programming",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the result of [x**2 for x in range(4) if x % 2 == 0] in Python?",
+  "options": [
+   "[1, 9]",
+   "[0, 4]",
+   "[4]",
+   "[0, 1, 4, 9]"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "range(4) produces 0, 1, 2, 3. The even numbers are 0 and 2. 0^2 = 0, 2^2 = 4.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-algorithms-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "algorithms",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What is the worst-case time complexity of standard QuickSort?",
+  "options": [
+   "O(n log n)",
+   "O(n²)",
+   "O(n)",
+   "O(log n)"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "When the pivot selected is consistently the minimum or maximum element (e.g. already sorted array with naive pivot), QuickSort degrades to O(n²).",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-algorithms-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "algorithms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which algorithm finds the single-source shortest path in a weighted graph with non-negative edge weights?",
+  "options": [
+   "Floyd-Warshall algorithm",
+   "Prim's algorithm",
+   "Kruskal's algorithm",
+   "Dijkstra's algorithm"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Dijkstra's algorithm uses a priority queue to compute shortest paths with non-negative weights in O((V + E) log V).",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-algorithms-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "algorithms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which property must a problem have to be solvable using Dynamic Programming?",
+  "options": [
+   "Optimal substructure and overlapping subproblems",
+   "Only linear subproblems",
+   "Greedy choice and negative cycles",
+   "Unsorted inputs and independence"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Dynamic Programming memoizes solutions to overlapping subproblems that compose an optimal global solution.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-algorithms-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "algorithms",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Binary search can be applied to an array only if the array is",
+  "options": [
+   "sorted",
+   "unsorted",
+   "distinct numbers only",
+   "indexed from 1"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Binary search relies on ordering to discard half of the search space at each comparison.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-algorithms-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "algorithms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the time complexity of building a heap (heapify) of n elements?",
+  "options": [
+   "O(log n)",
+   "O(n²)",
+   "O(n)",
+   "O(n log n)"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Bottom-up heap construction takes linear O(n) time, whereas inserting n elements one-by-one takes O(n log n).",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-computer-fundamentals-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "computer-fundamentals",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which logic gates are known as Universal Gates because any digital circuit can be built using them?",
+  "options": [
+   "XOR and XNOR",
+   "NOT and AND",
+   "AND and OR",
+   "NAND and NOR"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "NAND and NOR gates can implement AND, OR, and NOT operations, making them universal.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-computer-fundamentals-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "computer-fundamentals",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the 8-bit two's complement representation of -5?",
+  "options": [
+   "10000101",
+   "11111011",
+   "00000101",
+   "11111010"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "+5 in binary is 00000101. Inverting bits gives 11111010, and adding 1 gives 11111011.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-computer-fundamentals-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "computer-fundamentals",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What is the decimal equivalent of the hexadecimal number 0x2A?",
+  "options": [
+   "42",
+   "52",
+   "24",
+   "32"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "0x2A = 2 * 16 + 10 = 32 + 10 = 42.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-computer-fundamentals-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "computer-fundamentals",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which cache memory is the fastest and closest to the CPU core?",
+  "options": [
+   "L2 cache",
+   "RAM",
+   "L3 cache",
+   "L1 cache"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "L1 cache is integrated directly on the processor core and operates at CPU clock frequency.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-computer-fundamentals-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "computer-fundamentals",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is instruction pipelining in computer architecture?",
+  "options": [
+   "Compiling code before execution",
+   "Storing code in ROM",
+   "Connecting multiple motherboards",
+   "Executing multiple stages of different instructions concurrently"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Pipelining divides instruction execution into stages (fetch, decode, execute, memory, writeback) overlapping consecutive instructions.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-software-engineering-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "software-engineering",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which design pattern guarantees that a class has only one instance and provides global access to it?",
+  "options": [
+   "Factory pattern",
+   "Singleton pattern",
+   "Adapter pattern",
+   "Observer pattern"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Singleton restricts instantiation of a class to a single object.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-software-engineering-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "software-engineering",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which design pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified automatically?",
+  "options": [
+   "Observer pattern",
+   "Strategy pattern",
+   "Singleton pattern",
+   "Decorator pattern"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Observer pattern is commonly used for event-driven architectures and model-view updates.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-software-engineering-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "software-engineering",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Testing individual units or functions in isolation from the rest of the application is called",
+  "options": [
+   "Unit testing",
+   "Integration testing",
+   "Acceptance testing",
+   "System testing"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Unit testing validates individual functions or components independently.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-software-engineering-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "software-engineering",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "In software testing, what is regression testing?",
+  "options": [
+   "Writing requirements before coding",
+   "Testing software under extreme traffic loads",
+   "Re-running existing tests to verify that recent code changes have not broken existing features",
+   "Testing software on mobile devices only"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Regression testing ensures new patches and bug fixes do not introduce side-effects into stable code.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-os-009",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "os",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which page replacement algorithm suffers from Belady's Anomaly (more frames causing more page faults)?",
+  "options": [
+   "Clock replacement",
+   "Optimal algorithm",
+   "FIFO (First-In, First-Out)",
+   "LRU (Least Recently Used)"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "FIFO can experience increased page faults when physical memory frames are added, unlike stack-based algorithms like LRU.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-os-010",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "os",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which of the following is NOT one of the four necessary conditions for a deadlock to occur?",
+  "options": [
+   "Hold and wait",
+   "Circular wait",
+   "Preemption of resources",
+   "Mutual exclusion"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "No preemption is a necessary deadlock condition; allowing preemption actually breaks deadlock.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-dbms-011",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "dbms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "A relation is in 2NF if it is in 1NF and contains no",
+  "options": [
+   "partial dependencies on candidate keys",
+   "indexes",
+   "foreign keys",
+   "transitive dependencies"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Second Normal Form eliminates partial functional dependencies on composite primary keys.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-dbms-012",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "dbms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Which database index structure maintains sequential linked leaves for high-speed range queries?",
+  "options": [
+   "Trie",
+   "Binary Search Tree",
+   "B+ Tree",
+   "Hash Index"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "B+ Trees store all records/pointers in leaf nodes linked as a doubly linked list, optimizing range scans.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-networks-009",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "networks",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What does the ARP (Address Resolution Protocol) do?",
+  "options": [
+   "Assigns default gateways",
+   "Resolves an IP address to a physical MAC address",
+   "Encrypts web traffic",
+   "Translates domain names to IP addresses"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "ARP discovers the link-layer address associated with a given internet-layer IP address on a local network segment.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-cs-networks-010",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "cs",
+  "topic": "networks",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "How many usable host IP addresses are available in a standard /24 subnet?",
+  "options": [
+   "252",
+   "255",
+   "254",
+   "256"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "A /24 subnet has 2^(32-24) = 256 addresses. Minus 2 (network address and broadcast address) leaves 254 usable host IPs.",
+  "estimatedSeconds": 45
  }
 ]

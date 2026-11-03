@@ -11,6 +11,7 @@ const userSchema = new mongoose.Schema({
   prepStartDate: { type: Date, default: Date.now },
   dailyStudyHours: { type: Number, default: 3, min: 0.5, max: 16 },
   examDate: { type: Date, default: null },
+  role: { type: String, enum: ['user', 'admin'], default: 'user' },
   resetTokenHash: { type: String, select: false },
   resetExpires: { type: Date, select: false },
 }, { timestamps: true });

@@ -84,27 +84,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "cognizant-rea-coding-decoding-004",
+  "uid": "cognizant-rea-alphabet-series-004",
   "companies": [
    "cognizant"
   ],
-  "topic": "coding-decoding",
-  "subtopic": "letter shift",
-  "difficulty": "medium",
-  "explanation": "Each letter is shifted forward by 4. Applying the same shift to TOP gives XST.",
-  "estimatedSeconds": 70,
+  "topic": "alphabet-series",
+  "subtopic": "constant step",
+  "difficulty": "easy",
+  "explanation": "Each letter moves forward by 5 positions. After X comes C.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a certain code, CAT is written as GEX. How is TOP written in that code?",
+  "text": "Find the next letter in the series: D, I, N, S, X, ?",
   "options": [
-   "WRS",
-   "XST",
-   "PKL",
-   "POT"
+   "B",
+   "C",
+   "D",
+   "A"
   ],
   "correct": [
    1
@@ -168,27 +168,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "cognizant-rea-direction-sense-007",
+  "uid": "cognizant-rea-coding-decoding-007",
   "companies": [
    "cognizant"
   ],
-  "topic": "direction-sense",
-  "subtopic": "facing direction",
-  "difficulty": "easy",
-  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is North.",
-  "estimatedSeconds": 50,
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
+  "difficulty": "medium",
+  "explanation": "Each letter is shifted forward by 4. Applying the same shift to BOX gives FSB.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Meena faces North. She turns about (180°), then right, then left, then about (180°). Which direction is she facing now?",
+  "text": "In a certain code, CAT is written as GEX. How is BOX written in that code?",
   "options": [
-   "North",
-   "West",
-   "East",
-   "South"
+   "FSB",
+   "XOB",
+   "XKT",
+   "GTC"
   ],
   "correct": [
    0
@@ -196,7 +196,35 @@
   "subject": "reasoning"
  },
  {
-  "uid": "cognizant-rea-direction-sense-008",
+  "uid": "cognizant-rea-coding-decoding-008",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
+  "difficulty": "medium",
+  "explanation": "Each letter is shifted forward by 4. Applying the same shift to TOP gives XST.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a certain code, SUN is written as WYR. How is TOP written in that code?",
+  "options": [
+   "PKL",
+   "XST",
+   "YTU",
+   "WRS"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-direction-sense-009",
   "companies": [
    "cognizant"
   ],
@@ -213,38 +241,10 @@
   "type": "mcq_single",
   "text": "Ramesh walks 10 km north, turns right and walks 24 km. How far is he from his starting point (in km)?",
   "options": [
+   "26",
    "38",
-   "17",
-   "29",
-   "26"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "cognizant-rea-direction-sense-009",
-  "companies": [
-   "cognizant"
-  ],
-  "topic": "direction-sense",
-  "subtopic": "distance from start",
-  "difficulty": "medium",
-  "explanation": "North then east makes a right angle. Distance = √(6² + 8²) = 10 km.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Ramesh walks 6 km north, turns right and walks 8 km. How far is he from his starting point (in km)?",
-  "options": [
-   "10",
-   "9",
-   "13",
-   "12"
+   "32",
+   "20"
   ],
   "correct": [
    0
@@ -252,14 +252,98 @@
   "subject": "reasoning"
  },
  {
-  "uid": "cognizant-rea-ranking-010",
+  "uid": "cognizant-rea-direction-sense-010",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
+  "difficulty": "easy",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is East.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Meena faces North. She turns left, then right, then left, then about (180°). Which direction is she facing now?",
+  "options": [
+   "North",
+   "East",
+   "West",
+   "South"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-direction-sense-011",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
+  "difficulty": "easy",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is North.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Meena faces North. She turns right, then about (180°), then right. Which direction is she facing now?",
+  "options": [
+   "South",
+   "West",
+   "North",
+   "East"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-direction-sense-012",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
+  "difficulty": "easy",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is West.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Meena faces North. She turns right, then right, then left, then about (180°). Which direction is she facing now?",
+  "options": [
+   "East",
+   "South",
+   "North",
+   "West"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-ranking-013",
   "companies": [
    "cognizant"
   ],
   "topic": "ranking",
-  "subtopic": "total in a row",
+  "subtopic": "rank from bottom",
   "difficulty": "easy",
-  "explanation": "Total = left position + right position − 1 = 14 + 18 − 1 = 31.",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 42 − 14 + 1 = 29.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -267,11 +351,39 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a row, Kavya is 14th from the left and 18th from the right. How many people are in the row?",
+  "text": "In a class of 42 students, Arun's rank from the top is 14. What is his rank from the bottom?",
   "options": [
-   "37",
-   "31",
-   "25",
+   "41",
+   "38",
+   "29",
+   "23"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-ranking-014",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "ranking",
+  "subtopic": "rank from bottom",
+  "difficulty": "easy",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 54 − 6 + 1 = 49.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a class of 54 students, Arun's rank from the top is 6. What is his rank from the bottom?",
+  "options": [
+   "64",
+   "49",
+   "59",
    "34"
   ],
   "correct": [
@@ -280,42 +392,14 @@
   "subject": "reasoning"
  },
  {
-  "uid": "cognizant-rea-ranking-011",
-  "companies": [
-   "cognizant"
-  ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
-  "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 57 − 21 + 1 = 37.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "In a class of 57 students, Arun's rank from the top is 21. What is his rank from the bottom?",
-  "options": [
-   "41",
-   "37",
-   "45",
-   "49"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "cognizant-rea-ranking-012",
+  "uid": "cognizant-rea-ranking-015",
   "companies": [
    "cognizant"
   ],
   "topic": "ranking",
   "subtopic": "total in a row",
   "difficulty": "easy",
-  "explanation": "Total = left position + right position − 1 = 18 + 15 − 1 = 32.",
+  "explanation": "Total = left position + right position − 1 = 7 + 6 − 1 = 12.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -323,208 +407,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a row, Kavya is 18th from the left and 15th from the right. How many people are in the row?",
+  "text": "In a row, Kavya is 7th from the left and 6th from the right. How many people are in the row?",
   "options": [
-   "26",
-   "35",
-   "23",
-   "32"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "cognizant-rea-clocks-013",
-  "companies": [
-   "cognizant"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×6 − 5.5×50| = 95°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 6:50?",
-  "options": [
-   "115",
-   "95",
-   "135",
-   "75"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "cognizant-rea-clocks-014",
-  "companies": [
-   "cognizant"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×3 − 5.5×58| = 229°, so the smaller angle is 360 − that = 131°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 3:58?",
-  "options": [
-   "105",
-   "131",
-   "157",
-   "92"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "cognizant-rea-clocks-015",
-  "companies": [
-   "cognizant"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×8 − 5.5×48| = 24°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 8:48?",
-  "options": [
-   "28",
-   "18",
-   "20",
-   "24"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "cognizant-rea-calendars-016",
-  "companies": [
-   "cognizant"
-  ],
-  "topic": "calendars",
-  "subtopic": "day of a date",
-  "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Wednesday for 17 August 2022 (checked with calendar arithmetic).",
-  "estimatedSeconds": 90,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "On which day of the week does 17 August 2022 fall?",
-  "options": [
-   "Sunday",
-   "Saturday",
-   "Friday",
-   "Wednesday"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "cognizant-rea-calendars-017",
-  "companies": [
-   "cognizant"
-  ],
-  "topic": "calendars",
-  "subtopic": "days after",
-  "difficulty": "easy",
-  "explanation": "173 mod 7 = 5. Tuesday + 5 days = Sunday.",
-  "estimatedSeconds": 45,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Today is Tuesday. What day of the week will it be after 173 days?",
-  "options": [
-   "Friday",
-   "Thursday",
-   "Sunday",
-   "Tuesday"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "cognizant-rea-calendars-018",
-  "companies": [
-   "cognizant"
-  ],
-  "topic": "calendars",
-  "subtopic": "day of a date",
-  "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Tuesday for 15 October 2002 (checked with calendar arithmetic).",
-  "estimatedSeconds": 90,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "On which day of the week does 15 October 2002 fall?",
-  "options": [
-   "Sunday",
-   "Thursday",
-   "Monday",
-   "Tuesday"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "cognizant-rea-odd-one-out-019",
-  "companies": [
-   "cognizant"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 39 are perfect cubes (9³=729, 5³=125, 7³=343, 10³=1000).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 1000, 125, 729, 39, 343",
-  "options": [
-   "39",
-   "1000",
-   "343",
-   "729"
+   "12",
+   "14",
+   "15",
+   "17"
   ],
   "correct": [
    0
@@ -532,14 +420,14 @@
   "subject": "reasoning"
  },
  {
-  "uid": "cognizant-rea-odd-one-out-020",
+  "uid": "cognizant-rea-ranking-016",
   "companies": [
    "cognizant"
   ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
+  "topic": "ranking",
+  "subtopic": "total in a row",
   "difficulty": "easy",
-  "explanation": "All numbers except 89 are perfect cubes (7³=343, 5³=125, 4³=64, 3³=27).",
+  "explanation": "Total = left position + right position − 1 = 13 + 15 − 1 = 27.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -547,12 +435,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Find the odd one out: 64, 343, 27, 125, 89",
+  "text": "In a row, Kavya is 13th from the left and 15th from the right. How many people are in the row?",
   "options": [
+   "33",
+   "24",
    "27",
-   "64",
-   "89",
-   "343"
+   "30"
   ],
   "correct": [
    2
@@ -560,30 +448,142 @@
   "subject": "reasoning"
  },
  {
-  "uid": "cognizant-rea-odd-one-out-021",
+  "uid": "cognizant-rea-clocks-017",
   "companies": [
    "cognizant"
   ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 155 are perfect cubes (7³=343, 6³=216, 5³=125, 2³=8).",
-  "estimatedSeconds": 40,
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×11 − 5.5×50| = 55°.",
+  "estimatedSeconds": 80,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Find the odd one out: 216, 343, 125, 8, 155",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 11:50?",
   "options": [
-   "343",
-   "216",
-   "125",
-   "155"
+   "61",
+   "37",
+   "73",
+   "55"
   ],
   "correct": [
    3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-clocks-018",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×7 − 5.5×46| = 43°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 7:46?",
+  "options": [
+   "31",
+   "59",
+   "35",
+   "43"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-clocks-019",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×2 − 5.5×28| = 94°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 2:28?",
+  "options": [
+   "85",
+   "121",
+   "94",
+   "76"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-clocks-020",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×7 − 5.5×34| = 23°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 7:34?",
+  "options": [
+   "25",
+   "27",
+   "33",
+   "23"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-calendars-021",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Tuesday for 27 October 2020 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "On which day of the week does 27 October 2020 fall?",
+  "options": [
+   "Tuesday",
+   "Sunday",
+   "Saturday",
+   "Thursday"
+  ],
+  "correct": [
+   0
   ],
   "subject": "reasoning"
  },
@@ -616,58 +616,58 @@
   "subject": "reasoning"
  },
  {
-  "uid": "cognizant-rea-clocks-023",
+  "uid": "cognizant-rea-calendars-023",
   "companies": [
    "cognizant"
   ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
+  "topic": "calendars",
+  "subtopic": "day of a date",
   "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×2 − 5.5×2| = 49°.",
-  "estimatedSeconds": 80,
+  "explanation": "Counting odd days from a known reference date gives Wednesday for 5 June 2013 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 2:02?",
+  "text": "On which day of the week does 5 June 2013 fall?",
   "options": [
-   "59",
-   "74",
-   "69",
-   "49"
+   "Sunday",
+   "Wednesday",
+   "Thursday",
+   "Monday"
   ],
   "correct": [
-   3
+   1
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "cognizant-rea-odd-one-out-024",
+  "uid": "cognizant-rea-calendars-024",
   "companies": [
    "cognizant"
   ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 32 are perfect cubes (9³=729, 4³=64, 3³=27, 8³=512).",
-  "estimatedSeconds": 40,
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Monday for 4 May 2015 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Find the odd one out: 512, 27, 64, 32, 729",
+  "text": "On which day of the week does 4 May 2015 fall?",
   "options": [
-   "729",
-   "512",
-   "32",
-   "27"
+   "Monday",
+   "Wednesday",
+   "Saturday",
+   "Tuesday"
   ],
   "correct": [
-   2
+   0
   ],
   "subject": "reasoning"
  },
@@ -700,27 +700,55 @@
   "subject": "reasoning"
  },
  {
-  "uid": "cognizant-rea-coding-decoding-026",
+  "uid": "cognizant-rea-odd-one-out-026",
   "companies": [
    "cognizant"
   ],
-  "topic": "coding-decoding",
-  "subtopic": "letter shift",
-  "difficulty": "medium",
-  "explanation": "Each letter is shifted forward by 1. Applying the same shift to TOP gives UPQ.",
-  "estimatedSeconds": 70,
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 137 are perfect cubes (4³=64, 8³=512, 6³=216, 3³=27).",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a certain code, DOG is written as EPH. How is TOP written in that code?",
+  "text": "Find the odd one out: 216, 512, 64, 137, 27",
   "options": [
-   "VQR",
-   "POT",
-   "UPQ",
-   "SNO"
+   "512",
+   "137",
+   "64",
+   "216"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-odd-one-out-027",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 65 are perfect cubes (5³=125, 6³=216, 4³=64, 8³=512).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 65, 64, 216, 512, 125",
+  "options": [
+   "512",
+   "125",
+   "65",
+   "64"
   ],
   "correct": [
    2
@@ -728,14 +756,70 @@
   "subject": "reasoning"
  },
  {
-  "uid": "cognizant-rea-clocks-027",
+  "uid": "cognizant-rea-odd-one-out-028",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 119 are perfect cubes (5³=125, 2³=8, 7³=343, 8³=512).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 119, 125, 8, 512, 343",
+  "options": [
+   "119",
+   "8",
+   "343",
+   "512"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-calendars-029",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "calendars",
+  "subtopic": "days after",
+  "difficulty": "easy",
+  "explanation": "91 mod 7 = 0. Wednesday + 0 days = Wednesday.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Today is Wednesday. What day of the week will it be after 91 days?",
+  "options": [
+   "Tuesday",
+   "Sunday",
+   "Friday",
+   "Wednesday"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-clocks-030",
   "companies": [
    "cognizant"
   ],
   "topic": "clocks",
   "subtopic": "angle between hands",
   "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×6 − 5.5×36| = 18°.",
+  "explanation": "Angle = |30h − 5.5m| = |30×5 − 5.5×42| = 81°.",
   "estimatedSeconds": 80,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -743,15 +827,239 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 6:36?",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 5:42?",
   "options": [
-   "28",
-   "18",
-   "20",
-   "12"
+   "113",
+   "81",
+   "105",
+   "65"
   ],
   "correct": [
    1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-odd-one-out-031",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 31 are perfect cubes (3³=27, 8³=512, 7³=343, 5³=125).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 27, 125, 343, 31, 512",
+  "options": [
+   "27",
+   "125",
+   "343",
+   "31"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-odd-one-out-032",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 197 are perfect cubes (4³=64, 7³=343, 10³=1000, 3³=27).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 1000, 343, 197, 27, 64",
+  "options": [
+   "1000",
+   "27",
+   "197",
+   "64"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-coding-decoding-033",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
+  "difficulty": "medium",
+  "explanation": "Each letter is shifted forward by 3. Applying the same shift to HIT gives KLW.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a certain code, PEN is written as SHQ. How is HIT written in that code?",
+  "options": [
+   "LMX",
+   "KLW",
+   "EFQ",
+   "TIH"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-clocks-034",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×6 − 5.5×4| = 158°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 6:04?",
+  "options": [
+   "222",
+   "126",
+   "174",
+   "158"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-direction-sense-035",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "distance from start",
+  "difficulty": "medium",
+  "explanation": "North then east makes a right angle. Distance = √(8² + 15²) = 17 km.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Ramesh walks 8 km north, turns right and walks 15 km. How far is he from his starting point (in km)?",
+  "options": [
+   "17",
+   "15",
+   "21",
+   "23"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-calendars-036",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Friday for 8 October 2004 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "On which day of the week does 8 October 2004 fall?",
+  "options": [
+   "Friday",
+   "Sunday",
+   "Tuesday",
+   "Monday"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-calendars-037",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Saturday for 2 March 2024 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "On which day of the week does 2 March 2024 fall?",
+  "options": [
+   "Saturday",
+   "Friday",
+   "Sunday",
+   "Monday"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "cognizant-rea-alphabet-series-038",
+  "companies": [
+   "cognizant"
+  ],
+  "topic": "alphabet-series",
+  "subtopic": "constant step",
+  "difficulty": "easy",
+  "explanation": "Each letter moves forward by 5 positions. After A comes F.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next letter in the series: G, L, Q, V, A, ?",
+  "options": [
+   "H",
+   "E",
+   "F",
+   "G"
+  ],
+  "correct": [
+   2
   ],
   "subject": "reasoning"
  }

@@ -49,24 +49,31 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-profit-loss-003",
+  "uid": "capgemini-apt-percentages-003",
   "companies": [
    "capgemini"
   ],
-  "topic": "profit-loss",
-  "subtopic": "selling price from profit",
+  "topic": "percentages",
+  "subtopic": "finding the whole",
   "difficulty": "easy",
-  "explanation": "SP = CP × (100 + profit%)/100 = 940 × 110/100 = 1034.",
+  "explanation": "Number = 40 × 100 / 8 = 500.",
   "estimatedSeconds": 50,
   "provenance": "high_priority_practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
-  "type": "numeric",
-  "text": "An article is bought for ₹940 and sold at a profit of 10%. Find its selling price (in ₹).\n(Type your answer as a number.)",
-  "numericAnswer": 1034,
-  "tolerance": 0,
+  "type": "mcq_single",
+  "text": "40 is 8% of a number. What is the number?",
+  "options": [
+   "500",
+   "700",
+   "400",
+   "550"
+  ],
+  "correct": [
+   0
+  ],
   "subject": "aptitude"
  },
  {
@@ -91,27 +98,27 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-ratio-proportion-005",
+  "uid": "capgemini-apt-profit-loss-005",
   "companies": [
    "capgemini"
   ],
-  "topic": "ratio-proportion",
-  "subtopic": "dividing in a ratio",
+  "topic": "profit-loss",
+  "subtopic": "discount",
   "difficulty": "easy",
-  "explanation": "Total parts = 13. One part = 1560/13 = 120. Second share = 4 × 120 = 480.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
+  "explanation": "Price = 3100 × (100 − 10)/100 = 2790.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "₹1,560 is divided among three people in the ratio 2:4:7. How much does the second person get (in ₹)?",
+  "text": "A shirt has a marked price of ₹3,100. A discount of 10% is given. What is the price paid (in ₹)?",
   "options": [
-   "480",
-   "528",
-   "672",
-   "336"
+   "2790",
+   "2232",
+   "3348",
+   "3627"
   ],
   "correct": [
    0
@@ -119,14 +126,42 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-ratio-proportion-006",
+  "uid": "capgemini-apt-profit-loss-006",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "discount",
+  "difficulty": "easy",
+  "explanation": "Price = 1400 × (100 − 10)/100 = 1260.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A shirt has a marked price of ₹1,400. A discount of 10% is given. What is the price paid (in ₹)?",
+  "options": [
+   "1260",
+   "1890",
+   "882",
+   "1386"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-ratio-proportion-007",
   "companies": [
    "capgemini"
   ],
   "topic": "ratio-proportion",
   "subtopic": "dividing in a ratio",
   "difficulty": "easy",
-  "explanation": "Total parts = 10. One part = 1400/10 = 140. Second share = 2 × 140 = 280.",
+  "explanation": "Total parts = 17. One part = 3910/17 = 230. Second share = 5 × 230 = 1150.",
   "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -134,55 +169,76 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "₹1,400 is divided among three people in the ratio 3:2:5. How much does the second person get (in ₹)?",
+  "text": "₹3,910 is divided among three people in the ratio 5:5:7. How much does the second person get (in ₹)?",
   "options": [
-   "420",
-   "364",
-   "280",
-   "392"
+   "1150",
+   "805",
+   "1265",
+   "1610"
   ],
   "correct": [
-   2
+   0
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-averages-007",
+  "uid": "capgemini-apt-ratio-proportion-008",
   "companies": [
    "capgemini"
   ],
-  "topic": "averages",
-  "subtopic": "average after adding an item",
-  "difficulty": "medium",
-  "explanation": "Sum of 5 = 145. Sum of 6 = 204. Sixth number = 204 − 145 = 59.",
-  "estimatedSeconds": 70,
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 10. One part = 900/10 = 90. Second share = 3 × 90 = 270.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "₹900 is divided among three people in the ratio 2:3:5. How much does the second person get (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 270,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-ratio-proportion-009",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 12. One part = 2760/12 = 230. Second share = 3 × 230 = 690.",
+  "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "The average of 5 numbers is 29. A sixth number is added and the average becomes 34. What is the sixth number?",
+  "text": "₹2,760 is divided among three people in the ratio 2:3:7. How much does the second person get (in ₹)?",
   "options": [
-   "53",
-   "83",
-   "59",
-   "47"
+   "690",
+   "483",
+   "828",
+   "966"
   ],
   "correct": [
-   2
+   0
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-averages-008",
+  "uid": "capgemini-apt-averages-010",
   "companies": [
    "capgemini"
   ],
   "topic": "averages",
   "subtopic": "average after adding an item",
   "difficulty": "medium",
-  "explanation": "Sum of 5 = 195. Sum of 6 = 270. Sixth number = 270 − 195 = 75.",
+  "explanation": "Sum of 5 = 100. Sum of 6 = 150. Sixth number = 150 − 100 = 50.",
   "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -190,33 +246,33 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "numeric",
-  "text": "The average of 5 numbers is 39. A sixth number is added and the average becomes 45. What is the sixth number?\n(Type your answer as a number.)",
-  "numericAnswer": 75,
+  "text": "The average of 5 numbers is 20. A sixth number is added and the average becomes 25. What is the sixth number?\n(Type your answer as a number.)",
+  "numericAnswer": 50,
   "tolerance": 0,
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-time-work-009",
+  "uid": "capgemini-apt-averages-011",
   "companies": [
    "capgemini"
   ],
-  "topic": "time-work",
-  "subtopic": "two workers together",
+  "topic": "averages",
+  "subtopic": "average after adding an item",
   "difficulty": "medium",
-  "explanation": "Rate = 1/14 + 1/35 = 49/490 per day. Days = 490/49 = 10.",
-  "estimatedSeconds": 80,
-  "provenance": "high_priority_practice",
+  "explanation": "Sum of 5 = 130. Sum of 6 = 180. Sixth number = 180 − 130 = 50.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A can finish a job in 14 days and B can finish it in 35 days. Working together, in how many days will they finish it?",
+  "text": "The average of 5 numbers is 26. A sixth number is added and the average becomes 30. What is the sixth number?",
   "options": [
-   "9",
-   "10",
-   "15",
-   "7"
+   "65",
+   "50",
+   "40",
+   "60"
   ],
   "correct": [
    1
@@ -224,14 +280,42 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-time-work-010",
+  "uid": "capgemini-apt-averages-012",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 185. Sum of 6 = 246. Sixth number = 246 − 185 = 61.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 37. A sixth number is added and the average becomes 41. What is the sixth number?",
+  "options": [
+   "61",
+   "91",
+   "55",
+   "67"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-time-work-013",
   "companies": [
    "capgemini"
   ],
   "topic": "time-work",
   "subtopic": "two workers together",
   "difficulty": "medium",
-  "explanation": "Rate = 1/16 + 1/48 = 64/768 per day. Days = 768/64 = 12.",
+  "explanation": "Rate = 1/10 + 1/15 = 25/150 per day. Days = 150/25 = 6.",
   "estimatedSeconds": 80,
   "provenance": "high_priority_practice",
   "verificationStatus": "original",
@@ -239,89 +323,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A can finish a job in 16 days and B can finish it in 48 days. Working together, in how many days will they finish it?",
+  "text": "A can finish a job in 10 days and B can finish it in 15 days. Working together, in how many days will they finish it?",
   "options": [
-   "12",
-   "15",
    "11",
-   "16"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-pipes-cisterns-011",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "pipes-cisterns",
-  "subtopic": "inlet and leak",
-  "difficulty": "hard",
-  "explanation": "Net fill rate = 1/12. Pipe rate = 1/3. Leak rate = 1/3 − 1/12 = 9/36 = 1/4. So the leak empties the tank in 4 hours.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "A pipe fills a tank in 3 hours. Because of a leak at the bottom, it takes the pipe 12 hours to fill the tank. In how many hours can the leak alone empty the full tank?\n(Type your answer as a number.)",
-  "numericAnswer": 4,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-pipes-cisterns-012",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "pipes-cisterns",
-  "subtopic": "inlet and leak",
-  "difficulty": "hard",
-  "explanation": "Net fill rate = 1/36. Pipe rate = 1/9. Leak rate = 1/9 − 1/36 = 27/324 = 1/12. So the leak empties the tank in 12 hours.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A pipe fills a tank in 9 hours. Because of a leak at the bottom, it takes the pipe 36 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
-  "options": [
-   "12",
-   "16",
-   "17",
-   "9"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-speed-distance-013",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "speed-distance",
-  "subtopic": "train crossing a pole",
-  "difficulty": "medium",
-  "explanation": "Speed = 108 × 5/18 = 30 m/s. Time = 360/30 = 12 s.",
-  "estimatedSeconds": 70,
-  "provenance": "high_priority_practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A train 360 m long runs at 108 km/h. How many seconds does it take to cross a telegraph pole?",
-  "options": [
-   "14",
-   "13",
-   "10",
-   "12"
+   "8",
+   "4",
+   "6"
   ],
   "correct": [
    3
@@ -329,35 +336,266 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-speed-distance-014",
+  "uid": "capgemini-apt-time-work-014",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/27 + 1/54 = 81/1458 per day. Days = 1458/81 = 18.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A can finish a job in 27 days and B can finish it in 54 days. Working together, in how many days will they finish it?",
+  "options": [
+   "18",
+   "22",
+   "20",
+   "12"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-time-work-015",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/7 + 1/42 = 49/294 per day. Days = 294/49 = 6.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A can finish a job in 7 days and B can finish it in 42 days. Working together, in how many days will they finish it?",
+  "options": [
+   "6",
+   "9",
+   "7",
+   "8"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-pipes-cisterns-016",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/18. Pipe rate = 1/6. Leak rate = 1/6 − 1/18 = 12/108 = 1/9. So the leak empties the tank in 9 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 6 hours. Because of a leak at the bottom, it takes the pipe 18 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "14",
+   "9",
+   "12",
+   "13"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-pipes-cisterns-017",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/90. Pipe rate = 1/15. Leak rate = 1/15 − 1/90 = 75/1350 = 1/18. So the leak empties the tank in 18 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A pipe fills a tank in 15 hours. Because of a leak at the bottom, it takes the pipe 90 hours to fill the tank. In how many hours can the leak alone empty the full tank?\n(Type your answer as a number.)",
+  "numericAnswer": 18,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-pipes-cisterns-018",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/60. Pipe rate = 1/10. Leak rate = 1/10 − 1/60 = 50/600 = 1/12. So the leak empties the tank in 12 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 10 hours. Because of a leak at the bottom, it takes the pipe 60 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "10",
+   "12",
+   "11",
+   "9"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-speed-distance-019",
   "companies": [
    "capgemini"
   ],
   "topic": "speed-distance",
-  "subtopic": "trains in opposite directions",
-  "difficulty": "hard",
-  "explanation": "Relative speed = 12 + 114 = 126 km/h = 35 m/s. Distance = 210 + 210 = 420 m. Time = 420/35 = 12 s.",
-  "estimatedSeconds": 100,
+  "subtopic": "train crossing a pole",
+  "difficulty": "medium",
+  "explanation": "Speed = 72 × 5/18 = 20 m/s. Time = 160/20 = 8 s.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train 160 m long runs at 72 km/h. How many seconds does it take to cross a telegraph pole?",
+  "options": [
+   "6",
+   "7",
+   "9",
+   "8"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-speed-distance-020",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "train crossing a pole",
+  "difficulty": "medium",
+  "explanation": "Speed = 54 × 5/18 = 15 m/s. Time = 60/15 = 4 s.",
+  "estimatedSeconds": 70,
   "provenance": "high_priority_practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "numeric",
-  "text": "Two trains of lengths 210 m and 210 m run in opposite directions at 12 km/h and 114 km/h. In how many seconds do they completely cross each other?\n(Type your answer as a number.)",
-  "numericAnswer": 12,
+  "text": "A train 60 m long runs at 54 km/h. How many seconds does it take to cross a telegraph pole?\n(Type your answer as a number.)",
+  "numericAnswer": 4,
   "tolerance": 0,
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-boats-streams-015",
+  "uid": "capgemini-apt-speed-distance-021",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "train crossing a pole",
+  "difficulty": "medium",
+  "explanation": "Speed = 108 × 5/18 = 30 m/s. Time = 150/30 = 5 s.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train 150 m long runs at 108 km/h. How many seconds does it take to cross a telegraph pole?",
+  "options": [
+   "8",
+   "5",
+   "6",
+   "4"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-boats-streams-022",
   "companies": [
    "capgemini"
   ],
   "topic": "boats-streams",
   "subtopic": "upstream speed",
   "difficulty": "easy",
-  "explanation": "Upstream speed = 13 − 3 = 10 km/h.",
+  "explanation": "Upstream speed = 12 − 4 = 8 km/h.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A boat's speed in still water is 12 km/h and the stream's speed is 4 km/h. What is its speed upstream (in km/h)?\n(Type your answer as a number.)",
+  "numericAnswer": 8,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-boats-streams-023",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "upstream speed",
+  "difficulty": "easy",
+  "explanation": "Upstream speed = 19 − 5 = 14 km/h.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A boat's speed in still water is 19 km/h and the stream's speed is 5 km/h. What is its speed upstream (in km/h)?\n(Type your answer as a number.)",
+  "numericAnswer": 14,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-boats-streams-024",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "upstream speed",
+  "difficulty": "easy",
+  "explanation": "Upstream speed = 20 − 4 = 16 km/h.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -365,11 +603,11 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A boat's speed in still water is 13 km/h and the stream's speed is 3 km/h. What is its speed upstream (in km/h)?",
+  "text": "A boat's speed in still water is 20 km/h and the stream's speed is 4 km/h. What is its speed upstream (in km/h)?",
   "options": [
-   "13",
-   "15",
-   "10",
+   "22",
+   "14",
+   "16",
    "12"
   ],
   "correct": [
@@ -378,42 +616,14 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-boats-streams-016",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "boats-streams",
-  "subtopic": "time downstream",
-  "difficulty": "medium",
-  "explanation": "Downstream speed = 18 + 2 = 20 km/h. Time = 80/20 = 4 h.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A boat goes 18 km/h in still water and the stream flows at 2 km/h. How many hours will it take to go 80 km downstream?",
-  "options": [
-   "6",
-   "8",
-   "4",
-   "7"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-interest-017",
+  "uid": "capgemini-apt-interest-025",
   "companies": [
    "capgemini"
   ],
   "topic": "interest",
   "subtopic": "compound interest (2 years)",
   "difficulty": "medium",
-  "explanation": "Amount = 5200 × (1 + 10/100)² = 6292. CI = Amount − Principal = 1092.",
+  "explanation": "Amount = 2000 × (1 + 5/100)² = 2205. CI = Amount − Principal = 205.",
   "estimatedSeconds": 80,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -421,12 +631,40 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the compound interest on ₹5,200 for 2 years at 10% per annum, compounded annually (in ₹)?",
+  "text": "What is the compound interest on ₹2,000 for 2 years at 5% per annum, compounded annually (in ₹)?",
   "options": [
-   "1092",
-   "1310",
-   "1528",
-   "1201"
+   "184",
+   "268",
+   "163",
+   "205"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-interest-026",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "interest",
+  "subtopic": "compound interest (2 years)",
+  "difficulty": "medium",
+  "explanation": "Amount = 4000 × (1 + 5/100)² = 4410. CI = Amount − Principal = 410.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the compound interest on ₹4,000 for 2 years at 5% per annum, compounded annually (in ₹)?",
+  "options": [
+   "410",
+   "451",
+   "533",
+   "574"
   ],
   "correct": [
    0
@@ -434,14 +672,14 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-interest-018",
+  "uid": "capgemini-apt-interest-027",
   "companies": [
    "capgemini"
   ],
   "topic": "interest",
   "subtopic": "simple interest",
   "difficulty": "easy",
-  "explanation": "SI = PRT/100 = 23000×9×3/100 = 6210.",
+  "explanation": "SI = PRT/100 = 27000×12×4/100 = 12960.",
   "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -449,12 +687,40 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Find the simple interest on ₹23,000 at 9% per annum for 3 years (in ₹).",
+  "text": "Find the simple interest on ₹27,000 at 12% per annum for 4 years (in ₹).",
   "options": [
-   "7452",
-   "6210",
-   "9315",
-   "4347"
+   "12960",
+   "10368",
+   "18144",
+   "19440"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-number-series-028",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "number-series",
+  "subtopic": "arithmetic series",
+  "difficulty": "easy",
+  "explanation": "Each term increases by 9. Next = 42 + 9 = 51.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 6, 15, 24, 33, 42, ?",
+  "options": [
+   "76",
+   "51",
+   "46",
+   "61"
   ],
   "correct": [
    1
@@ -462,7 +728,35 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-number-series-019",
+  "uid": "capgemini-apt-number-series-029",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "number-series",
+  "subtopic": "geometric series",
+  "difficulty": "easy",
+  "explanation": "Each term is multiplied by 2. Next = 48 × 2 = 96.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 3, 6, 12, 24, 48, ?",
+  "options": [
+   "116",
+   "76",
+   "146",
+   "96"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-number-series-030",
   "companies": [
    "capgemini"
   ],
@@ -479,9 +773,9 @@
   "type": "mcq_single",
   "text": "Find the next number: 3, 9, 27, 81, 243, ?",
   "options": [
-   "583",
-   "1094",
-   "875",
+   "1021",
+   "802",
+   "656",
    "729"
   ],
   "correct": [
@@ -490,168 +784,14 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-number-series-020",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "number-series",
-  "subtopic": "geometric series",
-  "difficulty": "easy",
-  "explanation": "Each term is multiplied by 3. Next = 324 × 3 = 972.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the next number: 4, 12, 36, 108, 324, ?",
-  "options": [
-   "1263",
-   "681",
-   "1069",
-   "972"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-hcf-lcm-021",
+  "uid": "capgemini-apt-hcf-lcm-031",
   "companies": [
    "capgemini"
   ],
   "topic": "hcf-lcm",
-  "subtopic": "HCF × LCM relation",
-  "difficulty": "medium",
-  "explanation": "Product of the numbers = HCF × LCM = 3 × 30 = 90. Other number = 90/6 = 15.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The HCF of two numbers is 3 and their LCM is 30. If one number is 6, what is the other?",
-  "options": [
-   "15",
-   "19",
-   "11",
-   "17"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-hcf-lcm-022",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "hcf-lcm",
-  "subtopic": "HCF × LCM relation",
-  "difficulty": "medium",
-  "explanation": "Product of the numbers = HCF × LCM = 2 × 90 = 180. Other number = 180/10 = 18.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "The HCF of two numbers is 2 and their LCM is 90. If one number is 10, what is the other?\n(Type your answer as a number.)",
-  "numericAnswer": 18,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-ages-023",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "ages",
-  "subtopic": "sum and difference",
+  "subtopic": "LCM of two numbers",
   "difficulty": "easy",
-  "explanation": "Asha = (sum + difference)/2 = (40 + 4)/2 = 22.",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The sum of the ages of Asha and Bala is 40 years and Asha is 4 years older than Bala. How old is Asha?",
-  "options": [
-   "22",
-   "26",
-   "32",
-   "24"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-ages-024",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "ages",
-  "subtopic": "ages in the past",
-  "difficulty": "medium",
-  "explanation": "Sita 5 years ago = 16. Ravi then = 3 × 16 = 48. Ravi now = 48 + 5 = 53.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "5 years ago, Ravi was 3 times as old as Sita. Sita is now 21 years old. How old is Ravi now?",
-  "options": [
-   "53",
-   "38",
-   "48",
-   "68"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-permutations-combinations-025",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "permutations-combinations",
-  "subtopic": "arrangements with repeated letters",
-  "difficulty": "hard",
-  "explanation": "5! divided by the factorial of each repeated letter's count (P:2) = 60.",
-  "estimatedSeconds": 90,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "How many distinct arrangements can be made using all the letters of the word APPLE?\n(Type your answer as a number.)",
-  "numericAnswer": 60,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-permutations-combinations-026",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "permutations-combinations",
-  "subtopic": "permutations",
-  "difficulty": "medium",
-  "explanation": "5P3 = 5×4×3 = 60.",
+  "explanation": "HCF = 2. LCM = (8 × 14)/2 = 56.",
   "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -659,12 +799,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In how many ways can 3 different prizes be given to 5 students if no student gets more than one prize?",
+  "text": "Find the LCM of 8 and 14.",
   "options": [
-   "72",
-   "60",
-   "84",
-   "42"
+   "50",
+   "56",
+   "62",
+   "44"
   ],
   "correct": [
    1
@@ -672,27 +812,27 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-probability-027",
+  "uid": "capgemini-apt-hcf-lcm-032",
   "companies": [
    "capgemini"
   ],
-  "topic": "probability",
-  "subtopic": "two dice",
-  "difficulty": "medium",
-  "explanation": "Ways to get a sum of 3 = 2 out of 36 outcomes, so P = 2/36 = 1/18.",
-  "estimatedSeconds": 80,
+  "topic": "hcf-lcm",
+  "subtopic": "LCM of two numbers",
+  "difficulty": "easy",
+  "explanation": "HCF = 9. LCM = (27 × 45)/9 = 135.",
+  "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 3?",
+  "text": "Find the LCM of 27 and 45.",
   "options": [
-   "1/36",
-   "1/12",
-   "1/9",
-   "1/18"
+   "163",
+   "149",
+   "93",
+   "135"
   ],
   "correct": [
    3
@@ -700,42 +840,63 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-probability-028",
+  "uid": "capgemini-apt-hcf-lcm-033",
   "companies": [
    "capgemini"
   ],
-  "topic": "probability",
-  "subtopic": "drawing a ball",
+  "topic": "hcf-lcm",
+  "subtopic": "LCM of two numbers",
   "difficulty": "easy",
-  "explanation": "P(red) = favourable/total = 3/5 = 3/5.",
-  "estimatedSeconds": 40,
+  "explanation": "HCF = 2. LCM = (10 × 12)/2 = 60.",
+  "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A bag has 3 red and 2 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "text": "Find the LCM of 10 and 12.",
   "options": [
-   "3/5",
-   "1/2",
-   "3/2",
-   "2/5"
+   "42",
+   "60",
+   "90",
+   "66"
   ],
   "correct": [
-   0
+   1
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-mixtures-alligation-029",
+  "uid": "capgemini-apt-ages-034",
   "companies": [
    "capgemini"
   ],
-  "topic": "mixtures-alligation",
-  "subtopic": "adding water",
+  "topic": "ages",
+  "subtopic": "ages in the past",
   "difficulty": "medium",
-  "explanation": "Milk = 9 L, water = 6 L. For 1:1 water must equal milk, so add 9 − 6 = 3 L.",
+  "explanation": "Sita 5 years ago = 7. Ravi then = 2 × 7 = 14. Ravi now = 14 + 5 = 19.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "5 years ago, Ravi was 2 times as old as Sita. Sita is now 12 years old. How old is Ravi now?\n(Type your answer as a number.)",
+  "numericAnswer": 19,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-ages-035",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "ages",
+  "subtopic": "ages in the past",
+  "difficulty": "medium",
+  "explanation": "Sita 3 years ago = 13. Ravi then = 2 × 13 = 26. Ravi now = 26 + 3 = 29.",
   "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -743,11 +904,389 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A 15 litre mixture has milk and water in the ratio 3:2. How many litres of water must be added to make the ratio 1:1?",
+  "text": "3 years ago, Ravi was 2 times as old as Sita. Sita is now 16 years old. How old is Ravi now?",
   "options": [
-   "6",
+   "38",
+   "23",
+   "26",
+   "29"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-ages-036",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "ages",
+  "subtopic": "sum and difference",
+  "difficulty": "easy",
+  "explanation": "Asha = (sum + difference)/2 = (33 + 5)/2 = 19.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The sum of the ages of Asha and Bala is 33 years and Asha is 5 years older than Bala. How old is Asha?",
+  "options": [
+   "23",
+   "27",
+   "17",
+   "19"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-permutations-combinations-037",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "combinations",
+  "difficulty": "easy",
+  "explanation": "6C4 = 6!/(4!×2!) = 15.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can a committee of 4 be chosen from 6 people?",
+  "options": [
+   "21",
+   "15",
+   "25",
+   "17"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-permutations-combinations-038",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "combinations",
+  "difficulty": "easy",
+  "explanation": "8C2 = 8!/(2!×6!) = 28.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can a committee of 2 be chosen from 8 people?",
+  "options": [
+   "31",
+   "28",
+   "43",
+   "37"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-permutations-combinations-039",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "arrangements with repeated letters",
+  "difficulty": "hard",
+  "explanation": "6! divided by the factorial of each repeated letter's count (T:2, O:2) = 180.",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many distinct arrangements can be made using all the letters of the word TOMATO?",
+  "options": [
+   "162",
+   "180",
+   "216",
+   "234"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-probability-040",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "probability",
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 6/10 = 3/5.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A bag has 6 red and 4 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "options": [
+   "3/2",
+   "6/11",
+   "2/5",
+   "3/5"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-probability-041",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "probability",
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 6/8 = 3/4.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A bag has 6 red and 2 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "options": [
    "3",
-   "5",
+   "7/8",
+   "1/4",
+   "3/4"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-probability-042",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "probability",
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 5/7 = 5/7.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A bag has 5 red and 2 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "options": [
+   "5/8",
+   "5/7",
+   "2/7",
+   "6/7"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-mixtures-alligation-043",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 15 L, water = 6 L. For 1:1 water must equal milk, so add 15 − 6 = 9 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A 21 litre mixture has milk and water in the ratio 5:2. How many litres of water must be added to make the ratio 1:1?",
+  "options": [
+   "9",
+   "14",
+   "8",
+   "13"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-mixtures-alligation-044",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 16 L, water = 8 L. For 1:1 water must equal milk, so add 16 − 8 = 8 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A 24 litre mixture has milk and water in the ratio 4:2. How many litres of water must be added to make the ratio 1:1?",
+  "options": [
+   "8",
+   "10",
+   "6",
+   "11"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-mixtures-alligation-045",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "mean price",
+  "difficulty": "medium",
+  "explanation": "Mean price = (3×70 + 3×90)/6 = 80.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Rice at ₹70/kg and rice at ₹90/kg are mixed in the ratio 3:3. What is the price per kg of the mixture (in ₹)?",
+  "options": [
+   "80",
+   "56",
+   "112",
+   "64"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-partnership-046",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 2000×6 : 4000×9 = 12000 : 36000 = 1 : 3. Anil's share = 1/4 × 1600 = 400.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹2,000 for 6 months and Binu invests ₹4,000 for 9 months. They earn a profit of ₹1,600. What is Anil's share (in ₹)?",
+  "options": [
+   "400",
+   "440",
+   "600",
+   "320"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-partnership-047",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 5000×9 : 6000×5 = 45000 : 30000 = 3 : 2. Anil's share = 3/5 × 2500 = 1500.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Anil invests ₹5,000 for 9 months and Binu invests ₹6,000 for 5 months. They earn a profit of ₹2,500. What is Anil's share (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 1500,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-partnership-048",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 3000×11 : 3000×6 = 33000 : 18000 = 11 : 6. Anil's share = 11/17 × 11900 = 7700.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Anil invests ₹3,000 for 11 months and Binu invests ₹3,000 for 6 months. They earn a profit of ₹11,900. What is Anil's share (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 7700,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-algebra-049",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "algebra",
+  "subtopic": "linear equation",
+  "difficulty": "easy",
+  "explanation": "x + 8 = 68/4 = 17, so x = 9.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If 4(x + 8) = 68, find x.",
+  "options": [
+   "10",
+   "9",
+   "13",
    "7"
   ],
   "correct": [
@@ -756,556 +1295,24 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-mixtures-alligation-030",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "mixtures-alligation",
-  "subtopic": "mean price",
-  "difficulty": "medium",
-  "explanation": "Mean price = (1×70 + 1×90)/2 = 80.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Rice at ₹70/kg and rice at ₹90/kg are mixed in the ratio 1:1. What is the price per kg of the mixture (in ₹)?",
-  "options": [
-   "112",
-   "88",
-   "120",
-   "80"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-partnership-031",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "partnership",
-  "subtopic": "investment × time",
-  "difficulty": "hard",
-  "explanation": "Ratio = 5000×7 : 4000×8 = 35000 : 32000 = 35 : 32. Anil's share = 35/67 × 53600 = 28000.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Anil invests ₹5,000 for 7 months and Binu invests ₹4,000 for 8 months. They earn a profit of ₹53,600. What is Anil's share (in ₹)?",
-  "options": [
-   "42000",
-   "30800",
-   "28000",
-   "39200"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-partnership-032",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "partnership",
-  "subtopic": "investment × time",
-  "difficulty": "hard",
-  "explanation": "Ratio = 3000×11 : 6000×11 = 33000 : 66000 = 1 : 2. Anil's share = 1/3 × 900 = 300.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Anil invests ₹3,000 for 11 months and Binu invests ₹6,000 for 11 months. They earn a profit of ₹900. What is Anil's share (in ₹)?",
-  "options": [
-   "240",
-   "300",
-   "360",
-   "390"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-algebra-033",
+  "uid": "capgemini-apt-algebra-050",
   "companies": [
    "capgemini"
   ],
   "topic": "algebra",
-  "subtopic": "x + 1/x identity",
-  "difficulty": "medium",
-  "explanation": "Square both sides: x² + 2 + 1/x² = 9. So x² + 1/x² = 9 − 2 = 7.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "If x + 1/x = 3, find the value of x² + 1/x².",
-  "options": [
-   "12",
-   "7",
-   "8",
-   "11"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-algebra-034",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "algebra",
-  "subtopic": "x + 1/x identity",
-  "difficulty": "medium",
-  "explanation": "Square both sides: x² + 2 + 1/x² = 25. So x² + 1/x² = 25 − 2 = 23.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "If x + 1/x = 5, find the value of x² + 1/x².\n(Type your answer as a number.)",
-  "numericAnswer": 23,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-progressions-035",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "progressions",
-  "subtopic": "GP term",
-  "difficulty": "medium",
-  "explanation": "Tₙ = a·r^(n−1) = 2 × 3^3 = 54.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "The first term of a GP is 2 and the common ratio is 3. What is its 4th term?\n(Type your answer as a number.)",
-  "numericAnswer": 54,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-progressions-036",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "progressions",
-  "subtopic": "nth term of AP",
+  "subtopic": "linear equation",
   "difficulty": "easy",
-  "explanation": "Tₙ = a + (n−1)d = 3 + 11×6 = 69.",
+  "explanation": "x + 1 = 18/2 = 9, so x = 8.",
   "estimatedSeconds": 45,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The first term of an AP is 3 and the common difference is 6. Find its 12th term.",
-  "options": [
-   "62",
-   "83",
-   "69",
-   "48"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-geometry-mensuration-037",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "geometry-mensuration",
-  "subtopic": "circle",
-  "difficulty": "easy",
-  "explanation": "Area = πr² = 22/7 × 21² = 1386 cm².",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the area of a circle of radius 21 cm (take π = 22/7), in cm².",
-  "options": [
-   "2081",
-   "1664",
-   "1942",
-   "1386"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-geometry-mensuration-038",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "geometry-mensuration",
-  "subtopic": "right triangle",
-  "difficulty": "easy",
-  "explanation": "Hypotenuse = √(20² + 48²) = √2704 = 52 cm.",
-  "estimatedSeconds": 45,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The two shorter sides of a right-angled triangle are 20 cm and 48 cm. Find the hypotenuse (in cm).",
-  "options": [
-   "67",
-   "37",
-   "52",
-   "77"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-data-interpretation-039",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "data-interpretation",
-  "subtopic": "percentage change",
-  "difficulty": "medium",
-  "explanation": "Change = (160 − 230)/230 × 100 = -30.43%.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 190 | 290 | 210\nBooks | 310 | 80 | 350\nBags | 230 | 180 | 160\nBottles | 220 | 110 | 370\n\nBy what percentage did sales of Bags change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
-  "options": [
-   "-15.43%",
-   "-40.43%",
-   "-5.43%",
-   "-30.43%"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-data-interpretation-040",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "data-interpretation",
-  "subtopic": "table totals",
-  "difficulty": "easy",
-  "explanation": "Books: 210 + 170 + 100 = 480.",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
   "type": "numeric",
-  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 280 | 140 | 140\nBooks | 210 | 170 | 100\nBags | 140 | 290 | 350\nBottles | 350 | 160 | 190\n\nWhat is the total number of Books sold over the three years (in hundreds)?\n(Type your answer as a number.)",
-  "numericAnswer": 480,
+  "text": "If 2(x + 1) = 18, find x.\n(Type your answer as a number.)",
+  "numericAnswer": 8,
   "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-approximation-simplification-041",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "approximation-simplification",
-  "subtopic": "squares and roots",
-  "difficulty": "easy",
-  "explanation": "√36 = 6; 12² = 144. So 6 + 144 − 6 = 144.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "Evaluate: √36 + 12² − 6\n(Type your answer as a number.)",
-  "numericAnswer": 144,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-approximation-simplification-042",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "approximation-simplification",
-  "subtopic": "squares and roots",
-  "difficulty": "easy",
-  "explanation": "√144 = 12; 12² = 144. So 12 + 144 − 12 = 144.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Evaluate: √144 + 12² − 12",
-  "options": [
-   "144",
-   "200",
-   "172",
-   "158"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-remainders-divisibility-043",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "remainders-divisibility",
-  "subtopic": "power remainders",
-  "difficulty": "hard",
-  "explanation": "Use the repeating cycle of 3^k mod 7. Reducing the exponent 97 by the cycle length gives a remainder of 3.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the remainder when 3^97 is divided by 7?",
-  "options": [
-   "3",
-   "7",
-   "4",
-   "6"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-remainders-divisibility-044",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "remainders-divisibility",
-  "subtopic": "division remainder",
-  "difficulty": "easy",
-  "explanation": "Dividend = divisor × quotient + remainder = 9×29 + 2 = 263.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "A number gives remainder 2 when divided by 9. If the quotient is 29, what is the number?\n(Type your answer as a number.)",
-  "numericAnswer": 263,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-number-systems-045",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "number-systems",
-  "subtopic": "unit digit",
-  "difficulty": "medium",
-  "explanation": "Unit digits of 9^k repeat every 4 steps: 9, 1, 9, 1. Position (67 − 1) mod 4 = 2 gives 9.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the unit digit of 9^67?",
-  "options": [
-   "6",
-   "9",
-   "12",
-   "8"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-number-systems-046",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "number-systems",
-  "subtopic": "unit digit",
-  "difficulty": "medium",
-  "explanation": "Unit digits of 3^k repeat every 4 steps: 3, 9, 7, 1. Position (43 − 1) mod 4 = 2 gives 7.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the unit digit of 3^43?",
-  "options": [
-   "6",
-   "7",
-   "11",
-   "8"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-averages-047",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "averages",
-  "subtopic": "average after adding an item",
-  "difficulty": "medium",
-  "explanation": "Sum of 5 = 185. Sum of 6 = 234. Sixth number = 234 − 185 = 49.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The average of 5 numbers is 37. A sixth number is added and the average becomes 39. What is the sixth number?",
-  "options": [
-   "74",
-   "44",
-   "54",
-   "49"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-profit-loss-048",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "profit-loss",
-  "subtopic": "discount",
-  "difficulty": "easy",
-  "explanation": "Price = 3900 × (100 − 30)/100 = 2730.",
-  "estimatedSeconds": 50,
-  "provenance": "high_priority_practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A shirt has a marked price of ₹3,900. A discount of 30% is given. What is the price paid (in ₹)?",
-  "options": [
-   "1911",
-   "2730",
-   "4095",
-   "3822"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-averages-049",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "averages",
-  "subtopic": "average after adding an item",
-  "difficulty": "medium",
-  "explanation": "Sum of 5 = 130. Sum of 6 = 168. Sixth number = 168 − 130 = 38.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The average of 5 numbers is 26. A sixth number is added and the average becomes 28. What is the sixth number?",
-  "options": [
-   "50",
-   "58",
-   "38",
-   "54"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "capgemini-apt-number-systems-050",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "number-systems",
-  "subtopic": "primes in a range",
-  "difficulty": "medium",
-  "explanation": "The primes in the range are 17, 19, 23, 29, 31 — 5 in total.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "How many prime numbers are there between 15 and 34 (both inclusive)?",
-  "options": [
-   "2",
-   "3",
-   "8",
-   "5"
-  ],
-  "correct": [
-   3
-  ],
   "subject": "aptitude"
  },
  {
@@ -1337,14 +1344,14 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-algebra-052",
+  "uid": "capgemini-apt-progressions-052",
   "companies": [
    "capgemini"
   ],
-  "topic": "algebra",
-  "subtopic": "linear equation",
+  "topic": "progressions",
+  "subtopic": "nth term of AP",
   "difficulty": "easy",
-  "explanation": "x + 6 = 50/5 = 10, so x = 4.",
+  "explanation": "Tₙ = a + (n−1)d = 8 + 11×2 = 30.",
   "estimatedSeconds": 45,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -1352,12 +1359,96 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "If 5(x + 6) = 50, find x.",
+  "text": "The first term of an AP is 8 and the common difference is 2. Find its 12th term.",
   "options": [
-   "2",
-   "8",
-   "3",
-   "4"
+   "33",
+   "30",
+   "42",
+   "24"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-progressions-053",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "progressions",
+  "subtopic": "nth term of AP",
+  "difficulty": "easy",
+  "explanation": "Tₙ = a + (n−1)d = 3 + 17×7 = 122.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The first term of an AP is 3 and the common difference is 7. Find its 18th term.",
+  "options": [
+   "158",
+   "86",
+   "122",
+   "146"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-progressions-054",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "progressions",
+  "subtopic": "sum of AP",
+  "difficulty": "medium",
+  "explanation": "Sₙ = n/2 × [2a + (n−1)d] = 13/2 × [14 + 24] = 247.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the sum of the first 13 terms of the AP 7, 9, 11, ...",
+  "options": [
+   "372",
+   "347",
+   "247",
+   "322"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-geometry-mensuration-055",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "cylinder",
+  "difficulty": "medium",
+  "explanation": "V = πr²h = 22/7 × 7² × 6 = 924 cm³.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the volume of a cylinder with radius 7 cm and height 6 cm (π = 22/7), in cm³.",
+  "options": [
+   "740",
+   "648",
+   "1384",
+   "924"
   ],
   "correct": [
    3
@@ -1365,7 +1456,840 @@
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-probability-053",
+  "uid": "capgemini-apt-geometry-mensuration-056",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "circle",
+  "difficulty": "easy",
+  "explanation": "Area = πr² = 22/7 × 21² = 1386 cm².",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the area of a circle of radius 21 cm (take π = 22/7), in cm².",
+  "options": [
+   "1386",
+   "1942",
+   "1803",
+   "969"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-geometry-mensuration-057",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "circle",
+  "difficulty": "easy",
+  "explanation": "Area = πr² = 22/7 × 14² = 616 cm².",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the area of a circle of radius 14 cm (take π = 22/7), in cm².",
+  "options": [
+   "554",
+   "740",
+   "864",
+   "616"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-data-interpretation-058",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "column totals",
+  "difficulty": "easy",
+  "explanation": "2024: 240 + 160 + 200 + 320 = 920.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 300 | 340 | 240\nBooks | 260 | 390 | 160\nBags | 380 | 220 | 200\nBottles | 100 | 300 | 320\n\nHow many items of all products together were sold in 2024 (in hundreds)?",
+  "options": [
+   "920",
+   "1288",
+   "1196",
+   "736"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-data-interpretation-059",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
+  "difficulty": "medium",
+  "explanation": "Change = (140 − 170)/170 × 100 = -17.65%.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 120 | 360 | 300\nBooks | 170 | 370 | 140\nBags | 110 | 80 | 180\nBottles | 360 | 220 | 170\n\nBy what percentage did sales of Books change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "options": [
+   "-27.65%",
+   "-12.65%",
+   "-17.65%",
+   "2.35%"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-data-interpretation-060",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "table totals",
+  "difficulty": "easy",
+  "explanation": "Books: 320 + 390 + 300 = 1010.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 340 | 270 | 280\nBooks | 320 | 390 | 300\nBags | 130 | 90 | 200\nBottles | 400 | 270 | 180\n\nWhat is the total number of Books sold over the three years (in hundreds)?",
+  "options": [
+   "1010",
+   "909",
+   "808",
+   "1111"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-approximation-simplification-061",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "squares and roots",
+  "difficulty": "easy",
+  "explanation": "√196 = 14; 6² = 36. So 14 + 36 − 14 = 36.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Evaluate: √196 + 6² − 14\n(Type your answer as a number.)",
+  "numericAnswer": 36,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-approximation-simplification-062",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 27 × 4 = 108; ÷ 9 = 12; then + 29 − 5 = 36.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 27 × 4 ÷ 9 + 29 − 5",
+  "options": [
+   "44",
+   "48",
+   "52",
+   "36"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-approximation-simplification-063",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 40 × 3 = 120; ÷ 8 = 15; then + 17 − 5 = 27.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 40 × 3 ÷ 8 + 17 − 5",
+  "options": [
+   "27",
+   "42",
+   "24",
+   "30"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-remainders-divisibility-064",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "division remainder",
+  "difficulty": "easy",
+  "explanation": "Dividend = divisor × quotient + remainder = 7×82 + 5 = 579.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number gives remainder 5 when divided by 7. If the quotient is 82, what is the number?",
+  "options": [
+   "405",
+   "463",
+   "869",
+   "579"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-remainders-divisibility-065",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "division remainder",
+  "difficulty": "easy",
+  "explanation": "Dividend = divisor × quotient + remainder = 13×29 + 7 = 384.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number gives remainder 7 when divided by 13. If the quotient is 29, what is the number?",
+  "options": [
+   "536",
+   "574",
+   "346",
+   "384"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-remainders-divisibility-066",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 9^k mod 7. Reducing the exponent 38 by the cycle length gives a remainder of 4.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "What is the remainder when 9^38 is divided by 7?\n(Type your answer as a number.)",
+  "numericAnswer": 4,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-number-systems-067",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "number-systems",
+  "subtopic": "unit digit",
+  "difficulty": "medium",
+  "explanation": "Unit digits of 2^k repeat every 4 steps: 2, 4, 8, 6. Position (32 − 1) mod 4 = 3 gives 6.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the unit digit of 2^32?",
+  "options": [
+   "9",
+   "10",
+   "5",
+   "6"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-number-systems-068",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "number-systems",
+  "subtopic": "unit digit",
+  "difficulty": "medium",
+  "explanation": "Unit digits of 3^k repeat every 4 steps: 3, 9, 7, 1. Position (71 − 1) mod 4 = 2 gives 7.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the unit digit of 3^71?",
+  "options": [
+   "6",
+   "11",
+   "9",
+   "7"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-number-systems-069",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "number-systems",
+  "subtopic": "unit digit",
+  "difficulty": "medium",
+  "explanation": "Unit digits of 8^k repeat every 4 steps: 8, 4, 2, 6. Position (97 − 1) mod 4 = 0 gives 8.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the unit digit of 8^97?",
+  "options": [
+   "12",
+   "6",
+   "8",
+   "10"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-trains-070",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a platform",
+  "difficulty": "medium",
+  "explanation": "Total distance = train length + platform length = 200 + 150 = 350 m. Speed = 54 × 5/18 = 15 m/s. Time = 350 / 15 = 23 seconds.",
+  "estimatedSeconds": 65,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train 200 meters long runs at 54 km/h. How many seconds will it take to cross a platform of length 150 meters?",
+  "options": [
+   "31",
+   "27",
+   "23",
+   "29"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-trains-071",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a pole",
+  "difficulty": "easy",
+  "explanation": "Speed in m/s = 36 × 5/18 = 10 m/s. Length = Speed × Time = 10 × 20 = 200 meters.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train running at 36 km/h crosses a standing telegraph pole in 20 seconds. What is the length of the train (in meters)?",
+  "options": [
+   "220",
+   "300",
+   "140",
+   "200"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-trains-072",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a platform",
+  "difficulty": "medium",
+  "explanation": "Total distance = train length + platform length = 250 + 150 = 400 m. Speed = 90 × 5/18 = 25 m/s. Time = 400 / 25 = 16 seconds.",
+  "estimatedSeconds": 65,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A train 250 meters long runs at 90 km/h. How many seconds will it take to cross a platform of length 150 meters?\n(Type your answer as a number.)",
+  "numericAnswer": 16,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-clocks-calendars-073",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "clocks-calendars",
+  "subtopic": "clock hand angles",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×7 − 5.5×30| = 45°.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the smaller angle (in degrees) between the hour and minute hands of a clock at 7:30.",
+  "options": [
+   "45",
+   "15",
+   "105",
+   "120"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-clocks-calendars-074",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "clocks-calendars",
+  "subtopic": "day after N days",
+  "difficulty": "easy",
+  "explanation": "53 divided by 7 leaves a remainder of 4 odd days. Thursday + 4 days = Monday.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If today is Thursday, what day of the week will it be exactly 53 days from today?",
+  "options": [
+   "Wednesday",
+   "Thursday",
+   "Saturday",
+   "Monday"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-clocks-calendars-075",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "clocks-calendars",
+  "subtopic": "clock hand angles",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×2 − 5.5×10| = 5°.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the smaller angle (in degrees) between the hour and minute hands of a clock at 2:10.",
+  "options": [
+   "20",
+   "50",
+   "35",
+   "5"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-averages-076",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 135. Sum of 6 = 186. Sixth number = 186 − 135 = 51.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 27. A sixth number is added and the average becomes 31. What is the sixth number?",
+  "options": [
+   "46",
+   "51",
+   "36",
+   "66"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-profit-loss-077",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "cost price from loss",
+  "difficulty": "medium",
+  "explanation": "SP = 0.90 × CP → CP = 3060 × 100/90 = 3400.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "By selling an item for ₹3,060, a shopkeeper incurs a loss of 10%. What was the cost price (in ₹)?",
+  "options": [
+   "3400",
+   "4760",
+   "3060",
+   "2720"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-time-work-078",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/4 + 1/12 = 16/48 per day. Days = 48/16 = 3.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A can finish a job in 4 days and B can finish it in 12 days. Working together, in how many days will they finish it?",
+  "options": [
+   "3",
+   "7",
+   "1",
+   "6"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-trains-079",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a platform",
+  "difficulty": "medium",
+  "explanation": "Total distance = train length + platform length = 200 + 250 = 450 m. Speed = 72 × 5/18 = 20 m/s. Time = 450 / 20 = 23 seconds.",
+  "estimatedSeconds": 65,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train 200 meters long runs at 72 km/h. How many seconds will it take to cross a platform of length 250 meters?",
+  "options": [
+   "17",
+   "23",
+   "27",
+   "33"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-geometry-mensuration-080",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "circle",
+  "difficulty": "easy",
+  "explanation": "Area = πr² = 22/7 × 7² = 154 cm².",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the area of a circle of radius 7 cm (take π = 22/7), in cm².",
+  "options": [
+   "169",
+   "214",
+   "139",
+   "154"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-geometry-mensuration-081",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "rectangle",
+  "difficulty": "easy",
+  "explanation": "l + b = 14, so b = 5 cm. Area = 9 × 5 = 45 cm².",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "The perimeter of a rectangle is 28 cm and its length is 9 cm. What is its area (in cm²)?\n(Type your answer as a number.)",
+  "numericAnswer": 45,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-mixtures-alligation-082",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 25 L, water = 5 L. For 1:1 water must equal milk, so add 25 − 5 = 20 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A 30 litre mixture has milk and water in the ratio 5:1. How many litres of water must be added to make the ratio 1:1?",
+  "options": [
+   "20",
+   "24",
+   "14",
+   "26"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-speed-distance-083",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "train crossing a pole",
+  "difficulty": "medium",
+  "explanation": "Speed = 36 × 5/18 = 10 m/s. Time = 100/10 = 10 s.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train 100 m long runs at 36 km/h. How many seconds does it take to cross a telegraph pole?",
+  "options": [
+   "14",
+   "10",
+   "11",
+   "9"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-pipes-cisterns-084",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/6. Pipe rate = 1/2. Leak rate = 1/2 − 1/6 = 4/12 = 1/3. So the leak empties the tank in 3 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A pipe fills a tank in 2 hours. Because of a leak at the bottom, it takes the pipe 6 hours to fill the tank. In how many hours can the leak alone empty the full tank?\n(Type your answer as a number.)",
+  "numericAnswer": 3,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-interest-085",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "interest",
+  "subtopic": "simple interest",
+  "difficulty": "easy",
+  "explanation": "SI = PRT/100 = 28000×5×4/100 = 5600.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the simple interest on ₹28,000 at 5% per annum for 4 years (in ₹).",
+  "options": [
+   "8400",
+   "5600",
+   "6160",
+   "7280"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-averages-086",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 145. Sum of 6 = 198. Sixth number = 198 − 145 = 53.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 29. A sixth number is added and the average becomes 33. What is the sixth number?",
+  "options": [
+   "53",
+   "43",
+   "63",
+   "73"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "capgemini-apt-probability-087",
   "companies": [
    "capgemini"
   ],
@@ -1382,25 +2306,25 @@
   "type": "mcq_single",
   "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 7?",
   "options": [
-   "1/6",
    "2/9",
-   "1/3",
-   "5/36"
+   "1/6",
+   "5/36",
+   "7/36"
   ],
   "correct": [
-   0
+   1
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-speed-distance-054",
+  "uid": "capgemini-apt-speed-distance-088",
   "companies": [
    "capgemini"
   ],
   "topic": "speed-distance",
   "subtopic": "trains in opposite directions",
   "difficulty": "hard",
-  "explanation": "Relative speed = 30 + 96 = 126 km/h = 35 m/s. Distance = 193 + 192 = 385 m. Time = 385/35 = 11 s.",
+  "explanation": "Relative speed = 30 + 96 = 126 km/h = 35 m/s. Distance = 140 + 140 = 280 m. Time = 280/35 = 8 s.",
   "estimatedSeconds": 100,
   "provenance": "high_priority_practice",
   "verificationStatus": "original",
@@ -1408,71 +2332,71 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Two trains of lengths 193 m and 192 m run in opposite directions at 30 km/h and 96 km/h. In how many seconds do they completely cross each other?",
+  "text": "Two trains of lengths 140 m and 140 m run in opposite directions at 30 km/h and 96 km/h. In how many seconds do they completely cross each other?",
   "options": [
-   "11",
-   "8",
-   "13",
-   "14"
+   "7",
+   "9",
+   "6",
+   "8"
   ],
   "correct": [
-   0
+   3
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-pipes-cisterns-055",
+  "uid": "capgemini-apt-speed-distance-089",
   "companies": [
    "capgemini"
   ],
-  "topic": "pipes-cisterns",
-  "subtopic": "inlet and leak",
+  "topic": "speed-distance",
+  "subtopic": "trains in opposite directions",
   "difficulty": "hard",
-  "explanation": "Net fill rate = 1/20. Pipe rate = 1/4. Leak rate = 1/4 − 1/20 = 16/80 = 1/5. So the leak empties the tank in 5 hours.",
+  "explanation": "Relative speed = 15 + 57 = 72 km/h = 20 m/s. Distance = 50 + 50 = 100 m. Time = 100/20 = 5 s.",
   "estimatedSeconds": 100,
-  "provenance": "practice",
+  "provenance": "high_priority_practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A pipe fills a tank in 4 hours. Because of a leak at the bottom, it takes the pipe 20 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "text": "Two trains of lengths 50 m and 50 m run in opposite directions at 15 km/h and 57 km/h. In how many seconds do they completely cross each other?",
   "options": [
+   "3",
+   "10",
    "5",
-   "9",
-   "4",
    "8"
   ],
   "correct": [
-   0
+   2
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "capgemini-apt-interest-056",
+  "uid": "capgemini-apt-interest-090",
   "companies": [
    "capgemini"
   ],
   "topic": "interest",
-  "subtopic": "compound interest (2 years)",
-  "difficulty": "medium",
-  "explanation": "Amount = 3600 × (1 + 5/100)² = 3969. CI = Amount − Principal = 369.",
-  "estimatedSeconds": 80,
+  "subtopic": "simple interest",
+  "difficulty": "easy",
+  "explanation": "SI = PRT/100 = 10000×7×5/100 = 3500.",
+  "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the compound interest on ₹3,600 for 2 years at 5% per annum, compounded annually (in ₹)?",
+  "text": "Find the simple interest on ₹10,000 at 7% per annum for 5 years (in ₹).",
   "options": [
-   "369",
-   "554",
-   "406",
-   "332"
+   "5250",
+   "4200",
+   "3150",
+   "3500"
   ],
   "correct": [
-   0
+   3
   ],
   "subject": "aptitude"
  }

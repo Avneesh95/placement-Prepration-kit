@@ -2255,5 +2255,856 @@
   ],
   "explanation": "Formal emails end with a polite, professional sign-off.",
   "estimatedSeconds": 40
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-one-word-substitution-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "one-word-substitution",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "A person who collects or is fond of books is called a",
+  "options": [
+   "numismatist",
+   "calligrapher",
+   "bibliophile",
+   "philatelist"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "A bibliophile is an admirer or collector of books. A philatelist collects stamps; a numismatist collects coins.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-one-word-substitution-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "one-word-substitution",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "A universal remedy or solution for all diseases or difficulties is known as a",
+  "options": [
+   "panacea",
+   "sedative",
+   "vaccine",
+   "placebo"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A panacea is a cure-all.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-one-word-substitution-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "one-word-substitution",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "A critical judge of any art, food, or matters of taste is a",
+  "options": [
+   "connoisseur",
+   "veteran",
+   "novice",
+   "charlatan"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A connoisseur possesses expert knowledge and fine judgment in specific cultural or aesthetic domains.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-one-word-substitution-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "one-word-substitution",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Handwriting that is impossible or difficult to read is described as",
+  "options": [
+   "invisible",
+   "inaudible",
+   "eligible",
+   "illegible"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Illegible means not clear enough to be read.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-one-word-substitution-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "one-word-substitution",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "One who is incapable of making mistakes or being wrong is",
+  "options": [
+   "invincible",
+   "infallible",
+   "incurable",
+   "implacable"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Infallible means flawless and immune from error.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-one-word-substitution-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "one-word-substitution",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "A person who speaks many different languages fluently is a",
+  "options": [
+   "protagonist",
+   "orator",
+   "linguist",
+   "polyglot"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "A polyglot is multilingual and able to speak or write in multiple languages.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-one-word-substitution-007",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "one-word-substitution",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Government by the wealthy and powerful ruling elite is termed",
+  "options": [
+   "oligarchy",
+   "aristocracy",
+   "plutocracy",
+   "democracy"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "A plutocracy is a society governed or controlled by the wealthy class.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-synonyms-antonyms-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "synonyms-antonyms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the word most nearly SYNONYMOUS with CANDID:",
+  "options": [
+   "Frank",
+   "Shy",
+   "Deceptive",
+   "Arrogant"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Candid means truthful, straightforward, and frank.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-synonyms-antonyms-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "synonyms-antonyms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the word most nearly OPPOSITE (ANTONYM) to EPHEMERAL:",
+  "options": [
+   "Permanent",
+   "Transient",
+   "Brief",
+   "Fleeting"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Ephemeral means lasting for a very short time; its opposite is permanent or eternal.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-synonyms-antonyms-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "synonyms-antonyms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the word most nearly SYNONYMOUS with METICULOUS:",
+  "options": [
+   "Careless",
+   "Hastily done",
+   "Hesitant",
+   "Thorough"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Meticulous means showing great attention to detail; very careful, precise, and thorough.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-synonyms-antonyms-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "synonyms-antonyms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the word most nearly OPPOSITE (ANTONYM) to MITIGATE:",
+  "options": [
+   "Soothe",
+   "Alleviate",
+   "Exacerbate",
+   "Relieve"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "To mitigate is to lessen or relieve severity; exacerbate means to make worse or aggravate.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-synonyms-antonyms-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "synonyms-antonyms",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Choose the word most nearly SYNONYMOUS with PLACID:",
+  "options": [
+   "Aggressive",
+   "Calm",
+   "Excited",
+   "Noisy"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Placid means pleasantly calm, peaceful, or unruffled.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-synonyms-antonyms-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "synonyms-antonyms",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Choose the word most nearly OPPOSITE (ANTONYM) to COPIOUS:",
+  "options": [
+   "Sparse",
+   "Plentiful",
+   "Abundant",
+   "Ample"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Copious means abundant in supply; its antonym is sparse or scanty.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-sentence-completion-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "sentence-completion",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "The team's proposal was initially met with skepticism; ___, after several trials demonstrated its efficiency, it won widespread approval.",
+  "options": [
+   "however",
+   "consequently",
+   "furthermore",
+   "similarly"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "\"However\" provides the contrast between initial skepticism and ultimate approval.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-sentence-completion-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "sentence-completion",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Because the speaker was known for his ___ speeches, the audience was surprised when he spoke for less than five minutes.",
+  "options": [
+   "curt",
+   "laconic",
+   "verbose",
+   "succinct"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Verbose means using or expressed in more words than needed, contrasting with speaking for under five minutes.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-cloze-test-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "cloze-test",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "In modern engineering, automated pipelines ___ human error by performing regression suites before deployment.",
+  "options": [
+   "minimize",
+   "tolerate",
+   "amplify",
+   "ignore"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Automated testing reduces and minimizes the introduction of regression defects.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-cloze-test-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "cloze-test",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Code documentation must be kept ___ so that incoming contributors can understand architectural decisions quickly.",
+  "options": [
+   "obsolete",
+   "up-to-date",
+   "confidential",
+   "cryptic"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Documentation must remain current and accurate.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-active-passive-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "active-passive",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Convert to Passive Voice: \"The QA team found three critical security vulnerabilities.\"",
+  "options": [
+   "Three critical security vulnerabilities were found by the QA team.",
+   "The QA team was finding three critical security vulnerabilities.",
+   "Three critical security vulnerabilities are found by the QA team.",
+   "Three critical security vulnerabilities had been found by the QA team."
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Simple past active (\"found\") converts to past passive (\"were found\").",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-active-passive-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "active-passive",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Convert to Passive Voice: \"Who wrote this technical specification?\"",
+  "options": [
+   "By who is this technical specification written?",
+   "Was this technical specification wrote by who?",
+   "Who has written this technical specification?",
+   "By whom was this technical specification written?"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "\"Who\" becomes \"By whom\", followed by auxiliary verb \"was\" + subject + past participle.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-direct-indirect-004",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "direct-indirect",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Convert to Reported Speech: She said, \"I am preparing for the technical interview today.\"",
+  "options": [
+   "She said that she was preparing for the technical interview that day.",
+   "She told that she has been preparing for the technical interview.",
+   "She said that I am preparing for the technical interview today.",
+   "She said she is preparing for the interview today."
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Present continuous \"am preparing\" shifts to past continuous \"was preparing\", and \"today\" shifts to \"that day\".",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-direct-indirect-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "direct-indirect",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Convert to Reported Speech: The lead said to the developer, \"Have you resolved the null pointer exception?\"",
+  "options": [
+   "The lead asked the developer that did he resolve the exception.",
+   "The lead asked the developer if he had resolved the null pointer exception.",
+   "The lead told the developer if he has resolved the exception.",
+   "The lead asked whether you have resolved the exception."
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Yes/no reported questions use \"if/whether\", and present perfect (\"have you resolved\") shifts to past perfect (\"had resolved\").",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-idioms-phrases-005",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "idioms-phrases",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "The idiom \"to bite the bullet\" means",
+  "options": [
+   "to avoid making a decision",
+   "to start an argument",
+   "to eat food in a rush",
+   "to face a painful situation with courage"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "\"Bite the bullet\" means to endure a difficult, unavoidable situation resolutely.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-eng-idioms-phrases-006",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "english",
+  "topic": "idioms-phrases",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "What does \"a blessing in disguise\" mean?",
+  "options": [
+   "A religious ceremony",
+   "An explicit reward",
+   "An apparent misfortune that unexpectedly results in good fortune",
+   "A curse that cannot be broken"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Something that seems bad at first, but produces positive results.",
+  "estimatedSeconds": 45
  }
 ]

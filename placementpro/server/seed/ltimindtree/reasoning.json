@@ -84,27 +84,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-coding-decoding-004",
+  "uid": "ltimindtree-rea-alphabet-series-004",
   "companies": [
    "ltimindtree"
   ],
-  "topic": "coding-decoding",
-  "subtopic": "letter shift",
-  "difficulty": "medium",
-  "explanation": "Each letter is shifted forward by 3. Applying the same shift to BOX gives ERA.",
-  "estimatedSeconds": 70,
+  "topic": "alphabet-series",
+  "subtopic": "constant step",
+  "difficulty": "easy",
+  "explanation": "Each letter moves forward by 4 positions. After Q comes U.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a certain code, CAT is written as FDW. How is BOX written in that code?",
+  "text": "Find the next letter in the series: A, E, I, M, Q, ?",
   "options": [
-   "FSB",
-   "YLU",
-   "ERA",
-   "XOB"
+   "T",
+   "W",
+   "U",
+   "V"
   ],
   "correct": [
    2
@@ -168,58 +168,58 @@
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-direction-sense-007",
+  "uid": "ltimindtree-rea-coding-decoding-007",
   "companies": [
    "ltimindtree"
   ],
-  "topic": "direction-sense",
-  "subtopic": "distance from start",
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
   "difficulty": "medium",
-  "explanation": "North then east makes a right angle. Distance = √(18² + 24²) = 30 km.",
-  "estimatedSeconds": 60,
+  "explanation": "Each letter is shifted forward by 3. Applying the same shift to FAN gives IDQ.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Ramesh walks 18 km north, turns right and walks 24 km. How far is he from his starting point (in km)?",
+  "text": "In a certain code, CAT is written as FDW. How is FAN written in that code?",
   "options": [
-   "21",
-   "30",
-   "36",
-   "33"
+   "JER",
+   "NAF",
+   "HCP",
+   "IDQ"
   ],
   "correct": [
-   1
+   3
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-direction-sense-008",
+  "uid": "ltimindtree-rea-coding-decoding-008",
   "companies": [
    "ltimindtree"
   ],
-  "topic": "direction-sense",
-  "subtopic": "facing direction",
-  "difficulty": "easy",
-  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is East.",
-  "estimatedSeconds": 50,
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
+  "difficulty": "medium",
+  "explanation": "Each letter is shifted forward by 1. Applying the same shift to FAN gives GBO.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Meena faces North. She turns about (180°), then about (180°), then right. Which direction is she facing now?",
+  "text": "In a certain code, SUN is written as TVO. How is FAN written in that code?",
   "options": [
-   "South",
-   "East",
-   "North",
-   "West"
+   "FAN",
+   "NAF",
+   "HCP",
+   "GBO"
   ],
   "correct": [
-   1
+   3
   ],
   "subject": "reasoning"
  },
@@ -252,27 +252,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-ranking-010",
+  "uid": "ltimindtree-rea-direction-sense-010",
   "companies": [
    "ltimindtree"
   ],
-  "topic": "ranking",
-  "subtopic": "total in a row",
-  "difficulty": "easy",
-  "explanation": "Total = left position + right position − 1 = 18 + 7 − 1 = 24.",
-  "estimatedSeconds": 40,
+  "topic": "direction-sense",
+  "subtopic": "distance from start",
+  "difficulty": "medium",
+  "explanation": "North then east makes a right angle. Distance = √(3² + 4²) = 5 km.",
+  "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a row, Kavya is 18th from the left and 7th from the right. How many people are in the row?",
+  "text": "Ramesh walks 3 km north, turns right and walks 4 km. How far is he from his starting point (in km)?",
   "options": [
-   "24",
-   "32",
-   "28",
-   "34"
+   "5",
+   "4",
+   "7",
+   "9"
   ],
   "correct": [
    0
@@ -280,55 +280,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-ranking-011",
+  "uid": "ltimindtree-rea-direction-sense-011",
   "companies": [
    "ltimindtree"
   ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
   "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 48 − 12 + 1 = 37.",
-  "estimatedSeconds": 40,
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is North.",
+  "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a class of 48 students, Arun's rank from the top is 12. What is his rank from the bottom?",
+  "text": "Meena faces North. She turns right, then about (180°), then right. Which direction is she facing now?",
   "options": [
-   "37",
-   "29",
-   "53",
-   "25"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "ltimindtree-rea-ranking-012",
-  "companies": [
-   "ltimindtree"
-  ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
-  "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 45 − 14 + 1 = 32.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "In a class of 45 students, Arun's rank from the top is 14. What is his rank from the bottom?",
-  "options": [
-   "35",
-   "41",
-   "32",
-   "26"
+   "West",
+   "East",
+   "North",
+   "South"
   ],
   "correct": [
    2
@@ -336,83 +308,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-clocks-013",
+  "uid": "ltimindtree-rea-direction-sense-012",
   "companies": [
    "ltimindtree"
   ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
+  "topic": "direction-sense",
+  "subtopic": "distance from start",
   "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×1 − 5.5×2| = 19°.",
-  "estimatedSeconds": 80,
+  "explanation": "North then east makes a right angle. Distance = √(12² + 16²) = 20 km.",
+  "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 1:02?",
+  "text": "Ramesh walks 12 km north, turns right and walks 16 km. How far is he from his starting point (in km)?",
   "options": [
-   "17",
-   "25",
-   "23",
-   "19"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "ltimindtree-rea-clocks-014",
-  "companies": [
-   "ltimindtree"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×7 − 5.5×40| = 10°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 7:40?",
-  "options": [
+   "20",
+   "16",
    "14",
-   "12",
-   "9",
-   "10"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "ltimindtree-rea-clocks-015",
-  "companies": [
-   "ltimindtree"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×1 − 5.5×12| = 36°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 1:12?",
-  "options": [
-   "36",
-   "32",
-   "52",
-   "28"
+   "24"
   ],
   "correct": [
    0
@@ -420,27 +336,83 @@
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-calendars-016",
+  "uid": "ltimindtree-rea-ranking-013",
   "companies": [
    "ltimindtree"
   ],
-  "topic": "calendars",
-  "subtopic": "day of a date",
-  "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Sunday for 22 August 2010 (checked with calendar arithmetic).",
-  "estimatedSeconds": 90,
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 12 + 10 − 1 = 21.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "On which day of the week does 22 August 2010 fall?",
+  "text": "In a row, Kavya is 12th from the left and 10th from the right. How many people are in the row?",
   "options": [
-   "Tuesday",
-   "Sunday",
-   "Friday",
-   "Monday"
+   "19",
+   "15",
+   "17",
+   "21"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-ranking-014",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 14 + 5 − 1 = 18.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a row, Kavya is 14th from the left and 5th from the right. How many people are in the row?",
+  "options": [
+   "24",
+   "14",
+   "26",
+   "18"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-ranking-015",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "ranking",
+  "subtopic": "rank from bottom",
+  "difficulty": "easy",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 36 − 7 + 1 = 30.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a class of 36 students, Arun's rank from the top is 7. What is his rank from the bottom?",
+  "options": [
+   "36",
+   "30",
+   "33",
+   "45"
   ],
   "correct": [
    1
@@ -448,27 +420,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-calendars-017",
+  "uid": "ltimindtree-rea-ranking-016",
   "companies": [
    "ltimindtree"
   ],
-  "topic": "calendars",
-  "subtopic": "day of a date",
-  "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Sunday for 27 January 1991 (checked with calendar arithmetic).",
-  "estimatedSeconds": 90,
+  "topic": "ranking",
+  "subtopic": "rank from bottom",
+  "difficulty": "easy",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 43 − 17 + 1 = 27.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "On which day of the week does 27 January 1991 fall?",
+  "text": "In a class of 43 students, Arun's rank from the top is 17. What is his rank from the bottom?",
   "options": [
-   "Friday",
-   "Wednesday",
-   "Tuesday",
-   "Sunday"
+   "30",
+   "18",
+   "39",
+   "27"
   ],
   "correct": [
    3
@@ -476,27 +448,111 @@
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-calendars-018",
+  "uid": "ltimindtree-rea-clocks-017",
   "companies": [
    "ltimindtree"
   ],
-  "topic": "calendars",
-  "subtopic": "days after",
-  "difficulty": "easy",
-  "explanation": "199 mod 7 = 3. Thursday + 3 days = Sunday.",
-  "estimatedSeconds": 45,
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×2 − 5.5×4| = 38°.",
+  "estimatedSeconds": 80,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Today is Thursday. What day of the week will it be after 199 days?",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 2:04?",
   "options": [
-   "Friday",
-   "Wednesday",
-   "Sunday",
-   "Thursday"
+   "34",
+   "30",
+   "46",
+   "38"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-clocks-018",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×4 − 5.5×40| = 100°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 4:40?",
+  "options": [
+   "150",
+   "120",
+   "70",
+   "100"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-clocks-019",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×4 − 5.5×12| = 54°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 4:12?",
+  "options": [
+   "54",
+   "74",
+   "59",
+   "44"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-clocks-020",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×9 − 5.5×14| = 193°, so the smaller angle is 360 − that = 167°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 9:14?",
+  "options": [
+   "218",
+   "252",
+   "167",
+   "116"
   ],
   "correct": [
    2
@@ -504,86 +560,30 @@
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-odd-one-out-019",
+  "uid": "ltimindtree-rea-calendars-021",
   "companies": [
    "ltimindtree"
   ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
+  "topic": "calendars",
+  "subtopic": "days after",
   "difficulty": "easy",
-  "explanation": "All numbers except 40 are perfect cubes (5³=125, 4³=64, 9³=729, 6³=216).",
-  "estimatedSeconds": 40,
+  "explanation": "45 mod 7 = 3. Monday + 3 days = Thursday.",
+  "estimatedSeconds": 45,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Find the odd one out: 40, 64, 729, 216, 125",
+  "text": "Today is Monday. What day of the week will it be after 45 days?",
   "options": [
-   "40",
-   "125",
-   "729",
-   "64"
+   "Saturday",
+   "Sunday",
+   "Thursday",
+   "Wednesday"
   ],
   "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "ltimindtree-rea-odd-one-out-020",
-  "companies": [
-   "ltimindtree"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 107 are perfect cubes (10³=1000, 8³=512, 9³=729, 2³=8).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 729, 8, 107, 512, 1000",
-  "options": [
-   "107",
-   "512",
-   "729",
-   "8"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "ltimindtree-rea-odd-one-out-021",
-  "companies": [
-   "ltimindtree"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 32 are perfect cubes (4³=64, 7³=343, 9³=729, 6³=216).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 64, 32, 343, 216, 729",
-  "options": [
-   "32",
-   "216",
-   "729",
-   "64"
-  ],
-  "correct": [
-   0
+   2
   ],
   "subject": "reasoning"
  },
@@ -616,14 +616,70 @@
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-ranking-023",
+  "uid": "ltimindtree-rea-calendars-023",
   "companies": [
    "ltimindtree"
   ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Monday for 5 April 2027 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "On which day of the week does 5 April 2027 fall?",
+  "options": [
+   "Saturday",
+   "Tuesday",
+   "Wednesday",
+   "Monday"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-calendars-024",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "calendars",
+  "subtopic": "days after",
   "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 44 − 7 + 1 = 38.",
+  "explanation": "41 mod 7 = 6. Wednesday + 6 days = Tuesday.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Today is Wednesday. What day of the week will it be after 41 days?",
+  "options": [
+   "Monday",
+   "Saturday",
+   "Tuesday",
+   "Wednesday"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-odd-one-out-025",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 95 are perfect cubes (8³=512, 9³=729, 7³=343, 4³=64).",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -631,12 +687,96 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a class of 44 students, Arun's rank from the top is 7. What is his rank from the bottom?",
+  "text": "Find the odd one out: 729, 64, 512, 343, 95",
   "options": [
-   "38",
-   "54",
-   "42",
-   "26"
+   "729",
+   "343",
+   "512",
+   "95"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-odd-one-out-026",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 175 are perfect cubes (5³=125, 7³=343, 6³=216, 9³=729).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 175, 216, 125, 729, 343",
+  "options": [
+   "216",
+   "125",
+   "175",
+   "343"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-odd-one-out-027",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 93 are perfect cubes (2³=8, 10³=1000, 8³=512, 3³=27).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 93, 512, 1000, 8, 27",
+  "options": [
+   "1000",
+   "93",
+   "8",
+   "512"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-odd-one-out-028",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 167 are perfect cubes (5³=125, 8³=512, 4³=64, 10³=1000).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 167, 1000, 64, 512, 125",
+  "options": [
+   "167",
+   "64",
+   "125",
+   "512"
   ],
   "correct": [
    0
@@ -644,14 +784,70 @@
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-clocks-024",
+  "uid": "ltimindtree-rea-calendars-029",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Wednesday for 25 March 1998 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "On which day of the week does 25 March 1998 fall?",
+  "options": [
+   "Wednesday",
+   "Tuesday",
+   "Saturday",
+   "Thursday"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-ranking-030",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 12 + 7 − 1 = 18.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a row, Kavya is 12th from the left and 7th from the right. How many people are in the row?",
+  "options": [
+   "14",
+   "24",
+   "18",
+   "26"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-clocks-031",
   "companies": [
    "ltimindtree"
   ],
   "topic": "clocks",
   "subtopic": "angle between hands",
   "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×1 − 5.5×32| = 146°.",
+  "explanation": "Angle = |30h − 5.5m| = |30×1 − 5.5×48| = 234°, so the smaller angle is 360 − that = 126°.",
   "estimatedSeconds": 80,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -659,27 +855,27 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 1:32?",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 1:48?",
   "options": [
-   "206",
-   "101",
-   "146",
-   "161"
+   "87",
+   "139",
+   "152",
+   "126"
   ],
   "correct": [
-   2
+   3
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-direction-sense-025",
+  "uid": "ltimindtree-rea-direction-sense-032",
   "companies": [
    "ltimindtree"
   ],
   "topic": "direction-sense",
   "subtopic": "facing direction",
   "difficulty": "easy",
-  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is North.",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is West.",
   "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -687,27 +883,27 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Meena faces North. She turns right, then right, then right, then right. Which direction is she facing now?",
+  "text": "Meena faces North. She turns about (180°), then left, then right, then right. Which direction is she facing now?",
   "options": [
    "West",
-   "North",
+   "South",
    "East",
-   "South"
+   "North"
   ],
   "correct": [
-   1
+   0
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-ranking-026",
+  "uid": "ltimindtree-rea-ranking-033",
   "companies": [
    "ltimindtree"
   ],
   "topic": "ranking",
-  "subtopic": "total in a row",
+  "subtopic": "rank from bottom",
   "difficulty": "easy",
-  "explanation": "Total = left position + right position − 1 = 11 + 15 − 1 = 25.",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 43 − 19 + 1 = 25.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -715,12 +911,40 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a row, Kavya is 11th from the left and 15th from the right. How many people are in the row?",
+  "text": "In a class of 43 students, Arun's rank from the top is 19. What is his rank from the bottom?",
   "options": [
-   "28",
-   "19",
+   "31",
    "25",
-   "22"
+   "40",
+   "19"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-ranking-034",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "ranking",
+  "subtopic": "rank from bottom",
+  "difficulty": "easy",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 59 − 9 + 1 = 51.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a class of 59 students, Arun's rank from the top is 9. What is his rank from the bottom?",
+  "options": [
+   "76",
+   "71",
+   "51",
+   "36"
   ],
   "correct": [
    2
@@ -728,30 +952,114 @@
   "subject": "reasoning"
  },
  {
-  "uid": "ltimindtree-rea-ranking-027",
+  "uid": "ltimindtree-rea-calendars-035",
   "companies": [
    "ltimindtree"
   ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
+  "topic": "calendars",
+  "subtopic": "days after",
   "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 39 − 8 + 1 = 32.",
-  "estimatedSeconds": 40,
+  "explanation": "51 mod 7 = 2. Friday + 2 days = Sunday.",
+  "estimatedSeconds": 45,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a class of 39 students, Arun's rank from the top is 8. What is his rank from the bottom?",
+  "text": "Today is Friday. What day of the week will it be after 51 days?",
   "options": [
-   "38",
-   "32",
-   "44",
-   "23"
+   "Monday",
+   "Sunday",
+   "Tuesday",
+   "Saturday"
   ],
   "correct": [
    1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-coding-decoding-036",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
+  "difficulty": "medium",
+  "explanation": "Each letter is shifted forward by 4. Applying the same shift to FAN gives JER.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a certain code, SUN is written as WYR. How is FAN written in that code?",
+  "options": [
+   "KFS",
+   "JER",
+   "NAF",
+   "BWJ"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-clocks-037",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×6 − 5.5×6| = 147°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 6:06?",
+  "options": [
+   "147",
+   "102",
+   "177",
+   "222"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "ltimindtree-rea-coding-decoding-038",
+  "companies": [
+   "ltimindtree"
+  ],
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
+  "difficulty": "medium",
+  "explanation": "Each letter is shifted forward by 1. Applying the same shift to MAP gives NBQ.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a certain code, CAT is written as DBU. How is MAP written in that code?",
+  "options": [
+   "OCR",
+   "PAM",
+   "NBQ",
+   "MAP"
+  ],
+  "correct": [
+   2
   ],
   "subject": "reasoning"
  }

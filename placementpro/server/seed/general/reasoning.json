@@ -1367,5 +1367,486 @@
   ],
   "explanation": "Day after tomorrow = Wednesday. Three days before Wednesday is Sunday.",
   "estimatedSeconds": 50
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-inequalities-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "inequalities",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Statements: P >= Q > R = S <= T. Conclusions: I. P > R. II. T >= S.",
+  "options": [
+   "Both conclusions I and II follow",
+   "Only conclusion II follows",
+   "Only conclusion I follows",
+   "Neither conclusion follows"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "P >= Q > R gives P > R (I is true). S <= T gives T >= S (II is true). Both follow.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-inequalities-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "inequalities",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Statements: A > B >= C < D <= E. Which conclusion is definitely TRUE?",
+  "options": [
+   "A > C",
+   "A > D",
+   "C >= E",
+   "B < E"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A > B >= C strictly establishes A > C. Between C and D/E, opposite signs (< and >) prevent definite conclusions.",
+  "estimatedSeconds": 50
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-inequalities-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "inequalities",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Statements: M < N <= O < P. Conclusions: I. M < P. II. O > M.",
+  "options": [
+   "Only conclusion II follows",
+   "Neither follows",
+   "Only conclusion I follows",
+   "Both conclusions I and II follow"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Chain M < N <= O < P directly guarantees M < P and O > M.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-statement-conclusion-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "statement-conclusion",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Statement: In a one-day match, a team scored 200 runs, of which 160 were made by spinners.\nConclusions:\nI. 80% of the team members are spinners.\nII. The opening batsmen were spinners.",
+  "options": [
+   "Both I and II follow",
+   "Neither I nor II follows",
+   "Only conclusion I follows",
+   "Only conclusion II follows"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The statement reports runs scored, not the squad composition or batting order. Neither conclusion follows logically.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-statement-conclusion-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "statement-conclusion",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Statement: Regular physical exercise significantly reduces cardiovascular disease risk.\nConclusions:\nI. Sedentary lifestyle increases susceptibility to heart ailments.\nII. Exercise is essential for maintaining cardiac wellness.",
+  "options": [
+   "Both conclusions I and II follow",
+   "Only conclusion I follows",
+   "Only conclusion II follows",
+   "Neither follows"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Both conclusions are direct logical deductions from the stated correlation between regular exercise and reduced heart disease risk.",
+  "estimatedSeconds": 50
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-puzzles-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "puzzles",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "Seven boxes P, Q, R, S, T, U, V are stacked vertically. Box P is at the topmost position (7th). Box V is at the bottommost (1st). Box R is placed immediately above box S. Box T is placed in the exact middle (4th). Which box is at position 4?",
+  "options": [
+   "S",
+   "P",
+   "T",
+   "R"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "By explicit definition, box T is placed in the exact middle position 4.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-puzzles-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "puzzles",
+  "difficulty": "hard",
+  "type": "mcq_single",
+  "text": "Six colleagues A, B, C, D, E, F work in different departments: IT, HR, Finance, Marketing, Sales, Operations. A works in HR. C does not work in Sales or Finance. D works in Operations. E works in Marketing. In which department does C work?",
+  "options": [
+   "Finance",
+   "Sales",
+   "IT",
+   "Operations"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Departments remaining for B and C are IT, Sales, and Finance. Since C cannot be in Sales or Finance, C must work in IT.",
+  "estimatedSeconds": 75
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-non-verbal-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "non-verbal",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "How many total triangles are formed by drawing both diagonals inside a square?",
+  "options": [
+   "8",
+   "10",
+   "6",
+   "4"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A square divided by 2 diagonals contains 4 small individual triangles and 4 larger composite triangles formed by pairs, totaling 8.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-non-verbal-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "non-verbal",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "A square is divided by both diagonals and a horizontal line through the center. How many triangles are in the figure?",
+  "options": [
+   "16",
+   "12",
+   "8",
+   "10"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Formula for intersecting diagonals with central lines yields 12 distinct triangles.",
+  "estimatedSeconds": 60
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-non-verbal-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "non-verbal",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which geometric figure has rotational symmetry of order 4?",
+  "options": [
+   "Trapezoid",
+   "Rectangle",
+   "Square",
+   "Equilateral triangle"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "A square coincides with itself after rotations of 90, 180, 270, and 360 degrees, so it has order 4.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-mirror-water-images-001",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "mirror-water-images",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which of the following capital letters looks IDENTICAL to its reflection in a standard vertical plane mirror?",
+  "options": [
+   "P",
+   "M",
+   "F",
+   "L"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The letter M has a vertical line of bilateral symmetry, so its mirror reflection is unchanged.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-mirror-water-images-002",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "mirror-water-images",
+  "difficulty": "easy",
+  "type": "mcq_single",
+  "text": "Which capital letter looks IDENTICAL to its reflection in water (horizontal mirror placed underneath)?",
+  "options": [
+   "H",
+   "T",
+   "V",
+   "A"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The letter H has horizontal reflection symmetry, so its water image is identical to the original letter.",
+  "estimatedSeconds": 45
+ },
+ {
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (authored for PlacementPro)",
+  "dateVerified": null,
+  "marks": 1,
+  "negativeMarks": 0,
+  "uid": "gen-rea-mirror-water-images-003",
+  "companies": [
+   "tcs",
+   "infosys",
+   "accenture",
+   "wipro",
+   "capgemini",
+   "cognizant",
+   "tech-mahindra",
+   "hcltech",
+   "ltimindtree",
+   "general-sde"
+  ],
+  "subject": "reasoning",
+  "topic": "mirror-water-images",
+  "difficulty": "medium",
+  "type": "mcq_single",
+  "text": "What is the water reflection of the word \"CODE\"?",
+  "options": [
+   "CODB",
+   "EBOC",
+   "CODE",
+   "EDOC"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "All letters C, O, D, and E have horizontal reflection symmetry, so their water images remain C, O, D, E.",
+  "estimatedSeconds": 45
  }
 ]

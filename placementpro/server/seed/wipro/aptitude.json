@@ -56,24 +56,31 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-profit-loss-003",
+  "uid": "wipro-apt-percentages-003",
   "companies": [
    "wipro"
   ],
-  "topic": "profit-loss",
-  "subtopic": "discount",
+  "topic": "percentages",
+  "subtopic": "percentage of a quantity",
   "difficulty": "easy",
-  "explanation": "Price = 1500 × (100 − 25)/100 = 1125.",
-  "estimatedSeconds": 50,
+  "explanation": "24% of 1200 = 24/100 × 1200 = 288.",
+  "estimatedSeconds": 40,
   "provenance": "high_priority_practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
-  "type": "numeric",
-  "text": "A shirt has a marked price of ₹1,500. A discount of 25% is given. What is the price paid (in ₹)?\n(Type your answer as a number.)",
-  "numericAnswer": 1125,
-  "tolerance": 0,
+  "type": "mcq_single",
+  "text": "What is 24% of 1200?",
+  "options": [
+   "317",
+   "404",
+   "288",
+   "375"
+  ],
+  "correct": [
+   2
+  ],
   "subject": "aptitude"
  },
  {
@@ -105,181 +112,27 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-ratio-proportion-005",
+  "uid": "wipro-apt-profit-loss-005",
   "companies": [
    "wipro"
   ],
-  "topic": "ratio-proportion",
-  "subtopic": "dividing in a ratio",
+  "topic": "profit-loss",
+  "subtopic": "selling price from profit",
   "difficulty": "easy",
-  "explanation": "Total parts = 11. One part = 2090/11 = 190. Second share = 4 × 190 = 760.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "₹2,090 is divided among three people in the ratio 2:4:5. How much does the second person get (in ₹)?",
-  "options": [
-   "760",
-   "608",
-   "1140",
-   "836"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-ratio-proportion-006",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "ratio-proportion",
-  "subtopic": "dividing in a ratio",
-  "difficulty": "easy",
-  "explanation": "Total parts = 16. One part = 3520/16 = 220. Second share = 4 × 220 = 880.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "₹3,520 is divided among three people in the ratio 4:4:8. How much does the second person get (in ₹)?",
-  "options": [
-   "968",
-   "1320",
-   "616",
-   "880"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-averages-007",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "averages",
-  "subtopic": "average after adding an item",
-  "difficulty": "medium",
-  "explanation": "Sum of 5 = 170. Sum of 6 = 216. Sixth number = 216 − 170 = 46.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The average of 5 numbers is 34. A sixth number is added and the average becomes 36. What is the sixth number?",
-  "options": [
-   "61",
-   "66",
-   "71",
-   "46"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-averages-008",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "averages",
-  "subtopic": "average after adding an item",
-  "difficulty": "medium",
-  "explanation": "Sum of 5 = 125. Sum of 6 = 174. Sixth number = 174 − 125 = 49.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The average of 5 numbers is 25. A sixth number is added and the average becomes 29. What is the sixth number?",
-  "options": [
-   "39",
-   "59",
-   "64",
-   "49"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-time-work-009",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "time-work",
-  "subtopic": "two workers together",
-  "difficulty": "medium",
-  "explanation": "Rate = 1/10 + 1/15 = 25/150 per day. Days = 150/25 = 6.",
-  "estimatedSeconds": 80,
+  "explanation": "SP = CP × (100 + profit%)/100 = 760 × 115/100 = 874.",
+  "estimatedSeconds": 50,
   "provenance": "high_priority_practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
-  "type": "numeric",
-  "text": "A can finish a job in 10 days and B can finish it in 15 days. Working together, in how many days will they finish it?\n(Type your answer as a number.)",
-  "numericAnswer": 6,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-time-work-010",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "time-work",
-  "subtopic": "two workers together",
-  "difficulty": "medium",
-  "explanation": "Rate = 1/3 + 1/6 = 9/18 per day. Days = 18/9 = 2.",
-  "estimatedSeconds": 80,
-  "provenance": "high_priority_practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "A can finish a job in 3 days and B can finish it in 6 days. Working together, in how many days will they finish it?\n(Type your answer as a number.)",
-  "numericAnswer": 2,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-pipes-cisterns-011",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "pipes-cisterns",
-  "subtopic": "inlet and leak",
-  "difficulty": "hard",
-  "explanation": "Net fill rate = 1/12. Pipe rate = 1/4. Leak rate = 1/4 − 1/12 = 8/48 = 1/6. So the leak empties the tank in 6 hours.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A pipe fills a tank in 4 hours. Because of a leak at the bottom, it takes the pipe 12 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "text": "An article is bought for ₹760 and sold at a profit of 15%. Find its selling price (in ₹).",
   "options": [
-   "3",
-   "10",
-   "11",
-   "6"
+   "1309",
+   "1135",
+   "787",
+   "874"
   ],
   "correct": [
    3
@@ -287,27 +140,27 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-pipes-cisterns-012",
+  "uid": "wipro-apt-profit-loss-006",
   "companies": [
    "wipro"
   ],
-  "topic": "pipes-cisterns",
-  "subtopic": "inlet and leak",
-  "difficulty": "hard",
-  "explanation": "Net fill rate = 1/24. Pipe rate = 1/6. Leak rate = 1/6 − 1/24 = 18/144 = 1/8. So the leak empties the tank in 8 hours.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
+  "topic": "profit-loss",
+  "subtopic": "selling price from profit",
+  "difficulty": "easy",
+  "explanation": "SP = CP × (100 + profit%)/100 = 780 × 110/100 = 858.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A pipe fills a tank in 6 hours. Because of a leak at the bottom, it takes the pipe 24 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "text": "An article is bought for ₹780 and sold at a profit of 10%. Find its selling price (in ₹).",
   "options": [
-   "7",
-   "8",
-   "6",
-   "12"
+   "1288",
+   "858",
+   "772",
+   "1202"
   ],
   "correct": [
    1
@@ -315,27 +168,244 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-speed-distance-013",
+  "uid": "wipro-apt-ratio-proportion-007",
   "companies": [
    "wipro"
   ],
-  "topic": "speed-distance",
-  "subtopic": "train crossing a pole",
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 18. One part = 4140/18 = 230. Second share = 5 × 230 = 1150.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹4,140 is divided among three people in the ratio 5:5:8. How much does the second person get (in ₹)?",
+  "options": [
+   "805",
+   "1495",
+   "1150",
+   "1380"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-ratio-proportion-008",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 9. One part = 1620/9 = 180. Second share = 2 × 180 = 360.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹1,620 is divided among three people in the ratio 3:2:4. How much does the second person get (in ₹)?",
+  "options": [
+   "360",
+   "396",
+   "432",
+   "468"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-ratio-proportion-009",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 16. One part = 2400/16 = 150. Second share = 5 × 150 = 750.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹2,400 is divided among three people in the ratio 4:5:7. How much does the second person get (in ₹)?",
+  "options": [
+   "675",
+   "975",
+   "750",
+   "900"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-averages-010",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
   "difficulty": "medium",
-  "explanation": "Speed = 108 × 5/18 = 30 m/s. Time = 210/30 = 7 s.",
+  "explanation": "Sum of 5 = 115. Sum of 6 = 156. Sixth number = 156 − 115 = 41.",
   "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 23. A sixth number is added and the average becomes 26. What is the sixth number?",
+  "options": [
+   "41",
+   "53",
+   "45",
+   "29"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-averages-011",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 160. Sum of 6 = 216. Sixth number = 216 − 160 = 56.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "The average of 5 numbers is 32. A sixth number is added and the average becomes 36. What is the sixth number?\n(Type your answer as a number.)",
+  "numericAnswer": 56,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-averages-012",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 155. Sum of 6 = 222. Sixth number = 222 − 155 = 67.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 31. A sixth number is added and the average becomes 37. What is the sixth number?",
+  "options": [
+   "46",
+   "67",
+   "95",
+   "81"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-time-work-013",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/24 + 1/40 = 64/960 per day. Days = 960/64 = 15.",
+  "estimatedSeconds": 80,
   "provenance": "high_priority_practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A train 210 m long runs at 108 km/h. How many seconds does it take to cross a telegraph pole?",
+  "text": "A can finish a job in 24 days and B can finish it in 40 days. Working together, in how many days will they finish it?",
   "options": [
-   "7",
+   "21",
    "9",
-   "4",
-   "12"
+   "13",
+   "15"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-time-work-014",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/40 + 1/60 = 100/2400 per day. Days = 2400/100 = 24.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A can finish a job in 40 days and B can finish it in 60 days. Working together, in how many days will they finish it?",
+  "options": [
+   "20",
+   "26",
+   "24",
+   "32"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-time-work-015",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/36 + 1/45 = 81/1620 per day. Days = 1620/81 = 20.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A can finish a job in 36 days and B can finish it in 45 days. Working together, in how many days will they finish it?",
+  "options": [
+   "20",
+   "18",
+   "22",
+   "28"
   ],
   "correct": [
    0
@@ -343,54 +413,26 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-speed-distance-014",
+  "uid": "wipro-apt-pipes-cisterns-016",
   "companies": [
    "wipro"
   ],
-  "topic": "speed-distance",
-  "subtopic": "trains in opposite directions",
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
   "difficulty": "hard",
-  "explanation": "Relative speed = 21 + 105 = 126 km/h = 35 m/s. Distance = 140 + 140 = 280 m. Time = 280/35 = 8 s.",
+  "explanation": "Net fill rate = 1/18. Pipe rate = 1/6. Leak rate = 1/6 − 1/18 = 12/108 = 1/9. So the leak empties the tank in 9 hours.",
   "estimatedSeconds": 100,
-  "provenance": "high_priority_practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Two trains of lengths 140 m and 140 m run in opposite directions at 21 km/h and 105 km/h. In how many seconds do they completely cross each other?",
-  "options": [
-   "10",
-   "8",
-   "5",
-   "12"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-boats-streams-015",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "boats-streams",
-  "subtopic": "upstream speed",
-  "difficulty": "easy",
-  "explanation": "Upstream speed = 16 − 6 = 10 km/h.",
-  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A boat's speed in still water is 16 km/h and the stream's speed is 6 km/h. What is its speed upstream (in km/h)?",
+  "text": "A pipe fills a tank in 6 hours. Because of a leak at the bottom, it takes the pipe 18 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
   "options": [
-   "10",
-   "15",
-   "13",
+   "9",
+   "7",
+   "14",
    "11"
   ],
   "correct": [
@@ -399,14 +441,182 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-boats-streams-016",
+  "uid": "wipro-apt-pipes-cisterns-017",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/30. Pipe rate = 1/5. Leak rate = 1/5 − 1/30 = 25/150 = 1/6. So the leak empties the tank in 6 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 5 hours. Because of a leak at the bottom, it takes the pipe 30 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "6",
+   "11",
+   "7",
+   "3"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-pipes-cisterns-018",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/6. Pipe rate = 1/2. Leak rate = 1/2 − 1/6 = 4/12 = 1/3. So the leak empties the tank in 3 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 2 hours. Because of a leak at the bottom, it takes the pipe 6 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "0",
+   "4",
+   "5",
+   "3"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-speed-distance-019",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "average speed",
+  "difficulty": "medium",
+  "explanation": "For equal distances, average speed = 2ab/(a+b) = 2×20×30/50 = 24 km/h.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A car covers a distance at 20 km/h and returns the same distance at 30 km/h. What is its average speed for the whole trip (in km/h)?",
+  "options": [
+   "20",
+   "30",
+   "34",
+   "24"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-speed-distance-020",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "train crossing a pole",
+  "difficulty": "medium",
+  "explanation": "Speed = 90 × 5/18 = 25 m/s. Time = 150/25 = 6 s.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train 150 m long runs at 90 km/h. How many seconds does it take to cross a telegraph pole?",
+  "options": [
+   "3",
+   "11",
+   "6",
+   "5"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-speed-distance-021",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "average speed",
+  "difficulty": "medium",
+  "explanation": "For equal distances, average speed = 2ab/(a+b) = 2×40×60/100 = 48 km/h.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A car covers a distance at 40 km/h and returns the same distance at 60 km/h. What is its average speed for the whole trip (in km/h)?",
+  "options": [
+   "58",
+   "48",
+   "68",
+   "53"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-boats-streams-022",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 10 + 2 = 12 km/h. Time = 36/12 = 3 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat goes 10 km/h in still water and the stream flows at 2 km/h. How many hours will it take to go 36 km downstream?",
+  "options": [
+   "3",
+   "7",
+   "1",
+   "2"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-boats-streams-023",
   "companies": [
    "wipro"
   ],
   "topic": "boats-streams",
   "subtopic": "upstream speed",
   "difficulty": "easy",
-  "explanation": "Upstream speed = 20 − 2 = 18 km/h.",
+  "explanation": "Upstream speed = 16 − 3 = 13 km/h.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -414,174 +624,55 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A boat's speed in still water is 20 km/h and the stream's speed is 2 km/h. What is its speed upstream (in km/h)?",
+  "text": "A boat's speed in still water is 16 km/h and the stream's speed is 3 km/h. What is its speed upstream (in km/h)?",
   "options": [
-   "20",
-   "28",
-   "22",
-   "18"
+   "17",
+   "12",
+   "13",
+   "11"
   ],
   "correct": [
-   3
+   2
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-interest-017",
+  "uid": "wipro-apt-boats-streams-024",
   "companies": [
    "wipro"
   ],
-  "topic": "interest",
-  "subtopic": "compound interest (2 years)",
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
   "difficulty": "medium",
-  "explanation": "Amount = 4000 × (1 + 5/100)² = 4410. CI = Amount − Principal = 410.",
-  "estimatedSeconds": 80,
+  "explanation": "Downstream speed = 12 + 3 = 15 km/h. Time = 75/15 = 5 h.",
+  "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the compound interest on ₹4,000 for 2 years at 5% per annum, compounded annually (in ₹)?",
+  "text": "A boat goes 12 km/h in still water and the stream flows at 3 km/h. How many hours will it take to go 75 km downstream?",
   "options": [
-   "451",
-   "410",
-   "287",
-   "369"
+   "5",
+   "6",
+   "3",
+   "9"
   ],
   "correct": [
-   1
+   0
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-interest-018",
+  "uid": "wipro-apt-interest-025",
   "companies": [
    "wipro"
   ],
   "topic": "interest",
   "subtopic": "simple interest",
   "difficulty": "easy",
-  "explanation": "SI = PRT/100 = 7000×4×3/100 = 840.",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "Find the simple interest on ₹7,000 at 4% per annum for 3 years (in ₹).\n(Type your answer as a number.)",
-  "numericAnswer": 840,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-number-series-019",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "number-series",
-  "subtopic": "arithmetic series",
-  "difficulty": "easy",
-  "explanation": "Each term increases by 4. Next = 29 + 4 = 33.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the next number: 13, 17, 21, 25, 29, ?",
-  "options": [
-   "33",
-   "39",
-   "48",
-   "36"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-number-series-020",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "number-series",
-  "subtopic": "geometric series",
-  "difficulty": "easy",
-  "explanation": "Each term is multiplied by 3. Next = 324 × 3 = 972.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "Find the next number: 4, 12, 36, 108, 324, ?\n(Type your answer as a number.)",
-  "numericAnswer": 972,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-hcf-lcm-021",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "hcf-lcm",
-  "subtopic": "HCF × LCM relation",
-  "difficulty": "medium",
-  "explanation": "Product of the numbers = HCF × LCM = 5 × 105 = 525. Other number = 525/15 = 35.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The HCF of two numbers is 5 and their LCM is 105. If one number is 15, what is the other?",
-  "options": [
-   "39",
-   "35",
-   "27",
-   "31"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-hcf-lcm-022",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "hcf-lcm",
-  "subtopic": "HCF × LCM relation",
-  "difficulty": "medium",
-  "explanation": "Product of the numbers = HCF × LCM = 3 × 126 = 378. Other number = 378/21 = 18.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "The HCF of two numbers is 3 and their LCM is 126. If one number is 21, what is the other?\n(Type your answer as a number.)",
-  "numericAnswer": 18,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-ages-023",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "ages",
-  "subtopic": "sum and difference",
-  "difficulty": "easy",
-  "explanation": "Asha = (sum + difference)/2 = (60 + 10)/2 = 35.",
+  "explanation": "SI = PRT/100 = 30000×9×3/100 = 8100.",
   "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -589,250 +680,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "The sum of the ages of Asha and Bala is 60 years and Asha is 10 years older than Bala. How old is Asha?",
+  "text": "Find the simple interest on ₹30,000 at 9% per annum for 3 years (in ₹).",
   "options": [
-   "27",
-   "35",
-   "55",
-   "23"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-ages-024",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "ages",
-  "subtopic": "ages in the past",
-  "difficulty": "medium",
-  "explanation": "Sita 8 years ago = 12. Ravi then = 3 × 12 = 36. Ravi now = 36 + 8 = 44.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "8 years ago, Ravi was 3 times as old as Sita. Sita is now 20 years old. How old is Ravi now?",
-  "options": [
-   "44",
-   "52",
-   "40",
-   "36"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-permutations-combinations-025",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "permutations-combinations",
-  "subtopic": "combinations",
-  "difficulty": "easy",
-  "explanation": "9C2 = 9!/(2!×7!) = 36.",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "In how many ways can a committee of 2 be chosen from 9 people?",
-  "options": [
-   "44",
-   "36",
-   "32",
-   "52"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-permutations-combinations-026",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "permutations-combinations",
-  "subtopic": "permutations",
-  "difficulty": "medium",
-  "explanation": "4P3 = 4×3×2 = 24.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "In how many ways can 3 different prizes be given to 4 students if no student gets more than one prize?",
-  "options": [
-   "24",
-   "32",
-   "18",
-   "34"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-probability-027",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "probability",
-  "subtopic": "drawing a ball",
-  "difficulty": "easy",
-  "explanation": "P(red) = favourable/total = 3/8 = 3/8.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A bag has 3 red and 5 blue balls. One ball is drawn at random. What is the probability that it is red?",
-  "options": [
-   "3/8",
-   "3/5",
-   "5/8",
-   "1/3"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-probability-028",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "probability",
-  "subtopic": "drawing a ball",
-  "difficulty": "easy",
-  "explanation": "P(red) = favourable/total = 3/9 = 1/3.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A bag has 3 red and 6 blue balls. One ball is drawn at random. What is the probability that it is red?",
-  "options": [
-   "1/2",
-   "3/10",
-   "2/3",
-   "1/3"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-mixtures-alligation-029",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "mixtures-alligation",
-  "subtopic": "mean price",
-  "difficulty": "medium",
-  "explanation": "Mean price = (1×100 + 1×150)/2 = 125.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Rice at ₹100/kg and rice at ₹150/kg are mixed in the ratio 1:1. What is the price per kg of the mixture (in ₹)?",
-  "options": [
-   "125",
-   "99",
-   "86",
-   "190"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-mixtures-alligation-030",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "mixtures-alligation",
-  "subtopic": "adding water",
-  "difficulty": "medium",
-  "explanation": "Milk = 9 L, water = 3 L. For 1:1 water must equal milk, so add 9 − 3 = 6 L.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "A 12 litre mixture has milk and water in the ratio 3:1. How many litres of water must be added to make the ratio 1:1?\n(Type your answer as a number.)",
-  "numericAnswer": 6,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-partnership-031",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "partnership",
-  "subtopic": "investment × time",
-  "difficulty": "hard",
-  "explanation": "Ratio = 3000×11 : 5000×12 = 33000 : 60000 = 11 : 20. Anil's share = 11/31 × 9300 = 3300.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "Anil invests ₹3,000 for 11 months and Binu invests ₹5,000 for 12 months. They earn a profit of ₹9,300. What is Anil's share (in ₹)?\n(Type your answer as a number.)",
-  "numericAnswer": 3300,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-partnership-032",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "partnership",
-  "subtopic": "investment × time",
-  "difficulty": "hard",
-  "explanation": "Ratio = 2000×10 : 4000×9 = 20000 : 36000 = 5 : 9. Anil's share = 5/14 × 12600 = 4500.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Anil invests ₹2,000 for 10 months and Binu invests ₹4,000 for 9 months. They earn a profit of ₹12,600. What is Anil's share (in ₹)?",
-  "options": [
-   "5400",
-   "4050",
-   "4500",
-   "3600"
+   "12150",
+   "5670",
+   "8100",
+   "6480"
   ],
   "correct": [
    2
@@ -840,168 +693,14 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-algebra-033",
+  "uid": "wipro-apt-interest-026",
   "companies": [
    "wipro"
   ],
-  "topic": "algebra",
-  "subtopic": "x + 1/x identity",
+  "topic": "interest",
+  "subtopic": "compound interest (2 years)",
   "difficulty": "medium",
-  "explanation": "Square both sides: x² + 2 + 1/x² = 49. So x² + 1/x² = 49 − 2 = 47.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "If x + 1/x = 7, find the value of x² + 1/x².",
-  "options": [
-   "32",
-   "67",
-   "47",
-   "42"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-algebra-034",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "algebra",
-  "subtopic": "x + 1/x identity",
-  "difficulty": "medium",
-  "explanation": "Square both sides: x² + 2 + 1/x² = 25. So x² + 1/x² = 25 − 2 = 23.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "If x + 1/x = 5, find the value of x² + 1/x².",
-  "options": [
-   "21",
-   "33",
-   "23",
-   "17"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-progressions-035",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "progressions",
-  "subtopic": "sum of AP",
-  "difficulty": "medium",
-  "explanation": "Sₙ = n/2 × [2a + (n−1)d] = 15/2 × [4 + 84] = 660.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the sum of the first 15 terms of the AP 2, 8, 14, ...",
-  "options": [
-   "528",
-   "792",
-   "660",
-   "462"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-progressions-036",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "progressions",
-  "subtopic": "nth term of AP",
-  "difficulty": "easy",
-  "explanation": "Tₙ = a + (n−1)d = 3 + 18×2 = 39.",
-  "estimatedSeconds": 45,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "The first term of an AP is 3 and the common difference is 2. Find its 19th term.\n(Type your answer as a number.)",
-  "numericAnswer": 39,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-geometry-mensuration-037",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "geometry-mensuration",
-  "subtopic": "rectangle",
-  "difficulty": "easy",
-  "explanation": "l + b = 19, so b = 9 cm. Area = 10 × 9 = 90 cm².",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The perimeter of a rectangle is 38 cm and its length is 10 cm. What is its area (in cm²)?",
-  "options": [
-   "99",
-   "108",
-   "90",
-   "81"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-geometry-mensuration-038",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "geometry-mensuration",
-  "subtopic": "cylinder",
-  "difficulty": "medium",
-  "explanation": "V = πr²h = 22/7 × 7² × 9 = 1386 cm³.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "Find the volume of a cylinder with radius 7 cm and height 9 cm (π = 22/7), in cm³.\n(Type your answer as a number.)",
-  "numericAnswer": 1386,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-data-interpretation-039",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "data-interpretation",
-  "subtopic": "percentage change",
-  "difficulty": "medium",
-  "explanation": "Change = (220 − 350)/350 × 100 = -37.14%.",
+  "explanation": "Amount = 1200 × (1 + 5/100)² = 1323. CI = Amount − Principal = 123.",
   "estimatedSeconds": 80,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -1009,12 +708,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 350 | 380 | 220\nBooks | 170 | 140 | 320\nBags | 290 | 350 | 90\nBottles | 340 | 110 | 330\n\nBy what percentage did sales of Pens change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "text": "What is the compound interest on ₹1,200 for 2 years at 5% per annum, compounded annually (in ₹)?",
   "options": [
-   "-52.14%",
-   "-12.14%",
-   "-37.14%",
-   "-47.14%"
+   "159",
+   "147",
+   "123",
+   "99"
   ],
   "correct": [
    2
@@ -1022,14 +721,259 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-data-interpretation-040",
+  "uid": "wipro-apt-interest-027",
   "companies": [
    "wipro"
   ],
-  "topic": "data-interpretation",
-  "subtopic": "column totals",
+  "topic": "interest",
+  "subtopic": "compound interest (2 years)",
+  "difficulty": "medium",
+  "explanation": "Amount = 1600 × (1 + 5/100)² = 1764. CI = Amount − Principal = 164.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the compound interest on ₹1,600 for 2 years at 5% per annum, compounded annually (in ₹)?",
+  "options": [
+   "164",
+   "196",
+   "244",
+   "148"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-number-series-028",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "number-series",
+  "subtopic": "arithmetic series",
   "difficulty": "easy",
-  "explanation": "2024: 160 + 390 + 80 + 390 = 1020.",
+  "explanation": "Each term increases by 5. Next = 39 + 5 = 44.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 19, 24, 29, 34, 39, ?",
+  "options": [
+   "52",
+   "48",
+   "44",
+   "64"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-number-series-029",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "number-series",
+  "subtopic": "squares plus constant",
+  "difficulty": "medium",
+  "explanation": "The terms are 5²+1, 6²+1, 7²+1, 8²+1, 9²+1. Next = 10²+1 = 101.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 26, 37, 50, 65, 82, ?",
+  "options": [
+   "101",
+   "141",
+   "151",
+   "71"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-number-series-030",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "number-series",
+  "subtopic": "increasing differences",
+  "difficulty": "medium",
+  "explanation": "Differences are 4, 5, 6, 7 — they grow by 1 each step. Next difference 8, so 26 + 8 = 34.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 4, 8, 13, 19, 26, ?",
+  "options": [
+   "43",
+   "37",
+   "34",
+   "31"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-hcf-lcm-031",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "LCM of two numbers",
+  "difficulty": "easy",
+  "explanation": "HCF = 7. LCM = (21 × 35)/7 = 105.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the LCM of 21 and 35.",
+  "options": [
+   "105",
+   "72",
+   "94",
+   "160"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-hcf-lcm-032",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "HCF × LCM relation",
+  "difficulty": "medium",
+  "explanation": "Product of the numbers = HCF × LCM = 2 × 72 = 144. Other number = 144/8 = 18.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The HCF of two numbers is 2 and their LCM is 72. If one number is 8, what is the other?",
+  "options": [
+   "14",
+   "24",
+   "18",
+   "28"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-hcf-lcm-033",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "HCF × LCM relation",
+  "difficulty": "medium",
+  "explanation": "Product of the numbers = HCF × LCM = 9 × 189 = 1701. Other number = 1701/27 = 63.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The HCF of two numbers is 9 and their LCM is 189. If one number is 27, what is the other?",
+  "options": [
+   "63",
+   "45",
+   "87",
+   "93"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-ages-034",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "ages",
+  "subtopic": "sum and difference",
+  "difficulty": "easy",
+  "explanation": "Asha = (sum + difference)/2 = (67 + 9)/2 = 38.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "The sum of the ages of Asha and Bala is 67 years and Asha is 9 years older than Bala. How old is Asha?\n(Type your answer as a number.)",
+  "numericAnswer": 38,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-ages-035",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "ages",
+  "subtopic": "ages in the past",
+  "difficulty": "medium",
+  "explanation": "Sita 7 years ago = 14. Ravi then = 3 × 14 = 42. Ravi now = 42 + 7 = 49.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "7 years ago, Ravi was 3 times as old as Sita. Sita is now 21 years old. How old is Ravi now?",
+  "options": [
+   "59",
+   "49",
+   "69",
+   "34"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-ages-036",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "ages",
+  "subtopic": "sum and difference",
+  "difficulty": "easy",
+  "explanation": "Asha = (sum + difference)/2 = (50 + 8)/2 = 29.",
   "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -1037,68 +981,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 140 | 320 | 160\nBooks | 120 | 170 | 390\nBags | 380 | 260 | 80\nBottles | 280 | 180 | 390\n\nHow many items of all products together were sold in 2024 (in hundreds)?",
+  "text": "The sum of the ages of Asha and Bala is 50 years and Asha is 8 years older than Bala. How old is Asha?",
   "options": [
-   "1020",
-   "1530",
-   "918",
-   "1224"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-approximation-simplification-041",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "approximation-simplification",
-  "subtopic": "squares and roots",
-  "difficulty": "easy",
-  "explanation": "√49 = 7; 7² = 49. So 7 + 49 − 7 = 49.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Evaluate: √49 + 7² − 7",
-  "options": [
-   "59",
-   "64",
-   "49",
-   "69"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-approximation-simplification-042",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "approximation-simplification",
-  "subtopic": "squares and roots",
-  "difficulty": "easy",
-  "explanation": "√196 = 14; 12² = 144. So 14 + 144 − 14 = 144.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Evaluate: √196 + 12² − 14",
-  "options": [
-   "186",
-   "102",
-   "130",
-   "144"
+   "23",
+   "35",
+   "32",
+   "29"
   ],
   "correct": [
    3
@@ -1106,14 +994,126 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-remainders-divisibility-043",
+  "uid": "wipro-apt-permutations-combinations-037",
   "companies": [
    "wipro"
   ],
-  "topic": "remainders-divisibility",
-  "subtopic": "division remainder",
+  "topic": "permutations-combinations",
+  "subtopic": "combinations",
   "difficulty": "easy",
-  "explanation": "Dividend = divisor × quotient + remainder = 9×84 + 5 = 761.",
+  "explanation": "7C3 = 7!/(3!×4!) = 35.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can a committee of 3 be chosen from 7 people?",
+  "options": [
+   "39",
+   "47",
+   "51",
+   "35"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-permutations-combinations-038",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "arrangements with repeated letters",
+  "difficulty": "hard",
+  "explanation": "5! divided by the factorial of each repeated letter's count (L:2, E:2) = 30.",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many distinct arrangements can be made using all the letters of the word LEVEL?",
+  "options": [
+   "33",
+   "24",
+   "30",
+   "27"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-permutations-combinations-039",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "arrangements with repeated letters",
+  "difficulty": "hard",
+  "explanation": "6! divided by the factorial of each repeated letter's count (A:3, N:2) = 60.",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many distinct arrangements can be made using all the letters of the word BANANA?",
+  "options": [
+   "42",
+   "90",
+   "48",
+   "60"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-probability-040",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "probability",
+  "subtopic": "two dice",
+  "difficulty": "medium",
+  "explanation": "Ways to get a sum of 6 = 5 out of 36 outcomes, so P = 5/36 = 5/36.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 6?",
+  "options": [
+   "1/6",
+   "5/36",
+   "7/36",
+   "5/18"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-probability-041",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "probability",
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 5/8 = 5/8.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -1121,12 +1121,40 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A number gives remainder 5 when divided by 9. If the quotient is 84, what is the number?",
+  "text": "A bag has 5 red and 3 blue balls. One ball is drawn at random. What is the probability that it is red?",
   "options": [
-   "761",
-   "609",
-   "533",
-   "1141"
+   "3/8",
+   "5/8",
+   "3/4",
+   "5/3"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-probability-042",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "probability",
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 3/5 = 3/5.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A bag has 3 red and 2 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "options": [
+   "3/5",
+   "1/2",
+   "4/5",
+   "3/2"
   ],
   "correct": [
    0
@@ -1134,14 +1162,98 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-remainders-divisibility-044",
+  "uid": "wipro-apt-mixtures-alligation-043",
   "companies": [
    "wipro"
   ],
-  "topic": "remainders-divisibility",
-  "subtopic": "power remainders",
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 16 L, water = 12 L. For 1:1 water must equal milk, so add 16 − 12 = 4 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A 28 litre mixture has milk and water in the ratio 4:3. How many litres of water must be added to make the ratio 1:1?",
+  "options": [
+   "3",
+   "1",
+   "4",
+   "5"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-mixtures-alligation-044",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 6 L, water = 2 L. For 1:1 water must equal milk, so add 6 − 2 = 4 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A 8 litre mixture has milk and water in the ratio 3:1. How many litres of water must be added to make the ratio 1:1?",
+  "options": [
+   "4",
+   "6",
+   "1",
+   "7"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-mixtures-alligation-045",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "mean price",
+  "difficulty": "medium",
+  "explanation": "Mean price = (3×90 + 1×110)/4 = 95.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Rice at ₹90/kg and rice at ₹110/kg are mixed in the ratio 3:1. What is the price per kg of the mixture (in ₹)?",
+  "options": [
+   "135",
+   "85",
+   "95",
+   "65"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-partnership-046",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
   "difficulty": "hard",
-  "explanation": "Use the repeating cycle of 9^k mod 9. Reducing the exponent 71 by the cycle length gives a remainder of 0.",
+  "explanation": "Ratio = 6000×8 : 4000×5 = 48000 : 20000 = 12 : 5. Anil's share = 12/17 × 3400 = 2400.",
   "estimatedSeconds": 100,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -1149,11 +1261,123 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the remainder when 9^71 is divided by 9?",
+  "text": "Anil invests ₹6,000 for 8 months and Binu invests ₹4,000 for 5 months. They earn a profit of ₹3,400. What is Anil's share (in ₹)?",
+  "options": [
+   "1680",
+   "1920",
+   "2400",
+   "2160"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-partnership-047",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 2000×11 : 4000×9 = 22000 : 36000 = 11 : 18. Anil's share = 11/29 × 23200 = 8800.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹2,000 for 11 months and Binu invests ₹4,000 for 9 months. They earn a profit of ₹23,200. What is Anil's share (in ₹)?",
+  "options": [
+   "6160",
+   "9680",
+   "10560",
+   "8800"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-partnership-048",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 2000×11 : 6000×5 = 22000 : 30000 = 11 : 15. Anil's share = 11/26 × 7800 = 3300.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹2,000 for 11 months and Binu invests ₹6,000 for 5 months. They earn a profit of ₹7,800. What is Anil's share (in ₹)?",
+  "options": [
+   "3300",
+   "4290",
+   "3960",
+   "2310"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-algebra-049",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "algebra",
+  "subtopic": "linear equation",
+  "difficulty": "easy",
+  "explanation": "x + 8 = 66/3 = 22, so x = 14.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If 3(x + 8) = 66, find x.",
+  "options": [
+   "14",
+   "17",
+   "11",
+   "12"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-algebra-050",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "algebra",
+  "subtopic": "linear equation",
+  "difficulty": "easy",
+  "explanation": "x + 3 = 36/6 = 6, so x = 3.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If 6(x + 3) = 36, find x.",
   "options": [
    "4",
-   "0",
    "3",
+   "7",
    "5"
   ],
   "correct": [
@@ -1162,167 +1386,118 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-number-systems-045",
+  "uid": "wipro-apt-algebra-051",
   "companies": [
    "wipro"
   ],
-  "topic": "number-systems",
-  "subtopic": "unit digit",
+  "topic": "algebra",
+  "subtopic": "x + 1/x identity",
   "difficulty": "medium",
-  "explanation": "Unit digits of 9^k repeat every 4 steps: 9, 1, 9, 1. Position (59 − 1) mod 4 = 2 gives 9.",
+  "explanation": "Square both sides: x² + 2 + 1/x² = 36. So x² + 1/x² = 36 − 2 = 34.",
   "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the unit digit of 9^59?",
-  "options": [
-   "10",
-   "14",
-   "9",
-   "13"
-  ],
-  "correct": [
-   2
-  ],
+  "type": "numeric",
+  "text": "If x + 1/x = 6, find the value of x² + 1/x².\n(Type your answer as a number.)",
+  "numericAnswer": 34,
+  "tolerance": 0,
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-number-systems-046",
+  "uid": "wipro-apt-progressions-052",
   "companies": [
    "wipro"
   ],
-  "topic": "number-systems",
-  "subtopic": "unit digit",
-  "difficulty": "medium",
-  "explanation": "Unit digits of 7^k repeat every 4 steps: 7, 9, 3, 1. Position (44 − 1) mod 4 = 3 gives 1.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the unit digit of 7^44?",
-  "options": [
-   "6",
-   "3",
-   "1",
-   "4"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-probability-047",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "probability",
-  "subtopic": "two dice",
-  "difficulty": "medium",
-  "explanation": "Ways to get a sum of 9 = 4 out of 36 outcomes, so P = 4/36 = 1/9.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 9?",
-  "options": [
-   "5/36",
-   "2/9",
-   "1/9",
-   "1/12"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-profit-loss-048",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "profit-loss",
-  "subtopic": "discount",
+  "topic": "progressions",
+  "subtopic": "nth term of AP",
   "difficulty": "easy",
-  "explanation": "Price = 800 × (100 − 30)/100 = 560.",
-  "estimatedSeconds": 50,
-  "provenance": "high_priority_practice",
+  "explanation": "Tₙ = a + (n−1)d = 9 + 10×5 = 59.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "The first term of an AP is 9 and the common difference is 5. Find its 11th term.\n(Type your answer as a number.)",
+  "numericAnswer": 59,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-progressions-053",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "progressions",
+  "subtopic": "nth term of AP",
+  "difficulty": "easy",
+  "explanation": "Tₙ = a + (n−1)d = 3 + 8×5 = 43.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "The first term of an AP is 3 and the common difference is 5. Find its 9th term.\n(Type your answer as a number.)",
+  "numericAnswer": 43,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-progressions-054",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "progressions",
+  "subtopic": "sum of AP",
+  "difficulty": "medium",
+  "explanation": "Sₙ = n/2 × [2a + (n−1)d] = 8/2 × [14 + 42] = 224.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A shirt has a marked price of ₹800. A discount of 30% is given. What is the price paid (in ₹)?",
+  "text": "Find the sum of the first 8 terms of the AP 7, 13, 19, ...",
   "options": [
-   "560",
-   "728",
-   "448",
-   "672"
+   "180",
+   "246",
+   "224",
+   "158"
   ],
   "correct": [
-   0
+   2
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-geometry-mensuration-049",
+  "uid": "wipro-apt-geometry-mensuration-055",
   "companies": [
    "wipro"
   ],
   "topic": "geometry-mensuration",
-  "subtopic": "rectangle",
+  "subtopic": "right triangle",
   "difficulty": "easy",
-  "explanation": "l + b = 19, so b = 7 cm. Area = 12 × 7 = 84 cm².",
-  "estimatedSeconds": 60,
+  "explanation": "Hypotenuse = √(16² + 30²) = √1156 = 34 cm.",
+  "estimatedSeconds": 45,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "The perimeter of a rectangle is 38 cm and its length is 12 cm. What is its area (in cm²)?",
+  "text": "The two shorter sides of a right-angled triangle are 16 cm and 30 cm. Find the hypotenuse (in cm).",
   "options": [
-   "116",
-   "84",
-   "108",
-   "100"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-pipes-cisterns-050",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "pipes-cisterns",
-  "subtopic": "inlet and leak",
-  "difficulty": "hard",
-  "explanation": "Net fill rate = 1/12. Pipe rate = 1/3. Leak rate = 1/3 − 1/12 = 9/36 = 1/4. So the leak empties the tank in 4 hours.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A pipe fills a tank in 3 hours. Because of a leak at the bottom, it takes the pipe 12 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
-  "options": [
-   "8",
-   "3",
-   "6",
-   "4"
+   "37",
+   "46",
+   "40",
+   "34"
   ],
   "correct": [
    3
@@ -1330,14 +1505,231 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-remainders-divisibility-051",
+  "uid": "wipro-apt-geometry-mensuration-056",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "rectangle",
+  "difficulty": "easy",
+  "explanation": "l + b = 26, so b = 10 cm. Area = 16 × 10 = 160 cm².",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "The perimeter of a rectangle is 52 cm and its length is 16 cm. What is its area (in cm²)?\n(Type your answer as a number.)",
+  "numericAnswer": 160,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-geometry-mensuration-057",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "cylinder",
+  "difficulty": "medium",
+  "explanation": "V = πr²h = 22/7 × 14² × 9 = 5544 cm³.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the volume of a cylinder with radius 14 cm and height 9 cm (π = 22/7), in cm³.",
+  "options": [
+   "7760",
+   "5544",
+   "6652",
+   "7206"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-data-interpretation-058",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
+  "difficulty": "medium",
+  "explanation": "Change = (400 − 340)/340 × 100 = 17.65%.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 170 | 260 | 250\nBooks | 230 | 150 | 220\nBags | 320 | 150 | 350\nBottles | 340 | 340 | 400\n\nBy what percentage did sales of Bottles change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "options": [
+   "17.65%",
+   "27.65%",
+   "42.65%",
+   "37.65%"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-data-interpretation-059",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "column totals",
+  "difficulty": "easy",
+  "explanation": "2024: 260 + 280 + 250 + 90 = 880.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 330 | 190 | 260\nBooks | 310 | 260 | 280\nBags | 210 | 210 | 250\nBottles | 280 | 260 | 90\n\nHow many items of all products together were sold in 2024 (in hundreds)?",
+  "options": [
+   "1056",
+   "880",
+   "1144",
+   "1232"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-data-interpretation-060",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
+  "difficulty": "medium",
+  "explanation": "Change = (120 − 230)/230 × 100 = -47.83%.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 340 | 260 | 100\nBooks | 230 | 240 | 120\nBags | 390 | 390 | 200\nBottles | 130 | 250 | 340\n\nBy what percentage did sales of Books change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "options": [
+   "-47.83%",
+   "-42.83%",
+   "-22.83%",
+   "-52.83%"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-approximation-simplification-061",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 45 × 5 = 225; ÷ 5 = 45; then + 35 − 2 = 78.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 45 × 5 ÷ 5 + 35 − 2",
+  "options": [
+   "54",
+   "78",
+   "118",
+   "70"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-approximation-simplification-062",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 72 × 9 = 648; ÷ 6 = 108; then + 39 − 5 = 142.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 72 × 9 ÷ 6 + 39 − 5",
+  "options": [
+   "198",
+   "142",
+   "156",
+   "212"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-approximation-simplification-063",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 48 × 7 = 336; ÷ 4 = 84; then + 18 − 4 = 98.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 48 × 7 ÷ 4 + 18 − 4",
+  "options": [
+   "138",
+   "88",
+   "98",
+   "148"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-remainders-divisibility-064",
   "companies": [
    "wipro"
   ],
   "topic": "remainders-divisibility",
   "subtopic": "division remainder",
   "difficulty": "easy",
-  "explanation": "Dividend = divisor × quotient + remainder = 9×42 + 7 = 385.",
+  "explanation": "Dividend = divisor × quotient + remainder = 9×22 + 3 = 201.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -1345,40 +1737,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A number gives remainder 7 when divided by 9. If the quotient is 42, what is the number?",
+  "text": "A number gives remainder 3 when divided by 9. If the quotient is 22, what is the number?",
   "options": [
-   "502",
-   "385",
-   "424",
-   "463"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-ratio-proportion-052",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "ratio-proportion",
-  "subtopic": "dividing in a ratio",
-  "difficulty": "easy",
-  "explanation": "Total parts = 15. One part = 2250/15 = 150. Second share = 3 × 150 = 450.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "₹2,250 is divided among three people in the ratio 4:3:8. How much does the second person get (in ₹)?",
-  "options": [
-   "405",
-   "495",
-   "585",
-   "450"
+   "301",
+   "141",
+   "241",
+   "201"
   ],
   "correct": [
    3
@@ -1386,27 +1750,55 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-data-interpretation-053",
+  "uid": "wipro-apt-remainders-divisibility-065",
   "companies": [
    "wipro"
   ],
-  "topic": "data-interpretation",
-  "subtopic": "percentage change",
-  "difficulty": "medium",
-  "explanation": "Change = (230 − 320)/320 × 100 = -28.12%.",
-  "estimatedSeconds": 80,
+  "topic": "remainders-divisibility",
+  "subtopic": "division remainder",
+  "difficulty": "easy",
+  "explanation": "Dividend = divisor × quotient + remainder = 13×71 + 9 = 932.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 320 | 140 | 230\nBooks | 360 | 130 | 280\nBags | 200 | 250 | 100\nBottles | 240 | 190 | 140\n\nBy what percentage did sales of Pens change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "text": "A number gives remainder 9 when divided by 13. If the quotient is 71, what is the number?",
   "options": [
-   "-28.12%",
-   "-38.12%",
-   "-18.12%",
-   "-3.12%"
+   "1211",
+   "746",
+   "653",
+   "932"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-remainders-divisibility-066",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "division remainder",
+  "difficulty": "easy",
+  "explanation": "Dividend = divisor × quotient + remainder = 9×30 + 3 = 273.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number gives remainder 3 when divided by 9. If the quotient is 30, what is the number?",
+  "options": [
+   "273",
+   "219",
+   "327",
+   "381"
   ],
   "correct": [
    0
@@ -1414,14 +1806,168 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-boats-streams-054",
+  "uid": "wipro-apt-number-systems-067",
   "companies": [
    "wipro"
   ],
-  "topic": "boats-streams",
-  "subtopic": "time downstream",
+  "topic": "number-systems",
+  "subtopic": "primes in a range",
   "difficulty": "medium",
-  "explanation": "Downstream speed = 10 + 2 = 12 km/h. Time = 48/12 = 4 h.",
+  "explanation": "The primes in the range are 13, 17, 19, 23, 29 — 5 in total.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many prime numbers are there between 13 and 30 (both inclusive)?",
+  "options": [
+   "5",
+   "4",
+   "2",
+   "6"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-number-systems-068",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "number-systems",
+  "subtopic": "primes in a range",
+  "difficulty": "medium",
+  "explanation": "The primes in the range are 29, 31, 37, 41, 43, 47, 53 — 7 in total.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "How many prime numbers are there between 29 and 58 (both inclusive)?\n(Type your answer as a number.)",
+  "numericAnswer": 7,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-number-systems-069",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "number-systems",
+  "subtopic": "primes in a range",
+  "difficulty": "medium",
+  "explanation": "The primes in the range are 11, 13, 17, 19, 23, 29, 31 — 7 in total.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many prime numbers are there between 11 and 36 (both inclusive)?",
+  "options": [
+   "4",
+   "8",
+   "7",
+   "5"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-trains-070",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a pole",
+  "difficulty": "easy",
+  "explanation": "Speed in m/s = 54 × 5/18 = 15 m/s. Length = Speed × Time = 15 × 20 = 300 meters.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A train running at 54 km/h crosses a standing telegraph pole in 20 seconds. What is the length of the train (in meters)?\n(Type your answer as a number.)",
+  "numericAnswer": 300,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-trains-071",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a pole",
+  "difficulty": "easy",
+  "explanation": "Speed in m/s = 108 × 5/18 = 30 m/s. Length = Speed × Time = 30 × 15 = 450 meters.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train running at 108 km/h crosses a standing telegraph pole in 15 seconds. What is the length of the train (in meters)?",
+  "options": [
+   "450",
+   "630",
+   "675",
+   "540"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-trains-072",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a platform",
+  "difficulty": "medium",
+  "explanation": "Total distance = train length + platform length = 100 + 250 = 350 m. Speed = 36 × 5/18 = 10 m/s. Time = 350 / 10 = 35 seconds.",
+  "estimatedSeconds": 65,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train 100 meters long runs at 36 km/h. How many seconds will it take to cross a platform of length 250 meters?",
+  "options": [
+   "55",
+   "35",
+   "43",
+   "27"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-clocks-calendars-073",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "clocks-calendars",
+  "subtopic": "clock hand angles",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×1 − 5.5×20| = 80°.",
   "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -1429,12 +1975,117 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A boat goes 10 km/h in still water and the stream flows at 2 km/h. How many hours will it take to go 48 km downstream?",
+  "text": "Find the smaller angle (in degrees) between the hour and minute hands of a clock at 1:20.",
   "options": [
-   "9",
-   "8",
-   "3",
-   "4"
+   "155",
+   "50",
+   "80",
+   "125"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-clocks-calendars-074",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "clocks-calendars",
+  "subtopic": "day after N days",
+  "difficulty": "easy",
+  "explanation": "81 divided by 7 leaves a remainder of 4 odd days. Wednesday + 4 days = Sunday.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If today is Wednesday, what day of the week will it be exactly 81 days from today?",
+  "options": [
+   "Sunday",
+   "Wednesday",
+   "Thursday",
+   "Tuesday"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-clocks-calendars-075",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "clocks-calendars",
+  "subtopic": "clock hand angles",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×5 − 5.5×30| = 15°.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the smaller angle (in degrees) between the hour and minute hands of a clock at 5:30.",
+  "options": [
+   "45",
+   "15",
+   "60",
+   "0"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-partnership-076",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 2000×12 : 6000×10 = 24000 : 60000 = 2 : 5. Anil's share = 2/7 × 3500 = 1000.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Anil invests ₹2,000 for 12 months and Binu invests ₹6,000 for 10 months. They earn a profit of ₹3,500. What is Anil's share (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 1000,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-profit-loss-077",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "selling price from profit",
+  "difficulty": "easy",
+  "explanation": "SP = CP × (100 + profit%)/100 = 220 × 115/100 = 253.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "An article is bought for ₹220 and sold at a profit of 15%. Find its selling price (in ₹).",
+  "options": [
+   "303",
+   "228",
+   "328",
+   "253"
   ],
   "correct": [
    3
@@ -1442,35 +2093,14 @@
   "subject": "aptitude"
  },
  {
-  "uid": "wipro-apt-profit-loss-055",
+  "uid": "wipro-apt-data-interpretation-078",
   "companies": [
    "wipro"
   ],
-  "topic": "profit-loss",
-  "subtopic": "discount",
+  "topic": "data-interpretation",
+  "subtopic": "column totals",
   "difficulty": "easy",
-  "explanation": "Price = 1500 × (100 − 10)/100 = 1350.",
-  "estimatedSeconds": 50,
-  "provenance": "high_priority_practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "A shirt has a marked price of ₹1,500. A discount of 10% is given. What is the price paid (in ₹)?\n(Type your answer as a number.)",
-  "numericAnswer": 1350,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "wipro-apt-ages-056",
-  "companies": [
-   "wipro"
-  ],
-  "topic": "ages",
-  "subtopic": "sum and difference",
-  "difficulty": "easy",
-  "explanation": "Asha = (sum + difference)/2 = (65 + 5)/2 = 35.",
+  "explanation": "2024: 310 + 150 + 230 + 110 = 800.",
   "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -1478,15 +2108,344 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "The sum of the ages of Asha and Bala is 65 years and Asha is 5 years older than Bala. How old is Asha?",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 220 | 210 | 310\nBooks | 320 | 210 | 150\nBags | 130 | 320 | 230\nBottles | 150 | 150 | 110\n\nHow many items of all products together were sold in 2024 (in hundreds)?",
   "options": [
-   "31",
-   "35",
+   "1200",
+   "1120",
+   "960",
+   "800"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-pipes-cisterns-079",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/60. Pipe rate = 1/12. Leak rate = 1/12 − 1/60 = 48/720 = 1/15. So the leak empties the tank in 15 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 12 hours. Because of a leak at the bottom, it takes the pipe 60 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "13",
+   "11",
+   "17",
+   "15"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-trains-080",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a pole",
+  "difficulty": "easy",
+  "explanation": "Speed in m/s = 54 × 5/18 = 15 m/s. Length = Speed × Time = 15 × 15 = 225 meters.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train running at 54 km/h crosses a standing telegraph pole in 15 seconds. What is the length of the train (in meters)?",
+  "options": [
+   "225",
+   "294",
+   "179",
+   "156"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-averages-081",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 165. Sum of 6 = 216. Sixth number = 216 − 165 = 51.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 33. A sixth number is added and the average becomes 36. What is the sixth number?",
+  "options": [
+   "41",
+   "66",
    "51",
-   "27"
+   "71"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-remainders-divisibility-082",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "division remainder",
+  "difficulty": "easy",
+  "explanation": "Dividend = divisor × quotient + remainder = 13×76 + 10 = 998.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number gives remainder 10 when divided by 13. If the quotient is 76, what is the number?",
+  "options": [
+   "1498",
+   "898",
+   "1098",
+   "998"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-interest-083",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "interest",
+  "subtopic": "simple interest",
+  "difficulty": "easy",
+  "explanation": "SI = PRT/100 = 26000×12×4/100 = 12480.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the simple interest on ₹26,000 at 12% per annum for 4 years (in ₹).",
+  "options": [
+   "13728",
+   "11232",
+   "18720",
+   "12480"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-profit-loss-084",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "selling price from profit",
+  "difficulty": "easy",
+  "explanation": "SP = CP × (100 + profit%)/100 = 1120 × 140/100 = 1568.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "An article is bought for ₹1,120 and sold at a profit of 40%. Find its selling price (in ₹).\n(Type your answer as a number.)",
+  "numericAnswer": 1568,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-permutations-combinations-085",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "arrangements with repeated letters",
+  "difficulty": "hard",
+  "explanation": "6! divided by the factorial of each repeated letter's count (T:2, O:2) = 180.",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many distinct arrangements can be made using all the letters of the word TOMATO?",
+  "options": [
+   "234",
+   "180",
+   "252",
+   "126"
   ],
   "correct": [
    1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-boats-streams-086",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 8 + 3 = 11 km/h. Time = 33/11 = 3 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat goes 8 km/h in still water and the stream flows at 3 km/h. How many hours will it take to go 33 km downstream?",
+  "options": [
+   "7",
+   "0",
+   "8",
+   "3"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-progressions-087",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "progressions",
+  "subtopic": "nth term of AP",
+  "difficulty": "easy",
+  "explanation": "Tₙ = a + (n−1)d = 2 + 11×6 = 68.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The first term of an AP is 2 and the common difference is 6. Find its 12th term.",
+  "options": [
+   "82",
+   "75",
+   "96",
+   "68"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-algebra-088",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "algebra",
+  "subtopic": "x + 1/x identity",
+  "difficulty": "medium",
+  "explanation": "Square both sides: x² + 2 + 1/x² = 81. So x² + 1/x² = 81 − 2 = 79.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If x + 1/x = 9, find the value of x² + 1/x².",
+  "options": [
+   "55",
+   "119",
+   "95",
+   "79"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-number-series-089",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "number-series",
+  "subtopic": "increasing differences",
+  "difficulty": "medium",
+  "explanation": "Differences are 6, 7, 8, 9 — they grow by 1 each step. Next difference 10, so 33 + 10 = 43.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 3, 9, 16, 24, 33, ?",
+  "options": [
+   "35",
+   "59",
+   "43",
+   "55"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "wipro-apt-remainders-divisibility-090",
+  "companies": [
+   "wipro"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 3^k mod 7. Reducing the exponent 51 by the cycle length gives a remainder of 6.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the remainder when 3^51 is divided by 7?",
+  "options": [
+   "7",
+   "3",
+   "8",
+   "6"
+  ],
+  "correct": [
+   3
   ],
   "subject": "aptitude"
  }

@@ -23,6 +23,8 @@ const apt = [
   T('approximation-simplification', 'Approximation and Simplification', 'aptitude', 'Apply BODMAS and approximate to the nearest convenient value.', ['BODMAS: Brackets, Orders, Division/Multiplication, Addition/Subtraction'], ['Round numbers when options are spread out', 'Learn squares to 30 and cubes to 15'], ['Doing addition before division']),
   T('remainders-divisibility', 'Remainders and Divisibility', 'aptitude', 'Use cycles of remainders and divisibility rules.', ['Dividend = divisor × quotient + remainder', 'Divisible by 3: digit sum; 9: digit sum; 11: alternating digit sum'], ['Powers of a number mod m repeat in a cycle'], ['Forgetting that remainders are non-negative']),
   T('number-systems', 'Number Systems', 'aptitude', 'Properties of integers, primes, unit digits and factors.', ['Number of factors of p^a q^b = (a + 1)(b + 1)', 'Unit digits of powers repeat every 4'], ['Primes below 50: 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47'], ['Treating 1 as prime']),
+  T('trains', 'Problems on Trains', 'aptitude', 'Trains crossing poles, platforms, bridges, or other moving trains.', ['Crossing stationary point = Length / Speed', 'Crossing platform = (L_train + L_platform) / Speed', 'Relative speed opposite = S1 + S2; same direction = |S1 - S2|'], ['km/h to m/s: multiply by 5/18'], ['Forgetting to add platform length']),
+  T('clocks-calendars', 'Clocks and Calendars', 'aptitude', 'Angular movement of hands and day calculation using odd days.', ['Angle = |30H - 5.5M|', 'Normal year = 1 odd day; Leap year = 2 odd days'], ['Check for reflex angle'], ['Centuries not divisible by 400 are not leap years']),
 ];
 const rea = [
   T('alphabet-series', 'Alphabet Series', 'reasoning', 'Letters follow positional patterns in A–Z.', ['Position of letter: A = 1 … Z = 26', 'Opposite letter = 27 − position'], ['Write the positions as numbers and look for the numeric pattern'], ['Forgetting wrap-around after Z']),
@@ -41,6 +43,11 @@ const rea = [
   T('data-sufficiency', 'Data Sufficiency', 'reasoning', 'Decide whether given statements are enough to answer.', [], ['Test each statement alone, then together'], ['Using outside knowledge not in the statements']),
   T('venn-diagrams', 'Venn Diagrams', 'reasoning', 'Use set relationships and inclusion–exclusion.', ['n(A ∪ B) = n(A) + n(B) − n(A ∩ B)'], ['Fill the overlap first'], ['Counting the overlap twice']),
   T('logical-deduction', 'Logical Deductions', 'reasoning', 'Combine facts step by step to infer a result.', [], ['Write an ordering line and add each clue'], []),
+  T('inequalities', 'Coded Inequalities', 'reasoning', 'Combine inequalities to test direct and indirect relationships.', ['A > B >= C implies A > C', 'Conflicting signs (> and <) yield undetermined relationship'], ['Chain expressions into a single chain'], ['Assuming equality without >= or <=']),
+  T('statement-conclusion', 'Statement and Conclusion', 'reasoning', 'Deduce whether a conclusion strictly follows from the stated premise.', [], ['Do not assume extra facts beyond the text'], ['Bringing outside personal bias']),
+  T('puzzles', 'Puzzles and Floor Arrangements', 'reasoning', 'Floor, box, and multi-attribute grid puzzles.', [], ['Create a grid matrix and eliminate rows/cols step by step'], ['Overlooking negative constraints']),
+  T('non-verbal', 'Non-Verbal Reasoning & Figure Counting', 'reasoning', 'Pattern rotation, missing figure, and triangle/square counting.', ['Triangles in divided square = 2 * n'], ['Look for clockwise/counter-clockwise 45/90 deg rotation'], ['Double counting embedded sub-shapes']),
+  T('mirror-water-images', 'Mirror and Water Images', 'reasoning', 'Horizontal and vertical reflections of symbols and numbers.', ['Mirror image: Left-Right inversion', 'Water image: Top-Bottom inversion'], ['Anchor to asymmetric letters like P, J, R, 4'], ['Confusing water reflection with 180 deg rotation']),
 ];
 const eng = [
   ['subject-verb-agreement', 'Subject-Verb Agreement', 'The verb must match its subject in number.', ['"Neither/nor": verb agrees with the nearer subject', '"Each", "every", "either", "neither" take singular verbs', '"A number of" is plural; "the number of" is singular'], 'Ignoring the real subject when a phrase sits between subject and verb.'],
@@ -59,6 +66,10 @@ const eng = [
   ['reading-comprehension', 'Reading Comprehension', 'Read for the main idea, then locate details.', ['Read the questions first', 'Eliminate answers that are extreme or unsupported'], 'Answering from outside knowledge.'],
   ['critical-reasoning', 'Critical Reasoning', 'Identify the argument, its assumption and what would weaken or strengthen it.', ['Weaken: offer an alternative cause; strengthen: rule one out'], 'Choosing a merely related fact.'],
   ['email-writing', 'Email Writing', 'Be clear, concise and courteous.', ['Specific subject line, one purpose, polite close'], 'Over-informal tone.'],
+  ['one-word-substitution', 'One-Word Substitution', 'Single word replacement for clauses and definitions.', ['Group by root words like -cide, -ology, -phile'], 'Choosing a word with broader or narrow meaning.'],
+  ['cloze-test', 'Cloze Test', 'Contextual blanks in connected passages.', ['Read the whole paragraph before choosing'], 'Evaluating blanks in total isolation.'],
+  ['sentence-completion', 'Sentence Completion', 'Fill single or double blanks using grammar and context markers.', ['Look for contrast markers like although, despite, however'], 'Overlooking grammar tense mismatch.'],
+  ['synonyms-antonyms', 'Synonyms and Antonyms', 'Direct vocabulary equivalence and opposites.', ['Identify whether positive or negative connotation'], 'Selecting a related concept instead of exact antonym.'],
 ].map(([slug, name, concept, shortcuts, trap]) => T(slug, name, 'english', concept, [], shortcuts, [trap]));
 const cs = [
   ['java-basics', 'Java Basics', 'Types, operators, control flow and strings. Know integer division, pre/post-increment and == vs equals().'],
@@ -74,6 +85,12 @@ const cs = [
   ['git-github', 'Git and GitHub', 'Branching, merging, pull requests.'],
   ['rest-web', 'REST APIs and Web Fundamentals', 'HTTP methods, status codes, JSON, CORS.'],
   ['cloud-security', 'Cloud and Cybersecurity Basics', 'IaaS/PaaS/SaaS, hashing, TLS, injection attacks.'],
+  ['c-programming', 'C Programming and Pointers', 'Pointers, pointer arithmetic, dynamic memory allocation, storage classes, and struct padding.'],
+  ['cpp-programming', 'C++ and Modern OOP', 'Virtual functions, templates, STL containers, move semantics, and RAII.'],
+  ['python-programming', 'Python Fundamentals', 'Lists, dictionaries, decorators, generators, mutability, and GIL basics.'],
+  ['algorithms', 'Algorithms & Problem Solving', 'Divide and conquer, greedy, dynamic programming, and graph traversals.'],
+  ['computer-fundamentals', 'Computer Architecture & Digital Logic', 'Number systems, logic gates, cache memory mapping, and CPU instruction pipelines.'],
+  ['software-engineering', 'Software Engineering & Architecture', 'Design patterns, system testing levels, CI/CD, and clean code principles.'],
 ].map(([slug, name, concept]) => T(slug, name, 'cs', concept));
 const coding = ['basics', 'number-theory', 'arrays', 'strings', 'hashing', 'two-pointers', 'sliding-window', 'sorting-searching', 'binary-search', 'prefix-sums', 'stacks-queues', 'trees', 'heaps', 'greedy', 'recursion-backtracking', 'graphs', 'dynamic-programming', 'bit-manipulation'].map((s) => T(s, s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()), 'coding', `Practice problems tagged ${s.replace(/-/g, ' ')}.`));
 const sqlT = [['select-where', 'SELECT and WHERE'], ['order-distinct', 'ORDER BY and DISTINCT'], ['aggregates', 'Aggregate Functions'], ['group-by', 'GROUP BY'], ['having', 'HAVING'], ['inner-join', 'INNER JOIN'], ['left-join', 'LEFT JOIN'], ['self-join', 'Self Join'], ['subqueries', 'Subqueries'], ['correlated-subqueries', 'Correlated Subqueries'], ['case-expressions', 'CASE Expressions'], ['null-handling', 'NULL Handling'], ['string-date-functions', 'String and Date Functions'], ['duplicates', 'Duplicate Detection'], ['second-highest-salary', 'Second-Highest Salary'], ['nth-highest-salary', 'Nth-Highest Salary'], ['window-ranking', 'Window and Ranking Functions'], ['cte', 'Common Table Expressions'], ['anti-join', 'Anti-Joins (NOT EXISTS / IS NULL)'], ['top-n', 'Top-N per Group'], ['running-total', 'Running Totals'], ['department-top-earner', 'Department-wise Aggregation']].map(([s, n]) => T(s, n, 'sql', `SQL Lab exercises on ${n}.`));

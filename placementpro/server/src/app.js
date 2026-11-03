@@ -76,6 +76,7 @@ function createApp() {
   app.use('/api/plan', require('./routes/plan'));
   app.use('/api/notifications', require('./routes/notifications'));
   app.use('/api/drill', require('./routes/drill'));
+  app.use('/api/admin', require('./routes/admin'));
   app.use('/api', notFound);
 
   const dist = path.join(__dirname, '../../client/dist');

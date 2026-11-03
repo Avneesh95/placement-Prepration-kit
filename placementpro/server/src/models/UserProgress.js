@@ -7,6 +7,7 @@ const s = new mongoose.Schema({
   correctCount: { type: Number, default: 0 },
   lastCorrect: { type: Boolean, default: false },
   everCorrect: { type: Boolean, default: false },
+  lastResponse: { type: mongoose.Schema.Types.Mixed, default: null },
   totalTimeSec: { type: Number, default: 0 },
   lastAttemptAt: Date,
 }, { timestamps: true });

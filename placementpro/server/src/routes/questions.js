@@ -11,22 +11,77 @@ const PUBLIC = Question.HIDDEN;
 
 async function annotate(userId, items) {
   const ids = items.map((q) => q._id);
-  const [prog, marks] = await Promise.all([UserProgress.find({ user: userId, question: { $in: ids } }).lean(), Bookmark.find({ user: userId, question: { $in: ids } }).lean()]);
-  const pm = new Map(prog.map((p) => [String(p.question), p])); const bm = new Set(marks.map((b) => String(b.question)));
-  return items.map((q) => { const p = pm.get(String(q._id)); return { ...q, userState: { attempted: !!p, solved: !!p?.everCorrect, lastCorrect: p ? p.lastCorrect : null, attempts: p?.attempts || 0, bookmarked: bm.has(String(q._id)) } }; });
+  const [prog, marks] = await Promise.all([
+    UserProgress.find({ user: userId, question: { $in: ids } }).lean(),
+    Bookmark.find({ user: userId, question: { $in: ids } }).lean(),
+  ]);
+  const pm = new Map(prog.map((p) => [String(p.question), p]));
+  const bm = new Set(marks.map((b) => String(b.question)));
+
+  // For questions already attempted by this user, fetch answer & explanation so solved questions are complete on revisit
+  const attemptedIds = items
+    .filter((q) => {
+      const p = pm.get(String(q._id));
+      return p && (p.everCorrect || p.attempts > 0);
+    })
+    .map((q) => q._id);
+
+  let fullMap = new Map();
+  if (attemptedIds.length) {
+    const fullDocs = await Question.find({ _id: { $in: attemptedIds } })
+      .select('correct numericAnswer explanation sourceTitle sourceUrl verificationStatus')
+      .lean();
+    fullMap = new Map(fullDocs.map((d) => [String(d._id), d]));
+  }
+
+  return items.map((q) => {
+    const p = pm.get(String(q._id));
+    const full = fullMap.get(String(q._id));
+    return {
+      ...q,
+      userState: {
+        attempted: !!p,
+        solved: !!p?.everCorrect,
+        lastCorrect: p ? p.lastCorrect : null,
+        attempts: p?.attempts || 0,
+        bookmarked: bm.has(String(q._id)),
+        lastResponse: p?.lastResponse ?? null,
+        previousResult: full
+          ? {
+              correct: !!p.lastCorrect,
+              correctOptions: full.correct,
+              numericAnswer: full.numericAnswer,
+              explanation: full.explanation,
+              sourceTitle: full.sourceTitle,
+              sourceUrl: full.sourceUrl,
+              verificationStatus: full.verificationStatus,
+            }
+          : null,
+      },
+    };
+  });
 }
 
 const listQuery = z.object({
-  company: z.string().optional(), subject: z.string().optional(), topic: z.string().optional(), difficulty: z.enum(['easy', 'medium', 'hard']).optional(),
-  type: z.string().optional(), provenance: z.string().optional(), q: z.string().max(100).optional(),
-  status: z.enum(['solved', 'unsolved', 'attempted', 'incorrect']).optional(), bookmarked: z.enum(['true', 'false']).optional(),
-  page: z.coerce.number().int().min(1).default(1), limit: z.coerce.number().int().min(1).max(50).default(20),
+  company: z.string().optional(),
+  subject: z.string().optional(),
+  category: z.string().optional(),
+  topic: z.string().optional(),
+  difficulty: z.enum(['easy', 'medium', 'hard']).optional(),
+  type: z.string().optional(),
+  provenance: z.string().optional(),
+  q: z.string().max(100).optional(),
+  status: z.enum(['solved', 'unsolved', 'attempted', 'incorrect']).optional(),
+  bookmarked: z.enum(['true', 'false']).optional(),
+  page: z.coerce.number().int().min(1).default(1),
+  limit: z.coerce.number().int().min(1).max(50).default(20),
 });
 
 async function buildFilter(userId, p, base = {}) {
   const f = { active: true, ...base };
+  const subj = p.subject || p.category;
   if (p.company) f.companies = p.company;
-  if (p.subject) f.subject = p.subject;
+  if (subj) f.subject = subj;
   if (p.topic) f.topic = p.topic;
   if (p.difficulty) f.difficulty = p.difficulty;
   if (p.type) f.type = p.type;
@@ -35,11 +90,18 @@ async function buildFilter(userId, p, base = {}) {
   const idConds = [];
   if (p.status) {
     const rows = await UserProgress.find({ user: userId }).select('question everCorrect lastCorrect').lean();
-    const solved = rows.filter((r) => r.everCorrect).map((r) => r.question), attempted = rows.map((r) => r.question), wrong = rows.filter((r) => !r.lastCorrect).map((r) => r.question);
-    if (p.status === 'solved') idConds.push({ $in: solved }); else if (p.status === 'attempted') idConds.push({ $in: attempted });
-    else if (p.status === 'incorrect') idConds.push({ $in: wrong }); else idConds.push({ $nin: solved });
+    const solved = [...new Set(rows.filter((r) => r.everCorrect).map((r) => String(r.question)))];
+    const attempted = [...new Set(rows.map((r) => String(r.question)))];
+    const wrong = [...new Set(rows.filter((r) => !r.lastCorrect).map((r) => String(r.question)))];
+    if (p.status === 'solved') idConds.push({ $in: solved });
+    else if (p.status === 'attempted') idConds.push({ $in: attempted });
+    else if (p.status === 'incorrect') idConds.push({ $in: wrong });
+    else idConds.push({ $nin: solved });
   }
-  if (p.bookmarked === 'true') idConds.push({ $in: (await Bookmark.find({ user: userId }).select('question').lean()).map((b) => b.question) });
+  if (p.bookmarked === 'true') {
+    const marks = await Bookmark.find({ user: userId }).select('question').lean();
+    idConds.push({ $in: [...new Set(marks.map((b) => String(b.question)))] });
+  }
   if (idConds.length === 1) f._id = idConds[0];
   else if (idConds.length > 1) f.$and = idConds.map((c) => ({ _id: c }));
   return f;
@@ -81,7 +143,7 @@ router.post('/:id/answer', asyncHandler(async (req, res) => {
   if (!['mcq_single', 'mcq_multi', 'numeric'].includes(q.type)) throw new ApiError(400, 'WRONG_ENDPOINT', 'Use the Coding Arena or SQL Lab for this question type.');
   const g = gradeObjective(q, body.response);
   if (g.state === 'unanswered') throw new ApiError(400, 'NO_ANSWER', 'Select an answer first.');
-  await recordAttempt(req.user._id, q, g.state === 'correct', body.timeSpentSec);
+  await recordAttempt(req.user._id, q, g.state === 'correct', body.timeSpentSec, body.response);
   res.json({ correct: g.state === 'correct', correctOptions: q.correct, numericAnswer: q.numericAnswer, explanation: q.explanation, provenance: q.provenance, sourceTitle: q.sourceTitle, sourceUrl: q.sourceUrl, verificationStatus: q.verificationStatus });
 }));
 

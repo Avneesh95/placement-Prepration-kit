@@ -279,3 +279,161 @@ describe('result tallies', () => {
     expect(r.unanswered).toBe(0); expect(r.ungraded).toBe(3); expect(r.maxScore).toBe(0); expect(r.revision).toEqual([]);
   });
 });
+
+describe('question progress and revisit persistence', () => {
+  test('solved question persists lastResponse and exposes explanation and correct answers on revisit', async () => {
+    const q = await M.Question.findOne({ subject: 'aptitude', type: 'mcq_single' }).lean();
+    expect(q).toBeTruthy();
+
+    // Before answer: answer and explanation hidden
+    const initial = (await A.get(`/api/questions/${q._id}`)).body.question;
+    expect(initial.correct).toBeUndefined();
+    expect(initial.explanation).toBeUndefined();
+    expect(initial.userState.attempted).toBe(false);
+
+    // Answer correctly
+    const ansRes = await A.post(`/api/questions/${q._id}/answer`).send({
+      response: q.correct,
+      timeSpentSec: 25,
+    });
+    expect(ansRes.status).toBe(200);
+    expect(ansRes.body.correct).toBe(true);
+
+    // Revisit question after solve
+    const revisited = (await A.get(`/api/questions/${q._id}`)).body.question;
+    expect(revisited.userState.attempted).toBe(true);
+    expect(revisited.userState.solved).toBe(true);
+    expect(revisited.userState.lastResponse).toEqual(q.correct);
+    expect(revisited.userState.previousResult).toBeTruthy();
+    expect(revisited.userState.previousResult.correct).toBe(true);
+    expect(revisited.userState.previousResult.explanation).toBe(q.explanation);
+    expect(revisited.userState.previousResult.correctOptions).toEqual(q.correct);
+  });
+});
+
+describe('notification lifecycle & dismissal', () => {
+  test('mark as read, delete single, and clear all', async () => {
+    const list = await A.get('/api/notifications');
+    expect(list.status).toBe(200);
+    expect(list.body.items.length).toBeGreaterThan(0);
+    const first = list.body.items[0];
+
+    // Mark as read
+    const readRes = await A.patch(`/api/notifications/${first._id}/read`);
+    expect(readRes.status).toBe(200);
+    expect(readRes.body.ok).toBe(true);
+
+    // Delete single notification
+    const delRes = await A.delete(`/api/notifications/${first._id}`);
+    expect(delRes.status).toBe(200);
+    expect(delRes.body.ok).toBe(true);
+
+    // Clear all notifications
+    const clearRes = await A.delete('/api/notifications');
+    expect(clearRes.status).toBe(200);
+    expect(clearRes.body.unreadCount).toBe(0);
+  });
+});
+
+describe('admin question management & access control', () => {
+  let AdminAgent;
+
+  beforeAll(async () => {
+    // Create admin user
+    await M.User.create({
+      name: 'Admin User',
+      email: 'admin@placementpro.com',
+      passwordHash: await require('bcryptjs').hash(pw, 10),
+      role: 'admin',
+    });
+    AdminAgent = request.agent(app);
+    await AdminAgent.post('/api/auth/login').send({ email: 'admin@placementpro.com', password: pw });
+  });
+
+  test('non-admin users are blocked with 403 Forbidden', async () => {
+    const r1 = await A.get('/api/admin/stats');
+    expect(r1.status).toBe(403);
+    const r2 = await A.post('/api/admin/questions').send({});
+    expect(r2.status).toBe(403);
+  });
+
+  test('admin can view stats, list questions, and scan duplicates', async () => {
+    const stats = await AdminAgent.get('/api/admin/stats');
+    expect(stats.status).toBe(200);
+    expect(stats.body.total).toBeGreaterThanOrEqual(1000);
+    expect(stats.body.active).toBeGreaterThanOrEqual(1000);
+
+    const list = await AdminAgent.get('/api/admin/questions?limit=5');
+    expect(list.status).toBe(200);
+    expect(list.body.items.length).toBe(5);
+
+    const dups = await AdminAgent.get('/api/admin/duplicates');
+    expect(dups.status).toBe(200);
+    expect(dups.body.duplicateGroupsCount).toBeDefined();
+  });
+
+  test('admin CRUD: add, edit, and delete question', async () => {
+    const newUid = `test-admin-q-${Date.now()}`;
+    const payload = {
+      uid: newUid,
+      subject: 'aptitude',
+      topic: 'percentages',
+      type: 'mcq_single',
+      difficulty: 'easy',
+      text: 'What is 10% of 500 in this admin test?',
+      options: ['40', '50', '60', '70'],
+      correct: [1],
+      explanation: '10% of 500 = 50.',
+      companies: ['tcs', 'infosys'],
+      provenance: 'practice',
+    };
+
+    // Create
+    const createRes = await AdminAgent.post('/api/admin/questions').send(payload);
+    expect(createRes.status).toBe(201);
+    const createdId = createRes.body.question._id;
+
+    // Read details
+    const getRes = await AdminAgent.get(`/api/admin/questions/${createdId}`);
+    expect(getRes.status).toBe(200);
+    expect(getRes.body.question.text).toBe(payload.text);
+
+    // Edit
+    const updateRes = await AdminAgent.put(`/api/admin/questions/${createdId}`).send({
+      ...payload,
+      text: 'What is 10% of 500 (Updated statement)?',
+    });
+    expect(updateRes.status).toBe(200);
+    expect(updateRes.body.question.text).toContain('Updated statement');
+
+    // Delete
+    const delRes = await AdminAgent.delete(`/api/admin/questions/${createdId}`);
+    expect(delRes.status).toBe(200);
+    expect(await M.Question.findById(createdId)).toBeNull();
+  });
+
+  test('admin bulk import validates records before inserting', async () => {
+    const batch = [
+      {
+        uid: `bulk-test-${Date.now()}-1`,
+        subject: 'aptitude',
+        topic: 'profit-loss',
+        type: 'mcq_single',
+        difficulty: 'medium',
+        text: 'A trader buys a widget for Rs 100 and sells for Rs 120. Find profit percentage.',
+        options: ['10%', '20%', '25%', '30%'],
+        correct: [1],
+        explanation: 'Profit = 20/100 * 100 = 20%.',
+        companies: ['wipro'],
+        provenance: 'practice',
+      },
+    ];
+
+    const bulkRes = await AdminAgent.post('/api/admin/questions/bulk').send({ questions: batch });
+    expect(bulkRes.status).toBe(200);
+    expect(bulkRes.body.inserted).toBe(1);
+
+    // Clean up
+    await M.Question.deleteOne({ uid: batch[0].uid });
+  });
+});

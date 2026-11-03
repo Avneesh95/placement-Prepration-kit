@@ -1,5 +1,5 @@
-import { useState, useRef } from 'react';
-import { Bookmark, BookmarkCheck, CheckCircle2, XCircle } from 'lucide-react';
+import { useState, useRef, useEffect } from 'react';
+import { Bookmark, BookmarkCheck, CheckCircle2, XCircle, RotateCcw } from 'lucide-react';
 import { api } from '../lib/api';
 import { Card, Badge, Btn, ErrorBox } from './ui';
 import { PROVENANCE, label } from '../lib/format';
@@ -7,14 +7,45 @@ import { PROVENANCE, label } from '../lib/format';
 export default function QuestionCard({ q, onAnswered }) {
   const multi = q.type === 'mcq_multi';
   const numeric = q.type === 'numeric';
-  const [sel, setSel] = useState([]);
-  const [num, setNum] = useState('');
-  const [res, setRes] = useState(null);
+
+  const [sel, setSel] = useState(() => {
+    if (Array.isArray(q.userState?.lastResponse)) return q.userState.lastResponse;
+    if (typeof q.userState?.lastResponse === 'number') return [q.userState.lastResponse];
+    return [];
+  });
+  const [num, setNum] = useState(() => {
+    return q.userState?.lastResponse !== null && q.userState?.lastResponse !== undefined
+      ? String(q.userState.lastResponse)
+      : '';
+  });
+  const [res, setRes] = useState(q.userState?.previousResult || null);
   const [err, setErr] = useState(null);
   const [busy, setBusy] = useState(false);
-  const [bm, setBm] = useState(q.userState?.bookmarked);
-  const [isSolved, setIsSolved] = useState(q.userState?.solved);
+  const [bm, setBm] = useState(!!q.userState?.bookmarked);
+  const [isSolved, setIsSolved] = useState(!!q.userState?.solved);
   const started = useRef(Date.now());
+
+  useEffect(() => {
+    setBm(!!q.userState?.bookmarked);
+    setIsSolved(!!q.userState?.solved);
+    if (q.userState?.previousResult) {
+      setRes(q.userState.previousResult);
+      if (Array.isArray(q.userState.lastResponse)) {
+        setSel(q.userState.lastResponse);
+      } else if (typeof q.userState.lastResponse === 'number') {
+        setSel([q.userState.lastResponse]);
+      }
+      if (q.userState.lastResponse !== null && q.userState.lastResponse !== undefined) {
+        setNum(String(q.userState.lastResponse));
+      }
+    } else {
+      setRes(null);
+      setSel([]);
+      setNum('');
+    }
+    setErr(null);
+    started.current = Date.now();
+  }, [q._id, q.userState?.bookmarked, q.userState?.solved]);
 
   const toggle = (i) => {
     if (res) return;
@@ -25,10 +56,11 @@ export default function QuestionCard({ q, onAnswered }) {
     setErr(null);
     setBusy(true);
     try {
-      const r = await api.post(`/questions/${q._id}/answer`, {
+      const payload = {
         response: numeric ? Number(num) : sel,
         timeSpentSec: Math.round((Date.now() - started.current) / 1000),
-      });
+      };
+      const r = await api.post(`/questions/${q._id}/answer`, payload);
       setRes(r);
       if (r.correct) {
         setIsSolved(true);
@@ -39,6 +71,12 @@ export default function QuestionCard({ q, onAnswered }) {
     } finally {
       setBusy(false);
     }
+  };
+
+  const reattempt = () => {
+    setRes(null);
+    setErr(null);
+    started.current = Date.now();
   };
 
   const flip = async () => {
@@ -194,6 +232,17 @@ export default function QuestionCard({ q, onAnswered }) {
               Source: {res.sourceTitle || 'Original practice question'}.
             </p>
           )}
+
+          <div className="mt-3 flex justify-end">
+            <button
+              type="button"
+              onClick={reattempt}
+              className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200/80 bg-white px-2.5 py-1 text-xs font-semibold text-slate-600 hover:bg-slate-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 transition"
+            >
+              <RotateCcw className="h-3 w-3" />
+              <span>Re-attempt question</span>
+            </button>
+          </div>
         </div>
       )}
     </Card>

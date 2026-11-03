@@ -84,30 +84,30 @@
   "subject": "reasoning"
  },
  {
-  "uid": "general-sde-rea-coding-decoding-004",
+  "uid": "general-sde-rea-alphabet-series-004",
   "companies": [
    "general-sde"
   ],
-  "topic": "coding-decoding",
-  "subtopic": "letter shift",
-  "difficulty": "medium",
-  "explanation": "Each letter is shifted forward by 1. Applying the same shift to MAP gives NBQ.",
-  "estimatedSeconds": 70,
+  "topic": "alphabet-series",
+  "subtopic": "constant step",
+  "difficulty": "easy",
+  "explanation": "Each letter moves forward by 4 positions. After U comes Y.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a certain code, PEN is written as QFO. How is MAP written in that code?",
+  "text": "Find the next letter in the series: E, I, M, Q, U, ?",
   "options": [
-   "OCR",
-   "NBQ",
-   "LZO",
-   "PAM"
+   "W",
+   "X",
+   "Y",
+   "A"
   ],
   "correct": [
-   1
+   2
   ],
   "subject": "reasoning"
  },
@@ -168,58 +168,58 @@
   "subject": "reasoning"
  },
  {
-  "uid": "general-sde-rea-direction-sense-007",
+  "uid": "general-sde-rea-coding-decoding-007",
   "companies": [
    "general-sde"
   ],
-  "topic": "direction-sense",
-  "subtopic": "distance from start",
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
   "difficulty": "medium",
-  "explanation": "North then east makes a right angle. Distance = √(15² + 36²) = 39 km.",
-  "estimatedSeconds": 60,
+  "explanation": "Each letter is shifted forward by 3. Applying the same shift to MAP gives PDS.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Ramesh walks 15 km north, turns right and walks 36 km. How far is he from his starting point (in km)?",
+  "text": "In a certain code, CAT is written as FDW. How is MAP written in that code?",
   "options": [
-   "59",
-   "43",
-   "27",
-   "39"
+   "PDS",
+   "PAM",
+   "QET",
+   "OCR"
   ],
   "correct": [
-   3
+   0
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "general-sde-rea-direction-sense-008",
+  "uid": "general-sde-rea-coding-decoding-008",
   "companies": [
    "general-sde"
   ],
-  "topic": "direction-sense",
-  "subtopic": "distance from start",
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
   "difficulty": "medium",
-  "explanation": "North then east makes a right angle. Distance = √(12² + 16²) = 20 km.",
-  "estimatedSeconds": 60,
+  "explanation": "Each letter is shifted forward by 3. Applying the same shift to FAN gives IDQ.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Ramesh walks 12 km north, turns right and walks 16 km. How far is he from his starting point (in km)?",
+  "text": "In a certain code, BAG is written as EDJ. How is FAN written in that code?",
   "options": [
-   "20",
-   "30",
-   "14",
-   "16"
+   "CXK",
+   "JER",
+   "NAF",
+   "IDQ"
   ],
   "correct": [
-   0
+   3
   ],
   "subject": "reasoning"
  },
@@ -252,195 +252,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "general-sde-rea-ranking-010",
+  "uid": "general-sde-rea-direction-sense-010",
   "companies": [
    "general-sde"
   ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
-  "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 51 − 13 + 1 = 39.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "In a class of 51 students, Arun's rank from the top is 13. What is his rank from the bottom?",
-  "options": [
-   "27",
-   "55",
-   "43",
-   "39"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "general-sde-rea-ranking-011",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
-  "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 41 − 25 + 1 = 17.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "In a class of 41 students, Arun's rank from the top is 25. What is his rank from the bottom?",
-  "options": [
-   "11",
-   "17",
-   "21",
-   "23"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "general-sde-rea-ranking-012",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "ranking",
-  "subtopic": "total in a row",
-  "difficulty": "easy",
-  "explanation": "Total = left position + right position − 1 = 5 + 18 − 1 = 22.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "In a row, Kavya is 5th from the left and 18th from the right. How many people are in the row?",
-  "options": [
-   "30",
-   "18",
-   "22",
-   "32"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "general-sde-rea-clocks-013",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
+  "topic": "direction-sense",
+  "subtopic": "distance from start",
   "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×10 − 5.5×2| = 289°, so the smaller angle is 360 − that = 71°.",
-  "estimatedSeconds": 80,
+  "explanation": "North then east makes a right angle. Distance = √(9² + 12²) = 15 km.",
+  "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 10:02?",
+  "text": "Ramesh walks 9 km north, turns right and walks 12 km. How far is he from his starting point (in km)?",
   "options": [
-   "92",
-   "85",
-   "71",
-   "106"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "general-sde-rea-clocks-014",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×8 − 5.5×40| = 20°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 8:40?",
-  "options": [
-   "22",
-   "18",
-   "24",
-   "20"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "general-sde-rea-clocks-015",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×10 − 5.5×16| = 212°, so the smaller angle is 360 − that = 148°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 10:16?",
-  "options": [
-   "163",
-   "223",
-   "208",
-   "148"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "general-sde-rea-calendars-016",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "calendars",
-  "subtopic": "day of a date",
-  "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Wednesday for 7 July 2027 (checked with calendar arithmetic).",
-  "estimatedSeconds": 90,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "On which day of the week does 7 July 2027 fall?",
-  "options": [
-   "Wednesday",
-   "Sunday",
-   "Monday",
-   "Tuesday"
+   "15",
+   "13",
+   "23",
+   "21"
   ],
   "correct": [
    0
@@ -448,154 +280,14 @@
   "subject": "reasoning"
  },
  {
-  "uid": "general-sde-rea-calendars-017",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "calendars",
-  "subtopic": "days after",
-  "difficulty": "easy",
-  "explanation": "126 mod 7 = 0. Tuesday + 0 days = Tuesday.",
-  "estimatedSeconds": 45,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Today is Tuesday. What day of the week will it be after 126 days?",
-  "options": [
-   "Thursday",
-   "Tuesday",
-   "Saturday",
-   "Wednesday"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "general-sde-rea-calendars-018",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "calendars",
-  "subtopic": "day of a date",
-  "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Saturday for 22 January 2005 (checked with calendar arithmetic).",
-  "estimatedSeconds": 90,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "On which day of the week does 22 January 2005 fall?",
-  "options": [
-   "Monday",
-   "Sunday",
-   "Wednesday",
-   "Saturday"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "general-sde-rea-odd-one-out-019",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 188 are perfect cubes (10³=1000, 5³=125, 9³=729, 7³=343).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 125, 188, 1000, 729, 343",
-  "options": [
-   "125",
-   "343",
-   "188",
-   "729"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "general-sde-rea-odd-one-out-020",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 59 are perfect cubes (2³=8, 6³=216, 7³=343, 10³=1000).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 1000, 59, 216, 8, 343",
-  "options": [
-   "8",
-   "59",
-   "216",
-   "1000"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "general-sde-rea-odd-one-out-021",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 124 are perfect cubes (4³=64, 2³=8, 3³=27, 6³=216).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 64, 216, 8, 124, 27",
-  "options": [
-   "216",
-   "27",
-   "124",
-   "8"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "general-sde-rea-direction-sense-022",
+  "uid": "general-sde-rea-direction-sense-011",
   "companies": [
    "general-sde"
   ],
   "topic": "direction-sense",
   "subtopic": "facing direction",
   "difficulty": "easy",
-  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is South.",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is North.",
   "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -603,68 +295,96 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Meena faces North. She turns right, then left, then right, then right. Which direction is she facing now?",
+  "text": "Meena faces North. She turns left, then right, then about (180°), then about (180°). Which direction is she facing now?",
   "options": [
-   "South",
    "East",
-   "West",
-   "North"
+   "South",
+   "North",
+   "West"
   ],
   "correct": [
-   0
+   2
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "general-sde-rea-clocks-023",
+  "uid": "general-sde-rea-direction-sense-012",
   "companies": [
    "general-sde"
   ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
+  "topic": "direction-sense",
+  "subtopic": "distance from start",
   "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×11 − 5.5×2| = 319°, so the smaller angle is 360 − that = 41°.",
-  "estimatedSeconds": 80,
+  "explanation": "North then east makes a right angle. Distance = √(6² + 8²) = 10 km.",
+  "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 11:02?",
+  "text": "Ramesh walks 6 km north, turns right and walks 8 km. How far is he from his starting point (in km)?",
   "options": [
-   "41",
-   "57",
-   "37",
-   "29"
+   "7",
+   "10",
+   "9",
+   "12"
   ],
   "correct": [
-   0
+   1
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "general-sde-rea-coding-decoding-024",
+  "uid": "general-sde-rea-ranking-013",
   "companies": [
    "general-sde"
   ],
-  "topic": "coding-decoding",
-  "subtopic": "letter shift",
-  "difficulty": "medium",
-  "explanation": "Each letter is shifted forward by 2. Applying the same shift to MAP gives OCR.",
-  "estimatedSeconds": 70,
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 18 + 12 − 1 = 29.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a certain code, DOG is written as FQI. How is MAP written in that code?",
+  "text": "In a row, Kavya is 18th from the left and 12th from the right. How many people are in the row?",
   "options": [
-   "KYN",
-   "PDS",
-   "PAM",
-   "OCR"
+   "35",
+   "29",
+   "32",
+   "41"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-ranking-014",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 11 + 17 − 1 = 27.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a row, Kavya is 11th from the left and 17th from the right. How many people are in the row?",
+  "options": [
+   "24",
+   "36",
+   "21",
+   "27"
   ],
   "correct": [
    3
@@ -672,14 +392,70 @@
   "subject": "reasoning"
  },
  {
-  "uid": "general-sde-rea-clocks-025",
+  "uid": "general-sde-rea-ranking-015",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "ranking",
+  "subtopic": "rank from bottom",
+  "difficulty": "easy",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 52 − 10 + 1 = 43.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a class of 52 students, Arun's rank from the top is 10. What is his rank from the bottom?",
+  "options": [
+   "35",
+   "47",
+   "43",
+   "51"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-ranking-016",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 7 + 9 − 1 = 15.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a row, Kavya is 7th from the left and 9th from the right. How many people are in the row?",
+  "options": [
+   "21",
+   "15",
+   "9",
+   "13"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-clocks-017",
   "companies": [
    "general-sde"
   ],
   "topic": "clocks",
   "subtopic": "angle between hands",
   "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×8 − 5.5×30| = 75°.",
+  "explanation": "Angle = |30h − 5.5m| = |30×8 − 5.5×2| = 229°, so the smaller angle is 360 − that = 131°.",
   "estimatedSeconds": 80,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -687,12 +463,236 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 8:30?",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 8:02?",
   "options": [
-   "75",
-   "83",
-   "107",
-   "51"
+   "144",
+   "131",
+   "118",
+   "157"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-clocks-018",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×8 − 5.5×48| = 24°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 8:48?",
+  "options": [
+   "18",
+   "22",
+   "34",
+   "24"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-clocks-019",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×4 − 5.5×36| = 78°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 4:36?",
+  "options": [
+   "78",
+   "118",
+   "86",
+   "70"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-clocks-020",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×6 − 5.5×42| = 51°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 6:42?",
+  "options": [
+   "46",
+   "71",
+   "51",
+   "56"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-calendars-021",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "calendars",
+  "subtopic": "days after",
+  "difficulty": "easy",
+  "explanation": "140 mod 7 = 0. Monday + 0 days = Monday.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Today is Monday. What day of the week will it be after 140 days?",
+  "options": [
+   "Monday",
+   "Wednesday",
+   "Friday",
+   "Saturday"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-calendars-022",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "calendars",
+  "subtopic": "days after",
+  "difficulty": "easy",
+  "explanation": "188 mod 7 = 6. Wednesday + 6 days = Tuesday.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Today is Wednesday. What day of the week will it be after 188 days?",
+  "options": [
+   "Sunday",
+   "Saturday",
+   "Tuesday",
+   "Wednesday"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-calendars-023",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Friday for 12 October 2012 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "On which day of the week does 12 October 2012 fall?",
+  "options": [
+   "Sunday",
+   "Friday",
+   "Tuesday",
+   "Thursday"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-calendars-024",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "calendars",
+  "subtopic": "days after",
+  "difficulty": "easy",
+  "explanation": "156 mod 7 = 2. Saturday + 2 days = Monday.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Today is Saturday. What day of the week will it be after 156 days?",
+  "options": [
+   "Monday",
+   "Friday",
+   "Wednesday",
+   "Saturday"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-odd-one-out-025",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 63 are perfect cubes (6³=216, 7³=343, 4³=64, 9³=729).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 63, 216, 729, 343, 64",
+  "options": [
+   "63",
+   "64",
+   "343",
+   "729"
   ],
   "correct": [
    0
@@ -728,14 +728,14 @@
   "subject": "reasoning"
  },
  {
-  "uid": "general-sde-rea-alphabet-series-027",
+  "uid": "general-sde-rea-odd-one-out-027",
   "companies": [
    "general-sde"
   ],
-  "topic": "alphabet-series",
-  "subtopic": "constant step",
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
   "difficulty": "easy",
-  "explanation": "Each letter moves forward by 2 positions. After J comes L.",
+  "explanation": "All numbers except 93 are perfect cubes (2³=8, 6³=216, 7³=343, 9³=729).",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -743,15 +743,323 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Find the next letter in the series: B, D, F, H, J, ?",
+  "text": "Find the odd one out: 216, 93, 729, 8, 343",
   "options": [
-   "J",
-   "N",
-   "L",
-   "K"
+   "343",
+   "729",
+   "93",
+   "8"
   ],
   "correct": [
    2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-odd-one-out-028",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 172 are perfect cubes (4³=64, 7³=343, 10³=1000, 3³=27).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 64, 172, 343, 1000, 27",
+  "options": [
+   "343",
+   "64",
+   "172",
+   "27"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-direction-sense-029",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
+  "difficulty": "easy",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is South.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Meena faces North. She turns right, then left, then about (180°). Which direction is she facing now?",
+  "options": [
+   "North",
+   "South",
+   "West",
+   "East"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-clocks-030",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×1 − 5.5×48| = 234°, so the smaller angle is 360 − that = 126°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 1:48?",
+  "options": [
+   "165",
+   "126",
+   "87",
+   "152"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-coding-decoding-031",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
+  "difficulty": "medium",
+  "explanation": "Each letter is shifted forward by 3. Applying the same shift to TOP gives WRS.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a certain code, CAT is written as FDW. How is TOP written in that code?",
+  "options": [
+   "WRS",
+   "POT",
+   "QLM",
+   "VQR"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-clocks-032",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×4 − 5.5×28| = 34°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 4:28?",
+  "options": [
+   "31",
+   "37",
+   "40",
+   "34"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-odd-one-out-033",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 99 are perfect cubes (9³=729, 10³=1000, 4³=64, 2³=8).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 8, 1000, 99, 64, 729",
+  "options": [
+   "8",
+   "99",
+   "1000",
+   "729"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-alphabet-series-034",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "alphabet-series",
+  "subtopic": "constant step",
+  "difficulty": "easy",
+  "explanation": "Each letter moves forward by 5 positions. After A comes F.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next letter in the series: G, L, Q, V, A, ?",
+  "options": [
+   "E",
+   "H",
+   "D",
+   "F"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-clocks-035",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×11 − 5.5×8| = 286°, so the smaller angle is 360 − that = 74°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 11:08?",
+  "options": [
+   "60",
+   "95",
+   "67",
+   "74"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-direction-sense-036",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "distance from start",
+  "difficulty": "medium",
+  "explanation": "North then east makes a right angle. Distance = √(15² + 36²) = 39 km.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Ramesh walks 15 km north, turns right and walks 36 km. How far is he from his starting point (in km)?",
+  "options": [
+   "31",
+   "39",
+   "27",
+   "51"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-odd-one-out-037",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 173 are perfect cubes (2³=8, 7³=343, 9³=729, 10³=1000).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 8, 1000, 343, 173, 729",
+  "options": [
+   "8",
+   "173",
+   "1000",
+   "729"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "general-sde-rea-direction-sense-038",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
+  "difficulty": "easy",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is West.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Meena faces North. She turns left, then right, then left. Which direction is she facing now?",
+  "options": [
+   "East",
+   "West",
+   "South",
+   "North"
+  ],
+  "correct": [
+   1
   ],
   "subject": "reasoning"
  }

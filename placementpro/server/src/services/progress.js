@@ -1,9 +1,10 @@
 const { UserProgress, DailyActivity } = require('../models');
 const today = () => new Date().toISOString().slice(0, 10);
 
-async function recordAttempt(userId, q, correct, timeSec = 0) {
+async function recordAttempt(userId, q, correct, timeSec = 0, response = null) {
   const t = Math.max(0, Math.min(Number(timeSec) || 0, 3600));
   const set = { subject: q.subject, topic: q.topic, lastCorrect: correct, lastAttemptAt: new Date() };
+  if (response !== null && response !== undefined) set.lastResponse = response;
   if (correct) set.everCorrect = true;
   await UserProgress.findOneAndUpdate(
     { user: userId, question: q._id },

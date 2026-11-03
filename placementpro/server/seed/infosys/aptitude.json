@@ -56,30 +56,30 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-profit-loss-003",
+  "uid": "infosys-apt-percentages-003",
   "companies": [
    "infosys"
   ],
-  "topic": "profit-loss",
-  "subtopic": "discount",
-  "difficulty": "easy",
-  "explanation": "Price = 4200 × (100 − 20)/100 = 3360.",
-  "estimatedSeconds": 50,
+  "topic": "percentages",
+  "subtopic": "successive change",
+  "difficulty": "medium",
+  "explanation": "Net change = x − y − xy/100 = 40 − 25 − (40×25)/100 = 5%. A positive value means a net increase, a negative one a net decrease.",
+  "estimatedSeconds": 70,
   "provenance": "high_priority_practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A shirt has a marked price of ₹4,200. A discount of 20% is given. What is the price paid (in ₹)?",
+  "text": "A number is first increased by 40% and then decreased by 25%. What is the net percentage change?",
   "options": [
-   "3360",
-   "3696",
-   "4032",
-   "5040"
+   "15%",
+   "0%",
+   "5%",
+   "17.5%"
   ],
   "correct": [
-   0
+   2
   ],
   "subject": "aptitude"
  },
@@ -112,27 +112,27 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-ratio-proportion-005",
+  "uid": "infosys-apt-profit-loss-005",
   "companies": [
    "infosys"
   ],
-  "topic": "ratio-proportion",
-  "subtopic": "dividing in a ratio",
+  "topic": "profit-loss",
+  "subtopic": "selling price from profit",
   "difficulty": "easy",
-  "explanation": "Total parts = 11. One part = 1980/11 = 180. Second share = 2 × 180 = 360.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
+  "explanation": "SP = CP × (100 + profit%)/100 = 820 × 125/100 = 1025.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "₹1,980 is divided among three people in the ratio 4:2:5. How much does the second person get (in ₹)?",
+  "text": "An article is bought for ₹820 and sold at a profit of 25%. Find its selling price (in ₹).",
   "options": [
-   "468",
-   "360",
-   "504",
-   "396"
+   "1334",
+   "1025",
+   "922",
+   "819"
   ],
   "correct": [
    1
@@ -140,14 +140,35 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-ratio-proportion-006",
+  "uid": "infosys-apt-profit-loss-006",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "selling price from profit",
+  "difficulty": "easy",
+  "explanation": "SP = CP × (100 + profit%)/100 = 880 × 125/100 = 1100.",
+  "estimatedSeconds": 50,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "An article is bought for ₹880 and sold at a profit of 25%. Find its selling price (in ₹).\n(Type your answer as a number.)",
+  "numericAnswer": 1100,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-ratio-proportion-007",
   "companies": [
    "infosys"
   ],
   "topic": "ratio-proportion",
   "subtopic": "dividing in a ratio",
   "difficulty": "easy",
-  "explanation": "Total parts = 15. One part = 1350/15 = 90. Second share = 3 × 90 = 270.",
+  "explanation": "Total parts = 12. One part = 1920/12 = 160. Second share = 5 × 160 = 800.",
   "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -155,12 +176,40 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "₹1,350 is divided among three people in the ratio 5:3:7. How much does the second person get (in ₹)?",
+  "text": "₹1,920 is divided among three people in the ratio 3:5:4. How much does the second person get (in ₹)?",
   "options": [
-   "405",
-   "216",
-   "270",
-   "324"
+   "1200",
+   "800",
+   "720",
+   "560"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-ratio-proportion-008",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 11. One part = 2530/11 = 230. Second share = 2 × 230 = 460.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹2,530 is divided among three people in the ratio 4:2:5. How much does the second person get (in ₹)?",
+  "options": [
+   "552",
+   "414",
+   "460",
+   "598"
   ],
   "correct": [
    2
@@ -168,14 +217,42 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-averages-007",
+  "uid": "infosys-apt-ratio-proportion-009",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 12. One part = 840/12 = 70. Second share = 3 × 70 = 210.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹840 is divided among three people in the ratio 5:3:4. How much does the second person get (in ₹)?",
+  "options": [
+   "210",
+   "315",
+   "147",
+   "231"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-averages-010",
   "companies": [
    "infosys"
   ],
   "topic": "averages",
   "subtopic": "average after adding an item",
   "difficulty": "medium",
-  "explanation": "Sum of 5 = 170. Sum of 6 = 216. Sixth number = 216 − 170 = 46.",
+  "explanation": "Sum of 5 = 185. Sum of 6 = 246. Sixth number = 246 − 185 = 61.",
   "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -183,27 +260,27 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "The average of 5 numbers is 34. A sixth number is added and the average becomes 36. What is the sixth number?",
+  "text": "The average of 5 numbers is 37. A sixth number is added and the average becomes 41. What is the sixth number?",
   "options": [
-   "46",
-   "41",
-   "56",
+   "73",
+   "43",
+   "85",
    "61"
   ],
   "correct": [
-   0
+   3
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-averages-008",
+  "uid": "infosys-apt-averages-011",
   "companies": [
    "infosys"
   ],
   "topic": "averages",
   "subtopic": "average after adding an item",
   "difficulty": "medium",
-  "explanation": "Sum of 5 = 130. Sum of 6 = 186. Sixth number = 186 − 130 = 56.",
+  "explanation": "Sum of 5 = 155. Sum of 6 = 216. Sixth number = 216 − 155 = 61.",
   "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -211,12 +288,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "The average of 5 numbers is 26. A sixth number is added and the average becomes 31. What is the sixth number?",
+  "text": "The average of 5 numbers is 31. A sixth number is added and the average becomes 36. What is the sixth number?",
   "options": [
-   "56",
-   "44",
-   "50",
-   "38"
+   "61",
+   "49",
+   "67",
+   "85"
   ],
   "correct": [
    0
@@ -224,35 +301,35 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-time-work-009",
+  "uid": "infosys-apt-averages-012",
   "companies": [
    "infosys"
   ],
-  "topic": "time-work",
-  "subtopic": "two workers together",
+  "topic": "averages",
+  "subtopic": "average after adding an item",
   "difficulty": "medium",
-  "explanation": "Rate = 1/12 + 1/24 = 36/288 per day. Days = 288/36 = 8.",
-  "estimatedSeconds": 80,
-  "provenance": "high_priority_practice",
+  "explanation": "Sum of 5 = 200. Sum of 6 = 258. Sixth number = 258 − 200 = 58.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A can finish a job in 12 days and B can finish it in 24 days. Working together, in how many days will they finish it?",
+  "text": "The average of 5 numbers is 40. A sixth number is added and the average becomes 43. What is the sixth number?",
   "options": [
-   "10",
-   "8",
-   "9",
-   "7"
+   "52",
+   "88",
+   "58",
+   "46"
   ],
   "correct": [
-   1
+   2
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-time-work-010",
+  "uid": "infosys-apt-time-work-013",
   "companies": [
    "infosys"
   ],
@@ -266,28 +343,70 @@
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A can finish a job in 36 days and B can finish it in 45 days. Working together, in how many days will they finish it?\n(Type your answer as a number.)",
+  "numericAnswer": 20,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-time-work-014",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/4 + 1/12 = 16/48 per day. Days = 48/16 = 3.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A can finish a job in 4 days and B can finish it in 12 days. Working together, in how many days will they finish it?\n(Type your answer as a number.)",
+  "numericAnswer": 3,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-time-work-015",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "time-work",
+  "subtopic": "two workers together",
+  "difficulty": "medium",
+  "explanation": "Rate = 1/24 + 1/40 = 64/960 per day. Days = 960/64 = 15.",
+  "estimatedSeconds": 80,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A can finish a job in 36 days and B can finish it in 45 days. Working together, in how many days will they finish it?",
+  "text": "A can finish a job in 24 days and B can finish it in 40 days. Working together, in how many days will they finish it?",
   "options": [
-   "28",
-   "14",
-   "20",
-   "26"
+   "21",
+   "15",
+   "13",
+   "9"
   ],
   "correct": [
-   2
+   1
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-pipes-cisterns-011",
+  "uid": "infosys-apt-pipes-cisterns-016",
   "companies": [
    "infosys"
   ],
   "topic": "pipes-cisterns",
   "subtopic": "inlet and leak",
   "difficulty": "hard",
-  "explanation": "Net fill rate = 1/90. Pipe rate = 1/15. Leak rate = 1/15 − 1/90 = 75/1350 = 1/18. So the leak empties the tank in 18 hours.",
+  "explanation": "Net fill rate = 1/36. Pipe rate = 1/9. Leak rate = 1/9 − 1/36 = 27/324 = 1/12. So the leak empties the tank in 12 hours.",
   "estimatedSeconds": 100,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -295,55 +414,69 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A pipe fills a tank in 15 hours. Because of a leak at the bottom, it takes the pipe 90 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "text": "A pipe fills a tank in 9 hours. Because of a leak at the bottom, it takes the pipe 36 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
   "options": [
-   "16",
-   "22",
-   "18",
-   "14"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-pipes-cisterns-012",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "pipes-cisterns",
-  "subtopic": "inlet and leak",
-  "difficulty": "hard",
-  "explanation": "Net fill rate = 1/60. Pipe rate = 1/12. Leak rate = 1/12 − 1/60 = 48/720 = 1/15. So the leak empties the tank in 15 hours.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A pipe fills a tank in 12 hours. Because of a leak at the bottom, it takes the pipe 60 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
-  "options": [
-   "19",
-   "23",
+   "12",
+   "9",
    "17",
-   "15"
+   "10"
   ],
   "correct": [
-   3
+   0
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-speed-distance-013",
+  "uid": "infosys-apt-pipes-cisterns-017",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/20. Pipe rate = 1/4. Leak rate = 1/4 − 1/20 = 16/80 = 1/5. So the leak empties the tank in 5 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A pipe fills a tank in 4 hours. Because of a leak at the bottom, it takes the pipe 20 hours to fill the tank. In how many hours can the leak alone empty the full tank?\n(Type your answer as a number.)",
+  "numericAnswer": 5,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-pipes-cisterns-018",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/6. Pipe rate = 1/2. Leak rate = 1/2 − 1/6 = 4/12 = 1/3. So the leak empties the tank in 3 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A pipe fills a tank in 2 hours. Because of a leak at the bottom, it takes the pipe 6 hours to fill the tank. In how many hours can the leak alone empty the full tank?\n(Type your answer as a number.)",
+  "numericAnswer": 3,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-speed-distance-019",
   "companies": [
    "infosys"
   ],
   "topic": "speed-distance",
-  "subtopic": "average speed",
+  "subtopic": "train crossing a pole",
   "difficulty": "medium",
-  "explanation": "For equal distances, average speed = 2ab/(a+b) = 2×20×30/50 = 24 km/h.",
+  "explanation": "Speed = 36 × 5/18 = 10 m/s. Time = 80/10 = 8 s.",
   "estimatedSeconds": 70,
   "provenance": "high_priority_practice",
   "verificationStatus": "original",
@@ -351,20 +484,48 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A car covers a distance at 20 km/h and returns the same distance at 30 km/h. What is its average speed for the whole trip (in km/h)?",
+  "text": "A train 80 m long runs at 36 km/h. How many seconds does it take to cross a telegraph pole?",
   "options": [
-   "32",
-   "26",
-   "20",
-   "24"
+   "13",
+   "8",
+   "5",
+   "7"
   ],
   "correct": [
-   3
+   1
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-speed-distance-014",
+  "uid": "infosys-apt-speed-distance-020",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "average speed",
+  "difficulty": "medium",
+  "explanation": "For equal distances, average speed = 2ab/(a+b) = 2×30×60/90 = 40 km/h.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A car covers a distance at 30 km/h and returns the same distance at 60 km/h. What is its average speed for the whole trip (in km/h)?",
+  "options": [
+   "32",
+   "60",
+   "40",
+   "28"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-speed-distance-021",
   "companies": [
    "infosys"
   ],
@@ -381,38 +542,10 @@
   "type": "mcq_single",
   "text": "A car covers a distance at 60 km/h and returns the same distance at 90 km/h. What is its average speed for the whole trip (in km/h)?",
   "options": [
-   "51",
+   "107",
+   "100",
    "72",
-   "65",
    "79"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-boats-streams-015",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "boats-streams",
-  "subtopic": "upstream speed",
-  "difficulty": "easy",
-  "explanation": "Upstream speed = 19 − 6 = 13 km/h.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A boat's speed in still water is 19 km/h and the stream's speed is 6 km/h. What is its speed upstream (in km/h)?",
-  "options": [
-   "18",
-   "17",
-   "13",
-   "12"
   ],
   "correct": [
    2
@@ -420,14 +553,42 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-boats-streams-016",
+  "uid": "infosys-apt-boats-streams-022",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 19 + 2 = 21 km/h. Time = 63/21 = 3 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat goes 19 km/h in still water and the stream flows at 2 km/h. How many hours will it take to go 63 km downstream?",
+  "options": [
+   "8",
+   "3",
+   "1",
+   "7"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-boats-streams-023",
   "companies": [
    "infosys"
   ],
   "topic": "boats-streams",
   "subtopic": "upstream speed",
   "difficulty": "easy",
-  "explanation": "Upstream speed = 10 − 3 = 7 km/h.",
+  "explanation": "Upstream speed = 19 − 3 = 16 km/h.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -435,12 +596,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A boat's speed in still water is 10 km/h and the stream's speed is 3 km/h. What is its speed upstream (in km/h)?",
+  "text": "A boat's speed in still water is 19 km/h and the stream's speed is 3 km/h. What is its speed upstream (in km/h)?",
   "options": [
-   "7",
-   "6",
-   "11",
-   "8"
+   "16",
+   "22",
+   "24",
+   "12"
   ],
   "correct": [
    0
@@ -448,14 +609,42 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-interest-017",
+  "uid": "infosys-apt-boats-streams-024",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "upstream speed",
+  "difficulty": "easy",
+  "explanation": "Upstream speed = 20 − 3 = 17 km/h.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat's speed in still water is 20 km/h and the stream's speed is 3 km/h. What is its speed upstream (in km/h)?",
+  "options": [
+   "21",
+   "17",
+   "23",
+   "27"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-interest-025",
   "companies": [
    "infosys"
   ],
   "topic": "interest",
   "subtopic": "compound interest (2 years)",
   "difficulty": "medium",
-  "explanation": "Amount = 4000 × (1 + 5/100)² = 4410. CI = Amount − Principal = 410.",
+  "explanation": "Amount = 2000 × (1 + 15/100)² = 2645. CI = Amount − Principal = 645.",
   "estimatedSeconds": 80,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -463,61 +652,40 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the compound interest on ₹4,000 for 2 years at 5% per annum, compounded annually (in ₹)?",
+  "text": "What is the compound interest on ₹2,000 for 2 years at 15% per annum, compounded annually (in ₹)?",
   "options": [
-   "410",
-   "328",
-   "492",
-   "287"
+   "515",
+   "970",
+   "645",
+   "450"
   ],
   "correct": [
-   0
+   2
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-interest-018",
+  "uid": "infosys-apt-interest-026",
   "companies": [
    "infosys"
   ],
   "topic": "interest",
   "subtopic": "simple interest",
   "difficulty": "easy",
-  "explanation": "SI = PRT/100 = 36000×6×4/100 = 8640.",
+  "explanation": "SI = PRT/100 = 22000×11×3/100 = 7260.",
   "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
-  "type": "numeric",
-  "text": "Find the simple interest on ₹36,000 at 6% per annum for 4 years (in ₹).\n(Type your answer as a number.)",
-  "numericAnswer": 8640,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-number-series-019",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "number-series",
-  "subtopic": "geometric series",
-  "difficulty": "easy",
-  "explanation": "Each term is multiplied by 3. Next = 81 × 3 = 243.",
-  "estimatedSeconds": 40,
-  "provenance": "high_priority_practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Find the next number: 1, 3, 9, 27, 81, ?",
+  "text": "Find the simple interest on ₹22,000 at 11% per annum for 3 years (in ₹).",
   "options": [
-   "243",
-   "315",
-   "267",
-   "171"
+   "7260",
+   "10890",
+   "8712",
+   "5082"
   ],
   "correct": [
    0
@@ -525,27 +693,27 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-number-series-020",
+  "uid": "infosys-apt-interest-027",
   "companies": [
    "infosys"
   ],
-  "topic": "number-series",
-  "subtopic": "arithmetic series",
-  "difficulty": "easy",
-  "explanation": "Each term increases by 7. Next = 34 + 7 = 41.",
-  "estimatedSeconds": 40,
-  "provenance": "high_priority_practice",
+  "topic": "interest",
+  "subtopic": "compound interest (2 years)",
+  "difficulty": "medium",
+  "explanation": "Amount = 2800 × (1 + 5/100)² = 3087. CI = Amount − Principal = 287.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Find the next number: 6, 13, 20, 27, 34, ?",
+  "text": "What is the compound interest on ₹2,800 for 2 years at 5% per annum, compounded annually (in ₹)?",
   "options": [
-   "53",
-   "41",
-   "33",
-   "61"
+   "258",
+   "287",
+   "374",
+   "432"
   ],
   "correct": [
    1
@@ -553,76 +721,48 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-hcf-lcm-021",
+  "uid": "infosys-apt-number-series-028",
   "companies": [
    "infosys"
   ],
-  "topic": "hcf-lcm",
-  "subtopic": "LCM of two numbers",
-  "difficulty": "easy",
-  "explanation": "HCF = 6. LCM = (24 × 42)/6 = 168.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the LCM of 24 and 42.",
-  "options": [
-   "134",
-   "185",
-   "168",
-   "202"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-hcf-lcm-022",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "hcf-lcm",
-  "subtopic": "HCF × LCM relation",
+  "topic": "number-series",
+  "subtopic": "increasing differences",
   "difficulty": "medium",
-  "explanation": "Product of the numbers = HCF × LCM = 5 × 105 = 525. Other number = 525/35 = 15.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
+  "explanation": "Differences are 4, 5, 6, 7 — they grow by 1 each step. Next difference 8, so 32 + 8 = 40.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "numeric",
-  "text": "The HCF of two numbers is 5 and their LCM is 105. If one number is 35, what is the other?\n(Type your answer as a number.)",
-  "numericAnswer": 15,
+  "text": "Find the next number: 10, 14, 19, 25, 32, ?\n(Type your answer as a number.)",
+  "numericAnswer": 40,
   "tolerance": 0,
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-ages-023",
+  "uid": "infosys-apt-number-series-029",
   "companies": [
    "infosys"
   ],
-  "topic": "ages",
-  "subtopic": "ages in the past",
-  "difficulty": "medium",
-  "explanation": "Sita 4 years ago = 8. Ravi then = 4 × 8 = 32. Ravi now = 32 + 4 = 36.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
+  "topic": "number-series",
+  "subtopic": "geometric series",
+  "difficulty": "easy",
+  "explanation": "Each term is multiplied by 2. Next = 32 × 2 = 64.",
+  "estimatedSeconds": 40,
+  "provenance": "high_priority_practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "4 years ago, Ravi was 4 times as old as Sita. Sita is now 12 years old. How old is Ravi now?",
+  "text": "Find the next number: 2, 4, 8, 16, 32, ?",
   "options": [
-   "36",
-   "24",
-   "48",
-   "44"
+   "64",
+   "70",
+   "82",
+   "88"
   ],
   "correct": [
    0
@@ -630,14 +770,126 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-ages-024",
+  "uid": "infosys-apt-number-series-030",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "number-series",
+  "subtopic": "arithmetic series",
+  "difficulty": "easy",
+  "explanation": "Each term increases by 9. Next = 45 + 9 = 54.",
+  "estimatedSeconds": 40,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 9, 18, 27, 36, 45, ?",
+  "options": [
+   "54",
+   "44",
+   "79",
+   "49"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-hcf-lcm-031",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "LCM of two numbers",
+  "difficulty": "easy",
+  "explanation": "HCF = 3. LCM = (9 × 21)/3 = 63.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the LCM of 9 and 21.",
+  "options": [
+   "63",
+   "45",
+   "75",
+   "81"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-hcf-lcm-032",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "LCM of two numbers",
+  "difficulty": "easy",
+  "explanation": "HCF = 6. LCM = (18 × 30)/6 = 90.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the LCM of 18 and 30.",
+  "options": [
+   "81",
+   "99",
+   "90",
+   "63"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-hcf-lcm-033",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "HCF × LCM relation",
+  "difficulty": "medium",
+  "explanation": "Product of the numbers = HCF × LCM = 6 × 108 = 648. Other number = 648/12 = 54.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The HCF of two numbers is 6 and their LCM is 108. If one number is 12, what is the other?",
+  "options": [
+   "44",
+   "59",
+   "54",
+   "64"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-ages-034",
   "companies": [
    "infosys"
   ],
   "topic": "ages",
   "subtopic": "sum and difference",
   "difficulty": "easy",
-  "explanation": "Asha = (sum + difference)/2 = (50 + 14)/2 = 32.",
+  "explanation": "Asha = (sum + difference)/2 = (59 + 5)/2 = 32.",
   "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -645,12 +897,68 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "The sum of the ages of Asha and Bala is 50 years and Asha is 14 years older than Bala. How old is Asha?",
+  "text": "The sum of the ages of Asha and Bala is 59 years and Asha is 5 years older than Bala. How old is Asha?",
   "options": [
-   "32",
-   "38",
+   "41",
    "35",
-   "26"
+   "32",
+   "44"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-ages-035",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "ages",
+  "subtopic": "ages in the past",
+  "difficulty": "medium",
+  "explanation": "Sita 3 years ago = 21. Ravi then = 4 × 21 = 84. Ravi now = 84 + 3 = 87.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "3 years ago, Ravi was 4 times as old as Sita. Sita is now 24 years old. How old is Ravi now?",
+  "options": [
+   "105",
+   "69",
+   "87",
+   "60"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-ages-036",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "ages",
+  "subtopic": "sum and difference",
+  "difficulty": "easy",
+  "explanation": "Asha = (sum + difference)/2 = (74 + 14)/2 = 44.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The sum of the ages of Asha and Bala is 74 years and Asha is 14 years older than Bala. How old is Asha?",
+  "options": [
+   "44",
+   "48",
+   "32",
+   "56"
   ],
   "correct": [
    0
@@ -658,14 +966,14 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-permutations-combinations-025",
+  "uid": "infosys-apt-permutations-combinations-037",
   "companies": [
    "infosys"
   ],
   "topic": "permutations-combinations",
   "subtopic": "permutations",
   "difficulty": "medium",
-  "explanation": "6P2 = 6×5 = 30.",
+  "explanation": "7P3 = 7×6×5 = 210.",
   "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -673,55 +981,83 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In how many ways can 2 different prizes be given to 6 students if no student gets more than one prize?",
+  "text": "In how many ways can 3 different prizes be given to 7 students if no student gets more than one prize?",
   "options": [
-   "24",
-   "27",
-   "30",
-   "21"
+   "315",
+   "147",
+   "231",
+   "210"
   ],
   "correct": [
-   2
+   3
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-permutations-combinations-026",
+  "uid": "infosys-apt-permutations-combinations-038",
   "companies": [
    "infosys"
   ],
   "topic": "permutations-combinations",
-  "subtopic": "arrangements with repeated letters",
-  "difficulty": "hard",
-  "explanation": "6! divided by the factorial of each repeated letter's count (T:2, O:2) = 180.",
-  "estimatedSeconds": 90,
+  "subtopic": "permutations",
+  "difficulty": "medium",
+  "explanation": "4P3 = 4×3×2 = 24.",
+  "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "How many distinct arrangements can be made using all the letters of the word TOMATO?",
+  "text": "In how many ways can 3 different prizes be given to 4 students if no student gets more than one prize?",
   "options": [
-   "216",
-   "198",
-   "180",
-   "144"
+   "26",
+   "24",
+   "22",
+   "32"
   ],
   "correct": [
-   2
+   1
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-probability-027",
+  "uid": "infosys-apt-permutations-combinations-039",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "permutations",
+  "difficulty": "medium",
+  "explanation": "7P2 = 7×6 = 42.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can 2 different prizes be given to 7 students if no student gets more than one prize?",
+  "options": [
+   "30",
+   "42",
+   "54",
+   "38"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-probability-040",
   "companies": [
    "infosys"
   ],
   "topic": "probability",
   "subtopic": "drawing a ball",
   "difficulty": "easy",
-  "explanation": "P(red) = favourable/total = 7/13 = 7/13.",
+  "explanation": "P(red) = favourable/total = 5/10 = 1/2.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -729,96 +1065,40 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A bag has 7 red and 6 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "text": "A bag has 5 red and 5 blue balls. One ball is drawn at random. What is the probability that it is red?",
   "options": [
    "1/2",
-   "6/13",
-   "8/13",
-   "7/13"
+   "5/11",
+   "3/5",
+   "1"
   ],
   "correct": [
-   3
+   0
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-probability-028",
+  "uid": "infosys-apt-probability-041",
   "companies": [
    "infosys"
   ],
   "topic": "probability",
-  "subtopic": "two dice",
-  "difficulty": "medium",
-  "explanation": "Ways to get a sum of 8 = 5 out of 36 outcomes, so P = 5/36 = 5/36.",
-  "estimatedSeconds": 80,
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 5/11 = 5/11.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 8?",
+  "text": "A bag has 5 red and 6 blue balls. One ball is drawn at random. What is the probability that it is red?",
   "options": [
-   "5/36",
-   "1/9",
-   "7/36",
-   "5/18"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-mixtures-alligation-029",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "mixtures-alligation",
-  "subtopic": "adding water",
-  "difficulty": "medium",
-  "explanation": "Milk = 20 L, water = 16 L. For 1:1 water must equal milk, so add 20 − 16 = 4 L.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A 36 litre mixture has milk and water in the ratio 5:4. How many litres of water must be added to make the ratio 1:1?",
-  "options": [
-   "4",
-   "8",
-   "2",
-   "3"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-mixtures-alligation-030",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "mixtures-alligation",
-  "subtopic": "mean price",
-  "difficulty": "medium",
-  "explanation": "Mean price = (3×90 + 1×130)/4 = 100.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Rice at ₹90/kg and rice at ₹130/kg are mixed in the ratio 3:1. What is the price per kg of the mixture (in ₹)?",
-  "options": [
-   "130",
-   "80",
-   "100",
-   "90"
+   "6/11",
+   "5/12",
+   "5/11",
+   "5/6"
   ],
   "correct": [
    2
@@ -826,27 +1106,76 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-partnership-031",
+  "uid": "infosys-apt-probability-042",
   "companies": [
    "infosys"
   ],
-  "topic": "partnership",
-  "subtopic": "investment × time",
-  "difficulty": "hard",
-  "explanation": "Ratio = 2000×6 : 2000×4 = 12000 : 8000 = 3 : 2. Anil's share = 3/5 × 4000 = 2400.",
-  "estimatedSeconds": 100,
+  "topic": "probability",
+  "subtopic": "two dice",
+  "difficulty": "medium",
+  "explanation": "Ways to get a sum of 4 = 3 out of 36 outcomes, so P = 3/36 = 1/12.",
+  "estimatedSeconds": 80,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Anil invests ₹2,000 for 6 months and Binu invests ₹2,000 for 4 months. They earn a profit of ₹4,000. What is Anil's share (in ₹)?",
+  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 4?",
   "options": [
-   "2160",
-   "1680",
-   "3120",
-   "2400"
+   "1/9",
+   "1/12",
+   "1/18",
+   "5/36"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-mixtures-alligation-043",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "mean price",
+  "difficulty": "medium",
+  "explanation": "Mean price = (3×100 + 1×140)/4 = 110.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Rice at ₹100/kg and rice at ₹140/kg are mixed in the ratio 3:1. What is the price per kg of the mixture (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 110,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-mixtures-alligation-044",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 10 L, water = 2 L. For 1:1 water must equal milk, so add 10 − 2 = 8 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A 12 litre mixture has milk and water in the ratio 5:1. How many litres of water must be added to make the ratio 1:1?",
+  "options": [
+   "11",
+   "7",
+   "13",
+   "8"
   ],
   "correct": [
    3
@@ -854,14 +1183,98 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-partnership-032",
+  "uid": "infosys-apt-mixtures-alligation-045",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 20 L, water = 10 L. For 1:1 water must equal milk, so add 20 − 10 = 10 L.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A 30 litre mixture has milk and water in the ratio 4:2. How many litres of water must be added to make the ratio 1:1?",
+  "options": [
+   "10",
+   "9",
+   "14",
+   "7"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-partnership-046",
   "companies": [
    "infosys"
   ],
   "topic": "partnership",
   "subtopic": "investment × time",
   "difficulty": "hard",
-  "explanation": "Ratio = 2000×8 : 4000×10 = 16000 : 40000 = 2 : 5. Anil's share = 2/7 × 4200 = 1200.",
+  "explanation": "Ratio = 2000×6 : 3000×8 = 12000 : 24000 = 1 : 2. Anil's share = 1/3 × 900 = 300.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹2,000 for 6 months and Binu invests ₹3,000 for 8 months. They earn a profit of ₹900. What is Anil's share (in ₹)?",
+  "options": [
+   "390",
+   "240",
+   "330",
+   "300"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-partnership-047",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 5000×9 : 6000×7 = 45000 : 42000 = 15 : 14. Anil's share = 15/29 × 11600 = 6000.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹5,000 for 9 months and Binu invests ₹6,000 for 7 months. They earn a profit of ₹11,600. What is Anil's share (in ₹)?",
+  "options": [
+   "6000",
+   "8400",
+   "4200",
+   "7800"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-partnership-048",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 4000×11 : 6000×11 = 44000 : 66000 = 2 : 3. Anil's share = 2/5 × 1500 = 600.",
   "estimatedSeconds": 100,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -869,13 +1282,41 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "numeric",
-  "text": "Anil invests ₹2,000 for 8 months and Binu invests ₹4,000 for 10 months. They earn a profit of ₹4,200. What is Anil's share (in ₹)?\n(Type your answer as a number.)",
-  "numericAnswer": 1200,
+  "text": "Anil invests ₹4,000 for 11 months and Binu invests ₹6,000 for 11 months. They earn a profit of ₹1,500. What is Anil's share (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 600,
   "tolerance": 0,
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-algebra-033",
+  "uid": "infosys-apt-algebra-049",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "algebra",
+  "subtopic": "x + 1/x identity",
+  "difficulty": "medium",
+  "explanation": "Square both sides: x² + 2 + 1/x² = 64. So x² + 1/x² = 64 − 2 = 62.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If x + 1/x = 8, find the value of x² + 1/x².",
+  "options": [
+   "86",
+   "92",
+   "44",
+   "62"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-algebra-050",
   "companies": [
    "infosys"
   ],
@@ -889,28 +1330,21 @@
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "If x + 1/x = 9, find the value of x² + 1/x².",
-  "options": [
-   "119",
-   "71",
-   "79",
-   "55"
-  ],
-  "correct": [
-   2
-  ],
+  "type": "numeric",
+  "text": "If x + 1/x = 9, find the value of x² + 1/x².\n(Type your answer as a number.)",
+  "numericAnswer": 79,
+  "tolerance": 0,
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-algebra-034",
+  "uid": "infosys-apt-algebra-051",
   "companies": [
    "infosys"
   ],
   "topic": "algebra",
   "subtopic": "linear equation",
   "difficulty": "easy",
-  "explanation": "x + 4 = 34/2 = 17, so x = 13.",
+  "explanation": "x + 9 = 36/2 = 18, so x = 9.",
   "estimatedSeconds": 45,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -918,48 +1352,27 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "If 2(x + 4) = 34, find x.",
+  "text": "If 2(x + 9) = 36, find x.",
   "options": [
-   "10",
-   "13",
+   "8",
    "12",
-   "15"
+   "11",
+   "9"
   ],
   "correct": [
-   1
+   3
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-progressions-035",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "progressions",
-  "subtopic": "sum of AP",
-  "difficulty": "medium",
-  "explanation": "Sₙ = n/2 × [2a + (n−1)d] = 20/2 × [4 + 57] = 610.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "Find the sum of the first 20 terms of the AP 2, 5, 8, ...\n(Type your answer as a number.)",
-  "numericAnswer": 610,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-progressions-036",
+  "uid": "infosys-apt-progressions-052",
   "companies": [
    "infosys"
   ],
   "topic": "progressions",
   "subtopic": "nth term of AP",
   "difficulty": "easy",
-  "explanation": "Tₙ = a + (n−1)d = 2 + 16×5 = 82.",
+  "explanation": "Tₙ = a + (n−1)d = 2 + 11×2 = 24.",
   "estimatedSeconds": 45,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -967,96 +1380,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "The first term of an AP is 2 and the common difference is 5. Find its 17th term.",
+  "text": "The first term of an AP is 2 and the common difference is 2. Find its 12th term.",
   "options": [
-   "122",
-   "74",
-   "82",
-   "106"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-geometry-mensuration-037",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "geometry-mensuration",
-  "subtopic": "rectangle",
-  "difficulty": "easy",
-  "explanation": "l + b = 14, so b = 6 cm. Area = 8 × 6 = 48 cm².",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The perimeter of a rectangle is 28 cm and its length is 8 cm. What is its area (in cm²)?",
-  "options": [
-   "48",
-   "73",
-   "38",
-   "63"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-geometry-mensuration-038",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "geometry-mensuration",
-  "subtopic": "right triangle",
-  "difficulty": "easy",
-  "explanation": "Hypotenuse = √(21² + 72²) = √5625 = 75 cm.",
-  "estimatedSeconds": 45,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The two shorter sides of a right-angled triangle are 21 cm and 72 cm. Find the hypotenuse (in cm).",
-  "options": [
-   "75",
-   "107",
-   "99",
-   "67"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-data-interpretation-039",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "data-interpretation",
-  "subtopic": "column totals",
-  "difficulty": "easy",
-  "explanation": "2024: 330 + 300 + 240 + 370 = 1240.",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 180 | 130 | 330\nBooks | 210 | 340 | 300\nBags | 190 | 100 | 240\nBottles | 200 | 350 | 370\n\nHow many items of all products together were sold in 2024 (in hundreds)?",
-  "options": [
-   "1736",
-   "1240",
-   "992",
-   "1364"
+   "32",
+   "24",
+   "26",
+   "20"
   ],
   "correct": [
    1
@@ -1064,409 +1393,45 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-data-interpretation-040",
+  "uid": "infosys-apt-progressions-053",
   "companies": [
    "infosys"
   ],
-  "topic": "data-interpretation",
-  "subtopic": "table totals",
+  "topic": "progressions",
+  "subtopic": "nth term of AP",
   "difficulty": "easy",
-  "explanation": "Pens: 380 + 170 + 300 = 850.",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 380 | 170 | 300\nBooks | 130 | 330 | 220\nBags | 80 | 240 | 290\nBottles | 260 | 360 | 130\n\nWhat is the total number of Pens sold over the three years (in hundreds)?",
-  "options": [
-   "1020",
-   "680",
-   "1105",
-   "850"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-approximation-simplification-041",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "approximation-simplification",
-  "subtopic": "BODMAS",
-  "difficulty": "easy",
-  "explanation": "Left to right for × and ÷ first: 27 × 4 = 108; ÷ 3 = 36; then + 25 − 5 = 56.",
+  "explanation": "Tₙ = a + (n−1)d = 5 + 10×4 = 45.",
   "estimatedSeconds": 45,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Simplify: 27 × 4 ÷ 3 + 25 − 5",
-  "options": [
-   "86",
-   "50",
-   "74",
-   "56"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-approximation-simplification-042",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "approximation-simplification",
-  "subtopic": "squares and roots",
-  "difficulty": "easy",
-  "explanation": "√16 = 4; 5² = 25. So 4 + 25 − 4 = 25.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Evaluate: √16 + 5² − 4",
-  "options": [
-   "25",
-   "40",
-   "31",
-   "19"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-remainders-divisibility-043",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "remainders-divisibility",
-  "subtopic": "division remainder",
-  "difficulty": "easy",
-  "explanation": "Dividend = divisor × quotient + remainder = 13×30 + 1 = 391.",
-  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "numeric",
-  "text": "A number gives remainder 1 when divided by 13. If the quotient is 30, what is the number?\n(Type your answer as a number.)",
-  "numericAnswer": 391,
+  "text": "The first term of an AP is 5 and the common difference is 4. Find its 11th term.\n(Type your answer as a number.)",
+  "numericAnswer": 45,
   "tolerance": 0,
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-remainders-divisibility-044",
+  "uid": "infosys-apt-progressions-054",
   "companies": [
    "infosys"
   ],
-  "topic": "remainders-divisibility",
-  "subtopic": "power remainders",
-  "difficulty": "hard",
-  "explanation": "Use the repeating cycle of 9^k mod 9. Reducing the exponent 83 by the cycle length gives a remainder of 0.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the remainder when 9^83 is divided by 9?",
-  "options": [
-   "3",
-   "0",
-   "2",
-   "5"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-number-systems-045",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "number-systems",
-  "subtopic": "primes in a range",
+  "topic": "progressions",
+  "subtopic": "GP term",
   "difficulty": "medium",
-  "explanation": "The primes in the range are 29, 31, 37, 41, 43, 47 — 6 in total.",
-  "estimatedSeconds": 80,
+  "explanation": "Tₙ = a·r^(n−1) = 2 × 2^3 = 16.",
+  "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "numeric",
-  "text": "How many prime numbers are there between 28 and 48 (both inclusive)?\n(Type your answer as a number.)",
-  "numericAnswer": 6,
+  "text": "The first term of a GP is 2 and the common ratio is 2. What is its 4th term?\n(Type your answer as a number.)",
+  "numericAnswer": 16,
   "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-number-systems-046",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "number-systems",
-  "subtopic": "unit digit",
-  "difficulty": "medium",
-  "explanation": "Unit digits of 4^k repeat every 4 steps: 4, 6, 4, 6. Position (77 − 1) mod 4 = 0 gives 4.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the unit digit of 4^77?",
-  "options": [
-   "9",
-   "1",
-   "4",
-   "6"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-data-interpretation-047",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "data-interpretation",
-  "subtopic": "table totals",
-  "difficulty": "easy",
-  "explanation": "Bottles: 230 + 240 + 270 = 740.",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 240 | 350 | 380\nBooks | 80 | 80 | 340\nBags | 250 | 380 | 80\nBottles | 230 | 240 | 270\n\nWhat is the total number of Bottles sold over the three years (in hundreds)?",
-  "options": [
-   "888",
-   "518",
-   "1110",
-   "740"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-boats-streams-048",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "boats-streams",
-  "subtopic": "time downstream",
-  "difficulty": "medium",
-  "explanation": "Downstream speed = 19 + 4 = 23 km/h. Time = 69/23 = 3 h.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A boat goes 19 km/h in still water and the stream flows at 4 km/h. How many hours will it take to go 69 km downstream?",
-  "options": [
-   "6",
-   "3",
-   "0",
-   "7"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-data-interpretation-049",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "data-interpretation",
-  "subtopic": "column totals",
-  "difficulty": "easy",
-  "explanation": "2024: 320 + 180 + 110 + 350 = 960.",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 80 | 190 | 320\nBooks | 180 | 100 | 180\nBags | 80 | 310 | 110\nBottles | 300 | 250 | 350\n\nHow many items of all products together were sold in 2024 (in hundreds)?",
-  "options": [
-   "1056",
-   "672",
-   "1248",
-   "960"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-geometry-mensuration-050",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "geometry-mensuration",
-  "subtopic": "rectangle",
-  "difficulty": "easy",
-  "explanation": "l + b = 31, so b = 14 cm. Area = 17 × 14 = 238 cm².",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The perimeter of a rectangle is 62 cm and its length is 17 cm. What is its area (in cm²)?",
-  "options": [
-   "334",
-   "238",
-   "262",
-   "358"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-boats-streams-051",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "boats-streams",
-  "subtopic": "time downstream",
-  "difficulty": "medium",
-  "explanation": "Downstream speed = 8 + 5 = 13 km/h. Time = 39/13 = 3 h.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A boat goes 8 km/h in still water and the stream flows at 5 km/h. How many hours will it take to go 39 km downstream?",
-  "options": [
-   "2",
-   "0",
-   "3",
-   "6"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-hcf-lcm-052",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "hcf-lcm",
-  "subtopic": "HCF × LCM relation",
-  "difficulty": "medium",
-  "explanation": "Product of the numbers = HCF × LCM = 7 × 105 = 735. Other number = 735/35 = 21.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The HCF of two numbers is 7 and their LCM is 105. If one number is 35, what is the other?",
-  "options": [
-   "21",
-   "19",
-   "23",
-   "25"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-permutations-combinations-053",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "permutations-combinations",
-  "subtopic": "arrangements with repeated letters",
-  "difficulty": "hard",
-  "explanation": "5! divided by the factorial of each repeated letter's count (P:2) = 60.",
-  "estimatedSeconds": 90,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "How many distinct arrangements can be made using all the letters of the word APPLE?",
-  "options": [
-   "72",
-   "48",
-   "60",
-   "90"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "infosys-apt-remainders-divisibility-054",
-  "companies": [
-   "infosys"
-  ],
-  "topic": "remainders-divisibility",
-  "subtopic": "power remainders",
-  "difficulty": "hard",
-  "explanation": "Use the repeating cycle of 3^k mod 11. Reducing the exponent 41 by the cycle length gives a remainder of 3.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the remainder when 3^41 is divided by 11?",
-  "options": [
-   "5",
-   "1",
-   "2",
-   "3"
-  ],
-  "correct": [
-   3
-  ],
   "subject": "aptitude"
  },
  {
@@ -1498,14 +1463,231 @@
   "subject": "aptitude"
  },
  {
-  "uid": "infosys-apt-pipes-cisterns-056",
+  "uid": "infosys-apt-geometry-mensuration-056",
   "companies": [
    "infosys"
   ],
-  "topic": "pipes-cisterns",
-  "subtopic": "inlet and leak",
+  "topic": "geometry-mensuration",
+  "subtopic": "right triangle",
+  "difficulty": "easy",
+  "explanation": "Hypotenuse = √(14² + 48²) = √2500 = 50 cm.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The two shorter sides of a right-angled triangle are 14 cm and 48 cm. Find the hypotenuse (in cm).",
+  "options": [
+   "65",
+   "75",
+   "50",
+   "40"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-geometry-mensuration-057",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "cylinder",
+  "difficulty": "medium",
+  "explanation": "V = πr²h = 22/7 × 7² × 7 = 1078 cm³.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Find the volume of a cylinder with radius 7 cm and height 7 cm (π = 22/7), in cm³.\n(Type your answer as a number.)",
+  "numericAnswer": 1078,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-data-interpretation-058",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "table totals",
+  "difficulty": "easy",
+  "explanation": "Bags: 160 + 90 + 290 = 540.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 370 | 140 | 80\nBooks | 180 | 160 | 240\nBags | 160 | 90 | 290\nBottles | 170 | 120 | 320\n\nWhat is the total number of Bags sold over the three years (in hundreds)?",
+  "options": [
+   "540",
+   "594",
+   "432",
+   "648"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-data-interpretation-059",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "column totals",
+  "difficulty": "easy",
+  "explanation": "2024: 340 + 400 + 390 + 100 = 1230.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 270 | 220 | 340\nBooks | 220 | 190 | 400\nBags | 350 | 100 | 390\nBottles | 400 | 360 | 100\n\nHow many items of all products together were sold in 2024 (in hundreds)?",
+  "options": [
+   "1722",
+   "1230",
+   "1107",
+   "1476"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-data-interpretation-060",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
+  "difficulty": "medium",
+  "explanation": "Change = (80 − 190)/190 × 100 = -57.89%.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 190 | 180 | 80\nBooks | 360 | 150 | 270\nBags | 350 | 210 | 160\nBottles | 150 | 210 | 220\n\nBy what percentage did sales of Pens change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "options": [
+   "-62.89%",
+   "-57.89%",
+   "-72.89%",
+   "-52.89%"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-approximation-simplification-061",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 18 × 9 = 162; ÷ 6 = 27; then + 39 − 2 = 64.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 18 × 9 ÷ 6 + 39 − 2",
+  "options": [
+   "46",
+   "70",
+   "76",
+   "64"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-approximation-simplification-062",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "squares and roots",
+  "difficulty": "easy",
+  "explanation": "√16 = 4; 3² = 9. So 4 + 9 − 4 = 9.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Evaluate: √16 + 3² − 4",
+  "options": [
+   "11",
+   "14",
+   "7",
+   "9"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-approximation-simplification-063",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 25 × 3 = 75; ÷ 5 = 15; then + 19 − 1 = 33.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 25 × 3 ÷ 5 + 19 − 1",
+  "options": [
+   "39",
+   "33",
+   "45",
+   "30"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-remainders-divisibility-064",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
   "difficulty": "hard",
-  "explanation": "Net fill rate = 1/20. Pipe rate = 1/4. Leak rate = 1/4 − 1/20 = 16/80 = 1/5. So the leak empties the tank in 5 hours.",
+  "explanation": "Use the repeating cycle of 5^k mod 5. Reducing the exponent 85 by the cycle length gives a remainder of 0.",
   "estimatedSeconds": 100,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -1513,16 +1695,716 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A pipe fills a tank in 4 hours. Because of a leak at the bottom, it takes the pipe 20 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "text": "What is the remainder when 5^85 is divided by 5?",
   "options": [
    "4",
-   "10",
-   "6",
-   "5"
+   "1",
+   "2",
+   "0"
   ],
   "correct": [
    3
   ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-remainders-divisibility-065",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "division remainder",
+  "difficulty": "easy",
+  "explanation": "Dividend = divisor × quotient + remainder = 7×40 + 4 = 284.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number gives remainder 4 when divided by 7. If the quotient is 40, what is the number?",
+  "options": [
+   "284",
+   "228",
+   "368",
+   "312"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-remainders-divisibility-066",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 6^k mod 5. Reducing the exponent 83 by the cycle length gives a remainder of 1.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the remainder when 6^83 is divided by 5?",
+  "options": [
+   "4",
+   "6",
+   "1",
+   "2"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-number-systems-067",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "number-systems",
+  "subtopic": "unit digit",
+  "difficulty": "medium",
+  "explanation": "Unit digits of 6^k repeat every 4 steps: 6, 6, 6, 6. Position (66 − 1) mod 4 = 1 gives 6.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the unit digit of 6^66?",
+  "options": [
+   "4",
+   "7",
+   "3",
+   "6"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-number-systems-068",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "number-systems",
+  "subtopic": "primes in a range",
+  "difficulty": "medium",
+  "explanation": "The primes in the range are 17, 19, 23, 29, 31, 37 — 6 in total.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many prime numbers are there between 15 and 40 (both inclusive)?",
+  "options": [
+   "11",
+   "10",
+   "8",
+   "6"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-number-systems-069",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "number-systems",
+  "subtopic": "primes in a range",
+  "difficulty": "medium",
+  "explanation": "The primes in the range are 19, 23, 29, 31, 37 — 5 in total.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "How many prime numbers are there between 18 and 37 (both inclusive)?\n(Type your answer as a number.)",
+  "numericAnswer": 5,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-trains-070",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a pole",
+  "difficulty": "easy",
+  "explanation": "Speed in m/s = 72 × 5/18 = 20 m/s. Length = Speed × Time = 20 × 10 = 200 meters.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train running at 72 km/h crosses a standing telegraph pole in 10 seconds. What is the length of the train (in meters)?",
+  "options": [
+   "160",
+   "200",
+   "300",
+   "240"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-trains-071",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a pole",
+  "difficulty": "easy",
+  "explanation": "Speed in m/s = 54 × 5/18 = 15 m/s. Length = Speed × Time = 15 × 12 = 180 meters.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train running at 54 km/h crosses a standing telegraph pole in 12 seconds. What is the length of the train (in meters)?",
+  "options": [
+   "234",
+   "180",
+   "144",
+   "216"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-trains-072",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a pole",
+  "difficulty": "easy",
+  "explanation": "Speed in m/s = 36 × 5/18 = 10 m/s. Length = Speed × Time = 10 × 25 = 250 meters.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train running at 36 km/h crosses a standing telegraph pole in 25 seconds. What is the length of the train (in meters)?",
+  "options": [
+   "350",
+   "250",
+   "175",
+   "300"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-clocks-calendars-073",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "clocks-calendars",
+  "subtopic": "clock hand angles",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×6 − 5.5×0| = 180°.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the smaller angle (in degrees) between the hour and minute hands of a clock at 6:00.",
+  "options": [
+   "210",
+   "255",
+   "180",
+   "240"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-clocks-calendars-074",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "clocks-calendars",
+  "subtopic": "clock hand angles",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×3 − 5.5×40| = 130°.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the smaller angle (in degrees) between the hour and minute hands of a clock at 3:40.",
+  "options": [
+   "130",
+   "190",
+   "100",
+   "205"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-clocks-calendars-075",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "clocks-calendars",
+  "subtopic": "day after N days",
+  "difficulty": "easy",
+  "explanation": "75 divided by 7 leaves a remainder of 5 odd days. Monday + 5 days = Saturday.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If today is Monday, what day of the week will it be exactly 75 days from today?",
+  "options": [
+   "Tuesday",
+   "Monday",
+   "Saturday",
+   "Thursday"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-remainders-divisibility-076",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 8^k mod 6. Reducing the exponent 27 by the cycle length gives a remainder of 2.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the remainder when 8^27 is divided by 6?",
+  "options": [
+   "6",
+   "2",
+   "1",
+   "7"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-interest-077",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "interest",
+  "subtopic": "compound interest (2 years)",
+  "difficulty": "medium",
+  "explanation": "Amount = 2400 × (1 + 10/100)² = 2904. CI = Amount − Principal = 504.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the compound interest on ₹2,400 for 2 years at 10% per annum, compounded annually (in ₹)?",
+  "options": [
+   "754",
+   "504",
+   "404",
+   "554"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-remainders-divisibility-078",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "division remainder",
+  "difficulty": "easy",
+  "explanation": "Dividend = divisor × quotient + remainder = 7×39 + 5 = 278.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A number gives remainder 5 when divided by 7. If the quotient is 39, what is the number?",
+  "options": [
+   "278",
+   "306",
+   "390",
+   "418"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-data-interpretation-079",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
+  "difficulty": "medium",
+  "explanation": "Change = (370 − 400)/400 × 100 = -7.5%.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 90 | 390 | 290\nBooks | 400 | 270 | 370\nBags | 260 | 340 | 360\nBottles | 250 | 160 | 160\n\nBy what percentage did sales of Books change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "options": [
+   "-12.5%",
+   "17.5%",
+   "-7.5%",
+   "12.5%"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-interest-080",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "interest",
+  "subtopic": "compound interest (2 years)",
+  "difficulty": "medium",
+  "explanation": "Amount = 4000 × (1 + 20/100)² = 5760. CI = Amount − Principal = 1760.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the compound interest on ₹4,000 for 2 years at 20% per annum, compounded annually (in ₹)?",
+  "options": [
+   "2112",
+   "1760",
+   "2640",
+   "2464"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-ages-081",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "ages",
+  "subtopic": "sum and difference",
+  "difficulty": "easy",
+  "explanation": "Asha = (sum + difference)/2 = (53 + 7)/2 = 30.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The sum of the ages of Asha and Bala is 53 years and Asha is 7 years older than Bala. How old is Asha?",
+  "options": [
+   "27",
+   "30",
+   "42",
+   "45"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-probability-082",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "probability",
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 6/10 = 3/5.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A bag has 6 red and 4 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "options": [
+   "7/10",
+   "2/5",
+   "6/11",
+   "3/5"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-number-systems-083",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "number-systems",
+  "subtopic": "primes in a range",
+  "difficulty": "medium",
+  "explanation": "The primes in the range are 23, 29, 31, 37, 41, 43 — 6 in total.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "How many prime numbers are there between 22 and 44 (both inclusive)?\n(Type your answer as a number.)",
+  "numericAnswer": 6,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-approximation-simplification-084",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 30 × 6 = 180; ÷ 3 = 60; then + 40 − 1 = 99.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 30 × 6 ÷ 3 + 40 − 1",
+  "options": [
+   "139",
+   "79",
+   "69",
+   "99"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-speed-distance-085",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "train crossing a pole",
+  "difficulty": "medium",
+  "explanation": "Speed = 36 × 5/18 = 10 m/s. Time = 60/10 = 6 s.",
+  "estimatedSeconds": 70,
+  "provenance": "high_priority_practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train 60 m long runs at 36 km/h. How many seconds does it take to cross a telegraph pole?",
+  "options": [
+   "11",
+   "4",
+   "6",
+   "3"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-pipes-cisterns-086",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/12. Pipe rate = 1/4. Leak rate = 1/4 − 1/12 = 8/48 = 1/6. So the leak empties the tank in 6 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 4 hours. Because of a leak at the bottom, it takes the pipe 12 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "6",
+   "4",
+   "7",
+   "9"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-ages-087",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "ages",
+  "subtopic": "sum and difference",
+  "difficulty": "easy",
+  "explanation": "Asha = (sum + difference)/2 = (42 + 6)/2 = 24.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The sum of the ages of Asha and Bala is 42 years and Asha is 6 years older than Bala. How old is Asha?",
+  "options": [
+   "24",
+   "32",
+   "28",
+   "26"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-permutations-combinations-088",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "combinations",
+  "difficulty": "easy",
+  "explanation": "8C4 = 8!/(4!×4!) = 70.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can a committee of 4 be chosen from 8 people?",
+  "options": [
+   "84",
+   "56",
+   "98",
+   "70"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-remainders-divisibility-089",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 3^k mod 7. Reducing the exponent 59 by the cycle length gives a remainder of 5.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "What is the remainder when 3^59 is divided by 7?\n(Type your answer as a number.)",
+  "numericAnswer": 5,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "infosys-apt-trains-090",
+  "companies": [
+   "infosys"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a pole",
+  "difficulty": "easy",
+  "explanation": "Speed in m/s = 36 × 5/18 = 10 m/s. Length = Speed × Time = 10 × 20 = 200 meters.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A train running at 36 km/h crosses a standing telegraph pole in 20 seconds. What is the length of the train (in meters)?\n(Type your answer as a number.)",
+  "numericAnswer": 200,
+  "tolerance": 0,
   "subject": "aptitude"
  }
 ]

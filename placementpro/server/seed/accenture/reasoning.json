@@ -84,30 +84,30 @@
   "subject": "reasoning"
  },
  {
-  "uid": "accenture-rea-coding-decoding-004",
+  "uid": "accenture-rea-alphabet-series-004",
   "companies": [
    "accenture"
   ],
-  "topic": "coding-decoding",
-  "subtopic": "letter shift",
-  "difficulty": "medium",
-  "explanation": "Each letter is shifted forward by 1. Applying the same shift to FAN gives GBO.",
-  "estimatedSeconds": 70,
+  "topic": "alphabet-series",
+  "subtopic": "constant step",
+  "difficulty": "easy",
+  "explanation": "Each letter moves forward by 3 positions. After T comes W.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a certain code, CAT is written as DBU. How is FAN written in that code?",
+  "text": "Find the next letter in the series: H, K, N, Q, T, ?",
   "options": [
-   "NAF",
-   "GBO",
-   "HCP",
-   "FAN"
+   "X",
+   "U",
+   "V",
+   "W"
   ],
   "correct": [
-   1
+   3
   ],
   "subject": "reasoning"
  },
@@ -168,58 +168,58 @@
   "subject": "reasoning"
  },
  {
-  "uid": "accenture-rea-direction-sense-007",
+  "uid": "accenture-rea-coding-decoding-007",
   "companies": [
    "accenture"
   ],
-  "topic": "direction-sense",
-  "subtopic": "distance from start",
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
   "difficulty": "medium",
-  "explanation": "North then east makes a right angle. Distance = √(18² + 24²) = 30 km.",
-  "estimatedSeconds": 60,
+  "explanation": "Each letter is shifted forward by 3. Applying the same shift to TOP gives WRS.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Ramesh walks 18 km north, turns right and walks 24 km. How far is he from his starting point (in km)?",
+  "text": "In a certain code, SUN is written as VXQ. How is TOP written in that code?",
   "options": [
-   "30",
-   "27",
-   "39",
-   "36"
+   "XST",
+   "WRS",
+   "POT",
+   "QLM"
   ],
   "correct": [
-   0
+   1
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "accenture-rea-direction-sense-008",
+  "uid": "accenture-rea-coding-decoding-008",
   "companies": [
    "accenture"
   ],
-  "topic": "direction-sense",
-  "subtopic": "facing direction",
-  "difficulty": "easy",
-  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is East.",
-  "estimatedSeconds": 50,
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
+  "difficulty": "medium",
+  "explanation": "Each letter is shifted forward by 1. Applying the same shift to MAP gives NBQ.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Meena faces North. She turns right, then about (180°), then left, then left. Which direction is she facing now?",
+  "text": "In a certain code, CAT is written as DBU. How is MAP written in that code?",
   "options": [
-   "South",
-   "West",
-   "North",
-   "East"
+   "PAM",
+   "OCR",
+   "NBQ",
+   "MAP"
   ],
   "correct": [
-   3
+   2
   ],
   "subject": "reasoning"
  },
@@ -252,14 +252,98 @@
   "subject": "reasoning"
  },
  {
-  "uid": "accenture-rea-ranking-010",
+  "uid": "accenture-rea-direction-sense-010",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
+  "difficulty": "easy",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is North.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Meena faces North. She turns about (180°), then about (180°), then right, then left. Which direction is she facing now?",
+  "options": [
+   "North",
+   "West",
+   "South",
+   "East"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-direction-sense-011",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "distance from start",
+  "difficulty": "medium",
+  "explanation": "North then east makes a right angle. Distance = √(18² + 24²) = 30 km.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Ramesh walks 18 km north, turns right and walks 24 km. How far is he from his starting point (in km)?",
+  "options": [
+   "36",
+   "30",
+   "21",
+   "24"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-direction-sense-012",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
+  "difficulty": "easy",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is North.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Meena faces North. She turns left, then left, then about (180°). Which direction is she facing now?",
+  "options": [
+   "North",
+   "East",
+   "South",
+   "West"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-ranking-013",
   "companies": [
    "accenture"
   ],
   "topic": "ranking",
-  "subtopic": "rank from bottom",
+  "subtopic": "total in a row",
   "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 50 − 25 + 1 = 26.",
+  "explanation": "Total = left position + right position − 1 = 6 + 7 − 1 = 12.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -267,11 +351,39 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a class of 50 students, Arun's rank from the top is 25. What is his rank from the bottom?",
+  "text": "In a row, Kavya is 6th from the left and 7th from the right. How many people are in the row?",
   "options": [
+   "9",
+   "12",
+   "15",
+   "11"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-ranking-014",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 17 + 10 − 1 = 26.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a row, Kavya is 17th from the left and 10th from the right. How many people are in the row?",
+  "options": [
+   "20",
+   "38",
    "32",
-   "41",
-   "23",
    "26"
   ],
   "correct": [
@@ -280,14 +392,14 @@
   "subject": "reasoning"
  },
  {
-  "uid": "accenture-rea-ranking-011",
+  "uid": "accenture-rea-ranking-015",
   "companies": [
    "accenture"
   ],
   "topic": "ranking",
   "subtopic": "rank from bottom",
   "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 53 − 17 + 1 = 37.",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 57 − 25 + 1 = 33.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -295,11 +407,11 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a class of 53 students, Arun's rank from the top is 17. What is his rank from the bottom?",
+  "text": "In a class of 57 students, Arun's rank from the top is 25. What is his rank from the bottom?",
   "options": [
-   "25",
+   "27",
+   "39",
    "33",
-   "37",
    "45"
   ],
   "correct": [
@@ -308,14 +420,14 @@
   "subject": "reasoning"
  },
  {
-  "uid": "accenture-rea-ranking-012",
+  "uid": "accenture-rea-ranking-016",
   "companies": [
    "accenture"
   ],
   "topic": "ranking",
   "subtopic": "rank from bottom",
   "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 50 − 16 + 1 = 35.",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 55 − 12 + 1 = 44.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -323,295 +435,183 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a class of 50 students, Arun's rank from the top is 16. What is his rank from the bottom?",
+  "text": "In a class of 55 students, Arun's rank from the top is 12. What is his rank from the bottom?",
   "options": [
-   "47",
-   "31",
-   "43",
-   "35"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "accenture-rea-clocks-013",
-  "companies": [
-   "accenture"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×5 − 5.5×38| = 59°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 5:38?",
-  "options": [
-   "77",
-   "59",
-   "71",
-   "89"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "accenture-rea-clocks-014",
-  "companies": [
-   "accenture"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×7 − 5.5×2| = 199°, so the smaller angle is 360 − that = 161°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 7:02?",
-  "options": [
-   "225",
-   "113",
-   "177",
-   "161"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "accenture-rea-clocks-015",
-  "companies": [
-   "accenture"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×1 − 5.5×20| = 80°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 1:20?",
-  "options": [
-   "64",
-   "96",
-   "80",
-   "88"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "accenture-rea-calendars-016",
-  "companies": [
-   "accenture"
-  ],
-  "topic": "calendars",
-  "subtopic": "day of a date",
-  "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Saturday for 17 June 1995 (checked with calendar arithmetic).",
-  "estimatedSeconds": 90,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "On which day of the week does 17 June 1995 fall?",
-  "options": [
-   "Monday",
-   "Friday",
-   "Thursday",
-   "Saturday"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "accenture-rea-calendars-017",
-  "companies": [
-   "accenture"
-  ],
-  "topic": "calendars",
-  "subtopic": "day of a date",
-  "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Thursday for 25 October 2001 (checked with calendar arithmetic).",
-  "estimatedSeconds": 90,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "On which day of the week does 25 October 2001 fall?",
-  "options": [
-   "Friday",
-   "Monday",
-   "Sunday",
-   "Thursday"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "accenture-rea-calendars-018",
-  "companies": [
-   "accenture"
-  ],
-  "topic": "calendars",
-  "subtopic": "day of a date",
-  "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Saturday for 3 October 2026 (checked with calendar arithmetic).",
-  "estimatedSeconds": 90,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "On which day of the week does 3 October 2026 fall?",
-  "options": [
-   "Sunday",
-   "Friday",
-   "Saturday",
-   "Thursday"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "accenture-rea-odd-one-out-019",
-  "companies": [
-   "accenture"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 126 are perfect cubes (7³=343, 6³=216, 4³=64, 2³=8).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 64, 8, 343, 216, 126",
-  "options": [
-   "8",
-   "126",
-   "216",
-   "64"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "accenture-rea-odd-one-out-020",
-  "companies": [
-   "accenture"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 76 are perfect cubes (8³=512, 7³=343, 3³=27, 4³=64).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 64, 343, 512, 76, 27",
-  "options": [
-   "512",
-   "76",
-   "27",
-   "343"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "accenture-rea-odd-one-out-021",
-  "companies": [
-   "accenture"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 82 are perfect cubes (7³=343, 10³=1000, 6³=216, 4³=64).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 82, 64, 343, 216, 1000",
-  "options": [
-   "216",
-   "64",
-   "82",
-   "1000"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "accenture-rea-ranking-022",
-  "companies": [
-   "accenture"
-  ],
-  "topic": "ranking",
-  "subtopic": "total in a row",
-  "difficulty": "easy",
-  "explanation": "Total = left position + right position − 1 = 16 + 14 − 1 = 29.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "In a row, Kavya is 16th from the left and 14th from the right. How many people are in the row?",
-  "options": [
-   "29",
-   "35",
-   "32",
+   "40",
+   "52",
+   "56",
    "44"
   ],
   "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-clocks-017",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×9 − 5.5×58| = 49°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 9:58?",
+  "options": [
+   "49",
+   "44",
+   "64",
+   "74"
+  ],
+  "correct": [
    0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-clocks-018",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×3 − 5.5×28| = 64°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 3:28?",
+  "options": [
+   "64",
+   "88",
+   "58",
+   "70"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-clocks-019",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×5 − 5.5×42| = 81°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 5:42?",
+  "options": [
+   "81",
+   "121",
+   "73",
+   "65"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-clocks-020",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×5 − 5.5×28| = 4°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 5:28?",
+  "options": [
+   "3",
+   "1",
+   "8",
+   "4"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-calendars-021",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Monday for 22 August 2011 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "On which day of the week does 22 August 2011 fall?",
+  "options": [
+   "Saturday",
+   "Sunday",
+   "Tuesday",
+   "Monday"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-calendars-022",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "calendars",
+  "subtopic": "days after",
+  "difficulty": "easy",
+  "explanation": "115 mod 7 = 3. Friday + 3 days = Monday.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Today is Friday. What day of the week will it be after 115 days?",
+  "options": [
+   "Tuesday",
+   "Friday",
+   "Monday",
+   "Wednesday"
+  ],
+  "correct": [
+   2
   ],
   "subject": "reasoning"
  },
@@ -644,14 +644,42 @@
   "subject": "reasoning"
  },
  {
-  "uid": "accenture-rea-ranking-024",
+  "uid": "accenture-rea-calendars-024",
   "companies": [
    "accenture"
   ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Tuesday for 14 April 2020 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "On which day of the week does 14 April 2020 fall?",
+  "options": [
+   "Wednesday",
+   "Sunday",
+   "Thursday",
+   "Tuesday"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-odd-one-out-025",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
   "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 41 − 10 + 1 = 32.",
+  "explanation": "All numbers except 41 are perfect cubes (9³=729, 4³=64, 3³=27, 10³=1000).",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -659,71 +687,43 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a class of 41 students, Arun's rank from the top is 10. What is his rank from the bottom?",
+  "text": "Find the odd one out: 41, 27, 1000, 64, 729",
   "options": [
-   "29",
-   "32",
-   "26",
-   "44"
+   "729",
+   "64",
+   "1000",
+   "41"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-odd-one-out-026",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 73 are perfect cubes (10³=1000, 8³=512, 3³=27, 7³=343).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 1000, 512, 27, 73, 343",
+  "options": [
+   "1000",
+   "73",
+   "27",
+   "343"
   ],
   "correct": [
    1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "accenture-rea-ranking-025",
-  "companies": [
-   "accenture"
-  ],
-  "topic": "ranking",
-  "subtopic": "total in a row",
-  "difficulty": "easy",
-  "explanation": "Total = left position + right position − 1 = 7 + 8 − 1 = 14.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "In a row, Kavya is 7th from the left and 8th from the right. How many people are in the row?",
-  "options": [
-   "14",
-   "17",
-   "19",
-   "13"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "accenture-rea-direction-sense-026",
-  "companies": [
-   "accenture"
-  ],
-  "topic": "direction-sense",
-  "subtopic": "distance from start",
-  "difficulty": "medium",
-  "explanation": "North then east makes a right angle. Distance = √(5² + 12²) = 13 km.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Ramesh walks 5 km north, turns right and walks 12 km. How far is he from his starting point (in km)?",
-  "options": [
-   "16",
-   "10",
-   "13",
-   "11"
-  ],
-  "correct": [
-   2
   ],
   "subject": "reasoning"
  },
@@ -752,6 +752,314 @@
   ],
   "correct": [
    1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-odd-one-out-028",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 61 are perfect cubes (8³=512, 5³=125, 2³=8, 3³=27).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 8, 512, 61, 27, 125",
+  "options": [
+   "512",
+   "125",
+   "61",
+   "8"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-ranking-029",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 8 + 8 − 1 = 15.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a row, Kavya is 8th from the left and 8th from the right. How many people are in the row?",
+  "options": [
+   "15",
+   "9",
+   "21",
+   "13"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-calendars-030",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Tuesday for 19 June 1990 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "On which day of the week does 19 June 1990 fall?",
+  "options": [
+   "Thursday",
+   "Friday",
+   "Wednesday",
+   "Tuesday"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-ranking-031",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 9 + 12 − 1 = 20.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a row, Kavya is 9th from the left and 12th from the right. How many people are in the row?",
+  "options": [
+   "16",
+   "18",
+   "14",
+   "20"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-ranking-032",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "ranking",
+  "subtopic": "rank from bottom",
+  "difficulty": "easy",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 55 − 19 + 1 = 37.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a class of 55 students, Arun's rank from the top is 19. What is his rank from the bottom?",
+  "options": [
+   "25",
+   "37",
+   "45",
+   "29"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-direction-sense-033",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
+  "difficulty": "easy",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is West.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Meena faces North. She turns about (180°), then left, then about (180°). Which direction is she facing now?",
+  "options": [
+   "South",
+   "West",
+   "East",
+   "North"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-odd-one-out-034",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 158 are perfect cubes (4³=64, 9³=729, 10³=1000, 7³=343).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 729, 158, 64, 1000, 343",
+  "options": [
+   "158",
+   "729",
+   "343",
+   "1000"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-clocks-035",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×3 − 5.5×8| = 46°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 3:08?",
+  "options": [
+   "46",
+   "41",
+   "36",
+   "51"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-odd-one-out-036",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 86 are perfect cubes (4³=64, 9³=729, 10³=1000, 8³=512).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 1000, 86, 64, 512, 729",
+  "options": [
+   "64",
+   "729",
+   "86",
+   "512"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-clocks-037",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×3 − 5.5×20| = 20°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 3:20?",
+  "options": [
+   "18",
+   "28",
+   "20",
+   "30"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "accenture-rea-direction-sense-038",
+  "companies": [
+   "accenture"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
+  "difficulty": "easy",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is South.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Meena faces North. She turns left, then about (180°), then right. Which direction is she facing now?",
+  "options": [
+   "West",
+   "East",
+   "South",
+   "North"
+  ],
+  "correct": [
+   2
   ],
   "subject": "reasoning"
  }

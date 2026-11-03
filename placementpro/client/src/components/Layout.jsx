@@ -23,6 +23,8 @@ import {
   CheckCheck,
   Compass,
   FileDown,
+  ShieldCheck,
+  Trash2,
 } from 'lucide-react';
 import { useAuth } from '../lib/auth';
 import { api } from '../lib/api';
@@ -134,6 +136,27 @@ export default function Layout() {
     }
   };
 
+  const deleteNotif = async (id, e) => {
+    e?.stopPropagation();
+    try {
+      const res = await api.del(`/notifications/${id}`);
+      setNotifications((prev) => prev.filter((n) => n._id !== id));
+      setUnreadCount(res.unreadCount ?? Math.max(0, unreadCount - 1));
+    } catch (e) {
+      // ignore
+    }
+  };
+
+  const clearAllNotifs = async () => {
+    try {
+      await api.del('/notifications');
+      setNotifications([]);
+      setUnreadCount(0);
+    } catch (e) {
+      // ignore
+    }
+  };
+
   useEffect(() => {
     setMobileOpen(false);
     setUserMenuOpen(false);
@@ -149,6 +172,21 @@ export default function Layout() {
     document.addEventListener('mousedown', handler);
     return () => document.removeEventListener('mousedown', handler);
   }, []);
+
+  const isAdmin = user?.role === 'admin' || user?.email === 'admin@placementpro.com' || user?.email === 'admin@prepo.com';
+  const navGroups = [
+    ...NAV_GROUPS,
+    ...(isAdmin
+      ? [
+          {
+            title: 'ADMINISTRATION',
+            items: [
+              { to: '/admin', name: 'Question Bank Admin', icon: ShieldCheck },
+            ],
+          },
+        ]
+      : []),
+  ];
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -229,7 +267,7 @@ export default function Layout() {
 
         {/* Navigation Sections */}
         <nav className="space-y-4 px-3 py-1" aria-label="Main sidebar">
-          {NAV_GROUPS.map((group) => (
+          {navGroups.map((group) => (
             <div key={group.title}>
               <div className="px-3 pb-1 text-[10px] font-bold uppercase tracking-wider text-slate-400 dark:text-gray-500">
                 {group.title}
@@ -355,16 +393,29 @@ export default function Layout() {
                             </span>
                           )}
                         </div>
-                        {unreadCount > 0 && (
-                          <button
-                            type="button"
-                            onClick={markAllAsRead}
-                            className="flex items-center gap-1 text-[10px] font-semibold text-sky-600 hover:underline dark:text-sky-400"
-                          >
-                            <CheckCheck className="h-3 w-3" />
-                            Mark all read
-                          </button>
-                        )}
+                        <div className="flex items-center gap-2">
+                          {unreadCount > 0 && (
+                            <button
+                              type="button"
+                              onClick={markAllAsRead}
+                              className="flex items-center gap-1 text-[10px] font-semibold text-sky-600 hover:underline dark:text-sky-400"
+                            >
+                              <CheckCheck className="h-3 w-3" />
+                              Mark read
+                            </button>
+                          )}
+                          {notifications.length > 0 && (
+                            <button
+                              type="button"
+                              onClick={clearAllNotifs}
+                              className="flex items-center gap-1 text-[10px] font-semibold text-slate-400 hover:text-rose-500 transition"
+                              title="Clear all notifications"
+                            >
+                              <Trash2 className="h-3 w-3" />
+                              Clear
+                            </button>
+                          )}
+                        </div>
                       </div>
 
                       <div className="mt-3 max-h-80 overflow-y-auto space-y-2 text-xs">
@@ -377,19 +428,29 @@ export default function Layout() {
                             <div
                               key={n._id}
                               onClick={() => markAsRead(n._id, n.link)}
-                              className={`group cursor-pointer rounded-xl p-2.5 transition ${
+                              className={`group relative cursor-pointer rounded-xl p-2.5 transition ${
                                 n.read
                                   ? 'bg-slate-50/60 hover:bg-slate-100/70 dark:bg-gray-800/40 dark:hover:bg-gray-800/70 opacity-75'
                                   : 'bg-sky-50/80 hover:bg-sky-100/70 dark:bg-sky-950/40 dark:hover:bg-sky-950/70 border border-sky-100 dark:border-sky-900/40'
                               }`}
                             >
                               <div className="flex items-start justify-between gap-1">
-                                <p className={`font-semibold ${n.read ? 'text-slate-700 dark:text-gray-300' : 'text-slate-900 dark:text-gray-100'}`}>
+                                <p className={`font-semibold pr-6 ${n.read ? 'text-slate-700 dark:text-gray-300' : 'text-slate-900 dark:text-gray-100'}`}>
                                   {n.title}
                                 </p>
-                                {!n.read && (
-                                  <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-sky-500" />
-                                )}
+                                <div className="flex items-center gap-1.5 shrink-0">
+                                  {!n.read && (
+                                    <span className="h-1.5 w-1.5 rounded-full bg-sky-500" />
+                                  )}
+                                  <button
+                                    type="button"
+                                    onClick={(e) => deleteNotif(n._id, e)}
+                                    className="opacity-0 group-hover:opacity-100 p-1 text-slate-400 hover:text-rose-500 transition"
+                                    title="Dismiss"
+                                  >
+                                    <Trash2 className="h-3 w-3" />
+                                  </button>
+                                </div>
                               </div>
                               <p className="muted mt-0.5 text-[11px] leading-relaxed">{n.message}</p>
                               {n.link && (

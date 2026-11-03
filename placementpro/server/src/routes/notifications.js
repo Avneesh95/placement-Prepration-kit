@@ -97,4 +97,18 @@ router.patch('/read-all', asyncHandler(async (req, res) => {
   res.json({ ok: true, unreadCount: 0 });
 }));
 
+// DELETE /api/notifications/:id - Delete single notification
+router.delete('/:id', asyncHandler(async (req, res) => {
+  const item = await Notification.findOneAndDelete({ _id: req.params.id, user: req.user._id });
+  if (!item) throw new ApiError(404, 'NOT_FOUND', 'Notification not found.');
+  const unreadCount = await Notification.countDocuments({ user: req.user._id, read: false });
+  res.json({ ok: true, unreadCount });
+}));
+
+// DELETE /api/notifications - Clear all notifications for user
+router.delete('/', asyncHandler(async (req, res) => {
+  await Notification.deleteMany({ user: req.user._id });
+  res.json({ ok: true, unreadCount: 0 });
+}));
+
 module.exports = router;

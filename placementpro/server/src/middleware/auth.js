@@ -16,9 +16,13 @@ const cookieOptions = () => {
 };
 
 const requireAuth = asyncHandler(async (req, _res, next) => {
-  let token = req.cookies && req.cookies[config.cookieName];
+  let token = null;
   const h = req.headers.authorization;
-  if (!token && h && h.startsWith('Bearer ')) token = h.slice(7);
+  if (h && h.startsWith('Bearer ')) {
+    token = h.slice(7);
+  } else if (req.cookies && req.cookies[config.cookieName]) {
+    token = req.cookies[config.cookieName];
+  }
   if (!token) throw new ApiError(401, 'UNAUTHENTICATED', 'Please log in to continue.');
   let payload;
   try { payload = jwt.verify(token, config.jwtSecret); }
@@ -28,4 +32,17 @@ const requireAuth = asyncHandler(async (req, _res, next) => {
   req.user = user;
   next();
 });
-module.exports = { signToken, cookieOptions, requireAuth };
+
+const requireAdmin = asyncHandler(async (req, _res, next) => {
+  if (!req.user) throw new ApiError(401, 'UNAUTHENTICATED', 'Please log in to continue.');
+  const isAdmin = req.user.role === 'admin' ||
+    req.user.email === 'admin@placementpro.com' ||
+    req.user.email === 'admin@prepo.com' ||
+    (process.env.ADMIN_EMAIL && req.user.email === process.env.ADMIN_EMAIL);
+  if (!isAdmin) {
+    throw new ApiError(403, 'FORBIDDEN', 'Administrator privileges required.');
+  }
+  next();
+});
+
+module.exports = { signToken, cookieOptions, requireAuth, requireAdmin };

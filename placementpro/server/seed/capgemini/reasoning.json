@@ -84,30 +84,30 @@
   "subject": "reasoning"
  },
  {
-  "uid": "capgemini-rea-coding-decoding-004",
+  "uid": "capgemini-rea-alphabet-series-004",
   "companies": [
    "capgemini"
   ],
-  "topic": "coding-decoding",
-  "subtopic": "letter shift",
-  "difficulty": "medium",
-  "explanation": "Each letter is shifted forward by 3. Applying the same shift to BOX gives ERA.",
-  "estimatedSeconds": 70,
+  "topic": "alphabet-series",
+  "subtopic": "constant step",
+  "difficulty": "easy",
+  "explanation": "Each letter moves forward by 2 positions. After N comes P.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a certain code, DOG is written as GRJ. How is BOX written in that code?",
+  "text": "Find the next letter in the series: F, H, J, L, N, ?",
   "options": [
-   "DQZ",
-   "FSB",
-   "XOB",
-   "ERA"
+   "N",
+   "O",
+   "P",
+   "Q"
   ],
   "correct": [
-   3
+   2
   ],
   "subject": "reasoning"
  },
@@ -168,58 +168,58 @@
   "subject": "reasoning"
  },
  {
-  "uid": "capgemini-rea-direction-sense-007",
+  "uid": "capgemini-rea-coding-decoding-007",
   "companies": [
    "capgemini"
   ],
-  "topic": "direction-sense",
-  "subtopic": "distance from start",
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
   "difficulty": "medium",
-  "explanation": "North then east makes a right angle. Distance = √(3² + 4²) = 5 km.",
-  "estimatedSeconds": 60,
+  "explanation": "Each letter is shifted forward by 4. Applying the same shift to MAP gives QET.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Ramesh walks 3 km north, turns right and walks 4 km. How far is he from his starting point (in km)?",
+  "text": "In a certain code, DOG is written as HSK. How is MAP written in that code?",
   "options": [
-   "4",
-   "5",
-   "9",
-   "7"
+   "QET",
+   "RFU",
+   "IWL",
+   "PDS"
   ],
   "correct": [
-   1
+   0
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "capgemini-rea-direction-sense-008",
+  "uid": "capgemini-rea-coding-decoding-008",
   "companies": [
    "capgemini"
   ],
-  "topic": "direction-sense",
-  "subtopic": "facing direction",
-  "difficulty": "easy",
-  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is North.",
-  "estimatedSeconds": 50,
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
+  "difficulty": "medium",
+  "explanation": "Each letter is shifted forward by 3. Applying the same shift to MAP gives PDS.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Meena faces North. She turns about (180°), then about (180°), then right, then left. Which direction is she facing now?",
+  "text": "In a certain code, PEN is written as SHQ. How is MAP written in that code?",
   "options": [
-   "South",
-   "North",
-   "West",
-   "East"
+   "PDS",
+   "PAM",
+   "OCR",
+   "QET"
   ],
   "correct": [
-   1
+   0
   ],
   "subject": "reasoning"
  },
@@ -252,55 +252,55 @@
   "subject": "reasoning"
  },
  {
-  "uid": "capgemini-rea-ranking-010",
+  "uid": "capgemini-rea-direction-sense-010",
   "companies": [
    "capgemini"
   ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
   "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 33 − 5 + 1 = 29.",
-  "estimatedSeconds": 40,
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is East.",
+  "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a class of 33 students, Arun's rank from the top is 5. What is his rank from the bottom?",
+  "text": "Meena faces North. She turns right, then left, then right. Which direction is she facing now?",
   "options": [
-   "38",
-   "32",
-   "26",
-   "29"
+   "East",
+   "North",
+   "West",
+   "South"
   ],
   "correct": [
-   3
+   0
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "capgemini-rea-ranking-011",
+  "uid": "capgemini-rea-direction-sense-011",
   "companies": [
    "capgemini"
   ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
   "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 41 − 20 + 1 = 22.",
-  "estimatedSeconds": 40,
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is South.",
+  "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a class of 41 students, Arun's rank from the top is 20. What is his rank from the bottom?",
+  "text": "Meena faces North. She turns about (180°), then left, then about (180°), then left. Which direction is she facing now?",
   "options": [
-   "30",
-   "22",
-   "28",
-   "24"
+   "East",
+   "South",
+   "West",
+   "North"
   ],
   "correct": [
    1
@@ -308,371 +308,7 @@
   "subject": "reasoning"
  },
  {
-  "uid": "capgemini-rea-ranking-012",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
-  "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 38 − 20 + 1 = 19.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "In a class of 38 students, Arun's rank from the top is 20. What is his rank from the bottom?",
-  "options": [
-   "25",
-   "19",
-   "15",
-   "23"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "capgemini-rea-clocks-013",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×10 − 5.5×42| = 69°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 10:42?",
-  "options": [
-   "48",
-   "83",
-   "69",
-   "104"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "capgemini-rea-clocks-014",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×10 − 5.5×10| = 245°, so the smaller angle is 360 − that = 115°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 10:10?",
-  "options": [
-   "115",
-   "79",
-   "175",
-   "127"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "capgemini-rea-clocks-015",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×8 − 5.5×10| = 185°, so the smaller angle is 360 − that = 175°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 8:10?",
-  "options": [
-   "157",
-   "247",
-   "121",
-   "175"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "capgemini-rea-calendars-016",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "calendars",
-  "subtopic": "days after",
-  "difficulty": "easy",
-  "explanation": "197 mod 7 = 1. Friday + 1 days = Saturday.",
-  "estimatedSeconds": 45,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Today is Friday. What day of the week will it be after 197 days?",
-  "options": [
-   "Tuesday",
-   "Friday",
-   "Thursday",
-   "Saturday"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "capgemini-rea-calendars-017",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "calendars",
-  "subtopic": "day of a date",
-  "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Friday for 2 February 1996 (checked with calendar arithmetic).",
-  "estimatedSeconds": 90,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "On which day of the week does 2 February 1996 fall?",
-  "options": [
-   "Friday",
-   "Sunday",
-   "Wednesday",
-   "Monday"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "capgemini-rea-calendars-018",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "calendars",
-  "subtopic": "days after",
-  "difficulty": "easy",
-  "explanation": "142 mod 7 = 2. Tuesday + 2 days = Thursday.",
-  "estimatedSeconds": 45,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Today is Tuesday. What day of the week will it be after 142 days?",
-  "options": [
-   "Thursday",
-   "Friday",
-   "Wednesday",
-   "Sunday"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "capgemini-rea-odd-one-out-019",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 73 are perfect cubes (5³=125, 8³=512, 4³=64, 7³=343).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 343, 125, 512, 64, 73",
-  "options": [
-   "343",
-   "512",
-   "73",
-   "64"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "capgemini-rea-odd-one-out-020",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 152 are perfect cubes (9³=729, 4³=64, 6³=216, 7³=343).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 216, 152, 729, 343, 64",
-  "options": [
-   "152",
-   "64",
-   "216",
-   "343"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "capgemini-rea-odd-one-out-021",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 179 are perfect cubes (6³=216, 5³=125, 2³=8, 7³=343).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 343, 179, 125, 216, 8",
-  "options": [
-   "216",
-   "8",
-   "125",
-   "179"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "capgemini-rea-clocks-022",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×6 − 5.5×58| = 139°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 6:58?",
-  "options": [
-   "181",
-   "167",
-   "125",
-   "139"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "capgemini-rea-alphabet-series-023",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "alphabet-series",
-  "subtopic": "constant step",
-  "difficulty": "easy",
-  "explanation": "Each letter moves forward by 3 positions. After M comes P.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the next letter in the series: A, D, G, J, M, ?",
-  "options": [
-   "P",
-   "R",
-   "O",
-   "Q"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "capgemini-rea-odd-one-out-024",
-  "companies": [
-   "capgemini"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 26 are perfect cubes (10³=1000, 4³=64, 6³=216, 9³=729).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 729, 26, 64, 1000, 216",
-  "options": [
-   "1000",
-   "64",
-   "729",
-   "26"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "capgemini-rea-direction-sense-025",
+  "uid": "capgemini-rea-direction-sense-012",
   "companies": [
    "capgemini"
   ],
@@ -689,13 +325,377 @@
   "type": "mcq_single",
   "text": "Ramesh walks 24 km north, turns right and walks 45 km. How far is he from his starting point (in km)?",
   "options": [
-   "36",
    "51",
-   "66",
-   "41"
+   "71",
+   "56",
+   "36"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-ranking-013",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 14 + 12 − 1 = 25.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a row, Kavya is 14th from the left and 12th from the right. How many people are in the row?",
+  "options": [
+   "19",
+   "25",
+   "28",
+   "22"
   ],
   "correct": [
    1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-ranking-014",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 8 + 16 − 1 = 23.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a row, Kavya is 8th from the left and 16th from the right. How many people are in the row?",
+  "options": [
+   "23",
+   "33",
+   "27",
+   "19"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-ranking-015",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 12 + 9 − 1 = 20.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a row, Kavya is 12th from the left and 9th from the right. How many people are in the row?",
+  "options": [
+   "28",
+   "30",
+   "16",
+   "20"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-ranking-016",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "ranking",
+  "subtopic": "rank from bottom",
+  "difficulty": "easy",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 49 − 12 + 1 = 38.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a class of 49 students, Arun's rank from the top is 12. What is his rank from the bottom?",
+  "options": [
+   "38",
+   "54",
+   "46",
+   "34"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-clocks-017",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×6 − 5.5×30| = 15°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 6:30?",
+  "options": [
+   "19",
+   "23",
+   "21",
+   "15"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-clocks-018",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×9 − 5.5×22| = 149°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 9:22?",
+  "options": [
+   "119",
+   "149",
+   "164",
+   "179"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-clocks-019",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×9 − 5.5×48| = 6°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 9:48?",
+  "options": [
+   "7",
+   "6",
+   "9",
+   "8"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-clocks-020",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×1 − 5.5×8| = 14°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 1:08?",
+  "options": [
+   "12",
+   "14",
+   "18",
+   "15"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-calendars-021",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "calendars",
+  "subtopic": "days after",
+  "difficulty": "easy",
+  "explanation": "119 mod 7 = 0. Sunday + 0 days = Sunday.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Today is Sunday. What day of the week will it be after 119 days?",
+  "options": [
+   "Saturday",
+   "Thursday",
+   "Sunday",
+   "Tuesday"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-calendars-022",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "calendars",
+  "subtopic": "days after",
+  "difficulty": "easy",
+  "explanation": "57 mod 7 = 1. Thursday + 1 days = Friday.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Today is Thursday. What day of the week will it be after 57 days?",
+  "options": [
+   "Sunday",
+   "Friday",
+   "Tuesday",
+   "Wednesday"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-calendars-023",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "calendars",
+  "subtopic": "days after",
+  "difficulty": "easy",
+  "explanation": "135 mod 7 = 2. Thursday + 2 days = Saturday.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Today is Thursday. What day of the week will it be after 135 days?",
+  "options": [
+   "Monday",
+   "Saturday",
+   "Friday",
+   "Wednesday"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-calendars-024",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Monday for 23 October 2000 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "On which day of the week does 23 October 2000 fall?",
+  "options": [
+   "Monday",
+   "Wednesday",
+   "Friday",
+   "Sunday"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-odd-one-out-025",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 56 are perfect cubes (10³=1000, 8³=512, 4³=64, 7³=343).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 343, 512, 56, 1000, 64",
+  "options": [
+   "1000",
+   "343",
+   "64",
+   "56"
+  ],
+  "correct": [
+   3
   ],
   "subject": "reasoning"
  },
@@ -752,6 +752,314 @@
   ],
   "correct": [
    1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-odd-one-out-028",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 69 are perfect cubes (8³=512, 7³=343, 3³=27, 4³=64).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 69, 64, 27, 512, 343",
+  "options": [
+   "27",
+   "343",
+   "69",
+   "512"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-clocks-029",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×1 − 5.5×48| = 234°, so the smaller angle is 360 − that = 126°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 1:48?",
+  "options": [
+   "126",
+   "100",
+   "191",
+   "165"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-alphabet-series-030",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "alphabet-series",
+  "subtopic": "constant step",
+  "difficulty": "easy",
+  "explanation": "Each letter moves forward by 2 positions. After O comes Q.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next letter in the series: G, I, K, M, O, ?",
+  "options": [
+   "Q",
+   "R",
+   "S",
+   "O"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-odd-one-out-031",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 84 are perfect cubes (5³=125, 7³=343, 4³=64, 10³=1000).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 84, 125, 1000, 64, 343",
+  "options": [
+   "125",
+   "84",
+   "343",
+   "64"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-direction-sense-032",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
+  "difficulty": "easy",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is West.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Meena faces North. She turns about (180°), then right, then left, then right. Which direction is she facing now?",
+  "options": [
+   "South",
+   "North",
+   "West",
+   "East"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-odd-one-out-033",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 66 are perfect cubes (6³=216, 2³=8, 7³=343, 5³=125).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 8, 343, 125, 66, 216",
+  "options": [
+   "66",
+   "216",
+   "8",
+   "343"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-odd-one-out-034",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 165 are perfect cubes (8³=512, 9³=729, 10³=1000, 2³=8).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 165, 1000, 8, 729, 512",
+  "options": [
+   "729",
+   "8",
+   "165",
+   "512"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-ranking-035",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 6 + 12 − 1 = 17.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a row, Kavya is 6th from the left and 12th from the right. How many people are in the row?",
+  "options": [
+   "27",
+   "11",
+   "17",
+   "19"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-alphabet-series-036",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "alphabet-series",
+  "subtopic": "constant step",
+  "difficulty": "easy",
+  "explanation": "Each letter moves forward by 5 positions. After U comes Z.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next letter in the series: A, F, K, P, U, ?",
+  "options": [
+   "A",
+   "B",
+   "X",
+   "Z"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-odd-one-out-037",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 119 are perfect cubes (7³=343, 9³=729, 2³=8, 5³=125).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 8, 729, 343, 119, 125",
+  "options": [
+   "119",
+   "343",
+   "729",
+   "125"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "capgemini-rea-alphabet-series-038",
+  "companies": [
+   "capgemini"
+  ],
+  "topic": "alphabet-series",
+  "subtopic": "constant step",
+  "difficulty": "easy",
+  "explanation": "Each letter moves forward by 5 positions. After W comes B.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next letter in the series: C, H, M, R, W, ?",
+  "options": [
+   "Z",
+   "D",
+   "B",
+   "C"
+  ],
+  "correct": [
+   2
   ],
   "subject": "reasoning"
  }

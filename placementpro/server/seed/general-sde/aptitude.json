@@ -56,30 +56,30 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-profit-loss-003",
+  "uid": "general-sde-apt-percentages-003",
   "companies": [
    "general-sde"
   ],
-  "topic": "profit-loss",
-  "subtopic": "discount",
-  "difficulty": "easy",
-  "explanation": "Price = 1600 × (100 − 25)/100 = 1200.",
-  "estimatedSeconds": 50,
+  "topic": "percentages",
+  "subtopic": "successive change",
+  "difficulty": "medium",
+  "explanation": "Net change = x − y − xy/100 = 15 − 5 − (15×5)/100 = 9.25%. A positive value means a net increase, a negative one a net decrease.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A shirt has a marked price of ₹1,600. A discount of 25% is given. What is the price paid (in ₹)?",
+  "text": "A number is first increased by 15% and then decreased by 5%. What is the net percentage change?",
   "options": [
-   "1440",
-   "1200",
-   "1680",
-   "1560"
+   "9.25%",
+   "19.25%",
+   "1.75%",
+   "4.25%"
   ],
   "correct": [
-   1
+   0
   ],
   "subject": "aptitude"
  },
@@ -112,70 +112,14 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-ratio-proportion-005",
+  "uid": "general-sde-apt-profit-loss-005",
   "companies": [
    "general-sde"
   ],
-  "topic": "ratio-proportion",
-  "subtopic": "dividing in a ratio",
-  "difficulty": "easy",
-  "explanation": "Total parts = 10. One part = 1800/10 = 180. Second share = 5 × 180 = 900.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "₹1,800 is divided among three people in the ratio 2:5:3. How much does the second person get (in ₹)?",
-  "options": [
-   "1260",
-   "630",
-   "900",
-   "720"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-ratio-proportion-006",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "ratio-proportion",
-  "subtopic": "dividing in a ratio",
-  "difficulty": "easy",
-  "explanation": "Total parts = 10. One part = 600/10 = 60. Second share = 2 × 60 = 120.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "₹600 is divided among three people in the ratio 3:2:5. How much does the second person get (in ₹)?",
-  "options": [
-   "120",
-   "144",
-   "168",
-   "84"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-averages-007",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "averages",
-  "subtopic": "average after adding an item",
+  "topic": "profit-loss",
+  "subtopic": "cost price from loss",
   "difficulty": "medium",
-  "explanation": "Sum of 5 = 115. Sum of 6 = 150. Sixth number = 150 − 115 = 35.",
+  "explanation": "SP = 0.90 × CP → CP = 1080 × 100/90 = 1200.",
   "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -183,12 +127,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "The average of 5 numbers is 23. A sixth number is added and the average becomes 25. What is the sixth number?",
+  "text": "By selling an item for ₹1,080, a shopkeeper incurs a loss of 10%. What was the cost price (in ₹)?",
   "options": [
-   "55",
-   "23",
-   "47",
-   "35"
+   "960",
+   "1800",
+   "840",
+   "1200"
   ],
   "correct": [
    3
@@ -196,14 +140,14 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-averages-008",
+  "uid": "general-sde-apt-profit-loss-006",
   "companies": [
    "general-sde"
   ],
-  "topic": "averages",
-  "subtopic": "average after adding an item",
+  "topic": "profit-loss",
+  "subtopic": "cost price from loss",
   "difficulty": "medium",
-  "explanation": "Sum of 5 = 100. Sum of 6 = 150. Sixth number = 150 − 100 = 50.",
+  "explanation": "SP = 0.80 × CP → CP = 1600 × 100/80 = 2000.",
   "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -211,12 +155,68 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "The average of 5 numbers is 20. A sixth number is added and the average becomes 25. What is the sixth number?",
+  "text": "By selling an item for ₹1,600, a shopkeeper incurs a loss of 20%. What was the cost price (in ₹)?",
   "options": [
-   "50",
-   "35",
-   "70",
-   "65"
+   "2600",
+   "2000",
+   "2200",
+   "2800"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-ratio-proportion-007",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 14. One part = 1540/14 = 110. Second share = 5 × 110 = 550.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹1,540 is divided among three people in the ratio 3:5:6. How much does the second person get (in ₹)?",
+  "options": [
+   "440",
+   "715",
+   "550",
+   "495"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-ratio-proportion-008",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 11. One part = 2420/11 = 220. Second share = 4 × 220 = 880.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹2,420 is divided among three people in the ratio 4:4:3. How much does the second person get (in ₹)?",
+  "options": [
+   "880",
+   "1320",
+   "1232",
+   "968"
   ],
   "correct": [
    0
@@ -224,7 +224,119 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-time-work-009",
+  "uid": "general-sde-apt-ratio-proportion-009",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 15. One part = 1500/15 = 100. Second share = 3 × 100 = 300.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹1,500 is divided among three people in the ratio 5:3:7. How much does the second person get (in ₹)?",
+  "options": [
+   "450",
+   "240",
+   "300",
+   "360"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-averages-010",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 165. Sum of 6 = 234. Sixth number = 234 − 165 = 69.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 33. A sixth number is added and the average becomes 39. What is the sixth number?",
+  "options": [
+   "69",
+   "55",
+   "83",
+   "104"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-averages-011",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 115. Sum of 6 = 174. Sixth number = 174 − 115 = 59.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 23. A sixth number is added and the average becomes 29. What is the sixth number?",
+  "options": [
+   "65",
+   "59",
+   "71",
+   "77"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-averages-012",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 180. Sum of 6 = 234. Sixth number = 234 − 180 = 54.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The average of 5 numbers is 36. A sixth number is added and the average becomes 39. What is the sixth number?",
+  "options": [
+   "44",
+   "74",
+   "49",
+   "54"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-time-work-013",
   "companies": [
    "general-sde"
   ],
@@ -241,18 +353,18 @@
   "type": "mcq_single",
   "text": "A can finish a job in 4 days and B can finish it in 12 days. Working together, in how many days will they finish it?",
   "options": [
+   "2",
+   "8",
    "3",
-   "4",
-   "0",
-   "1"
+   "7"
   ],
   "correct": [
-   0
+   2
   ],
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-time-work-010",
+  "uid": "general-sde-apt-time-work-014",
   "companies": [
    "general-sde"
   ],
@@ -270,9 +382,9 @@
   "text": "A can finish a job in 5 days and B can finish it in 20 days. Working together, in how many days will they finish it?",
   "options": [
    "2",
-   "8",
+   "7",
    "4",
-   "6"
+   "1"
   ],
   "correct": [
    2
@@ -280,168 +392,14 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-pipes-cisterns-011",
+  "uid": "general-sde-apt-time-work-015",
   "companies": [
    "general-sde"
   ],
-  "topic": "pipes-cisterns",
-  "subtopic": "inlet and leak",
-  "difficulty": "hard",
-  "explanation": "Net fill rate = 1/12. Pipe rate = 1/3. Leak rate = 1/3 − 1/12 = 9/36 = 1/4. So the leak empties the tank in 4 hours.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "A pipe fills a tank in 3 hours. Because of a leak at the bottom, it takes the pipe 12 hours to fill the tank. In how many hours can the leak alone empty the full tank?\n(Type your answer as a number.)",
-  "numericAnswer": 4,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-pipes-cisterns-012",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "pipes-cisterns",
-  "subtopic": "inlet and leak",
-  "difficulty": "hard",
-  "explanation": "Net fill rate = 1/90. Pipe rate = 1/15. Leak rate = 1/15 − 1/90 = 75/1350 = 1/18. So the leak empties the tank in 18 hours.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A pipe fills a tank in 15 hours. Because of a leak at the bottom, it takes the pipe 90 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
-  "options": [
-   "18",
-   "24",
-   "14",
-   "26"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-speed-distance-013",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "speed-distance",
-  "subtopic": "average speed",
+  "topic": "time-work",
+  "subtopic": "two workers together",
   "difficulty": "medium",
-  "explanation": "For equal distances, average speed = 2ab/(a+b) = 2×40×60/100 = 48 km/h.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A car covers a distance at 40 km/h and returns the same distance at 60 km/h. What is its average speed for the whole trip (in km/h)?",
-  "options": [
-   "68",
-   "48",
-   "38",
-   "43"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-speed-distance-014",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "speed-distance",
-  "subtopic": "average speed",
-  "difficulty": "medium",
-  "explanation": "For equal distances, average speed = 2ab/(a+b) = 2×60×90/150 = 72 km/h.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "A car covers a distance at 60 km/h and returns the same distance at 90 km/h. What is its average speed for the whole trip (in km/h)?\n(Type your answer as a number.)",
-  "numericAnswer": 72,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-boats-streams-015",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "boats-streams",
-  "subtopic": "time downstream",
-  "difficulty": "medium",
-  "explanation": "Downstream speed = 17 + 2 = 19 km/h. Time = 38/19 = 2 h.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A boat goes 17 km/h in still water and the stream flows at 2 km/h. How many hours will it take to go 38 km downstream?",
-  "options": [
-   "0",
-   "4",
-   "6",
-   "2"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-boats-streams-016",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "boats-streams",
-  "subtopic": "upstream speed",
-  "difficulty": "easy",
-  "explanation": "Upstream speed = 18 − 6 = 12 km/h.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A boat's speed in still water is 18 km/h and the stream's speed is 6 km/h. What is its speed upstream (in km/h)?",
-  "options": [
-   "12",
-   "14",
-   "15",
-   "16"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-interest-017",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "interest",
-  "subtopic": "compound interest (2 years)",
-  "difficulty": "medium",
-  "explanation": "Amount = 1200 × (1 + 15/100)² = 1587. CI = Amount − Principal = 387.",
+  "explanation": "Rate = 1/14 + 1/35 = 49/490 per day. Days = 490/49 = 10.",
   "estimatedSeconds": 80,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -449,159 +407,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "What is the compound interest on ₹1,200 for 2 years at 15% per annum, compounded annually (in ₹)?",
+  "text": "A can finish a job in 14 days and B can finish it in 35 days. Working together, in how many days will they finish it?",
   "options": [
-   "309",
-   "582",
-   "387",
-   "348"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-interest-018",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "interest",
-  "subtopic": "simple interest",
-  "difficulty": "easy",
-  "explanation": "SI = PRT/100 = 8000×12×4/100 = 3840.",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "Find the simple interest on ₹8,000 at 12% per annum for 4 years (in ₹).\n(Type your answer as a number.)",
-  "numericAnswer": 3840,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-number-series-019",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "number-series",
-  "subtopic": "arithmetic series",
-  "difficulty": "easy",
-  "explanation": "Each term increases by 5. Next = 24 + 5 = 29.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the next number: 4, 9, 14, 19, 24, ?",
-  "options": [
-   "20",
-   "23",
-   "29",
-   "38"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-number-series-020",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "number-series",
-  "subtopic": "squares plus constant",
-  "difficulty": "medium",
-  "explanation": "The terms are 6²+1, 7²+1, 8²+1, 9²+1, 10²+1. Next = 11²+1 = 122.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "Find the next number: 37, 50, 65, 82, 101, ?\n(Type your answer as a number.)",
-  "numericAnswer": 122,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-hcf-lcm-021",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "hcf-lcm",
-  "subtopic": "HCF × LCM relation",
-  "difficulty": "medium",
-  "explanation": "Product of the numbers = HCF × LCM = 6 × 180 = 1080. Other number = 1080/30 = 36.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The HCF of two numbers is 6 and their LCM is 180. If one number is 30, what is the other?",
-  "options": [
-   "28",
-   "52",
-   "48",
-   "36"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-hcf-lcm-022",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "hcf-lcm",
-  "subtopic": "HCF × LCM relation",
-  "difficulty": "medium",
-  "explanation": "Product of the numbers = HCF × LCM = 9 × 189 = 1701. Other number = 1701/27 = 63.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "The HCF of two numbers is 9 and their LCM is 189. If one number is 27, what is the other?\n(Type your answer as a number.)",
-  "numericAnswer": 63,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-ages-023",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "ages",
-  "subtopic": "sum and difference",
-  "difficulty": "easy",
-  "explanation": "Asha = (sum + difference)/2 = (72 + 14)/2 = 43.",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The sum of the ages of Asha and Bala is 72 years and Asha is 14 years older than Bala. How old is Asha?",
-  "options": [
-   "63",
-   "43",
-   "35",
-   "55"
+   "13",
+   "10",
+   "11",
+   "12"
   ],
   "correct": [
    1
@@ -609,14 +420,119 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-ages-024",
+  "uid": "general-sde-apt-pipes-cisterns-016",
   "companies": [
    "general-sde"
   ],
-  "topic": "ages",
-  "subtopic": "ages in the past",
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/24. Pipe rate = 1/6. Leak rate = 1/6 − 1/24 = 18/144 = 1/8. So the leak empties the tank in 8 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 6 hours. Because of a leak at the bottom, it takes the pipe 24 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "7",
+   "6",
+   "9",
+   "8"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-pipes-cisterns-017",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/30. Pipe rate = 1/5. Leak rate = 1/5 − 1/30 = 25/150 = 1/6. So the leak empties the tank in 6 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A pipe fills a tank in 5 hours. Because of a leak at the bottom, it takes the pipe 30 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+  "options": [
+   "4",
+   "10",
+   "6",
+   "9"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-pipes-cisterns-018",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "pipes-cisterns",
+  "subtopic": "inlet and leak",
+  "difficulty": "hard",
+  "explanation": "Net fill rate = 1/40. Pipe rate = 1/8. Leak rate = 1/8 − 1/40 = 32/320 = 1/10. So the leak empties the tank in 10 hours.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A pipe fills a tank in 8 hours. Because of a leak at the bottom, it takes the pipe 40 hours to fill the tank. In how many hours can the leak alone empty the full tank?\n(Type your answer as a number.)",
+  "numericAnswer": 10,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-speed-distance-019",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "trains in opposite directions",
+  "difficulty": "hard",
+  "explanation": "Relative speed = 30 + 42 = 72 km/h = 20 m/s. Distance = 110 + 110 = 220 m. Time = 220/20 = 11 s.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Two trains of lengths 110 m and 110 m run in opposite directions at 30 km/h and 42 km/h. In how many seconds do they completely cross each other?",
+  "options": [
+   "10",
+   "11",
+   "16",
+   "13"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-speed-distance-020",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "speed-distance",
+  "subtopic": "train crossing a pole",
   "difficulty": "medium",
-  "explanation": "Sita 2 years ago = 19. Ravi then = 4 × 19 = 76. Ravi now = 76 + 2 = 78.",
+  "explanation": "Speed = 36 × 5/18 = 10 m/s. Time = 70/10 = 7 s.",
   "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -624,12 +540,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "2 years ago, Ravi was 4 times as old as Sita. Sita is now 21 years old. How old is Ravi now?",
+  "text": "A train 70 m long runs at 36 km/h. How many seconds does it take to cross a telegraph pole?",
   "options": [
-   "78",
-   "118",
-   "110",
-   "62"
+   "7",
+   "9",
+   "4",
+   "12"
   ],
   "correct": [
    0
@@ -637,35 +553,469 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-permutations-combinations-025",
+  "uid": "general-sde-apt-speed-distance-021",
   "companies": [
    "general-sde"
   ],
-  "topic": "permutations-combinations",
-  "subtopic": "combinations",
+  "topic": "speed-distance",
+  "subtopic": "average speed",
+  "difficulty": "medium",
+  "explanation": "For equal distances, average speed = 2ab/(a+b) = 2×20×30/50 = 24 km/h.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A car covers a distance at 20 km/h and returns the same distance at 30 km/h. What is its average speed for the whole trip (in km/h)?",
+  "options": [
+   "26",
+   "30",
+   "24",
+   "20"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-boats-streams-022",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "upstream speed",
   "difficulty": "easy",
-  "explanation": "7C3 = 7!/(3!×4!) = 35.",
-  "estimatedSeconds": 50,
+  "explanation": "Upstream speed = 14 − 4 = 10 km/h.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat's speed in still water is 14 km/h and the stream's speed is 4 km/h. What is its speed upstream (in km/h)?",
+  "options": [
+   "8",
+   "15",
+   "10",
+   "13"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-boats-streams-023",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "upstream speed",
+  "difficulty": "easy",
+  "explanation": "Upstream speed = 11 − 6 = 5 km/h.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "numeric",
-  "text": "In how many ways can a committee of 3 be chosen from 7 people?\n(Type your answer as a number.)",
-  "numericAnswer": 35,
+  "text": "A boat's speed in still water is 11 km/h and the stream's speed is 6 km/h. What is its speed upstream (in km/h)?\n(Type your answer as a number.)",
+  "numericAnswer": 5,
   "tolerance": 0,
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-permutations-combinations-026",
+  "uid": "general-sde-apt-boats-streams-024",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 9 + 2 = 11 km/h. Time = 44/11 = 4 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A boat goes 9 km/h in still water and the stream flows at 2 km/h. How many hours will it take to go 44 km downstream?",
+  "options": [
+   "1",
+   "4",
+   "6",
+   "8"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-interest-025",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "interest",
+  "subtopic": "compound interest (2 years)",
+  "difficulty": "medium",
+  "explanation": "Amount = 3600 × (1 + 20/100)² = 5184. CI = Amount − Principal = 1584.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the compound interest on ₹3,600 for 2 years at 20% per annum, compounded annually (in ₹)?",
+  "options": [
+   "1426",
+   "1742",
+   "1268",
+   "1584"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-interest-026",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "interest",
+  "subtopic": "simple interest",
+  "difficulty": "easy",
+  "explanation": "SI = PRT/100 = 29000×5×5/100 = 7250.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the simple interest on ₹29,000 at 5% per annum for 5 years (in ₹).",
+  "options": [
+   "10875",
+   "7250",
+   "9425",
+   "5075"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-interest-027",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "interest",
+  "subtopic": "compound interest (2 years)",
+  "difficulty": "medium",
+  "explanation": "Amount = 4800 × (1 + 5/100)² = 5292. CI = Amount − Principal = 492.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "What is the compound interest on ₹4,800 for 2 years at 5% per annum, compounded annually (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 492,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-number-series-028",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "number-series",
+  "subtopic": "geometric series",
+  "difficulty": "easy",
+  "explanation": "Each term is multiplied by 2. Next = 48 × 2 = 96.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 3, 6, 12, 24, 48, ?",
+  "options": [
+   "116",
+   "136",
+   "96",
+   "66"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-number-series-029",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "number-series",
+  "subtopic": "geometric series",
+  "difficulty": "easy",
+  "explanation": "Each term is multiplied by 3. Next = 81 × 3 = 243.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the next number: 1, 3, 9, 27, 81, ?",
+  "options": [
+   "339",
+   "243",
+   "267",
+   "363"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-number-series-030",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "number-series",
+  "subtopic": "arithmetic series",
+  "difficulty": "easy",
+  "explanation": "Each term increases by 3. Next = 31 + 3 = 34.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Find the next number: 19, 22, 25, 28, 31, ?\n(Type your answer as a number.)",
+  "numericAnswer": 34,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-hcf-lcm-031",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "HCF × LCM relation",
+  "difficulty": "medium",
+  "explanation": "Product of the numbers = HCF × LCM = 4 × 140 = 560. Other number = 560/28 = 20.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The HCF of two numbers is 4 and their LCM is 140. If one number is 28, what is the other?",
+  "options": [
+   "26",
+   "22",
+   "30",
+   "20"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-hcf-lcm-032",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "HCF × LCM relation",
+  "difficulty": "medium",
+  "explanation": "Product of the numbers = HCF × LCM = 7 × 245 = 1715. Other number = 1715/49 = 35.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The HCF of two numbers is 7 and their LCM is 245. If one number is 49, what is the other?",
+  "options": [
+   "27",
+   "23",
+   "35",
+   "43"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-hcf-lcm-033",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "LCM of two numbers",
+  "difficulty": "easy",
+  "explanation": "HCF = 7. LCM = (21 × 56)/7 = 168.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the LCM of 21 and 56.",
+  "options": [
+   "134",
+   "202",
+   "168",
+   "117"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-ages-034",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "ages",
+  "subtopic": "ages in the past",
+  "difficulty": "medium",
+  "explanation": "Sita 8 years ago = 6. Ravi then = 3 × 6 = 18. Ravi now = 18 + 8 = 26.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "8 years ago, Ravi was 3 times as old as Sita. Sita is now 14 years old. How old is Ravi now?",
+  "options": [
+   "26",
+   "20",
+   "29",
+   "17"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-ages-035",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "ages",
+  "subtopic": "ages in the past",
+  "difficulty": "medium",
+  "explanation": "Sita 3 years ago = 21. Ravi then = 4 × 21 = 84. Ravi now = 84 + 3 = 87.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "3 years ago, Ravi was 4 times as old as Sita. Sita is now 24 years old. How old is Ravi now?",
+  "options": [
+   "60",
+   "96",
+   "87",
+   "105"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-ages-036",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "ages",
+  "subtopic": "ages in the past",
+  "difficulty": "medium",
+  "explanation": "Sita 8 years ago = 5. Ravi then = 2 × 5 = 10. Ravi now = 10 + 8 = 18.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "8 years ago, Ravi was 2 times as old as Sita. Sita is now 13 years old. How old is Ravi now?",
+  "options": [
+   "20",
+   "22",
+   "18",
+   "14"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-permutations-combinations-037",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "combinations",
+  "difficulty": "easy",
+  "explanation": "6C3 = 6!/(3!×3!) = 20.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can a committee of 3 be chosen from 6 people?",
+  "options": [
+   "26",
+   "16",
+   "28",
+   "20"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-permutations-combinations-038",
   "companies": [
    "general-sde"
   ],
   "topic": "permutations-combinations",
   "subtopic": "arrangements with repeated letters",
   "difficulty": "hard",
-  "explanation": "9! divided by the factorial of each repeated letter's count (M:2, T:2, E:2) = 45360.",
+  "explanation": "6! divided by the factorial of each repeated letter's count (A:3, N:2) = 60.",
   "estimatedSeconds": 90,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -673,68 +1023,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "How many distinct arrangements can be made using all the letters of the word COMMITTEE?",
+  "text": "How many distinct arrangements can be made using all the letters of the word BANANA?",
   "options": [
-   "36288",
-   "63504",
-   "45360",
-   "54432"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-probability-027",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "probability",
-  "subtopic": "two dice",
-  "difficulty": "medium",
-  "explanation": "Ways to get a sum of 8 = 5 out of 36 outcomes, so P = 5/36 = 5/36.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 8?",
-  "options": [
-   "1/6",
-   "5/18",
-   "7/36",
-   "5/36"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-probability-028",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "probability",
-  "subtopic": "two dice",
-  "difficulty": "medium",
-  "explanation": "Ways to get a sum of 4 = 3 out of 36 outcomes, so P = 3/36 = 1/12.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 4?",
-  "options": [
-   "1/12",
-   "5/36",
-   "1/6",
-   "1/18"
+   "60",
+   "90",
+   "72",
+   "48"
   ],
   "correct": [
    0
@@ -742,27 +1036,55 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-mixtures-alligation-029",
+  "uid": "general-sde-apt-permutations-combinations-039",
   "companies": [
    "general-sde"
   ],
-  "topic": "mixtures-alligation",
-  "subtopic": "mean price",
+  "topic": "permutations-combinations",
+  "subtopic": "permutations",
   "difficulty": "medium",
-  "explanation": "Mean price = (1×80 + 1×110)/2 = 95.",
-  "estimatedSeconds": 70,
+  "explanation": "5P3 = 5×4×3 = 60.",
+  "estimatedSeconds": 60,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Rice at ₹80/kg and rice at ₹110/kg are mixed in the ratio 1:1. What is the price per kg of the mixture (in ₹)?",
+  "text": "In how many ways can 3 different prizes be given to 5 students if no student gets more than one prize?",
   "options": [
-   "125",
-   "105",
-   "95",
-   "85"
+   "78",
+   "60",
+   "42",
+   "84"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-probability-040",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "probability",
+  "subtopic": "two dice",
+  "difficulty": "medium",
+  "explanation": "Ways to get a sum of 6 = 5 out of 36 outcomes, so P = 5/36 = 5/36.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Two fair dice are rolled. What is the probability that the sum of the numbers is 6?",
+  "options": [
+   "1/6",
+   "1/9",
+   "5/36",
+   "5/18"
   ],
   "correct": [
    2
@@ -770,14 +1092,70 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-mixtures-alligation-030",
+  "uid": "general-sde-apt-probability-041",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "probability",
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 4/9 = 4/9.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A bag has 4 red and 5 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "options": [
+   "4/9",
+   "4/5",
+   "5/9",
+   "2/5"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-probability-042",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "probability",
+  "subtopic": "drawing a ball",
+  "difficulty": "easy",
+  "explanation": "P(red) = favourable/total = 3/7 = 3/7.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A bag has 3 red and 4 blue balls. One ball is drawn at random. What is the probability that it is red?",
+  "options": [
+   "4/7",
+   "3/7",
+   "3/8",
+   "3/4"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-mixtures-alligation-043",
   "companies": [
    "general-sde"
   ],
   "topic": "mixtures-alligation",
   "subtopic": "adding water",
   "difficulty": "medium",
-  "explanation": "Milk = 15 L, water = 12 L. For 1:1 water must equal milk, so add 15 − 12 = 3 L.",
+  "explanation": "Milk = 20 L, water = 10 L. For 1:1 water must equal milk, so add 20 − 10 = 10 L.",
   "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -785,40 +1163,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "A 27 litre mixture has milk and water in the ratio 5:4. How many litres of water must be added to make the ratio 1:1?",
+  "text": "A 30 litre mixture has milk and water in the ratio 4:2. How many litres of water must be added to make the ratio 1:1?",
   "options": [
-   "6",
-   "3",
-   "5",
-   "4"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-partnership-031",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "partnership",
-  "subtopic": "investment × time",
-  "difficulty": "hard",
-  "explanation": "Ratio = 3000×8 : 3000×10 = 24000 : 30000 = 4 : 5. Anil's share = 4/9 × 2700 = 1200.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Anil invests ₹3,000 for 8 months and Binu invests ₹3,000 for 10 months. They earn a profit of ₹2,700. What is Anil's share (in ₹)?",
-  "options": [
-   "1200",
-   "1560",
-   "1440",
-   "960"
+   "10",
+   "14",
+   "8",
+   "9"
   ],
   "correct": [
    0
@@ -826,55 +1176,48 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-partnership-032",
+  "uid": "general-sde-apt-mixtures-alligation-044",
   "companies": [
    "general-sde"
   ],
-  "topic": "partnership",
-  "subtopic": "investment × time",
-  "difficulty": "hard",
-  "explanation": "Ratio = 4000×7 : 3000×8 = 28000 : 24000 = 7 : 6. Anil's share = 7/13 × 5200 = 2800.",
-  "estimatedSeconds": 100,
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
+  "difficulty": "medium",
+  "explanation": "Milk = 20 L, water = 8 L. For 1:1 water must equal milk, so add 20 − 8 = 12 L.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Anil invests ₹4,000 for 7 months and Binu invests ₹3,000 for 8 months. They earn a profit of ₹5,200. What is Anil's share (in ₹)?",
-  "options": [
-   "3640",
-   "2240",
-   "3080",
-   "2800"
-  ],
-  "correct": [
-   3
-  ],
+  "type": "numeric",
+  "text": "A 28 litre mixture has milk and water in the ratio 5:2. How many litres of water must be added to make the ratio 1:1?\n(Type your answer as a number.)",
+  "numericAnswer": 12,
+  "tolerance": 0,
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-algebra-033",
+  "uid": "general-sde-apt-mixtures-alligation-045",
   "companies": [
    "general-sde"
   ],
-  "topic": "algebra",
-  "subtopic": "x + 1/x identity",
+  "topic": "mixtures-alligation",
+  "subtopic": "adding water",
   "difficulty": "medium",
-  "explanation": "Square both sides: x² + 2 + 1/x² = 36. So x² + 1/x² = 36 − 2 = 34.",
-  "estimatedSeconds": 60,
+  "explanation": "Milk = 30 L, water = 12 L. For 1:1 water must equal milk, so add 30 − 12 = 18 L.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "If x + 1/x = 6, find the value of x² + 1/x².",
+  "text": "A 42 litre mixture has milk and water in the ratio 5:2. How many litres of water must be added to make the ratio 1:1?",
   "options": [
-   "43",
-   "28",
-   "34",
-   "40"
+   "22",
+   "12",
+   "18",
+   "16"
   ],
   "correct": [
    2
@@ -882,63 +1225,98 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-algebra-034",
+  "uid": "general-sde-apt-partnership-046",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 6000×9 : 5000×9 = 54000 : 45000 = 6 : 5. Anil's share = 6/11 × 9900 = 5400.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹6,000 for 9 months and Binu invests ₹5,000 for 9 months. They earn a profit of ₹9,900. What is Anil's share (in ₹)?",
+  "options": [
+   "5400",
+   "3780",
+   "4320",
+   "5940"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-partnership-047",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 3000×10 : 3000×11 = 30000 : 33000 = 10 : 11. Anil's share = 10/21 × 6300 = 3000.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹3,000 for 10 months and Binu invests ₹3,000 for 11 months. They earn a profit of ₹6,300. What is Anil's share (in ₹)?",
+  "options": [
+   "3000",
+   "2100",
+   "2400",
+   "3900"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-partnership-048",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 2000×6 : 5000×6 = 12000 : 30000 = 2 : 5. Anil's share = 2/7 × 4900 = 1400.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹2,000 for 6 months and Binu invests ₹5,000 for 6 months. They earn a profit of ₹4,900. What is Anil's share (in ₹)?",
+  "options": [
+   "1120",
+   "1820",
+   "1680",
+   "1400"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-algebra-049",
   "companies": [
    "general-sde"
   ],
   "topic": "algebra",
   "subtopic": "linear equation",
   "difficulty": "easy",
-  "explanation": "x + 1 = 60/6 = 10, so x = 9.",
-  "estimatedSeconds": 45,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "If 6(x + 1) = 60, find x.\n(Type your answer as a number.)",
-  "numericAnswer": 9,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-progressions-035",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "progressions",
-  "subtopic": "sum of AP",
-  "difficulty": "medium",
-  "explanation": "Sₙ = n/2 × [2a + (n−1)d] = 10/2 × [14 + 27] = 205.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the sum of the first 10 terms of the AP 7, 10, 13, ...",
-  "options": [
-   "226",
-   "268",
-   "184",
-   "205"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-progressions-036",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "progressions",
-  "subtopic": "nth term of AP",
-  "difficulty": "easy",
-  "explanation": "Tₙ = a + (n−1)d = 5 + 9×7 = 68.",
+  "explanation": "x + 8 = 34/2 = 17, so x = 9.",
   "estimatedSeconds": 45,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -946,194 +1324,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "The first term of an AP is 5 and the common difference is 7. Find its 10th term.",
+  "text": "If 2(x + 8) = 34, find x.",
   "options": [
-   "75",
-   "96",
-   "82",
-   "68"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-geometry-mensuration-037",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "geometry-mensuration",
-  "subtopic": "right triangle",
-  "difficulty": "easy",
-  "explanation": "Hypotenuse = √(6² + 8²) = √100 = 10 cm.",
-  "estimatedSeconds": 45,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "The two shorter sides of a right-angled triangle are 6 cm and 8 cm. Find the hypotenuse (in cm).\n(Type your answer as a number.)",
-  "numericAnswer": 10,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-geometry-mensuration-038",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "geometry-mensuration",
-  "subtopic": "cylinder",
-  "difficulty": "medium",
-  "explanation": "V = πr²h = 22/7 × 7² × 9 = 1386 cm³.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the volume of a cylinder with radius 7 cm and height 9 cm (π = 22/7), in cm³.",
-  "options": [
-   "1803",
-   "1386",
-   "969",
-   "1247"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-data-interpretation-039",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "data-interpretation",
-  "subtopic": "column totals",
-  "difficulty": "easy",
-  "explanation": "2024: 390 + 190 + 100 + 250 = 930.",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 380 | 230 | 390\nBooks | 260 | 250 | 190\nBags | 350 | 230 | 100\nBottles | 370 | 150 | 250\n\nHow many items of all products together were sold in 2024 (in hundreds)?",
-  "options": [
-   "744",
-   "930",
-   "651",
-   "1209"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-data-interpretation-040",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "data-interpretation",
-  "subtopic": "table totals",
-  "difficulty": "easy",
-  "explanation": "Books: 130 + 170 + 350 = 650.",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 130 | 280 | 240\nBooks | 130 | 170 | 350\nBags | 110 | 270 | 230\nBottles | 400 | 390 | 130\n\nWhat is the total number of Books sold over the three years (in hundreds)?\n(Type your answer as a number.)",
-  "numericAnswer": 650,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-approximation-simplification-041",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "approximation-simplification",
-  "subtopic": "squares and roots",
-  "difficulty": "easy",
-  "explanation": "√64 = 8; 5² = 25. So 8 + 25 − 8 = 25.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Evaluate: √64 + 5² − 8",
-  "options": [
-   "25",
-   "34",
-   "37",
-   "40"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-approximation-simplification-042",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "approximation-simplification",
-  "subtopic": "BODMAS",
-  "difficulty": "easy",
-  "explanation": "Left to right for × and ÷ first: 72 × 9 = 648; ÷ 9 = 72; then + 22 − 1 = 93.",
-  "estimatedSeconds": 45,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Simplify: 72 × 9 ÷ 9 + 22 − 1",
-  "options": [
-   "66",
-   "102",
-   "75",
-   "93"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-remainders-divisibility-043",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "remainders-divisibility",
-  "subtopic": "division remainder",
-  "difficulty": "easy",
-  "explanation": "Dividend = divisor × quotient + remainder = 7×23 + 2 = 163.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A number gives remainder 2 when divided by 7. If the quotient is 23, what is the number?",
-  "options": [
-   "195",
-   "115",
-   "163",
-   "227"
+   "10",
+   "11",
+   "9",
+   "7"
   ],
   "correct": [
    2
@@ -1141,112 +1337,7 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-remainders-divisibility-044",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "remainders-divisibility",
-  "subtopic": "power remainders",
-  "difficulty": "hard",
-  "explanation": "Use the repeating cycle of 5^k mod 9. Reducing the exponent 40 by the cycle length gives a remainder of 4.",
-  "estimatedSeconds": 100,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the remainder when 5^40 is divided by 9?",
-  "options": [
-   "1",
-   "4",
-   "8",
-   "9"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-number-systems-045",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "number-systems",
-  "subtopic": "primes in a range",
-  "difficulty": "medium",
-  "explanation": "The primes in the range are 29, 31, 37, 41, 43 — 5 in total.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "How many prime numbers are there between 28 and 44 (both inclusive)?",
-  "options": [
-   "8",
-   "5",
-   "7",
-   "2"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-number-systems-046",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "number-systems",
-  "subtopic": "unit digit",
-  "difficulty": "medium",
-  "explanation": "Unit digits of 5^k repeat every 4 steps: 5, 5, 5, 5. Position (23 − 1) mod 4 = 2 gives 5.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "What is the unit digit of 5^23?\n(Type your answer as a number.)",
-  "numericAnswer": 5,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-averages-047",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "averages",
-  "subtopic": "average after adding an item",
-  "difficulty": "medium",
-  "explanation": "Sum of 5 = 180. Sum of 6 = 234. Sixth number = 234 − 180 = 54.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "The average of 5 numbers is 36. A sixth number is added and the average becomes 39. What is the sixth number?",
-  "options": [
-   "69",
-   "79",
-   "44",
-   "54"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-algebra-048",
+  "uid": "general-sde-apt-algebra-050",
   "companies": [
    "general-sde"
   ],
@@ -1263,59 +1354,10 @@
   "type": "mcq_single",
   "text": "If x + 1/x = 3, find the value of x² + 1/x².",
   "options": [
-   "10",
-   "7",
+   "5",
    "12",
-   "4"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-ratio-proportion-049",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "ratio-proportion",
-  "subtopic": "dividing in a ratio",
-  "difficulty": "easy",
-  "explanation": "Total parts = 16. One part = 960/16 = 60. Second share = 6 × 60 = 360.",
-  "estimatedSeconds": 60,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "numeric",
-  "text": "₹960 is divided among three people in the ratio 3:6:7. How much does the second person get (in ₹)?\n(Type your answer as a number.)",
-  "numericAnswer": 360,
-  "tolerance": 0,
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-number-series-050",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "number-series",
-  "subtopic": "increasing differences",
-  "difficulty": "medium",
-  "explanation": "Differences are 4, 5, 6, 7 — they grow by 1 each step. Next difference 8, so 31 + 8 = 39.",
-  "estimatedSeconds": 70,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the next number: 9, 13, 18, 24, 31, ?",
-  "options": [
-   "35",
-   "27",
-   "39",
-   "51"
+   "7",
+   "9"
   ],
   "correct": [
    2
@@ -1323,70 +1365,189 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-data-interpretation-051",
+  "uid": "general-sde-apt-algebra-051",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "algebra",
+  "subtopic": "linear equation",
+  "difficulty": "easy",
+  "explanation": "x + 1 = 66/6 = 11, so x = 10.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If 6(x + 1) = 66, find x.",
+  "options": [
+   "8",
+   "10",
+   "14",
+   "12"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-progressions-052",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "progressions",
+  "subtopic": "GP term",
+  "difficulty": "medium",
+  "explanation": "Tₙ = a·r^(n−1) = 3 × 2^5 = 96.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The first term of a GP is 3 and the common ratio is 2. What is its 6th term?",
+  "options": [
+   "66",
+   "76",
+   "116",
+   "96"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-progressions-053",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "progressions",
+  "subtopic": "nth term of AP",
+  "difficulty": "easy",
+  "explanation": "Tₙ = a + (n−1)d = 3 + 10×5 = 53.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "The first term of an AP is 3 and the common difference is 5. Find its 11th term.\n(Type your answer as a number.)",
+  "numericAnswer": 53,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-progressions-054",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "progressions",
+  "subtopic": "sum of AP",
+  "difficulty": "medium",
+  "explanation": "Sₙ = n/2 × [2a + (n−1)d] = 14/2 × [14 + 91] = 735.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Find the sum of the first 14 terms of the AP 7, 14, 21, ...\n(Type your answer as a number.)",
+  "numericAnswer": 735,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-geometry-mensuration-055",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "cylinder",
+  "difficulty": "medium",
+  "explanation": "V = πr²h = 22/7 × 21² × 4 = 5544 cm³.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the volume of a cylinder with radius 21 cm and height 4 cm (π = 22/7), in cm³.",
+  "options": [
+   "4990",
+   "7206",
+   "5544",
+   "6652"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-geometry-mensuration-056",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "circle",
+  "difficulty": "easy",
+  "explanation": "Area = πr² = 22/7 × 7² = 154 cm².",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "Find the area of a circle of radius 7 cm (take π = 22/7), in cm².\n(Type your answer as a number.)",
+  "numericAnswer": 154,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-geometry-mensuration-057",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "cylinder",
+  "difficulty": "medium",
+  "explanation": "V = πr²h = 22/7 × 7² × 7 = 1078 cm³.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the volume of a cylinder with radius 7 cm and height 7 cm (π = 22/7), in cm³.",
+  "options": [
+   "970",
+   "1078",
+   "1402",
+   "862"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-data-interpretation-058",
   "companies": [
    "general-sde"
   ],
   "topic": "data-interpretation",
-  "subtopic": "percentage change",
-  "difficulty": "medium",
-  "explanation": "Change = (330 − 80)/80 × 100 = 312.5%.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 80 | 240 | 330\nBooks | 320 | 260 | 180\nBags | 130 | 130 | 390\nBottles | 170 | 130 | 180\n\nBy what percentage did sales of Pens change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
-  "options": [
-   "312.5%",
-   "317.5%",
-   "297.5%",
-   "337.5%"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-remainders-divisibility-052",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "remainders-divisibility",
-  "subtopic": "division remainder",
+  "subtopic": "column totals",
   "difficulty": "easy",
-  "explanation": "Dividend = divisor × quotient + remainder = 7×22 + 2 = 156.",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "A number gives remainder 2 when divided by 7. If the quotient is 22, what is the number?",
-  "options": [
-   "156",
-   "236",
-   "140",
-   "108"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "aptitude"
- },
- {
-  "uid": "general-sde-apt-ages-053",
-  "companies": [
-   "general-sde"
-  ],
-  "topic": "ages",
-  "subtopic": "sum and difference",
-  "difficulty": "easy",
-  "explanation": "Asha = (sum + difference)/2 = (56 + 4)/2 = 30.",
+  "explanation": "2024: 180 + 310 + 300 + 110 = 900.",
   "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -1394,12 +1555,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "The sum of the ages of Asha and Bala is 56 years and Asha is 4 years older than Bala. How old is Asha?",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 290 | 150 | 180\nBooks | 190 | 270 | 310\nBags | 170 | 370 | 300\nBottles | 310 | 80 | 110\n\nHow many items of all products together were sold in 2024 (in hundreds)?",
   "options": [
-   "42",
-   "30",
-   "45",
-   "21"
+   "810",
+   "900",
+   "1170",
+   "1260"
   ],
   "correct": [
    1
@@ -1407,27 +1568,27 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-profit-loss-054",
+  "uid": "general-sde-apt-data-interpretation-059",
   "companies": [
    "general-sde"
   ],
-  "topic": "profit-loss",
-  "subtopic": "cost price from loss",
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
   "difficulty": "medium",
-  "explanation": "SP = 0.90 × CP → CP = 4770 × 100/90 = 5300.",
-  "estimatedSeconds": 70,
+  "explanation": "Change = (180 − 360)/360 × 100 = -50%.",
+  "estimatedSeconds": 80,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "By selling an item for ₹4,770, a shopkeeper incurs a loss of 10%. What was the cost price (in ₹)?",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 360 | 270 | 180\nBooks | 160 | 270 | 170\nBags | 280 | 370 | 390\nBottles | 250 | 200 | 360\n\nBy what percentage did sales of Pens change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
   "options": [
-   "4770",
-   "3710",
-   "5300",
-   "6890"
+   "-60%",
+   "-55%",
+   "-50%",
+   "-40%"
   ],
   "correct": [
    2
@@ -1435,35 +1596,441 @@
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-ratio-proportion-055",
+  "uid": "general-sde-apt-data-interpretation-060",
   "companies": [
    "general-sde"
   ],
-  "topic": "ratio-proportion",
-  "subtopic": "dividing in a ratio",
+  "topic": "data-interpretation",
+  "subtopic": "percentage change",
+  "difficulty": "medium",
+  "explanation": "Change = (250 − 300)/300 × 100 = -16.67%.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Units sold (in hundreds)\nProduct | 2022 | 2023 | 2024\nPens | 170 | 190 | 320\nBooks | 280 | 270 | 330\nBags | 270 | 140 | 80\nBottles | 300 | 380 | 250\n\nBy what percentage did sales of Bottles change from 2022 to 2024? (Negative means a decrease; answer to 2 decimals)",
+  "options": [
+   "-31.67%",
+   "-1.67%",
+   "-6.67%",
+   "-16.67%"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-approximation-simplification-061",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "squares and roots",
   "difficulty": "easy",
-  "explanation": "Total parts = 14. One part = 1540/14 = 110. Second share = 5 × 110 = 550.",
-  "estimatedSeconds": 60,
+  "explanation": "√81 = 9; 3² = 9. So 9 + 9 − 9 = 9.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Evaluate: √81 + 3² − 9",
+  "options": [
+   "6",
+   "9",
+   "7",
+   "14"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-approximation-simplification-062",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "approximation-simplification",
+  "subtopic": "squares and roots",
+  "difficulty": "easy",
+  "explanation": "√100 = 10; 3² = 9. So 10 + 9 − 10 = 9.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "numeric",
-  "text": "₹1,540 is divided among three people in the ratio 2:5:7. How much does the second person get (in ₹)?\n(Type your answer as a number.)",
-  "numericAnswer": 550,
+  "text": "Evaluate: √100 + 3² − 10\n(Type your answer as a number.)",
+  "numericAnswer": 9,
   "tolerance": 0,
   "subject": "aptitude"
  },
  {
-  "uid": "general-sde-apt-speed-distance-056",
+  "uid": "general-sde-apt-approximation-simplification-063",
   "companies": [
    "general-sde"
   ],
-  "topic": "speed-distance",
-  "subtopic": "train crossing a pole",
+  "topic": "approximation-simplification",
+  "subtopic": "BODMAS",
+  "difficulty": "easy",
+  "explanation": "Left to right for × and ÷ first: 25 × 8 = 200; ÷ 5 = 40; then + 14 − 5 = 49.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Simplify: 25 × 8 ÷ 5 + 14 − 5",
+  "options": [
+   "69",
+   "59",
+   "74",
+   "49"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-remainders-divisibility-064",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 2^k mod 6. Reducing the exponent 29 by the cycle length gives a remainder of 2.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the remainder when 2^29 is divided by 6?",
+  "options": [
+   "5",
+   "2",
+   "3",
+   "0"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-remainders-divisibility-065",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 3^k mod 7. Reducing the exponent 86 by the cycle length gives a remainder of 2.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the remainder when 3^86 is divided by 7?",
+  "options": [
+   "2",
+   "4",
+   "5",
+   "0"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-remainders-divisibility-066",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 8^k mod 6. Reducing the exponent 88 by the cycle length gives a remainder of 4.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the remainder when 8^88 is divided by 6?",
+  "options": [
+   "5",
+   "4",
+   "6",
+   "3"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-number-systems-067",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "number-systems",
+  "subtopic": "unit digit",
   "difficulty": "medium",
-  "explanation": "Speed = 54 × 5/18 = 15 m/s. Time = 90/15 = 6 s.",
+  "explanation": "Unit digits of 9^k repeat every 4 steps: 9, 1, 9, 1. Position (45 − 1) mod 4 = 0 gives 9.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the unit digit of 9^45?",
+  "options": [
+   "6",
+   "10",
+   "7",
+   "9"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-number-systems-068",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "number-systems",
+  "subtopic": "primes in a range",
+  "difficulty": "medium",
+  "explanation": "The primes in the range are 37, 41, 43, 47, 53 — 5 in total.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "How many prime numbers are there between 34 and 55 (both inclusive)?\n(Type your answer as a number.)",
+  "numericAnswer": 5,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-number-systems-069",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "number-systems",
+  "subtopic": "primes in a range",
+  "difficulty": "medium",
+  "explanation": "The primes in the range are 37, 41, 43, 47 — 4 in total.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "How many prime numbers are there between 36 and 52 (both inclusive)?",
+  "options": [
+   "8",
+   "2",
+   "5",
+   "4"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-trains-070",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a pole",
+  "difficulty": "easy",
+  "explanation": "Speed in m/s = 54 × 5/18 = 15 m/s. Length = Speed × Time = 15 × 12 = 180 meters.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A train running at 54 km/h crosses a standing telegraph pole in 12 seconds. What is the length of the train (in meters)?\n(Type your answer as a number.)",
+  "numericAnswer": 180,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-trains-071",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a pole",
+  "difficulty": "easy",
+  "explanation": "Speed in m/s = 90 × 5/18 = 25 m/s. Length = Speed × Time = 25 × 20 = 500 meters.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train running at 90 km/h crosses a standing telegraph pole in 20 seconds. What is the length of the train (in meters)?",
+  "options": [
+   "350",
+   "500",
+   "450",
+   "650"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-trains-072",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a platform",
+  "difficulty": "medium",
+  "explanation": "Total distance = train length + platform length = 100 + 150 = 250 m. Speed = 36 × 5/18 = 10 m/s. Time = 250 / 10 = 25 seconds.",
+  "estimatedSeconds": 65,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train 100 meters long runs at 36 km/h. How many seconds will it take to cross a platform of length 150 meters?",
+  "options": [
+   "34",
+   "25",
+   "19",
+   "31"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-clocks-calendars-073",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "clocks-calendars",
+  "subtopic": "clock hand angles",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×10 − 5.5×40| = 80°.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the smaller angle (in degrees) between the hour and minute hands of a clock at 10:40.",
+  "options": [
+   "50",
+   "80",
+   "110",
+   "95"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-clocks-calendars-074",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "clocks-calendars",
+  "subtopic": "day after N days",
+  "difficulty": "easy",
+  "explanation": "97 divided by 7 leaves a remainder of 6 odd days. Monday + 6 days = Sunday.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If today is Monday, what day of the week will it be exactly 97 days from today?",
+  "options": [
+   "Friday",
+   "Saturday",
+   "Sunday",
+   "Monday"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-clocks-calendars-075",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "clocks-calendars",
+  "subtopic": "day after N days",
+  "difficulty": "easy",
+  "explanation": "44 divided by 7 leaves a remainder of 2 odd days. Friday + 2 days = Sunday.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "If today is Friday, what day of the week will it be exactly 44 days from today?",
+  "options": [
+   "Wednesday",
+   "Saturday",
+   "Thursday",
+   "Sunday"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-averages-076",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "averages",
+  "subtopic": "average after adding an item",
+  "difficulty": "medium",
+  "explanation": "Sum of 5 = 180. Sum of 6 = 240. Sixth number = 240 − 180 = 60.",
   "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -1471,9 +2038,380 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "numeric",
-  "text": "A train 90 m long runs at 54 km/h. How many seconds does it take to cross a telegraph pole?\n(Type your answer as a number.)",
-  "numericAnswer": 6,
+  "text": "The average of 5 numbers is 36. A sixth number is added and the average becomes 40. What is the sixth number?\n(Type your answer as a number.)",
+  "numericAnswer": 60,
   "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-geometry-mensuration-077",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "geometry-mensuration",
+  "subtopic": "rectangle",
+  "difficulty": "easy",
+  "explanation": "l + b = 32, so b = 12 cm. Area = 20 × 12 = 240 cm².",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The perimeter of a rectangle is 64 cm and its length is 20 cm. What is its area (in cm²)?",
+  "options": [
+   "312",
+   "288",
+   "240",
+   "168"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-ratio-proportion-078",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 14. One part = 3500/14 = 250. Second share = 5 × 250 = 1250.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "₹3,500 is divided among three people in the ratio 5:5:4. How much does the second person get (in ₹)?\n(Type your answer as a number.)",
+  "numericAnswer": 1250,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-hcf-lcm-079",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "hcf-lcm",
+  "subtopic": "HCF × LCM relation",
+  "difficulty": "medium",
+  "explanation": "Product of the numbers = HCF × LCM = 4 × 252 = 1008. Other number = 1008/28 = 36.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "The HCF of two numbers is 4 and their LCM is 252. If one number is 28, what is the other?",
+  "options": [
+   "36",
+   "44",
+   "52",
+   "32"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-remainders-divisibility-080",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "remainders-divisibility",
+  "subtopic": "power remainders",
+  "difficulty": "hard",
+  "explanation": "Use the repeating cycle of 3^k mod 6. Reducing the exponent 98 by the cycle length gives a remainder of 3.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "What is the remainder when 3^98 is divided by 6?\n(Type your answer as a number.)",
+  "numericAnswer": 3,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-trains-081",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a pole",
+  "difficulty": "easy",
+  "explanation": "Speed in m/s = 54 × 5/18 = 15 m/s. Length = Speed × Time = 15 × 20 = 300 meters.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train running at 54 km/h crosses a standing telegraph pole in 20 seconds. What is the length of the train (in meters)?",
+  "options": [
+   "420",
+   "450",
+   "300",
+   "390"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-permutations-combinations-082",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "permutations-combinations",
+  "subtopic": "permutations",
+  "difficulty": "medium",
+  "explanation": "7P2 = 7×6 = 42.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In how many ways can 2 different prizes be given to 7 students if no student gets more than one prize?",
+  "options": [
+   "46",
+   "50",
+   "42",
+   "58"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-profit-loss-083",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "profit-loss",
+  "subtopic": "selling price from profit",
+  "difficulty": "easy",
+  "explanation": "SP = CP × (100 + profit%)/100 = 1060 × 140/100 = 1484.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "An article is bought for ₹1,060 and sold at a profit of 40%. Find its selling price (in ₹).",
+  "options": [
+   "1928",
+   "1484",
+   "1780",
+   "2224"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-ratio-proportion-084",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "ratio-proportion",
+  "subtopic": "dividing in a ratio",
+  "difficulty": "easy",
+  "explanation": "Total parts = 14. One part = 3220/14 = 230. Second share = 4 × 230 = 920.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "₹3,220 is divided among three people in the ratio 5:4:5. How much does the second person get (in ₹)?",
+  "options": [
+   "920",
+   "1104",
+   "1196",
+   "828"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-boats-streams-085",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "boats-streams",
+  "subtopic": "time downstream",
+  "difficulty": "medium",
+  "explanation": "Downstream speed = 16 + 6 = 22 km/h. Time = 110/22 = 5 h.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "numeric",
+  "text": "A boat goes 16 km/h in still water and the stream flows at 6 km/h. How many hours will it take to go 110 km downstream?\n(Type your answer as a number.)",
+  "numericAnswer": 5,
+  "tolerance": 0,
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-interest-086",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "interest",
+  "subtopic": "simple interest",
+  "difficulty": "easy",
+  "explanation": "SI = PRT/100 = 25000×10×4/100 = 10000.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the simple interest on ₹25,000 at 10% per annum for 4 years (in ₹).",
+  "options": [
+   "7000",
+   "10000",
+   "8000",
+   "15000"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-ages-087",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "ages",
+  "subtopic": "ages in the past",
+  "difficulty": "medium",
+  "explanation": "Sita 6 years ago = 14. Ravi then = 3 × 14 = 42. Ravi now = 42 + 6 = 48.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "6 years ago, Ravi was 3 times as old as Sita. Sita is now 20 years old. How old is Ravi now?",
+  "options": [
+   "53",
+   "48",
+   "33",
+   "63"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-partnership-088",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "partnership",
+  "subtopic": "investment × time",
+  "difficulty": "hard",
+  "explanation": "Ratio = 2000×8 : 2000×12 = 16000 : 24000 = 2 : 3. Anil's share = 2/5 × 4500 = 1800.",
+  "estimatedSeconds": 100,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Anil invests ₹2,000 for 8 months and Binu invests ₹2,000 for 12 months. They earn a profit of ₹4,500. What is Anil's share (in ₹)?",
+  "options": [
+   "2340",
+   "1800",
+   "1440",
+   "2700"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-progressions-089",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "progressions",
+  "subtopic": "sum of AP",
+  "difficulty": "medium",
+  "explanation": "Sₙ = n/2 × [2a + (n−1)d] = 20/2 × [8 + 38] = 460.",
+  "estimatedSeconds": 70,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the sum of the first 20 terms of the AP 4, 6, 8, ...",
+  "options": [
+   "460",
+   "552",
+   "368",
+   "690"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "aptitude"
+ },
+ {
+  "uid": "general-sde-apt-trains-090",
+  "companies": [
+   "general-sde"
+  ],
+  "topic": "trains",
+  "subtopic": "crossing a pole",
+  "difficulty": "easy",
+  "explanation": "Speed in m/s = 36 × 5/18 = 10 m/s. Length = Speed × Time = 10 × 25 = 250 meters.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "A train running at 36 km/h crosses a standing telegraph pole in 25 seconds. What is the length of the train (in meters)?",
+  "options": [
+   "350",
+   "250",
+   "175",
+   "375"
+  ],
+  "correct": [
+   1
+  ],
   "subject": "aptitude"
  }
 ]

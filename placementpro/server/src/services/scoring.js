@@ -12,11 +12,26 @@ function gradeObjective(q, response) {
   const marks = q.marks ?? 1, neg = q.negativeMarks ?? 0;
   if (!isAnswered(q, response)) return { state: 'unanswered', marks: 0 };
   let ok = false;
-  if (q.type === 'mcq_single') ok = asArray(response).length === 1 && q.correct.includes(Number(asArray(response)[0]));
-  else if (q.type === 'mcq_multi') {
-    const a = [...new Set(asArray(response).map(Number))].sort(); const c = [...q.correct].sort();
+  if (q.type === 'mcq_single') {
+    const arr = asArray(response);
+    if (arr.length !== 1) return { state: 'unanswered', marks: 0 };
+    const val = arr[0];
+    if (val === null || val === undefined || val === '' || Number.isNaN(Number(val))) {
+      return { state: 'unanswered', marks: 0 };
+    }
+    ok = q.correct.includes(Number(val));
+  } else if (q.type === 'mcq_multi') {
+    const raw = asArray(response).filter((v) => v !== null && v !== undefined && v !== '' && !Number.isNaN(Number(v)));
+    if (!raw.length) return { state: 'unanswered', marks: 0 };
+    const a = [...new Set(raw.map(Number))].sort();
+    const c = [...q.correct].sort();
     ok = a.length === c.length && a.every((x, i) => x === c[i]);
-  } else if (q.type === 'numeric') ok = Math.abs(Number(response) - q.numericAnswer) <= (q.tolerance || 0) + 1e-9;
+  } else if (q.type === 'numeric') {
+    if (response === null || response === undefined || response === '' || Number.isNaN(Number(response))) {
+      return { state: 'unanswered', marks: 0 };
+    }
+    ok = Math.abs(Number(response) - q.numericAnswer) <= (q.tolerance || 0) + 1e-9;
+  }
   return ok ? { state: 'correct', marks } : { state: 'incorrect', marks: -neg };
 }
 

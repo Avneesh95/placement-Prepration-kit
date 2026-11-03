@@ -84,27 +84,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "tech-mahindra-rea-coding-decoding-004",
+  "uid": "tech-mahindra-rea-alphabet-series-004",
   "companies": [
    "tech-mahindra"
   ],
-  "topic": "coding-decoding",
-  "subtopic": "letter shift",
-  "difficulty": "medium",
-  "explanation": "Each letter is shifted forward by 2. Applying the same shift to MAP gives OCR.",
-  "estimatedSeconds": 70,
+  "topic": "alphabet-series",
+  "subtopic": "constant step",
+  "difficulty": "easy",
+  "explanation": "Each letter moves forward by 3 positions. After P comes S.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a certain code, BAG is written as DCI. How is MAP written in that code?",
+  "text": "Find the next letter in the series: D, G, J, M, P, ?",
   "options": [
-   "OCR",
-   "PAM",
-   "NBQ",
-   "KYN"
+   "S",
+   "T",
+   "Q",
+   "R"
   ],
   "correct": [
    0
@@ -168,27 +168,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "tech-mahindra-rea-direction-sense-007",
+  "uid": "tech-mahindra-rea-coding-decoding-007",
   "companies": [
    "tech-mahindra"
   ],
-  "topic": "direction-sense",
-  "subtopic": "distance from start",
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
   "difficulty": "medium",
-  "explanation": "North then east makes a right angle. Distance = √(24² + 45²) = 51 km.",
-  "estimatedSeconds": 60,
+  "explanation": "Each letter is shifted forward by 1. Applying the same shift to TOP gives UPQ.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Ramesh walks 24 km north, turns right and walks 45 km. How far is he from his starting point (in km)?",
+  "text": "In a certain code, SUN is written as TVO. How is TOP written in that code?",
   "options": [
-   "51",
-   "46",
-   "66",
-   "41"
+   "UPQ",
+   "POT",
+   "VQR",
+   "TOP"
   ],
   "correct": [
    0
@@ -196,27 +196,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "tech-mahindra-rea-direction-sense-008",
+  "uid": "tech-mahindra-rea-coding-decoding-008",
   "companies": [
    "tech-mahindra"
   ],
-  "topic": "direction-sense",
-  "subtopic": "distance from start",
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
   "difficulty": "medium",
-  "explanation": "North then east makes a right angle. Distance = √(16² + 30²) = 34 km.",
-  "estimatedSeconds": 60,
+  "explanation": "Each letter is shifted forward by 4. Applying the same shift to HIT gives LMX.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Ramesh walks 16 km north, turns right and walks 30 km. How far is he from his starting point (in km)?",
+  "text": "In a certain code, CAT is written as GEX. How is HIT written in that code?",
   "options": [
-   "43",
-   "28",
-   "34",
-   "37"
+   "KLW",
+   "DEP",
+   "LMX",
+   "TIH"
   ],
   "correct": [
    2
@@ -252,27 +252,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "tech-mahindra-rea-ranking-010",
+  "uid": "tech-mahindra-rea-direction-sense-010",
   "companies": [
    "tech-mahindra"
   ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
   "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 57 − 19 + 1 = 39.",
-  "estimatedSeconds": 40,
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is South.",
+  "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a class of 57 students, Arun's rank from the top is 19. What is his rank from the bottom?",
+  "text": "Meena faces North. She turns left, then right, then right, then right. Which direction is she facing now?",
   "options": [
-   "47",
-   "27",
-   "35",
-   "39"
+   "North",
+   "East",
+   "West",
+   "South"
   ],
   "correct": [
    3
@@ -280,42 +280,70 @@
   "subject": "reasoning"
  },
  {
-  "uid": "tech-mahindra-rea-ranking-011",
+  "uid": "tech-mahindra-rea-direction-sense-011",
   "companies": [
    "tech-mahindra"
   ],
-  "topic": "ranking",
-  "subtopic": "rank from bottom",
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
   "difficulty": "easy",
-  "explanation": "Rank from bottom = total − rank from top + 1 = 48 − 11 + 1 = 38.",
-  "estimatedSeconds": 40,
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is North.",
+  "estimatedSeconds": 50,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a class of 48 students, Arun's rank from the top is 11. What is his rank from the bottom?",
+  "text": "Meena faces North. She turns right, then right, then right, then right. Which direction is she facing now?",
   "options": [
-   "42",
-   "50",
-   "38",
-   "34"
+   "East",
+   "South",
+   "West",
+   "North"
   ],
   "correct": [
-   2
+   3
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "tech-mahindra-rea-ranking-012",
+  "uid": "tech-mahindra-rea-direction-sense-012",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
+  "difficulty": "easy",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is North.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Meena faces North. She turns right, then left, then left, then right. Which direction is she facing now?",
+  "options": [
+   "North",
+   "South",
+   "West",
+   "East"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-ranking-013",
   "companies": [
    "tech-mahindra"
   ],
   "topic": "ranking",
   "subtopic": "total in a row",
   "difficulty": "easy",
-  "explanation": "Total = left position + right position − 1 = 13 + 14 − 1 = 26.",
+  "explanation": "Total = left position + right position − 1 = 18 + 18 − 1 = 35.",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -323,12 +351,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a row, Kavya is 13th from the left and 14th from the right. How many people are in the row?",
+  "text": "In a row, Kavya is 18th from the left and 18th from the right. How many people are in the row?",
   "options": [
+   "39",
    "35",
-   "26",
-   "41",
-   "17"
+   "23",
+   "55"
   ],
   "correct": [
    1
@@ -336,111 +364,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "tech-mahindra-rea-clocks-013",
+  "uid": "tech-mahindra-rea-ranking-014",
   "companies": [
    "tech-mahindra"
   ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×5 − 5.5×36| = 48°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 5:36?",
-  "options": [
-   "48",
-   "43",
-   "58",
-   "68"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "tech-mahindra-rea-clocks-014",
-  "companies": [
-   "tech-mahindra"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×8 − 5.5×28| = 86°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 8:28?",
-  "options": [
-   "59",
-   "95",
-   "86",
-   "77"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "tech-mahindra-rea-clocks-015",
-  "companies": [
-   "tech-mahindra"
-  ],
-  "topic": "clocks",
-  "subtopic": "angle between hands",
-  "difficulty": "medium",
-  "explanation": "Angle = |30h − 5.5m| = |30×9 − 5.5×40| = 50°.",
-  "estimatedSeconds": 80,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 9:40?",
-  "options": [
-   "75",
-   "65",
-   "50",
-   "35"
-  ],
-  "correct": [
-   2
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "tech-mahindra-rea-calendars-016",
-  "companies": [
-   "tech-mahindra"
-  ],
-  "topic": "calendars",
-  "subtopic": "days after",
+  "topic": "ranking",
+  "subtopic": "total in a row",
   "difficulty": "easy",
-  "explanation": "163 mod 7 = 2. Friday + 2 days = Sunday.",
-  "estimatedSeconds": 45,
+  "explanation": "Total = left position + right position − 1 = 7 + 15 − 1 = 21.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Today is Friday. What day of the week will it be after 163 days?",
+  "text": "In a row, Kavya is 7th from the left and 15th from the right. How many people are in the row?",
   "options": [
-   "Tuesday",
-   "Sunday",
-   "Wednesday",
-   "Thursday"
+   "17",
+   "21",
+   "25",
+   "19"
   ],
   "correct": [
    1
@@ -448,27 +392,27 @@
   "subject": "reasoning"
  },
  {
-  "uid": "tech-mahindra-rea-calendars-017",
+  "uid": "tech-mahindra-rea-ranking-015",
   "companies": [
    "tech-mahindra"
   ],
-  "topic": "calendars",
-  "subtopic": "days after",
+  "topic": "ranking",
+  "subtopic": "total in a row",
   "difficulty": "easy",
-  "explanation": "85 mod 7 = 1. Thursday + 1 days = Friday.",
-  "estimatedSeconds": 45,
+  "explanation": "Total = left position + right position − 1 = 13 + 11 − 1 = 23.",
+  "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Today is Thursday. What day of the week will it be after 85 days?",
+  "text": "In a row, Kavya is 13th from the left and 11th from the right. How many people are in the row?",
   "options": [
-   "Friday",
-   "Tuesday",
-   "Thursday",
-   "Sunday"
+   "23",
+   "27",
+   "31",
+   "21"
   ],
   "correct": [
    0
@@ -476,14 +420,154 @@
   "subject": "reasoning"
  },
  {
-  "uid": "tech-mahindra-rea-calendars-018",
+  "uid": "tech-mahindra-rea-ranking-016",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "ranking",
+  "subtopic": "total in a row",
+  "difficulty": "easy",
+  "explanation": "Total = left position + right position − 1 = 7 + 12 − 1 = 18.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a row, Kavya is 7th from the left and 12th from the right. How many people are in the row?",
+  "options": [
+   "18",
+   "12",
+   "24",
+   "20"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-clocks-017",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×4 − 5.5×52| = 166°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 4:52?",
+  "options": [
+   "166",
+   "251",
+   "149",
+   "234"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-clocks-018",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×9 − 5.5×14| = 193°, so the smaller angle is 360 − that = 167°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 9:14?",
+  "options": [
+   "167",
+   "150",
+   "133",
+   "201"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-clocks-019",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×1 − 5.5×10| = 25°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 1:10?",
+  "options": [
+   "25",
+   "28",
+   "37",
+   "22"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-clocks-020",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×4 − 5.5×58| = 199°, so the smaller angle is 360 − that = 161°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 4:58?",
+  "options": [
+   "161",
+   "145",
+   "225",
+   "129"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-calendars-021",
   "companies": [
    "tech-mahindra"
   ],
   "topic": "calendars",
   "subtopic": "day of a date",
   "difficulty": "medium",
-  "explanation": "Counting odd days from a known reference date gives Tuesday for 19 March 1991 (checked with calendar arithmetic).",
+  "explanation": "Counting odd days from a known reference date gives Wednesday for 23 February 2022 (checked with calendar arithmetic).",
   "estimatedSeconds": 90,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -491,96 +575,12 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "On which day of the week does 19 March 1991 fall?",
+  "text": "On which day of the week does 23 February 2022 fall?",
   "options": [
+   "Wednesday",
    "Tuesday",
-   "Friday",
-   "Monday",
-   "Wednesday"
-  ],
-  "correct": [
-   0
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "tech-mahindra-rea-odd-one-out-019",
-  "companies": [
-   "tech-mahindra"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 49 are perfect cubes (7³=343, 5³=125, 10³=1000, 3³=27).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 49, 125, 343, 1000, 27",
-  "options": [
-   "125",
-   "343",
-   "1000",
-   "49"
-  ],
-  "correct": [
-   3
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "tech-mahindra-rea-odd-one-out-020",
-  "companies": [
-   "tech-mahindra"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 104 are perfect cubes (5³=125, 4³=64, 9³=729, 2³=8).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 64, 104, 125, 729, 8",
-  "options": [
-   "125",
-   "104",
-   "729",
-   "8"
-  ],
-  "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "tech-mahindra-rea-odd-one-out-021",
-  "companies": [
-   "tech-mahindra"
-  ],
-  "topic": "odd-one-out",
-  "subtopic": "number classification",
-  "difficulty": "easy",
-  "explanation": "All numbers except 192 are perfect cubes (2³=8, 7³=343, 5³=125, 4³=64).",
-  "estimatedSeconds": 40,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Find the odd one out: 343, 125, 64, 192, 8",
-  "options": [
-   "192",
-   "125",
-   "343",
-   "64"
+   "Thursday",
+   "Sunday"
   ],
   "correct": [
    0
@@ -616,7 +616,259 @@
   "subject": "reasoning"
  },
  {
-  "uid": "tech-mahindra-rea-direction-sense-023",
+  "uid": "tech-mahindra-rea-calendars-023",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "calendars",
+  "subtopic": "days after",
+  "difficulty": "easy",
+  "explanation": "58 mod 7 = 2. Monday + 2 days = Wednesday.",
+  "estimatedSeconds": 45,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Today is Monday. What day of the week will it be after 58 days?",
+  "options": [
+   "Friday",
+   "Thursday",
+   "Wednesday",
+   "Tuesday"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-calendars-024",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Thursday for 25 January 2024 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "On which day of the week does 25 January 2024 fall?",
+  "options": [
+   "Tuesday",
+   "Wednesday",
+   "Saturday",
+   "Thursday"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-odd-one-out-025",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 55 are perfect cubes (7³=343, 8³=512, 2³=8, 4³=64).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 8, 512, 64, 343, 55",
+  "options": [
+   "512",
+   "8",
+   "64",
+   "55"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-odd-one-out-026",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 123 are perfect cubes (7³=343, 4³=64, 10³=1000, 8³=512).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 1000, 343, 64, 512, 123",
+  "options": [
+   "123",
+   "64",
+   "1000",
+   "343"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-odd-one-out-027",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 198 are perfect cubes (7³=343, 5³=125, 10³=1000, 9³=729).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 729, 343, 125, 198, 1000",
+  "options": [
+   "198",
+   "729",
+   "1000",
+   "343"
+  ],
+  "correct": [
+   0
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-odd-one-out-028",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 29 are perfect cubes (3³=27, 5³=125, 4³=64, 9³=729).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 29, 64, 125, 729, 27",
+  "options": [
+   "27",
+   "29",
+   "729",
+   "125"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-calendars-029",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "calendars",
+  "subtopic": "day of a date",
+  "difficulty": "medium",
+  "explanation": "Counting odd days from a known reference date gives Friday for 23 July 2004 (checked with calendar arithmetic).",
+  "estimatedSeconds": 90,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "On which day of the week does 23 July 2004 fall?",
+  "options": [
+   "Tuesday",
+   "Friday",
+   "Wednesday",
+   "Monday"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-direction-sense-030",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "facing direction",
+  "difficulty": "easy",
+  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is West.",
+  "estimatedSeconds": 50,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Meena faces North. She turns right, then right, then left, then about (180°). Which direction is she facing now?",
+  "options": [
+   "South",
+   "North",
+   "East",
+   "West"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-odd-one-out-031",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "odd-one-out",
+  "subtopic": "number classification",
+  "difficulty": "easy",
+  "explanation": "All numbers except 197 are perfect cubes (8³=512, 10³=1000, 2³=8, 5³=125).",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Find the odd one out: 197, 512, 125, 8, 1000",
+  "options": [
+   "125",
+   "1000",
+   "197",
+   "512"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-direction-sense-032",
   "companies": [
    "tech-mahindra"
   ],
@@ -633,25 +885,109 @@
   "type": "mcq_single",
   "text": "Ramesh walks 3 km north, turns right and walks 4 km. How far is he from his starting point (in km)?",
   "options": [
+   "3",
    "5",
-   "7",
-   "9",
-   "8"
+   "4",
+   "7"
   ],
   "correct": [
-   0
+   1
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "tech-mahindra-rea-odd-one-out-024",
+  "uid": "tech-mahindra-rea-ranking-033",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "ranking",
+  "subtopic": "rank from bottom",
+  "difficulty": "easy",
+  "explanation": "Rank from bottom = total − rank from top + 1 = 45 − 25 + 1 = 21.",
+  "estimatedSeconds": 40,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "In a class of 45 students, Arun's rank from the top is 25. What is his rank from the bottom?",
+  "options": [
+   "25",
+   "19",
+   "21",
+   "23"
+  ],
+  "correct": [
+   2
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-direction-sense-034",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "direction-sense",
+  "subtopic": "distance from start",
+  "difficulty": "medium",
+  "explanation": "North then east makes a right angle. Distance = √(18² + 24²) = 30 km.",
+  "estimatedSeconds": 60,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "Ramesh walks 18 km north, turns right and walks 24 km. How far is he from his starting point (in km)?",
+  "options": [
+   "21",
+   "45",
+   "42",
+   "30"
+  ],
+  "correct": [
+   3
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-clocks-035",
+  "companies": [
+   "tech-mahindra"
+  ],
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×9 − 5.5×20| = 160°.",
+  "estimatedSeconds": 80,
+  "provenance": "practice",
+  "verificationStatus": "original",
+  "sourceTitle": "Original practice question (generated, answer computed in code)",
+  "marks": 1,
+  "negativeMarks": 0,
+  "type": "mcq_single",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 9:20?",
+  "options": [
+   "112",
+   "160",
+   "128",
+   "224"
+  ],
+  "correct": [
+   1
+  ],
+  "subject": "reasoning"
+ },
+ {
+  "uid": "tech-mahindra-rea-odd-one-out-036",
   "companies": [
    "tech-mahindra"
   ],
   "topic": "odd-one-out",
   "subtopic": "number classification",
   "difficulty": "easy",
-  "explanation": "All numbers except 20 are perfect cubes (3³=27, 2³=8, 7³=343, 9³=729).",
+  "explanation": "All numbers except 115 are perfect cubes (3³=27, 7³=343, 9³=729, 10³=1000).",
   "estimatedSeconds": 40,
   "provenance": "practice",
   "verificationStatus": "original",
@@ -659,99 +995,71 @@
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Find the odd one out: 8, 343, 729, 27, 20",
+  "text": "Find the odd one out: 115, 729, 1000, 343, 27",
   "options": [
-   "27",
-   "20",
+   "1000",
+   "729",
    "343",
-   "8"
+   "115"
   ],
   "correct": [
-   1
+   3
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "tech-mahindra-rea-direction-sense-025",
+  "uid": "tech-mahindra-rea-coding-decoding-037",
   "companies": [
    "tech-mahindra"
   ],
-  "topic": "direction-sense",
-  "subtopic": "facing direction",
-  "difficulty": "easy",
-  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is North.",
-  "estimatedSeconds": 50,
+  "topic": "coding-decoding",
+  "subtopic": "letter shift",
+  "difficulty": "medium",
+  "explanation": "Each letter is shifted forward by 1. Applying the same shift to HIT gives IJU.",
+  "estimatedSeconds": 70,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "Meena faces North. She turns about (180°), then left, then about (180°), then right. Which direction is she facing now?",
+  "text": "In a certain code, SUN is written as TVO. How is HIT written in that code?",
   "options": [
-   "North",
-   "East",
-   "West",
-   "South"
+   "JKV",
+   "GHS",
+   "IJU",
+   "TIH"
   ],
   "correct": [
-   0
+   2
   ],
   "subject": "reasoning"
  },
  {
-  "uid": "tech-mahindra-rea-ranking-026",
+  "uid": "tech-mahindra-rea-clocks-038",
   "companies": [
    "tech-mahindra"
   ],
-  "topic": "ranking",
-  "subtopic": "total in a row",
-  "difficulty": "easy",
-  "explanation": "Total = left position + right position − 1 = 16 + 17 − 1 = 32.",
-  "estimatedSeconds": 40,
+  "topic": "clocks",
+  "subtopic": "angle between hands",
+  "difficulty": "medium",
+  "explanation": "Angle = |30h − 5.5m| = |30×4 − 5.5×50| = 155°.",
+  "estimatedSeconds": 80,
   "provenance": "practice",
   "verificationStatus": "original",
   "sourceTitle": "Original practice question (generated, answer computed in code)",
   "marks": 1,
   "negativeMarks": 0,
   "type": "mcq_single",
-  "text": "In a row, Kavya is 16th from the left and 17th from the right. How many people are in the row?",
+  "text": "What is the smaller angle (in degrees) between the hour and minute hands of a clock at 4:50?",
   "options": [
-   "23",
-   "32",
-   "44",
-   "47"
+   "107",
+   "219",
+   "171",
+   "155"
   ],
   "correct": [
-   1
-  ],
-  "subject": "reasoning"
- },
- {
-  "uid": "tech-mahindra-rea-direction-sense-027",
-  "companies": [
-   "tech-mahindra"
-  ],
-  "topic": "direction-sense",
-  "subtopic": "facing direction",
-  "difficulty": "easy",
-  "explanation": "Start North. Right = +90°, left = −90°, about-turn = 180°. The final heading is East.",
-  "estimatedSeconds": 50,
-  "provenance": "practice",
-  "verificationStatus": "original",
-  "sourceTitle": "Original practice question (generated, answer computed in code)",
-  "marks": 1,
-  "negativeMarks": 0,
-  "type": "mcq_single",
-  "text": "Meena faces North. She turns left, then left, then left. Which direction is she facing now?",
-  "options": [
-   "East",
-   "North",
-   "West",
-   "South"
-  ],
-  "correct": [
-   0
+   3
   ],
   "subject": "reasoning"
  }

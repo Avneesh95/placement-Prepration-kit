@@ -186,6 +186,61 @@ apt['number-systems'] = (r) => {
   const lo = ri(r, 10, 40), hi = lo + ri(r, 15, 30); let c = 0; const ps = []; for (let n = lo; n <= hi; n++) { let pr = n > 1; for (let k = 2; k * k <= n; k++) if (n % k === 0) { pr = false; break; } if (pr) { c++; ps.push(n); } }
   return { subtopic: 'primes in a range', difficulty: 'medium', text: `How many prime numbers are there between ${lo} and ${hi} (both inclusive)?`, answer: c, explanation: `The primes in the range are ${ps.join(', ')} — ${c} in total.`, seconds: 80 };
 };
+apt.trains = (r) => {
+  const v = ri(r, 0, 1);
+  if (v === 0) {
+    const sKmh = pick(r, [36, 54, 72, 90, 108]);
+    const sMs = (sKmh * 5) / 18;
+    const tSec = pick(r, [10, 12, 15, 20, 25]);
+    const len = sMs * tSec;
+    return {
+      subtopic: 'crossing a pole', difficulty: 'easy',
+      text: `A train running at ${sKmh} km/h crosses a standing telegraph pole in ${tSec} seconds. What is the length of the train (in meters)?`,
+      answer: len,
+      explanation: `Speed in m/s = ${sKmh} × 5/18 = ${sMs} m/s. Length = Speed × Time = ${sMs} × ${tSec} = ${len} meters.`,
+      seconds: 50,
+    };
+  }
+  const sKmh = pick(r, [36, 54, 72, 90]);
+  const sMs = (sKmh * 5) / 18;
+  const tLen = pick(r, [100, 150, 200, 250]);
+  const pLen = pick(r, [100, 150, 200, 250, 300]);
+  const totalDist = tLen + pLen;
+  const timeSec = Math.round(totalDist / sMs);
+  return {
+    subtopic: 'crossing a platform', difficulty: 'medium',
+    text: `A train ${tLen} meters long runs at ${sKmh} km/h. How many seconds will it take to cross a platform of length ${pLen} meters?`,
+    answer: timeSec,
+    explanation: `Total distance = train length + platform length = ${tLen} + ${pLen} = ${totalDist} m. Speed = ${sKmh} × 5/18 = ${sMs} m/s. Time = ${totalDist} / ${sMs} = ${timeSec} seconds.`,
+    seconds: 65,
+  };
+};
+apt['clocks-calendars'] = (r) => {
+  if (ri(r, 0, 1)) {
+    const h = ri(r, 1, 11), m = pick(r, [0, 10, 20, 30, 40, 50]);
+    let ang = Math.abs(30 * h - 5.5 * m);
+    if (ang > 180) ang = 360 - ang;
+    return {
+      subtopic: 'clock hand angles', difficulty: 'medium',
+      text: `Find the smaller angle (in degrees) between the hour and minute hands of a clock at ${h}:${String(m).padStart(2, '0')}.`,
+      answer: ang,
+      step: 15,
+      explanation: `Angle = |30h − 5.5m| = |30×${h} − 5.5×${m}| = ${Math.abs(30 * h - 5.5 * m)}°${Math.abs(30 * h - 5.5 * m) > 180 ? `, so the smaller angle is 360 − that = ${ang}°` : ''}.`,
+      seconds: 60,
+    };
+  }
+  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const si = ri(r, 0, 6);
+  const n = ri(r, 15, 120);
+  const ans = days[(si + n) % 7];
+  return {
+    subtopic: 'day after N days', difficulty: 'easy',
+    text: `If today is ${days[si]}, what day of the week will it be exactly ${n} days from today?`,
+    optsStr: true, answer: ans, distractors: days,
+    explanation: `${n} divided by 7 leaves a remainder of ${n % 7} odd days. ${days[si]} + ${n % 7} days = ${ans}.`,
+    seconds: 40,
+  };
+};
 const APT_TOPICS = Object.keys(apt);
 
 // ---------------------------------------------------------------- REASONING

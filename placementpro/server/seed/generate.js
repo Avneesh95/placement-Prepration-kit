@@ -12,7 +12,7 @@ const SERVICE = COMPANIES.filter((c) => c !== 'general-sde');
 (async () => {
   for (const c of COMPANIES) {
     const hp = new Set(highTopics(c));
-    for (const [subject, file, per, extra] of [['aptitude', 'aptitude', 2, 10], ['reasoning', 'reasoning', 3, 6]]) {
+    for (const [subject, file, per, extra] of [['aptitude', 'aptitude', 3, 15], ['reasoning', 'reasoning', 4, 10]]) {
       const qs = generateSet({ company: c, subject, perTopic: per, extra, seedLabel: `${c}:${subject.slice(0, 3)}`, companies: [c] });
       write(`${c}/${file}.json`, qs.map((q) => (hp.has(q.topic) || hp.has(q.topic.split('-')[0]) ? { ...q, provenance: 'high_priority_practice' } : q)));
     }
@@ -34,10 +34,21 @@ const SERVICE = COMPANIES.filter((c) => c !== 'general-sde');
     throw new Error('Python is required to generate seed data but no python/python3 executable was found on PATH.');
   };
   const PYTHON = getPythonBinary();
-  const run = (code, input) => { const r = spawnSync(PYTHON, ['-c', code], { input: input + '\n', encoding: 'utf8', timeout: 10000 }); if (r.status !== 0) throw new Error(`python failed: ${r.stderr || r.error?.message || 'unknown error'}`); return (typeof r.stdout === 'string' ? r.stdout : r.stdout.toString()).trim(); };
+  const norm = (s) => String(s || '').replace(/\r\n/g, '\n').replace(/\r/g, '\n').trim();
+  const run = (code, input) => {
+    const r = spawnSync(PYTHON, ['-c', code], { input: input + '\n', encoding: 'utf8', timeout: 10000 });
+    if (r.status !== 0) throw new Error(`python failed: ${r.stderr || r.error?.message || 'unknown error'}`);
+    return norm(typeof r.stdout === 'string' ? r.stdout : r.stdout.toString());
+  };
   const coding = require('./handwritten/coding').map((p) => {
-    for (const ex of p.examples) { const got = run(p.python, ex.input); if (got !== ex.output.trim()) throw new Error(`${p.slug}: example mismatch. input=${JSON.stringify(ex.input)} expected=${JSON.stringify(ex.output)} got=${JSON.stringify(got)}`); }
-    const tests = [...p.examples.map((e) => ({ input: e.input, output: e.output.trim(), hidden: false })), ...p.extra.map((i) => ({ input: i, output: run(p.python, i), hidden: true }))];
+    for (const ex of p.examples) {
+      const got = run(p.python, ex.input);
+      if (got !== norm(ex.output)) throw new Error(`${p.slug}: example mismatch. input=${JSON.stringify(ex.input)} expected=${JSON.stringify(ex.output)} got=${JSON.stringify(got)}`);
+    }
+    const tests = [
+      ...p.examples.map((e) => ({ input: e.input, output: norm(e.output), hidden: false })),
+      ...p.extra.map((i) => ({ input: i, output: run(p.python, i), hidden: true }))
+    ];
     const comps = p.difficulty === 'easy' ? SERVICE : p.difficulty === 'medium' ? [...SERVICE, 'general-sde'] : ['general-sde'];
     return { ...BASE, uid: `coding-${p.slug}`, companies: p.difficulty === 'easy' ? [...SERVICE] : comps.filter((c) => c !== 'accenture' || p.difficulty !== 'hard'), subject: 'coding', topic: p.topic, subtopic: p.title, type: 'coding', difficulty: p.difficulty,
       text: `${p.title}: ${p.statement}`, explanation: p.explanation, estimatedSeconds: p.difficulty === 'easy' ? 900 : 1500, tags: [p.topic, p.slug],
