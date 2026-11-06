@@ -156,9 +156,9 @@ export default function Materials() {
       </div>
 
       {/* Materials Grid View */}
-      {materials.loading ? (
+      {materials.loading && !materials.data ? (
         <Spinner label="Loading study materials library…" />
-      ) : materials.error ? (
+      ) : materials.error && !materials.data ? (
         <ErrorBox error={materials.error} onRetry={materials.reload} />
       ) : materials.data?.items?.length === 0 ? (
         <Empty

@@ -82,6 +82,8 @@ export default function Layout() {
   const [userMenuOpen, setUserMenuOpen] = useState(false);
   const [notifications, setNotifications] = useState([]);
   const [unreadCount, setUnreadCount] = useState(0);
+  const [notifCounts, setNotifCounts] = useState({ unread: 0, active: 0, completed: 0, total: 0 });
+  const [notifFilter, setNotifFilter] = useState('all');
   const [loadingNotifs, setLoadingNotifs] = useState(false);
 
   const loc = useLocation();
@@ -91,12 +93,19 @@ export default function Layout() {
   const userRef = useRef(null);
 
   const fetchNotifications = async () => {
-    if (!user) return;
+    if (!user) {
+      setNotifications([]);
+      setUnreadCount(0);
+      return;
+    }
     try {
       setLoadingNotifs(true);
       const res = await api.get('/notifications');
       setNotifications(res?.items || []);
       setUnreadCount(res?.unreadCount || 0);
+      if (res?.counts) {
+        setNotifCounts(res.counts);
+      }
     } catch (e) {
       // Safe fallback: keep existing notifications without throwing an unhandled rejection
     } finally {
@@ -107,6 +116,9 @@ export default function Layout() {
   useEffect(() => {
     if (user) {
       fetchNotifications();
+    } else {
+      setNotifications([]);
+      setUnreadCount(0);
     }
   }, [loc.pathname, user]);
 
@@ -114,9 +126,10 @@ export default function Layout() {
     try {
       const res = await api.patch(`/notifications/${id}/read`);
       setNotifications((prev) =>
-        prev.map((n) => (n._id === id ? { ...n, read: true } : n))
+        prev.map((n) => (n._id === id ? { ...n, read: true, status: 'read' } : n))
       );
       setUnreadCount(res.unreadCount ?? Math.max(0, unreadCount - 1));
+      if (res.counts) setNotifCounts(res.counts);
       if (link) {
         setNotifOpen(false);
         nav(link);
@@ -128,20 +141,22 @@ export default function Layout() {
 
   const markAllAsRead = async () => {
     try {
-      await api.patch('/notifications/read-all');
-      setNotifications((prev) => prev.map((n) => ({ ...n, read: true })));
+      const res = await api.patch('/notifications/read-all');
+      setNotifications((prev) => prev.map((n) => ({ ...n, read: true, status: 'read' })));
       setUnreadCount(0);
+      if (res.counts) setNotifCounts(res.counts);
     } catch (e) {
       // ignore
     }
   };
 
-  const deleteNotif = async (id, e) => {
+  const dismissNotif = async (id, e) => {
     e?.stopPropagation();
     try {
-      const res = await api.del(`/notifications/${id}`);
+      const res = await api.patch(`/notifications/${id}/dismiss`).catch(() => api.del(`/notifications/${id}`));
       setNotifications((prev) => prev.filter((n) => n._id !== id));
       setUnreadCount(res.unreadCount ?? Math.max(0, unreadCount - 1));
+      if (res.counts) setNotifCounts(res.counts);
     } catch (e) {
       // ignore
     }
@@ -149,9 +164,10 @@ export default function Layout() {
 
   const clearAllNotifs = async () => {
     try {
-      await api.del('/notifications');
+      await api.patch('/notifications/dismiss-all').catch(() => api.del('/notifications'));
       setNotifications([]);
       setUnreadCount(0);
+      setNotifCounts({ unread: 0, active: 0, completed: 0, total: 0 });
     } catch (e) {
       // ignore
     }
@@ -418,19 +434,47 @@ export default function Layout() {
                         </div>
                       </div>
 
-                      <div className="mt-3 max-h-80 overflow-y-auto space-y-2 text-xs">
+                      {/* Filter tabs */}
+                      <div className="flex items-center gap-2 pt-2 border-b border-slate-100/80 dark:border-gray-800/80 pb-1.5 text-[11px]">
+                        <button
+                          type="button"
+                          onClick={() => setNotifFilter('all')}
+                          className={`rounded-lg px-2 py-0.5 font-medium transition ${
+                            notifFilter === 'all'
+                              ? 'bg-sky-500 text-white shadow-sm'
+                              : 'text-slate-500 hover:text-slate-800 dark:text-gray-400 dark:hover:text-gray-200'
+                          }`}
+                        >
+                          All ({notifications.length})
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setNotifFilter('unread')}
+                          className={`rounded-lg px-2 py-0.5 font-medium transition ${
+                            notifFilter === 'unread'
+                              ? 'bg-sky-500 text-white shadow-sm'
+                              : 'text-slate-500 hover:text-slate-800 dark:text-gray-400 dark:hover:text-gray-200'
+                          }`}
+                        >
+                          Unread ({unreadCount})
+                        </button>
+                      </div>
+
+                      <div className="mt-2.5 max-h-80 overflow-y-auto space-y-2 text-xs">
                         {loadingNotifs && notifications.length === 0 ? (
                           <p className="text-center py-4 text-xs text-slate-400">Loading notifications…</p>
                         ) : notifications.length === 0 ? (
                           <p className="text-center py-4 text-xs text-slate-400">No notifications yet.</p>
                         ) : (
-                          notifications.map((n) => (
+                          notifications
+                            .filter((n) => (notifFilter === 'unread' ? !n.read : true))
+                            .map((n) => (
                             <div
                               key={n._id}
                               onClick={() => markAsRead(n._id, n.link)}
                               className={`group relative cursor-pointer rounded-xl p-2.5 transition ${
                                 n.read
-                                  ? 'bg-slate-50/60 hover:bg-slate-100/70 dark:bg-gray-800/40 dark:hover:bg-gray-800/70 opacity-75'
+                                  ? 'bg-slate-50/60 hover:bg-slate-100/70 dark:bg-gray-800/40 dark:hover:bg-gray-800/70 opacity-80'
                                   : 'bg-sky-50/80 hover:bg-sky-100/70 dark:bg-sky-950/40 dark:hover:bg-sky-950/70 border border-sky-100 dark:border-sky-900/40'
                               }`}
                             >
@@ -439,12 +483,17 @@ export default function Layout() {
                                   {n.title}
                                 </p>
                                 <div className="flex items-center gap-1.5 shrink-0">
+                                  {n.status === 'completed' && (
+                                    <span className="text-[9px] font-bold text-emerald-600 bg-emerald-50 px-1.5 py-0.2 rounded-full dark:bg-emerald-950/50 dark:text-emerald-400">
+                                      Done
+                                    </span>
+                                  )}
                                   {!n.read && (
                                     <span className="h-1.5 w-1.5 rounded-full bg-sky-500" />
                                   )}
                                   <button
                                     type="button"
-                                    onClick={(e) => deleteNotif(n._id, e)}
+                                    onClick={(e) => dismissNotif(n._id, e)}
                                     className="opacity-0 group-hover:opacity-100 p-1 text-slate-400 hover:text-rose-500 transition"
                                     title="Dismiss"
                                   >

@@ -46,10 +46,10 @@ export default function Dashboard() {
   const plan = useGet('/plan');
   const companiesRes = useGet('/companies');
 
-  if (prof.loading) return <Spinner label="Loading your personalized dashboard…" />;
-  if (prof.error) return <ErrorBox error={prof.error} onRetry={prof.reload} />;
+  if (prof.loading && !prof.data) return <Spinner label="Loading your personalized dashboard…" />;
+  if (prof.error && !prof.data) return <ErrorBox error={prof.error} onRetry={prof.reload} />;
 
-  const s = prof.data.stats;
+  const s = prof.data?.stats || {};
   const today = plan.data?.today || [];
   const firstName = user?.name ? user.name.split(' ')[0] : 'Student';
   const allCompanies = companiesRes.data?.items || [];
@@ -323,7 +323,7 @@ export default function Dashboard() {
             <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#6366f1] via-[#7c3aed] to-[#8b5cf6] p-6 text-white shadow-xl shadow-indigo-500/20 transition-transform duration-200 hover:-translate-y-1">
               <div className="flex flex-col items-center text-center">
                 <CircularGauge
-                  value={s.streak.current}
+                  value={s.streak?.current || 0}
                   max={30}
                   unit="DAYS"
                   strokeColor="#ffffff"
@@ -335,7 +335,7 @@ export default function Dashboard() {
                 <div className="mt-4">
                   <h3 className="text-lg font-bold tracking-tight text-white">Study Streak</h3>
                   <p className="mt-0.5 text-xs text-white/80 font-medium">
-                    Best streak: {s.streak.longest} consecutive days
+                    Best streak: {s.streak?.longest || 0} consecutive days
                   </p>
                 </div>
               </div>
@@ -551,7 +551,7 @@ export default function Dashboard() {
 
           <div className="space-y-3.5">
             {SUBJECTS.map(([k, n]) => {
-              const subStat = s.subjects[k] || { solved: 0, total: 100, progress: 0 };
+              const subStat = (s.subjects || {})[k] || { solved: 0, total: 100, progress: 0 };
               return (
                 <div key={k} className="space-y-1">
                   <div className="flex justify-between text-xs font-semibold">

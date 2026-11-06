@@ -184,11 +184,11 @@ export function CodingList() {
       </div>
 
       {/* Problem Listing */}
-      {list.loading ? (
+      {list.loading && !list.data ? (
         <Spinner label="Loading coding problems…" />
-      ) : list.error ? (
+      ) : list.error && !list.data ? (
         <ErrorBox error={list.error} onRetry={list.reload} />
-      ) : list.data.items.length === 0 ? (
+      ) : !list.data?.items || list.data.items.length === 0 ? (
         <Empty icon={Code2} title="No problems match these filters">
           Try expanding your search criteria or resetting filters.
         </Empty>
@@ -290,7 +290,7 @@ export function CodingProblem() {
     }
   }, [data]);
 
-  if (loading) return <Spinner label="Loading problem statement and editor…" />;
+  if (loading && !data) return <Spinner label="Loading problem statement and editor…" />;
   if (error) return <ErrorBox error={error} onRetry={reload} />;
 
   const q = data.question;

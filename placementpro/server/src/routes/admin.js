@@ -45,23 +45,45 @@ router.get('/stats', asyncHandler(async (_req, res) => {
 // GET /api/admin/questions
 const listSchema = z.object({
   q: z.string().max(100).optional(),
-  subject: z.string().optional(),
-  topic: z.string().optional(),
-  difficulty: z.enum(['easy', 'medium', 'hard']).optional(),
-  company: z.string().optional(),
-  provenance: z.string().optional(),
+  subject: z.union([z.string(), z.array(z.string())]).optional(),
+  topic: z.union([z.string(), z.array(z.string())]).optional(),
+  difficulty: z.union([z.string(), z.array(z.string())]).optional(),
+  company: z.union([z.string(), z.array(z.string())]).optional(),
+  provenance: z.union([z.string(), z.array(z.string())]).optional(),
   page: z.coerce.number().int().min(1).default(1),
   limit: z.coerce.number().int().min(1).max(100).default(20),
 });
 
+function parseMulti(val) {
+  if (!val) return [];
+  if (Array.isArray(val)) return val.flatMap((v) => String(v).split(',')).map((s) => s.trim().toLowerCase()).filter(Boolean);
+  return String(val).split(',').map((s) => s.trim().toLowerCase()).filter(Boolean);
+}
+
 router.get('/questions', asyncHandler(async (req, res) => {
   const p = listSchema.parse(req.query);
   const f = {};
-  if (p.subject) f.subject = p.subject;
-  if (p.topic) f.topic = p.topic;
-  if (p.difficulty) f.difficulty = p.difficulty;
-  if (p.company) f.companies = p.company;
-  if (p.provenance) f.provenance = p.provenance;
+  const subjects = parseMulti(p.subject);
+  const topics = parseMulti(p.topic);
+  const difficulties = parseMulti(p.difficulty);
+  const companies = parseMulti(p.company);
+  const provenances = parseMulti(p.provenance);
+
+  if (subjects.length === 1) f.subject = subjects[0];
+  else if (subjects.length > 1) f.subject = { $in: subjects };
+
+  if (topics.length === 1) f.topic = topics[0];
+  else if (topics.length > 1) f.topic = { $in: topics };
+
+  if (difficulties.length === 1) f.difficulty = difficulties[0];
+  else if (difficulties.length > 1) f.difficulty = { $in: difficulties };
+
+  if (companies.length === 1) f.companies = companies[0];
+  else if (companies.length > 1) f.companies = { $in: companies };
+
+  if (provenances.length === 1) f.provenance = provenances[0];
+  else if (provenances.length > 1) f.provenance = { $in: provenances };
+
   if (p.q) {
     const r = escapeRegex(p.q);
     f.$or = [{ text: { $regex: r, $options: 'i' } }, { uid: { $regex: r, $options: 'i' } }];

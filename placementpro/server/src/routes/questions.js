@@ -63,47 +63,96 @@ async function annotate(userId, items) {
 }
 
 const listQuery = z.object({
-  company: z.string().optional(),
-  subject: z.string().optional(),
-  category: z.string().optional(),
-  topic: z.string().optional(),
-  difficulty: z.enum(['easy', 'medium', 'hard']).optional(),
-  type: z.string().optional(),
-  provenance: z.string().optional(),
+  company: z.union([z.string(), z.array(z.string())]).optional(),
+  companies: z.union([z.string(), z.array(z.string())]).optional(),
+  subject: z.union([z.string(), z.array(z.string())]).optional(),
+  category: z.union([z.string(), z.array(z.string())]).optional(),
+  topic: z.union([z.string(), z.array(z.string())]).optional(),
+  difficulty: z.union([z.string(), z.array(z.string())]).optional(),
+  type: z.union([z.string(), z.array(z.string())]).optional(),
+  provenance: z.union([z.string(), z.array(z.string())]).optional(),
   q: z.string().max(100).optional(),
-  status: z.enum(['solved', 'unsolved', 'attempted', 'incorrect']).optional(),
+  status: z.union([z.string(), z.array(z.string())]).optional(),
   bookmarked: z.enum(['true', 'false']).optional(),
   page: z.coerce.number().int().min(1).default(1),
   limit: z.coerce.number().int().min(1).max(50).default(20),
 });
 
+function parseMultiParam(val) {
+  if (!val) return [];
+  if (Array.isArray(val)) {
+    return val.flatMap((v) => String(v).split(',')).map((s) => s.trim().toLowerCase()).filter(Boolean);
+  }
+  return String(val).split(',').map((s) => s.trim().toLowerCase()).filter(Boolean);
+}
+
 async function buildFilter(userId, p, base = {}) {
   const f = { active: true, ...base };
-  const subj = p.subject || p.category;
-  if (p.company) f.companies = p.company;
-  if (subj) f.subject = subj;
-  if (p.topic) f.topic = p.topic;
-  if (p.difficulty) f.difficulty = p.difficulty;
-  if (p.type) f.type = p.type;
-  if (p.provenance) f.provenance = p.provenance;
+  const subjects = parseMultiParam(p.subject || p.category);
+  const companies = parseMultiParam(p.company || p.companies);
+  const difficulties = parseMultiParam(p.difficulty);
+  const topics = parseMultiParam(p.topic);
+  const types = parseMultiParam(p.type);
+  const provenances = parseMultiParam(p.provenance);
+
+  if (companies.length === 1) f.companies = companies[0];
+  else if (companies.length > 1) f.companies = { $in: companies };
+
+  if (subjects.length === 1) f.subject = subjects[0];
+  else if (subjects.length > 1) f.subject = { $in: subjects };
+
+  if (topics.length === 1) f.topic = topics[0];
+  else if (topics.length > 1) f.topic = { $in: topics };
+
+  if (difficulties.length === 1) f.difficulty = difficulties[0];
+  else if (difficulties.length > 1) f.difficulty = { $in: difficulties };
+
+  if (types.length === 1) f.type = types[0];
+  else if (types.length > 1) f.type = { $in: types };
+
+  if (provenances.length === 1) f.provenance = provenances[0];
+  else if (provenances.length > 1) f.provenance = { $in: provenances };
+
   if (p.q) f.text = { $regex: escapeRegex(p.q), $options: 'i' };
+
   const idConds = [];
-  if (p.status) {
-    const rows = await UserProgress.find({ user: userId }).select('question everCorrect lastCorrect').lean();
-    const solved = [...new Set(rows.filter((r) => r.everCorrect).map((r) => String(r.question)))];
-    const attempted = [...new Set(rows.map((r) => String(r.question)))];
-    const wrong = [...new Set(rows.filter((r) => !r.lastCorrect).map((r) => String(r.question)))];
-    if (p.status === 'solved') idConds.push({ $in: solved });
-    else if (p.status === 'attempted') idConds.push({ $in: attempted });
-    else if (p.status === 'incorrect') idConds.push({ $in: wrong });
-    else idConds.push({ $nin: solved });
+  const statuses = parseMultiParam(p.status);
+  if (statuses.length > 0) {
+    const rows = await UserProgress.find({ user: userId }).select('question everCorrect lastCorrect attempts').lean();
+    const solvedSet = new Set(rows.filter((r) => r.everCorrect).map((r) => String(r.question)));
+    const attemptedSet = new Set(rows.map((r) => String(r.question)));
+    const wrongSet = new Set(rows.filter((r) => !r.lastCorrect).map((r) => String(r.question)));
+
+    // Combine multiple status selections with OR logic
+    const matchedIdSets = [];
+    let includeUnsolved = false;
+
+    for (const st of statuses) {
+      if (st === 'solved') matchedIdSets.push(solvedSet);
+      else if (st === 'attempted') matchedIdSets.push(attemptedSet);
+      else if (st === 'incorrect') matchedIdSets.push(wrongSet);
+      else if (st === 'unsolved') includeUnsolved = true;
+    }
+
+    if (includeUnsolved && matchedIdSets.length === 0) {
+      idConds.push({ $nin: Array.from(solvedSet) });
+    } else if (matchedIdSets.length > 0 && !includeUnsolved) {
+      const unionSet = new Set();
+      matchedIdSets.forEach((s) => s.forEach((id) => unionSet.add(id)));
+      idConds.push({ $in: Array.from(unionSet) });
+    } else if (matchedIdSets.length > 0 && includeUnsolved) {
+      // If user wants both solved and unsolved, that covers all questions!
+    }
   }
+
   if (p.bookmarked === 'true') {
     const marks = await Bookmark.find({ user: userId }).select('question').lean();
     idConds.push({ $in: [...new Set(marks.map((b) => String(b.question)))] });
   }
+
   if (idConds.length === 1) f._id = idConds[0];
   else if (idConds.length > 1) f.$and = idConds.map((c) => ({ _id: c }));
+
   return f;
 }
 

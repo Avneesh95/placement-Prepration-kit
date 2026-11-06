@@ -238,6 +238,7 @@ export default function Drill() {
             <Btn
               onClick={handleStartDrill}
               disabled={starting}
+              loading={starting}
               className="w-full justify-center !py-2.5 !text-sm !font-bold"
             >
               <Play className="h-4 w-4 fill-white" />
@@ -321,9 +322,9 @@ export default function Drill() {
           </span>
         </div>
 
-        {syllabusData.loading ? (
+        {syllabusData.loading && !syllabusData.data ? (
           <Spinner label="Loading full syllabus and question counts…" />
-        ) : syllabusData.error ? (
+        ) : syllabusData.error && !syllabusData.data ? (
           <ErrorBox error={syllabusData.error} onRetry={syllabusData.reload} />
         ) : Object.keys(syllabusBySubject).length === 0 ? (
           <Empty title="No syllabus topics match the selected company" />

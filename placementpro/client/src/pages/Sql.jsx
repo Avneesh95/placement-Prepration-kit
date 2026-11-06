@@ -58,11 +58,11 @@ export function SqlList() {
         </div>
       </Card>
 
-      {list.loading ? (
+      {list.loading && !list.data ? (
         <Spinner label="Loading SQL exercises…" />
-      ) : list.error ? (
+      ) : list.error && !list.data ? (
         <ErrorBox error={list.error} onRetry={list.reload} />
-      ) : list.data.items.length === 0 ? (
+      ) : !list.data?.items || list.data.items.length === 0 ? (
         <Empty title="No SQL exercises match your filters">Try selecting a different topic or resetting the filter options.</Empty>
       ) : (
         <div className="grid gap-3">
@@ -143,7 +143,7 @@ export function SqlExercise() {
     if (data?.recentSubmissions?.[0]) setQuery(data.recentSubmissions[0].query);
   }, [data]);
 
-  if (loading) return <Spinner label="Loading SQL exercise…" />;
+  if (loading && !data) return <Spinner label="Loading SQL exercise…" />;
   if (error) return <ErrorBox error={error} onRetry={reload} />;
 
   const q = data.question;

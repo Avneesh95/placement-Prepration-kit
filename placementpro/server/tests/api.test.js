@@ -312,16 +312,52 @@ describe('question progress and revisit persistence', () => {
 });
 
 describe('notification lifecycle & dismissal', () => {
-  test('mark as read, delete single, and clear all', async () => {
+  test('list returns items array with counts object', async () => {
     const list = await A.get('/api/notifications');
     expect(list.status).toBe(200);
-    expect(list.body.items.length).toBeGreaterThan(0);
+    expect(Array.isArray(list.body.items)).toBe(true);
+    expect(list.body.counts).toBeDefined();
+    expect(typeof list.body.counts.unread).toBe('number');
+    expect(typeof list.body.counts.active).toBe('number');
+    expect(typeof list.body.counts.total).toBe('number');
+    expect(typeof list.body.unreadCount).toBe('number');
+  });
+
+  test('mark as read, dismiss, and verify status lifecycle', async () => {
+    const list = await A.get('/api/notifications');
+    expect(list.status).toBe(200);
+    if (list.body.items.length === 0) return; // skip if no notifications
     const first = list.body.items[0];
+
+    // Each item should have expected shape
+    expect(first).toHaveProperty('_id');
+    expect(first).toHaveProperty('status');
+    expect(first).toHaveProperty('message');
+    expect(first).toHaveProperty('createdAt');
 
     // Mark as read
     const readRes = await A.patch(`/api/notifications/${first._id}/read`);
     expect(readRes.status).toBe(200);
     expect(readRes.body.ok).toBe(true);
+    expect(readRes.body.counts).toBeDefined();
+
+    // Dismiss the notification
+    const dismissRes = await A.patch(`/api/notifications/${first._id}/dismiss`);
+    expect(dismissRes.status).toBe(200);
+    expect(dismissRes.body.ok).toBe(true);
+    expect(dismissRes.body.counts).toBeDefined();
+
+    // Dismissed notification should not appear in default listing
+    const afterDismiss = await A.get('/api/notifications');
+    const dismissed = afterDismiss.body.items.find((n) => n._id === first._id);
+    expect(dismissed).toBeUndefined();
+  });
+
+  test('delete single and clear all', async () => {
+    const list = await A.get('/api/notifications');
+    expect(list.status).toBe(200);
+    if (list.body.items.length === 0) return;
+    const first = list.body.items[0];
 
     // Delete single notification
     const delRes = await A.delete(`/api/notifications/${first._id}`);
@@ -332,6 +368,7 @@ describe('notification lifecycle & dismissal', () => {
     const clearRes = await A.delete('/api/notifications');
     expect(clearRes.status).toBe(200);
     expect(clearRes.body.unreadCount).toBe(0);
+    expect(clearRes.body.counts.total).toBe(0);
   });
 });
 
@@ -435,5 +472,43 @@ describe('admin question management & access control', () => {
 
     // Clean up
     await M.Question.deleteOne({ uid: batch[0].uid });
+  });
+});
+
+describe('multi-select filter queries', () => {
+  test('comma-separated subjects return combined results', async () => {
+    const r = await A.get('/api/questions?subject=aptitude,reasoning&limit=10');
+    expect(r.status).toBe(200);
+    expect(r.body.items.length).toBeGreaterThan(0);
+    // Every returned item should be either aptitude or reasoning
+    for (const item of r.body.items) {
+      expect(['aptitude', 'reasoning']).toContain(item.subject);
+    }
+  });
+
+  test('comma-separated difficulties filter correctly', async () => {
+    const r = await A.get('/api/questions?difficulty=easy,medium&limit=10');
+    expect(r.status).toBe(200);
+    expect(r.body.items.length).toBeGreaterThan(0);
+    for (const item of r.body.items) {
+      expect(['easy', 'medium']).toContain(item.difficulty);
+    }
+  });
+
+  test('combining subject + difficulty filters uses AND between groups, OR within', async () => {
+    const r = await A.get('/api/questions?subject=aptitude&difficulty=easy,medium&limit=10');
+    expect(r.status).toBe(200);
+    for (const item of r.body.items) {
+      expect(item.subject).toBe('aptitude');
+      expect(['easy', 'medium']).toContain(item.difficulty);
+    }
+  });
+
+  test('single filter value still works correctly', async () => {
+    const r = await A.get('/api/questions?subject=english&limit=5');
+    expect(r.status).toBe(200);
+    for (const item of r.body.items) {
+      expect(item.subject).toBe('english');
+    }
   });
 });

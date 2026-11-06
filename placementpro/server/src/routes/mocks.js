@@ -4,6 +4,7 @@ const { MockTest, TestAttempt } = require('../models');
 const { asyncHandler, ApiError } = require('../utils/errors');
 const { requireAuth } = require('../middleware/auth');
 const engine = require('../services/testEngine');
+const { resolveNotification } = require('../services/notifications');
 router.use(requireAuth);
 
 const brief = (t) => ({ _id: t._id, slug: t.slug, title: t.title, company: t.company, category: t.category, description: t.description, sectionTimed: t.sectionTimed, totalDurationMin: t.sectionTimed ? t.sections.reduce((a, s) => a + s.durationMin, 0) : t.totalDurationMin, patternStatus: t.patternStatus, questionCount: t.sections.reduce((a, s) => a + s.questionIds.length, 0), sections: t.sections.map((s) => ({ name: s.name, subject: s.subject, durationMin: s.durationMin, questionCount: s.questionIds.length })) });
@@ -71,8 +72,15 @@ attempts.post('/:id/advance-section', asyncHandler(async (req, res) => {
   res.json(await engine.buildPayload(a, test));
 }));
 attempts.post('/:id/submit', asyncHandler(async (req, res) => {
-  await own(req);
+  const a = await own(req);
   const done = await engine.submitAttempt(req.params.id, req.user._id, { auto: false });
+  // Automatically resolve any pending test notifications
+  try {
+    await resolveNotification(req.user._id, 'test');
+    await resolveNotification(req.user._id, 'mock_test', String(a.test));
+  } catch (err) {
+    // Non-critical, do not block submit response
+  }
   res.json({ attemptId: done._id, status: done.status, autoSubmitted: done.autoSubmitted });
 }));
 attempts.get('/:id/result', asyncHandler(async (req, res) => {

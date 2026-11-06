@@ -21,8 +21,8 @@ export default function Result() {
   const { data, loading, error, reload } = useGet(`/attempts/${id}/result`);
   const [filter, setFilter] = useState('all');
 
-  if (loading) return <Spinner label="Calculating your result…" />;
-  if (error) return <ErrorBox error={error} onRetry={reload} />;
+  if (loading && !data) return <Spinner label="Calculating your result…" />;
+  if (error && !data) return <ErrorBox error={error} onRetry={reload} />;
 
   const r = data.result;
   const qs = r.questions.filter((q) => filter === 'all' || (filter === 'wrong' ? q.state === 'incorrect' : q.state === 'unanswered'));

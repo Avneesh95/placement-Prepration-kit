@@ -86,6 +86,10 @@ export default function AdventureMap() {
   const [selectedNode, setSelectedNode] = useState(MAP_NODES[0]);
 
   const profile = useGet('/profile');
+
+  if (profile.loading && !profile.data) return <Spinner label="Loading adventure map…" />;
+  if (profile.error && !profile.data) return <ErrorBox error={profile.error} onRetry={profile.reload} />;
+
   const stats = profile.data?.stats;
   const subjects = stats?.subjects || {};
 

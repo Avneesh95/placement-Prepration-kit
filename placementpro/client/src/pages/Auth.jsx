@@ -102,7 +102,7 @@ export function Login() {
           />
         </Field>
         <div className="pt-1">
-          <Btn className="w-full !min-h-[42px]" disabled={busy}>
+          <Btn className="w-full !min-h-[42px]" disabled={busy} loading={busy}>
             {busy ? 'Logging in…' : 'Log in'}
           </Btn>
         </div>
@@ -192,7 +192,7 @@ export function Register() {
           />
         </Field>
         <div className="pt-1">
-          <Btn className="w-full !min-h-[42px]" disabled={busy}>
+          <Btn className="w-full !min-h-[42px]" disabled={busy} loading={busy}>
             {busy ? 'Creating…' : 'Create account'}
           </Btn>
         </div>

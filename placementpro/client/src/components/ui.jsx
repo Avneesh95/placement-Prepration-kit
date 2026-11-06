@@ -9,14 +9,19 @@ export const Card = ({ className = '', hover = false, children, ...p }) => (
   </div>
 );
 
-export const Btn = ({ variant = 'primary', size = 'md', className = '', children, ...p }) => {
+export const Btn = ({ variant = 'primary', size = 'md', className = '', loading = false, disabled, children, ...p }) => {
   const sizes = {
     sm: 'min-h-[34px] px-3 text-xs',
     md: 'min-h-[42px] px-4 text-sm',
     lg: 'min-h-[48px] px-5 text-base',
   };
   return (
-    <button className={`btn btn-${variant} ${sizes[size] || sizes.md} ${className}`} {...p}>
+    <button
+      className={`btn btn-${variant} ${sizes[size] || sizes.md} ${loading ? 'opacity-80 cursor-wait' : ''} ${className}`}
+      disabled={disabled || loading}
+      {...p}
+    >
+      {loading && <Loader2 className="h-4 w-4 animate-spin shrink-0 mr-1.5" />}
       {children}
     </button>
   );
@@ -127,6 +132,54 @@ export const Spinner = ({ label = 'Loading…', className = '' }) => (
 
 export const Skeleton = ({ className = '' }) => (
   <div className={`animate-pulse rounded-xl bg-slate-200/70 dark:bg-gray-800 ${className}`} />
+);
+
+export const QuestionCardSkeleton = () => (
+  <div className="card space-y-4 animate-pulse">
+    <div className="flex items-center justify-between">
+      <div className="flex items-center gap-2">
+        <div className="h-5 w-16 rounded-full bg-slate-200 dark:bg-gray-800" />
+        <div className="h-5 w-20 rounded-full bg-slate-200 dark:bg-gray-800" />
+      </div>
+      <div className="h-5 w-14 rounded-full bg-slate-200 dark:bg-gray-800" />
+    </div>
+    <div className="space-y-2">
+      <div className="h-4 w-5/6 rounded bg-slate-200 dark:bg-gray-800" />
+      <div className="h-4 w-4/6 rounded bg-slate-200 dark:bg-gray-800" />
+    </div>
+    <div className="grid gap-2 sm:grid-cols-2 pt-2">
+      <div className="h-10 rounded-xl bg-slate-100 dark:bg-gray-800/60" />
+      <div className="h-10 rounded-xl bg-slate-100 dark:bg-gray-800/60" />
+      <div className="h-10 rounded-xl bg-slate-100 dark:bg-gray-800/60" />
+      <div className="h-10 rounded-xl bg-slate-100 dark:bg-gray-800/60" />
+    </div>
+  </div>
+);
+
+export const CardSkeleton = ({ count = 3 }) => (
+  <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    {Array.from({ length: count }).map((_, i) => (
+      <div key={i} className="card space-y-3 animate-pulse">
+        <div className="h-5 w-1/3 rounded bg-slate-200 dark:bg-gray-800" />
+        <div className="h-4 w-full rounded bg-slate-200 dark:bg-gray-800" />
+        <div className="h-4 w-2/3 rounded bg-slate-200 dark:bg-gray-800" />
+      </div>
+    ))}
+  </div>
+);
+
+export const TableSkeleton = ({ rows = 5, cols = 4 }) => (
+  <div className="overflow-hidden rounded-2xl border border-slate-200 dark:border-gray-800">
+    <div className="animate-pulse space-y-3 p-4">
+      {Array.from({ length: rows }).map((_, r) => (
+        <div key={r} className="flex items-center gap-4">
+          {Array.from({ length: cols }).map((_, c) => (
+            <div key={c} className="h-4 flex-1 rounded bg-slate-200 dark:bg-gray-800" />
+          ))}
+        </div>
+      ))}
+    </div>
+  </div>
 );
 
 export const ErrorBox = ({ error, onRetry }) =>

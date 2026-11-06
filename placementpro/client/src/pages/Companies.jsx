@@ -2,14 +2,14 @@ import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ExternalLink, Clock, Building2, BookOpen, Timer, ChevronRight, Layers } from 'lucide-react';
 import { useGet } from '../lib/useApi';
-import { Card, Badge, Spinner, ErrorBox, PageTitle, Disclaimer, Empty, Btn } from '../components/ui';
+import { Card, Badge, Spinner, ErrorBox, PageTitle, Disclaimer, Empty, Btn, CardSkeleton } from '../components/ui';
 import { label, SUBJECTS } from '../lib/format';
 
 export function Companies() {
   const { data, loading, error, reload } = useGet('/companies');
 
-  if (loading) return <Spinner label="Loading company recruitment tracks…" />;
-  if (error) return <ErrorBox error={error} onRetry={reload} />;
+  if (loading && !data) return <CardSkeleton count={6} />;
+  if (error && !data) return <ErrorBox error={error} onRetry={reload} />;
 
   return (
     <div className="space-y-6">
@@ -69,10 +69,10 @@ export function CompanyDetail() {
   const { data, loading, error, reload } = useGet(`/companies/${slug}`);
   const [tab, setTab] = useState('Overview');
 
-  if (loading) return <Spinner label="Loading company track details…" />;
-  if (error) return <ErrorBox error={error} onRetry={reload} />;
+  if (loading && !data) return <Spinner label="Loading company track details…" />;
+  if (error && !data) return <ErrorBox error={error} onRetry={reload} />;
 
-  const { company: c, patterns, mocks, questionCounts } = data;
+  const { company: c = {}, patterns = [], mocks = [], questionCounts = {} } = data || {};
   const p = patterns[0];
 
   return (

@@ -7,7 +7,7 @@ export default function Topic() {
   const { slug } = useParams();
   const { data, loading, error, reload } = useGet(`/topics/${slug}`);
 
-  if (loading) return <Spinner label="Loading topic concepts…" />;
+  if (loading && !data) return <Spinner label="Loading topic concepts…" />;
   if (error) return <ErrorBox error={error} onRetry={reload} />;
 
   const { topic: t, solvedExamples } = data;

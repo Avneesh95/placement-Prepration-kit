@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Clock, ListChecks, PlayCircle, Timer, AlertCircle, CheckCircle2, ChevronRight } from 'lucide-react';
 import { useGet } from '../lib/useApi';
 import { api } from '../lib/api';
-import { Card, Badge, Btn, Spinner, ErrorBox, PageTitle, Disclaimer, Empty } from '../components/ui';
+import { Card, Badge, Btn, Spinner, ErrorBox, PageTitle, Disclaimer, Empty, CardSkeleton } from '../components/ui';
 import { label, pct } from '../lib/format';
 
 const CATS = [
@@ -49,11 +49,11 @@ export function MockList() {
         </div>
       </div>
 
-      {loading ? (
-        <Spinner label="Loading mock tests…" />
-      ) : error ? (
+      {loading && !data ? (
+        <CardSkeleton count={6} />
+      ) : error && !data ? (
         <ErrorBox error={error} onRetry={reload} />
-      ) : data.items.length === 0 ? (
+      ) : !data?.items || data.items.length === 0 ? (
         <Empty title="No mock tests in this category">Try selecting All Tests above.</Empty>
       ) : (
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -191,7 +191,7 @@ export function MockIntro() {
 
       <ErrorBox error={err} />
 
-      <Btn size="lg" className="w-full text-base" onClick={start} disabled={busy}>
+      <Btn size="lg" className="w-full text-base" onClick={start} disabled={busy} loading={busy}>
         <PlayCircle className="h-5 w-5" />
         <span>{data.inProgress ? 'Resume In-Progress Test' : 'Start Mock Test Now'}</span>
       </Btn>

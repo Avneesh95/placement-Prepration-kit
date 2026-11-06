@@ -38,8 +38,8 @@ export default function StudyPlan() {
 
   const cur = view || data;
 
-  if (loading) return <Spinner label="Loading study plan…" />;
-  if (error) return <ErrorBox error={error} onRetry={reload} />;
+  if (loading && !cur) return <Spinner label="Loading study plan…" />;
+  if (error && !cur) return <ErrorBox error={error} onRetry={reload} />;
 
   const create = async (e) => {
     e.preventDefault();

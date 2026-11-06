@@ -51,7 +51,7 @@ export default function Faqs() {
         </div>
       </div>
 
-      {loading ? (
+      {loading && !data ? (
         <Spinner label="Loading FAQs…" />
       ) : error ? (
         <ErrorBox error={error} onRetry={reload} />

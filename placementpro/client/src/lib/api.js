@@ -35,4 +35,17 @@ export const api = {
   get: (p) => request('GET', p), post: (p, b = {}) => request('POST', p, b), put: (p, b) => request('PUT', p, b),
   patch: (p, b) => request('PATCH', p, b), del: (p) => request('DELETE', p),
 };
-export const qs = (o) => { const p = new URLSearchParams(); Object.entries(o).forEach(([k, v]) => { if (v !== '' && v !== undefined && v !== null) p.set(k, v); }); const s = p.toString(); return s ? `?${s}` : ''; };
+export const qs = (o) => {
+  const p = new URLSearchParams();
+  Object.entries(o).forEach(([k, v]) => {
+    if (v === '' || v === undefined || v === null) return;
+    if (Array.isArray(v)) {
+      const filtered = v.filter(Boolean);
+      if (filtered.length > 0) p.set(k, filtered.join(','));
+    } else {
+      p.set(k, v);
+    }
+  });
+  const s = p.toString();
+  return s ? `?${s}` : '';
+};

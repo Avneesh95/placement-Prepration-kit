@@ -37,7 +37,7 @@ export default function Profile() {
     }
   }, [data]);
 
-  if (loading || !f) return error ? <ErrorBox error={error} onRetry={reload} /> : <Spinner label="Loading profile…" />;
+  if ((loading && !data) || !f) return error ? <ErrorBox error={error} onRetry={reload} /> : <Spinner label="Loading profile…" />;
 
   const s = data.stats;
   const u = data.user;
@@ -270,7 +270,7 @@ export default function Profile() {
             </Field>
 
             <div className="pt-2">
-              <Btn className="w-full !min-h-[42px]" disabled={busy}>
+              <Btn className="w-full !min-h-[42px]" disabled={busy} loading={busy}>
                 {busy ? 'Saving changes…' : 'Save Changes'}
               </Btn>
               {msg && (
